@@ -275,128 +275,498 @@
   ]
  },
  "dict": {
-  "again": {"pos": "부사", "ko": "다시, 또"},
-  "air": {"pos": "명사", "ko": "공기"},
-  "already": {"pos": "부사", "ko": "이미, 벌써"},
-  "announces": {"pos": "동사", "ko": "당당히 말하다 (announce)"},
-  "answers": {"pos": "동사", "ko": "대답하다 (answer)"},
-  "any": {"pos": "형용사", "ko": "조금이라도, 어떤"},
-  "anytime": {"pos": "부사", "ko": "언제든지"},
-  "arranging": {"pos": "동사", "ko": "정리하는, 진열하는 (arrange)"},
-  "ask": {"pos": "동사", "ko": "묻다, 물어보다"},
-  "aside": {"pos": "부사", "ko": "따로, 한쪽에 (set aside: 따로 남겨 두다)"},
-  "bag": {"pos": "명사", "ko": "봉지, 가방"},
-  "baskets": {"pos": "명사", "ko": "바구니 (basket의 복수)"},
-  "because": {"pos": "접속사", "ko": "~이기 때문에"},
-  "bread": {"pos": "명사", "ko": "빵"},
-  "breaks": {"pos": "동사", "ko": "(미소가) 번지다 (break into a smile)"},
-  "bright": {"pos": "형용사", "ko": "화창한, 밝은"},
-  "bring": {"pos": "동사", "ko": "데려가다, 이끌다"},
-  "bundles": {"pos": "명사", "ko": "다발, 묶음"},
-  "busy": {"pos": "형용사", "ko": "붐비는, 분주한"},
-  "calling": {"pos": "동사", "ko": "외치는 (call out: 소리쳐 알리다)"},
-  "care": {"pos": "명사", "ko": "정성 (with care: 정성스럽게)"},
-  "carry": {"pos": "동사", "ko": "데려가다, 옮기다"},
-  "chance": {"pos": "명사", "ko": "가능성 (any chance of: 혹시 ~ 안 될까요)"},
-  "cheerful": {"pos": "형용사", "ko": "활기찬, 명랑한"},
-  "choose": {"pos": "동사", "ko": "고르다"},
-  "circle": {"pos": "동사", "ko": "한 바퀴 돌다"},
-  "corner": {"pos": "명사", "ko": "구석, 모퉁이"},
-  "crowded": {"pos": "형용사", "ko": "붐비는"},
-  "definitely": {"pos": "부사", "ko": "꼭, 반드시"},
-  "direction": {"pos": "명사", "ko": "방향"},
-  "discount": {"pos": "명사", "ko": "할인"},
-  "does": {"pos": "동사", "ko": "(강조) 정말 그렇다 (do)"},
-  "dollar": {"pos": "명사", "ko": "달러"},
-  "dollars": {"pos": "명사", "ko": "달러 (dollar의 복수)"},
-  "draws": {"pos": "동사", "ko": "끌어당기다 (draw)"},
-  "drifts": {"pos": "동사", "ko": "떠돌다, 퍼지다 (drift)"},
-  "drops": {"pos": "동사", "ko": "슬쩍 넣다, 떨어뜨리다 (drop)"},
-  "early": {"pos": "부사", "ko": "일찍"},
-  "end": {"pos": "명사", "ko": "끝 (in the end: 결국 / end up: 결국 ~하게 되다)"},
-  "even": {"pos": "부사", "ko": "심지어, ~조차"},
-  "everywhere": {"pos": "부사", "ko": "어디에나, 사방에"},
-  "extra": {"pos": "형용사", "ko": "여분의, 덤으로 주는 (a little extra: 덤)"},
-  "face": {"pos": "명사", "ko": "얼굴"},
-  "far": {"pos": "부사", "ko": "훨씬"},
-  "feels": {"pos": "동사", "ko": "느껴지다 (feel)"},
-  "feet": {"pos": "명사", "ko": "발 (foot의 복수)"},
-  "fill": {"pos": "동사", "ko": "가득 채우다"},
-  "find": {"pos": "동사", "ko": "찾다, 발견하다"},
-  "fine": {"pos": "감탄사", "ko": "좋아요, 알겠어요"},
-  "fish": {"pos": "명사", "ko": "생선, 물고기"},
-  "five": {"pos": "수사", "ko": "다섯, 5"},
-  "flowers": {"pos": "명사", "ko": "꽃 (flower의 복수)"},
-  "fresh": {"pos": "형용사", "ko": "신선한"},
-  "freshly": {"pos": "부사", "ko": "갓, 방금 (freshly picked: 갓 딴)"},
-  "fruit": {"pos": "명사", "ko": "과일"},
-  "grandmother": {"pos": "명사", "ko": "할머니"},
-  "green": {"pos": "형용사", "ko": "초록색의 (green onions: 파)"},
-  "greets": {"pos": "동사", "ko": "인사하다, 맞이하다 (greet)"},
-  "half": {"pos": "부사", "ko": "반쯤 (half joking: 반 농담으로)"},
-  "handful": {"pos": "명사", "ko": "한 줌"},
-  "hear": {"pos": "동사", "ko": "듣다, 들리다"},
-  "honest": {"pos": "형용사", "ko": "정직한, 진실해 보이는"},
-  "joking": {"pos": "동사", "ko": "농담하는 (joke)"},
-  "kind": {"pos": "형용사", "ko": "친절한"},
-  "light": {"pos": "형용사", "ko": "가벼운"},
-  "loud": {"pos": "부사", "ko": "큰 소리로 (out loud: 소리 내어)"},
-  "make": {"pos": "동사", "ko": "만들다 (make your way: 걸음을 옮기다)"},
-  "many": {"pos": "형용사", "ko": "많은"},
-  "market": {"pos": "명사", "ko": "시장"},
-  "melon": {"pos": "명사", "ko": "멜론"},
-  "money": {"pos": "명사", "ko": "돈"},
-  "myself": {"pos": "대명사", "ko": "내가 직접"},
-  "nine": {"pos": "수사", "ko": "아홉, 9"},
-  "nobody": {"pos": "대명사", "ko": "아무도 ~않다"},
-  "noise": {"pos": "명사", "ko": "소리, 왁자지껄함"},
-  "notices": {"pos": "동사", "ko": "알아차리다 (notice)"},
-  "off": {"pos": "부사", "ko": "(값을) 깎아서 (one dollar off: 1달러 할인)"},
-  "ones": {"pos": "대명사", "ko": "것들 (one의 복수)"},
-  "onions": {"pos": "명사", "ko": "양파 (green onions: 파)"},
-  "only": {"pos": "부사", "ko": "오직, ~해서일 뿐"},
-  "or": {"pos": "접속사", "ko": "또는 (rain or shine: 비가 오나 해가 뜨나)"},
-  "out": {"pos": "부사", "ko": "밖으로, 소리 내어 (laugh out loud)"},
-  "own": {"pos": "형용사", "ko": "자신의"},
-  "past": {"pos": "전치사", "ko": "~을 지나서"},
-  "picked": {"pos": "동사", "ko": "땄다, 수확했다 (pick의 과거)"},
-  "place": {"pos": "명사", "ko": "곳, 장소"},
-  "prices": {"pos": "명사", "ko": "가격 (price의 복수)"},
-  "puts": {"pos": "동사", "ko": "넣다, 놓다 (put)"},
-  "saturday": {"pos": "명사", "ko": "토요일"},
-  "saw": {"pos": "동사", "ko": "보았다 (see의 과거)"},
-  "sees": {"pos": "동사", "ko": "보다 (see)"},
-  "sellers": {"pos": "명사", "ko": "상인, 파는 사람 (seller의 복수)"},
-  "sells": {"pos": "동사", "ko": "팔다 (sell)"},
-  "set": {"pos": "동사", "ko": "놓다 (set aside: 따로 남겨 두다)"},
-  "shine": {"pos": "명사", "ko": "맑은 날씨 (rain or shine: 비가 오나 해가 뜨나)"},
-  "shiny": {"pos": "형용사", "ko": "반들반들한, 윤이 나는"},
-  "single": {"pos": "형용사", "ko": "하나하나의 (every single one: 하나도 빠짐없이)"},
-  "sits": {"pos": "동사", "ko": "앉아 있다 (sit)"},
-  "smell": {"pos": "명사", "ko": "냄새, 향"},
-  "smells": {"pos": "동사", "ko": "냄새가 나다 (smell)"},
-  "something": {"pos": "대명사", "ko": "무언가 (a little something: 작은 것 하나)"},
-  "stall": {"pos": "명사", "ko": "좌판, 가판대"},
-  "stalls": {"pos": "명사", "ko": "좌판들 (stall의 복수)"},
-  "straight": {"pos": "부사", "ko": "곧장, 바로"},
-  "strikes": {"pos": "동사", "ko": "(생각이) 문득 들다 (it strikes you that)"},
-  "stretching": {"pos": "동사", "ko": "뻗어 있는 (stretch)"},
-  "sun": {"pos": "명사", "ko": "해, 햇살"},
-  "sweet": {"pos": "형용사", "ko": "달콤한"},
-  "table": {"pos": "명사", "ko": "좌판, 탁자"},
-  "takes": {"pos": "동사", "ko": "받다, 가져가다 (take)"},
-  "their": {"pos": "대명사", "ko": "그들의, 각자의"},
-  "these": {"pos": "대명사", "ko": "이, 이것들"},
-  "three": {"pos": "수사", "ko": "셋, 3"},
-  "throws": {"pos": "동사", "ko": "젖히다, 던지다 (throw one's head back: 고개를 젖히다)"},
-  "vegetable": {"pos": "명사", "ko": "채소"},
-  "walking": {"pos": "동사", "ko": "걸어 다니는 (walk)"},
-  "wander": {"pos": "동사", "ko": "거닐다, 돌아다니다"},
-  "warmly": {"pos": "부사", "ko": "따뜻하게"},
-  "watched": {"pos": "동사", "ko": "지켜보았다 (watch의 과거)"},
-  "week": {"pos": "명사", "ko": "주, 일주일"},
-  "where": {"pos": "부사", "ko": "~하는 곳에 (관계부사)"},
-  "which": {"pos": "대명사", "ko": "(관계대명사) 그것들 모두"},
-  "wow": {"pos": "감탄사", "ko": "와, 우와"}
- }
+  "again": {
+   "pos": "부사",
+   "ko": "다시, 또"
+  },
+  "air": {
+   "pos": "명사",
+   "ko": "공기"
+  },
+  "already": {
+   "pos": "부사",
+   "ko": "이미, 벌써"
+  },
+  "announces": {
+   "pos": "동사",
+   "ko": "당당히 말하다 (announce)"
+  },
+  "answers": {
+   "pos": "동사",
+   "ko": "대답하다 (answer)"
+  },
+  "any": {
+   "pos": "형용사",
+   "ko": "조금이라도, 어떤"
+  },
+  "anytime": {
+   "pos": "부사",
+   "ko": "언제든지"
+  },
+  "arranging": {
+   "pos": "동사",
+   "ko": "정리하는, 진열하는 (arrange)"
+  },
+  "ask": {
+   "pos": "동사",
+   "ko": "묻다, 물어보다"
+  },
+  "aside": {
+   "pos": "부사",
+   "ko": "따로, 한쪽에 (set aside: 따로 남겨 두다)"
+  },
+  "bag": {
+   "pos": "명사",
+   "ko": "봉지, 가방"
+  },
+  "baskets": {
+   "pos": "명사",
+   "ko": "바구니 (basket의 복수)"
+  },
+  "because": {
+   "pos": "접속사",
+   "ko": "~이기 때문에"
+  },
+  "bread": {
+   "pos": "명사",
+   "ko": "빵"
+  },
+  "breaks": {
+   "pos": "동사",
+   "ko": "(미소가) 번지다 (break into a smile)"
+  },
+  "bright": {
+   "pos": "형용사",
+   "ko": "화창한, 밝은"
+  },
+  "bring": {
+   "pos": "동사",
+   "ko": "데려가다, 이끌다"
+  },
+  "bundles": {
+   "pos": "명사",
+   "ko": "다발, 묶음"
+  },
+  "busy": {
+   "pos": "형용사",
+   "ko": "붐비는, 분주한"
+  },
+  "calling": {
+   "pos": "동사",
+   "ko": "외치는 (call out: 소리쳐 알리다)"
+  },
+  "care": {
+   "pos": "명사",
+   "ko": "정성 (with care: 정성스럽게)"
+  },
+  "carry": {
+   "pos": "동사",
+   "ko": "데려가다, 옮기다"
+  },
+  "chance": {
+   "pos": "명사",
+   "ko": "가능성 (any chance of: 혹시 ~ 안 될까요)"
+  },
+  "cheerful": {
+   "pos": "형용사",
+   "ko": "활기찬, 명랑한"
+  },
+  "choose": {
+   "pos": "동사",
+   "ko": "고르다"
+  },
+  "circle": {
+   "pos": "동사",
+   "ko": "한 바퀴 돌다"
+  },
+  "corner": {
+   "pos": "명사",
+   "ko": "구석, 모퉁이"
+  },
+  "crowded": {
+   "pos": "형용사",
+   "ko": "붐비는"
+  },
+  "definitely": {
+   "pos": "부사",
+   "ko": "꼭, 반드시"
+  },
+  "direction": {
+   "pos": "명사",
+   "ko": "방향"
+  },
+  "discount": {
+   "pos": "명사",
+   "ko": "할인"
+  },
+  "does": {
+   "pos": "동사",
+   "ko": "(강조) 정말 그렇다 (do)"
+  },
+  "dollar": {
+   "pos": "명사",
+   "ko": "달러"
+  },
+  "dollars": {
+   "pos": "명사",
+   "ko": "달러 (dollar의 복수)"
+  },
+  "draws": {
+   "pos": "동사",
+   "ko": "끌어당기다 (draw)"
+  },
+  "drifts": {
+   "pos": "동사",
+   "ko": "떠돌다, 퍼지다 (drift)"
+  },
+  "drops": {
+   "pos": "동사",
+   "ko": "슬쩍 넣다, 떨어뜨리다 (drop)"
+  },
+  "early": {
+   "pos": "부사",
+   "ko": "일찍"
+  },
+  "end": {
+   "pos": "명사",
+   "ko": "끝 (in the end: 결국 / end up: 결국 ~하게 되다)"
+  },
+  "even": {
+   "pos": "부사",
+   "ko": "심지어, ~조차"
+  },
+  "everywhere": {
+   "pos": "부사",
+   "ko": "어디에나, 사방에"
+  },
+  "extra": {
+   "pos": "형용사",
+   "ko": "여분의, 덤으로 주는 (a little extra: 덤)"
+  },
+  "face": {
+   "pos": "명사",
+   "ko": "얼굴"
+  },
+  "far": {
+   "pos": "부사",
+   "ko": "훨씬"
+  },
+  "feels": {
+   "pos": "동사",
+   "ko": "느껴지다 (feel)"
+  },
+  "feet": {
+   "pos": "명사",
+   "ko": "발 (foot의 복수)"
+  },
+  "fill": {
+   "pos": "동사",
+   "ko": "가득 채우다"
+  },
+  "find": {
+   "pos": "동사",
+   "ko": "찾다, 발견하다"
+  },
+  "fine": {
+   "pos": "감탄사",
+   "ko": "좋아요, 알겠어요"
+  },
+  "fish": {
+   "pos": "명사",
+   "ko": "생선, 물고기"
+  },
+  "five": {
+   "pos": "수사",
+   "ko": "다섯, 5"
+  },
+  "flowers": {
+   "pos": "명사",
+   "ko": "꽃 (flower의 복수)"
+  },
+  "fresh": {
+   "pos": "형용사",
+   "ko": "신선한"
+  },
+  "freshly": {
+   "pos": "부사",
+   "ko": "갓, 방금 (freshly picked: 갓 딴)"
+  },
+  "fruit": {
+   "pos": "명사",
+   "ko": "과일"
+  },
+  "grandmother": {
+   "pos": "명사",
+   "ko": "할머니"
+  },
+  "green": {
+   "pos": "형용사",
+   "ko": "초록색의 (green onions: 파)"
+  },
+  "greets": {
+   "pos": "동사",
+   "ko": "인사하다, 맞이하다 (greet)"
+  },
+  "half": {
+   "pos": "부사",
+   "ko": "반쯤 (half joking: 반 농담으로)"
+  },
+  "handful": {
+   "pos": "명사",
+   "ko": "한 줌"
+  },
+  "hear": {
+   "pos": "동사",
+   "ko": "듣다, 들리다"
+  },
+  "honest": {
+   "pos": "형용사",
+   "ko": "정직한, 진실해 보이는"
+  },
+  "joking": {
+   "pos": "동사",
+   "ko": "농담하는 (joke)"
+  },
+  "kind": {
+   "pos": "형용사",
+   "ko": "친절한"
+  },
+  "light": {
+   "pos": "형용사",
+   "ko": "가벼운"
+  },
+  "loud": {
+   "pos": "부사",
+   "ko": "큰 소리로 (out loud: 소리 내어)"
+  },
+  "make": {
+   "pos": "동사",
+   "ko": "만들다 (make your way: 걸음을 옮기다)"
+  },
+  "many": {
+   "pos": "형용사",
+   "ko": "많은"
+  },
+  "market": {
+   "pos": "명사",
+   "ko": "시장"
+  },
+  "melon": {
+   "pos": "명사",
+   "ko": "멜론"
+  },
+  "money": {
+   "pos": "명사",
+   "ko": "돈"
+  },
+  "myself": {
+   "pos": "대명사",
+   "ko": "내가 직접"
+  },
+  "nine": {
+   "pos": "수사",
+   "ko": "아홉, 9"
+  },
+  "nobody": {
+   "pos": "대명사",
+   "ko": "아무도 ~않다"
+  },
+  "noise": {
+   "pos": "명사",
+   "ko": "소리, 왁자지껄함"
+  },
+  "notices": {
+   "pos": "동사",
+   "ko": "알아차리다 (notice)"
+  },
+  "off": {
+   "pos": "부사",
+   "ko": "(값을) 깎아서 (one dollar off: 1달러 할인)"
+  },
+  "ones": {
+   "pos": "대명사",
+   "ko": "것들 (one의 복수)"
+  },
+  "onions": {
+   "pos": "명사",
+   "ko": "양파 (green onions: 파)"
+  },
+  "only": {
+   "pos": "부사",
+   "ko": "오직, ~해서일 뿐"
+  },
+  "or": {
+   "pos": "접속사",
+   "ko": "또는 (rain or shine: 비가 오나 해가 뜨나)"
+  },
+  "out": {
+   "pos": "부사",
+   "ko": "밖으로, 소리 내어 (laugh out loud)"
+  },
+  "own": {
+   "pos": "형용사",
+   "ko": "자신의"
+  },
+  "past": {
+   "pos": "전치사",
+   "ko": "~을 지나서"
+  },
+  "picked": {
+   "pos": "동사",
+   "ko": "땄다, 수확했다 (pick의 과거)"
+  },
+  "place": {
+   "pos": "명사",
+   "ko": "곳, 장소"
+  },
+  "prices": {
+   "pos": "명사",
+   "ko": "가격 (price의 복수)"
+  },
+  "puts": {
+   "pos": "동사",
+   "ko": "넣다, 놓다 (put)"
+  },
+  "saturday": {
+   "pos": "명사",
+   "ko": "토요일"
+  },
+  "saw": {
+   "pos": "동사",
+   "ko": "보았다 (see의 과거)"
+  },
+  "sees": {
+   "pos": "동사",
+   "ko": "보다 (see)"
+  },
+  "sellers": {
+   "pos": "명사",
+   "ko": "상인, 파는 사람 (seller의 복수)"
+  },
+  "sells": {
+   "pos": "동사",
+   "ko": "팔다 (sell)"
+  },
+  "set": {
+   "pos": "동사",
+   "ko": "놓다 (set aside: 따로 남겨 두다)"
+  },
+  "shine": {
+   "pos": "명사",
+   "ko": "맑은 날씨 (rain or shine: 비가 오나 해가 뜨나)"
+  },
+  "shiny": {
+   "pos": "형용사",
+   "ko": "반들반들한, 윤이 나는"
+  },
+  "single": {
+   "pos": "형용사",
+   "ko": "하나하나의 (every single one: 하나도 빠짐없이)"
+  },
+  "sits": {
+   "pos": "동사",
+   "ko": "앉아 있다 (sit)"
+  },
+  "smell": {
+   "pos": "명사",
+   "ko": "냄새, 향"
+  },
+  "smells": {
+   "pos": "동사",
+   "ko": "냄새가 나다 (smell)"
+  },
+  "something": {
+   "pos": "대명사",
+   "ko": "무언가 (a little something: 작은 것 하나)"
+  },
+  "stall": {
+   "pos": "명사",
+   "ko": "좌판, 가판대"
+  },
+  "stalls": {
+   "pos": "명사",
+   "ko": "좌판들 (stall의 복수)"
+  },
+  "straight": {
+   "pos": "부사",
+   "ko": "곧장, 바로"
+  },
+  "strikes": {
+   "pos": "동사",
+   "ko": "(생각이) 문득 들다 (it strikes you that)"
+  },
+  "stretching": {
+   "pos": "동사",
+   "ko": "뻗어 있는 (stretch)"
+  },
+  "sun": {
+   "pos": "명사",
+   "ko": "해, 햇살"
+  },
+  "sweet": {
+   "pos": "형용사",
+   "ko": "달콤한"
+  },
+  "table": {
+   "pos": "명사",
+   "ko": "좌판, 탁자"
+  },
+  "takes": {
+   "pos": "동사",
+   "ko": "받다, 가져가다 (take)"
+  },
+  "their": {
+   "pos": "대명사",
+   "ko": "그들의, 각자의"
+  },
+  "these": {
+   "pos": "대명사",
+   "ko": "이, 이것들"
+  },
+  "three": {
+   "pos": "수사",
+   "ko": "셋, 3"
+  },
+  "throws": {
+   "pos": "동사",
+   "ko": "젖히다, 던지다 (throw one's head back: 고개를 젖히다)"
+  },
+  "vegetable": {
+   "pos": "명사",
+   "ko": "채소"
+  },
+  "walking": {
+   "pos": "동사",
+   "ko": "걸어 다니는 (walk)"
+  },
+  "wander": {
+   "pos": "동사",
+   "ko": "거닐다, 돌아다니다"
+  },
+  "warmly": {
+   "pos": "부사",
+   "ko": "따뜻하게"
+  },
+  "watched": {
+   "pos": "동사",
+   "ko": "지켜보았다 (watch의 과거)"
+  },
+  "week": {
+   "pos": "명사",
+   "ko": "주, 일주일"
+  },
+  "where": {
+   "pos": "부사",
+   "ko": "~하는 곳에 (관계부사)"
+  },
+  "which": {
+   "pos": "대명사",
+   "ko": "(관계대명사) 그것들 모두"
+  },
+  "wow": {
+   "pos": "감탄사",
+   "ko": "와, 우와"
+  }
+ },
+ "introEn": "Saturday morning at the town market.\nA little extra from grandma warms your heart."
 }
