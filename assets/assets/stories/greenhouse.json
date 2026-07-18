@@ -1,0 +1,348 @@
+{
+ "id": "greenhouse",
+ "title": "The Summer Greenhouse",
+ "badge": "A2+ · 표현 주의",
+ "introKo": "Rose 부인이 여름맞이로 유리 온실을 지었어요. 안은 한여름보다 더 덥다네요.\n이번에도 아주 건전한 원예 이야기예요. …표면적으로는요.",
+ "adult": true,
+ "minLevel": 5,
+ "quiz": {
+  "q": "Rose 부인이 이번 여름을 위해 새로 만든 것은?",
+  "options": [
+   "유리 온실",
+   "새 울타리",
+   "연못"
+  ],
+  "answer": 0
+ },
+ "scripts": {
+  "normal": [
+   {
+    "type": "text",
+    "text": "Summer arrives in the village. It is the hottest summer in years, and your neighbor, Mrs. Rose, has big news.",
+    "art": "village"
+   },
+   {
+    "type": "text",
+    "text": "She calls you over the fence, past her famous eggplants. \"Come and see!\" she says. \"I built a greenhouse, just for the summer.\"",
+    "art": "fence_eggplant"
+   },
+   {
+    "type": "text",
+    "text": "Inside, the air is warm and wet. \"It gets very hot in here,\" she says. \"I hope you don't mind. I need your strong hands again.\"",
+    "art": "garden_help"
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 답할까요?",
+    "options": [
+     {
+      "en": "I don't mind at all. I like the heat.",
+      "ko": "전혀 상관없어요. 더운 거 좋아해요.",
+      "reaction": "\"Good,\" she smiles. \"Then you will love it in here.\""
+     },
+     {
+      "en": "Wow, it really is warm in here.",
+      "ko": "와, 안이 정말 후끈하네요.",
+      "reaction": "\"That is my secret,\" she says. \"Warm and wet — everything grows faster that way.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "First, you plant tomato seeds. \"Push each one in slowly,\" she says. \"The soil is soft and ready. It has waited all spring for this.\"",
+    "art": "dig_hole"
+   },
+   {
+    "type": "text",
+    "text": "Next, the young tomato plants need support. \"Hold the stick firm,\" she says. \"Every plant needs something strong to hold on to.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "Is this firm enough for you?",
+      "ko": "이 정도면 충분히 단단한가요?",
+      "reaction": "\"Oh yes,\" she says. \"Very firm. You have learned a lot since spring.\""
+     },
+     {
+      "en": "Should I tie them tight?",
+      "ko": "꽉 묶어야 하나요?",
+      "reaction": "\"Gently, dear. Tight enough to hold, but loose enough to breathe. That is the trick with everything.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "Now you spray water on every plant. \"In this heat, they get thirsty fast,\" she says. \"Don't stop until they drip.\"",
+    "art": "watering"
+   },
+   {
+    "type": "text",
+    "text": "Soon the glass is covered with steam. \"It always does that,\" Mrs. Rose laughs, \"when things heat up in here.\""
+   },
+   {
+    "type": "text",
+    "text": "In the warmest corner, her melons rest on soft straw. \"They love the heat. Look how round they are. Go on — feel how heavy they have grown.\"",
+    "art": "melons"
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "They are so big already.",
+      "ko": "벌써 이렇게 컸네요.",
+      "reaction": "\"The heat does that,\" she says softly. \"Everything ripens faster in here.\""
+     },
+     {
+      "en": "When will they be ripe?",
+      "ko": "언제쯤 다 익어요?",
+      "reaction": "\"Patience, dear,\" she says. \"The sweetest ones are always worth the wait.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "You step out into the cool evening air. Your shirt is damp, your basket is full. \"Same time next week?\" she asks. \"The tomatoes will be red by then.\"",
+    "art": "harvest_home"
+   },
+   {
+    "type": "text",
+    "text": "That night, you leave your window open. Summer has only just started, you think — and it is going to be a long, hot one.",
+    "art": "night"
+   }
+  ],
+  "hard": [
+   {
+    "type": "text",
+    "text": "Summer settles over the village — the hottest anyone can remember — and your neighbor, Mrs. Rose, has been building something new.",
+    "art": "village"
+   },
+   {
+    "type": "text",
+    "text": "She waves you over the fence with a proud smile, past her famous eggplants. \"Come and see what I built,\" she says. \"A greenhouse, all glass, just for the summer.\"",
+    "art": "fence_eggplant"
+   },
+   {
+    "type": "text",
+    "text": "Inside, the air is thick and warm. \"It gets terribly hot in here,\" she says. \"I do hope you can handle the heat, because I need your strong hands again.\"",
+    "art": "garden_help"
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 답할까요?",
+    "options": [
+     {
+      "en": "I don't mind at all. I have always liked the heat.",
+      "ko": "전혀 상관없어요. 원래 더운 걸 좋아해요.",
+      "reaction": "\"Good,\" she smiles. \"Then you are going to love it in here.\""
+     },
+     {
+      "en": "Wow, it really is warm in here.",
+      "ko": "와, 안이 정말 후끈하네요.",
+      "reaction": "\"That is my little secret,\" she says. \"Warm and wet — everything grows so much faster that way.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "Your first task is planting tomato seeds. \"Push each one in slowly,\" she instructs. \"The soil is soft and more than ready — it has waited all spring for this moment.\"",
+    "art": "dig_hole"
+   },
+   {
+    "type": "text",
+    "text": "Next come the young tomato plants, which have grown tall and heavy; they need support. \"Hold the stick firm,\" she says. \"Every plant needs something strong to hold on to.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "Is this firm enough for you?",
+      "ko": "이 정도면 충분히 단단한가요?",
+      "reaction": "\"Oh yes,\" she says. \"Wonderfully firm. You have learned a great deal since spring.\""
+     },
+     {
+      "en": "Should I tie them up tight?",
+      "ko": "꽉 묶어야 하나요?",
+      "reaction": "\"Gently, dear. Tight enough to hold them, loose enough to let them breathe. That is the trick with everything.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "Then you spray a fine mist over every plant. \"In this heat they get thirsty so quickly,\" she says. \"Don't you dare stop until every leaf is dripping.\"",
+    "art": "watering"
+   },
+   {
+    "type": "text",
+    "text": "Before long, the glass walls are covered in steam. \"It always does that,\" Mrs. Rose laughs, \"whenever things start heating up in here.\""
+   },
+   {
+    "type": "text",
+    "text": "In the warmest corner, her prized melons rest on a bed of soft straw. \"They adore the heat. Look how round they have become. Go on — feel how heavy they have grown.\"",
+    "art": "melons"
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "They are so big already.",
+      "ko": "벌써 이렇게 컸네요.",
+      "reaction": "\"The heat does that,\" she says softly. \"Everything ripens so much faster in here.\""
+     },
+     {
+      "en": "When exactly will they be ripe?",
+      "ko": "정확히 언제쯤 다 익어요?",
+      "reaction": "\"Patience, dear,\" she says. \"The sweetest ones are always the ones worth waiting for.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "You step out into the cool evening air, shirt damp and basket full. \"Same time next week?\" she asks. \"The tomatoes should be blushing red by then.\"",
+    "art": "harvest_home"
+   },
+   {
+    "type": "text",
+    "text": "That night you leave your window wide open. Summer has only just begun, you think — and something tells you it is going to be a long, hot one.",
+    "art": "night"
+   }
+  ]
+ },
+ "dict": {
+  "summer": {"pos": "명사", "ko": "여름"},
+  "hottest": {"pos": "형용사", "ko": "가장 더운 — hot의 최상급"},
+  "years": {"pos": "명사", "ko": "몇 년 — year의 복수"},
+  "news": {"pos": "명사", "ko": "소식"},
+  "built": {"pos": "동사", "ko": "지었다 — build의 과거"},
+  "greenhouse": {"pos": "명사", "ko": "온실"},
+  "past": {"pos": "전치사", "ko": "~을 지나서"},
+  "famous": {"pos": "형용사", "ko": "유명한, 자랑거리인"},
+  "inside": {"pos": "부사", "ko": "안에서, 안은"},
+  "air": {"pos": "명사", "ko": "공기"},
+  "get": {"pos": "동사", "ko": "~해지다, 얻다"},
+  "gets": {"pos": "동사", "ko": "~해지다 — get의 3인칭"},
+  "hot": {"pos": "형용사", "ko": "뜨거운, 더운"},
+  "hope": {"pos": "동사", "ko": "바라다, 희망하다"},
+  "mind": {"pos": "동사", "ko": "꺼리다, 신경 쓰다"},
+  "again": {"pos": "부사", "ko": "다시, 또"},
+  "heat": {"pos": "명사", "ko": "열기, 더위"},
+  "love": {"pos": "동사", "ko": "아주 좋아하다, 사랑하다"},
+  "wow": {"pos": "감탄사", "ko": "와"},
+  "faster": {"pos": "부사", "ko": "더 빨리 — fast의 비교급"},
+  "plant": {"pos": "동사·명사", "ko": "심다; 식물"},
+  "plants": {"pos": "명사", "ko": "식물들 — plant의 복수"},
+  "planting": {"pos": "동사", "ko": "심기 — plant의 동명사"},
+  "tomato": {"pos": "명사", "ko": "토마토"},
+  "tomatoes": {"pos": "명사", "ko": "토마토들 — tomato의 복수"},
+  "seeds": {"pos": "명사", "ko": "씨앗들 — seed의 복수"},
+  "push": {"pos": "동사", "ko": "밀어 넣다, 밀다"},
+  "each": {"pos": "한정사", "ko": "각각의, 하나씩"},
+  "slowly": {"pos": "부사", "ko": "천천히"},
+  "soft": {"pos": "형용사", "ko": "부드러운"},
+  "ready": {"pos": "형용사", "ko": "준비된"},
+  "waited": {"pos": "동사", "ko": "기다렸다 — wait의 과거"},
+  "young": {"pos": "형용사", "ko": "어린, 젊은"},
+  "support": {"pos": "명사", "ko": "지지대, 받침"},
+  "stick": {"pos": "명사", "ko": "막대기, 지지목"},
+  "firm": {"pos": "형용사", "ko": "단단한, 흔들리지 않는"},
+  "something": {"pos": "대명사", "ko": "무언가"},
+  "yes": {"pos": "감탄사", "ko": "네, 그래요"},
+  "learned": {"pos": "동사", "ko": "배웠다 — learn의 과거"},
+  "lot": {"pos": "명사", "ko": "(a lot) 많이"},
+  "since": {"pos": "전치사", "ko": "~ 이후로"},
+  "tie": {"pos": "동사", "ko": "묶다"},
+  "tight": {"pos": "부사", "ko": "꽉, 단단히"},
+  "gently": {"pos": "부사", "ko": "부드럽게, 살살"},
+  "loose": {"pos": "형용사", "ko": "느슨한"},
+  "breathe": {"pos": "동사", "ko": "숨 쉬다"},
+  "trick": {"pos": "명사", "ko": "요령, 비결"},
+  "spray": {"pos": "동사", "ko": "뿌리다, 분무하다"},
+  "thirsty": {"pos": "형용사", "ko": "목마른"},
+  "fast": {"pos": "부사", "ko": "빨리"},
+  "drip": {"pos": "동사", "ko": "(물방울이) 뚝뚝 떨어지다"},
+  "until": {"pos": "전치사", "ko": "~할 때까지"},
+  "soon": {"pos": "부사", "ko": "곧"},
+  "do": {"pos": "동사", "ko": "하다; 강조를 돕는 조동사"},
+  "does": {"pos": "동사", "ko": "하다 — do의 3인칭"},
+  "things": {"pos": "명사", "ko": "것들 — thing의 복수"},
+  "glass": {"pos": "명사", "ko": "유리"},
+  "covered": {"pos": "동사", "ko": "덮였다 — cover의 과거분사"},
+  "steam": {"pos": "명사", "ko": "김, 수증기"},
+  "warmest": {"pos": "형용사", "ko": "가장 따뜻한 — warm의 최상급"},
+  "corner": {"pos": "명사", "ko": "구석, 모퉁이"},
+  "rest": {"pos": "동사", "ko": "놓여 있다, 쉬다"},
+  "straw": {"pos": "명사", "ko": "짚"},
+  "feel": {"pos": "동사", "ko": "만져 보다, 느끼다"},
+  "grown": {"pos": "동사", "ko": "자랐다 — grow의 과거분사"},
+  "already": {"pos": "부사", "ko": "벌써, 이미"},
+  "ripens": {"pos": "동사", "ko": "익다, 무르익다 — ripen의 3인칭"},
+  "know": {"pos": "동사", "ko": "알다"},
+  "patience": {"pos": "명사", "ko": "인내심, 참을성"},
+  "sweetest": {"pos": "형용사", "ko": "가장 달콤한 — sweet의 최상급"},
+  "ones": {"pos": "대명사", "ko": "것들 — one(것)의 복수"},
+  "worth": {"pos": "형용사", "ko": "~할 가치가 있는"},
+  "out": {"pos": "부사", "ko": "밖으로"},
+  "cool": {"pos": "형용사", "ko": "시원한"},
+  "evening": {"pos": "명사", "ko": "저녁"},
+  "shirt": {"pos": "명사", "ko": "셔츠"},
+  "damp": {"pos": "형용사", "ko": "축축한"},
+  "same": {"pos": "형용사", "ko": "같은"},
+  "week": {"pos": "명사", "ko": "주, 일주일"},
+  "asks": {"pos": "동사", "ko": "묻다 — ask의 3인칭"},
+  "leave": {"pos": "동사", "ko": "그대로 두다, 떠나다"},
+  "window": {"pos": "명사", "ko": "창문"},
+  "open": {"pos": "형용사", "ko": "열린, 활짝 연"},
+  "only": {"pos": "부사", "ko": "겨우, 이제 막"},
+  "started": {"pos": "동사", "ko": "시작했다 — start의 과거"},
+  "going": {"pos": "동사", "ko": "(be going to) ~할 것이다"},
+  "anyone": {"pos": "대명사", "ko": "누구도, 아무나"},
+  "building": {"pos": "동사", "ko": "짓고 있는 — build의 진행형"},
+  "new": {"pos": "형용사", "ko": "새로운"},
+  "proud": {"pos": "형용사", "ko": "자랑스러운"},
+  "thick": {"pos": "형용사", "ko": "(공기가) 짙고 묵직한, 두꺼운"},
+  "handle": {"pos": "동사", "ko": "견디다, 다루다"},
+  "because": {"pos": "접속사", "ko": "~이기 때문에"},
+  "liked": {"pos": "동사", "ko": "좋아했다 — like의 과거"},
+  "task": {"pos": "명사", "ko": "할 일, 과제"},
+  "instructs": {"pos": "동사", "ko": "지시하다 — instruct의 3인칭"},
+  "moment": {"pos": "명사", "ko": "순간"},
+  "which": {"pos": "대명사", "ko": "~하는 — 관계대명사"},
+  "tall": {"pos": "형용사", "ko": "키가 큰, 높이 자란"},
+  "great": {"pos": "형용사", "ko": "큰, 훌륭한"},
+  "deal": {"pos": "명사", "ko": "(a great deal) 아주 많이"},
+  "let": {"pos": "동사", "ko": "~하게 해 주다"},
+  "fine": {"pos": "형용사", "ko": "고운, 미세한"},
+  "mist": {"pos": "명사", "ko": "분무, 안개"},
+  "quickly": {"pos": "부사", "ko": "빨리, 금방"},
+  "dare": {"pos": "동사", "ko": "감히 ~하다"},
+  "leaf": {"pos": "명사", "ko": "잎"},
+  "dripping": {"pos": "동사", "ko": "뚝뚝 떨어지는 — drip의 진행형"},
+  "walls": {"pos": "명사", "ko": "벽들 — wall의 복수"},
+  "whenever": {"pos": "접속사", "ko": "~할 때마다"},
+  "start": {"pos": "동사", "ko": "시작하다"},
+  "heating": {"pos": "동사", "ko": "(heat up) 뜨거워지기 — heat의 진행형"},
+  "prized": {"pos": "형용사", "ko": "아끼는, 애지중지하는"},
+  "adore": {"pos": "동사", "ko": "아주 좋아하다"},
+  "become": {"pos": "동사", "ko": "~이 되다"},
+  "exactly": {"pos": "부사", "ko": "정확히"},
+  "blushing": {"pos": "동사", "ko": "발갛게 물드는 — blush의 진행형"},
+  "wide": {"pos": "부사", "ko": "활짝"},
+  "begun": {"pos": "동사", "ko": "시작되었다 — begin의 과거분사"}
+ },
+ "wink": {
+  "greenhouse": "온실은 문을 닫는 순간 뜨겁고 습해지는 유리 공간이에요. 이 이야기 내내 두 사람이 그 안에 함께 있다는 점이 포인트예요.",
+  "hot": "덥다는 뜻이 맞긴 한데, 영어에서 hot은 사람이나 분위기가 '뜨겁다'는 의미로도 아주 자주 쓰여요. \"I like the heat\"도 두 가지로 들릴 수 있어요.",
+  "push": "\"Push each one in slowly\"는 씨앗 심기 요령으로는 완벽한 지침이에요. 문장만 따로 떼어 소리 내어 읽지 않는 게 좋을 뿐이죠.",
+  "firm": "지지대가 단단해야 하는 건 원예 상식이지만, \"Is this firm enough for you?\"를 진지한 얼굴로 말하기는 쉽지 않은 문장이에요.",
+  "thirsty": "목마른 게 식물만은 아니에요. 요즘 영어에서 thirsty는 뭔가를 간절히 바라는 사람을 놀릴 때도 쓰는 단어예요.",
+  "steam": "유리에 김이 서리는 건 과학 현상이지만, 영어에서는 분위기가 달아오른 장면을 '김이 서렸다'고 표현하기도 해요.",
+  "drip": "잎에서 물이 떨어질 때까지 주라는 성실한 지침인데, 소리 내어 읽으면 어쩐지 목소리가 낮아지는 문장이에요.",
+  "ripens": "\"Everything ripens faster in here\" — 이 온실에서 빨리 무르익는 게 과일만은 아닐지도 몰라요.",
+  "feel": "잘 자랐는지 만져 보라는 평범한 권유예요. 대상이 하필 멜론이라는 게 문제일 뿐이죠. Mrs. Rose의 정원 이야기를 읽었다면 이유를 아실 거예요.",
+  "damp": "저녁에 셔츠가 축축해진 건 순전히 온실 노동 때문이에요. 아마도요."
+ }
+}

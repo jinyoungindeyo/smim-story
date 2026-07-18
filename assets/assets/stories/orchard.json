@@ -1,0 +1,632 @@
+{
+ "id": "orchard",
+ "title": "The Peach Orchard",
+ "badge": "A2+ · 표현 주의",
+ "introKo": "Rose 부인의 친구, Peach 부인네 복숭아 과수원에서 수확을 돕는 이야기.\n아주 건전해요, 표면적으로는요. 단어를 탭하면 속뜻이 보여요.",
+ "adult": true,
+ "minLevel": 5,
+ "quiz": {
+  "q": "가장 좋은 복숭아는 어디에 열린다고 했나요?",
+  "options": [
+   "나무 아래 그늘",
+   "가장 높은 가지",
+   "울타리 옆"
+  ],
+  "answer": 1
+ },
+ "scripts": {
+  "normal": [
+   {
+    "type": "text",
+    "text": "Summer comes to the village. Mrs. Rose has a friend, Mrs. Peach, who owns a peach orchard on the hill.",
+    "art": "village"
+   },
+   {
+    "type": "text",
+    "text": "\"Her trees are heavy with fruit,\" Mrs. Rose says. \"She needs help with the harvest. Will you come with me?\""
+   },
+   {
+    "type": "text",
+    "text": "Mrs. Peach waits at the gate. \"Welcome,\" she smiles. \"My peaches are round and ripe. They are waiting for the right hands.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 답할까요?",
+    "options": [
+     {
+      "en": "I can't wait to get started.",
+      "ko": "빨리 시작하고 싶어요.",
+      "reaction": "\"I like that,\" Mrs. Peach says. \"An eager helper is the best kind.\""
+     },
+     {
+      "en": "How do I know which ones are ready?",
+      "ko": "어떤 게 익었는지 어떻게 알아요?",
+      "reaction": "\"Oh, you will know,\" she says. \"A ripe one tells you. Just listen with your fingers.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "She shows you the first tree. \"Hold a peach softly,\" she says. \"Squeeze it just a little. If it gives, it is ready for you.\""
+   },
+   {
+    "type": "text",
+    "text": "You touch one. The skin is warm from the sun, and covered with soft fuzz. \"Gentle,\" she says. \"A ripe peach loves a slow hand.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "Like this? I'm being very gentle.",
+      "ko": "이렇게요? 아주 살살 하고 있어요.",
+      "reaction": "\"Perfect,\" she says. \"Slow hands find the sweetest fruit.\""
+     },
+     {
+      "en": "This one feels very soft.",
+      "ko": "이건 정말 부드러운데요.",
+      "reaction": "\"Then it is ready,\" she smiles. \"The soft ones never last long here.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "You taste one peach. Juice runs down your chin. \"Careful,\" Mrs. Peach laughs. \"The good ones are always a little messy.\""
+   },
+   {
+    "type": "text",
+    "text": "Then she points up. \"The best ones grow on the highest branch. Most people never reach them. Can you climb that high?\""
+   },
+   {
+    "type": "text",
+    "text": "You climb the ladder to the top. The peaches there are the biggest and roundest of all. You fill your basket until it overflows.",
+    "art": "orchard_tree"
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "Your orchard is amazing, Mrs. Peach.",
+      "ko": "과수원이 정말 멋져요.",
+      "reaction": "\"Thank you, dear. Most men give up before the top branch. You did not.\""
+     },
+     {
+      "en": "I could do this all day.",
+      "ko": "이거라면 하루 종일도 하겠어요.",
+      "reaction": "\"Careful, dear,\" she laughs. \"Say that in my orchard, and I will hold you to it.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "You walk home with Mrs. Rose, carrying a full basket. \"Well?\" she asks. \"Now you know why I love her orchard.\"",
+    "art": "harvest_home"
+   },
+   {
+    "type": "text",
+    "text": "That night, your hands still smell of peaches. The sweetest things, you think, are worth getting a little messy for.",
+    "art": "night"
+   }
+  ],
+  "hard": [
+   {
+    "type": "text",
+    "text": "Summer settles over the village, and Mrs. Rose arrives with news: her old friend Mrs. Peach, who owns the peach orchard on the hill, needs helpers for the harvest.",
+    "art": "village"
+   },
+   {
+    "type": "text",
+    "text": "\"Her trees are so heavy with fruit that the branches nearly touch the ground,\" Mrs. Rose says. \"I promised her my hardest worker — that would be you.\""
+   },
+   {
+    "type": "text",
+    "text": "Mrs. Peach greets you at the gate with a knowing smile. \"Welcome, dear. My peaches are perfectly round and perfectly ripe — they have been waiting all season for the right pair of hands.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 답할까요?",
+    "options": [
+     {
+      "en": "I can't wait to get started.",
+      "ko": "빨리 시작하고 싶어요.",
+      "reaction": "\"I like that,\" Mrs. Peach says approvingly. \"An eager helper is the rarest fruit of all.\""
+     },
+     {
+      "en": "How do I know which ones are ready?",
+      "ko": "어떤 게 익었는지 어떻게 알아요?",
+      "reaction": "\"Oh, you will know,\" she says. \"A ripe one tells you itself. You simply have to listen with your fingers.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "She leads you to the first tree. \"Hold a peach softly and squeeze it just a little,\" she instructs. \"If it gives under your fingers, it is ready for you.\""
+   },
+   {
+    "type": "text",
+    "text": "You touch one. The skin, warm from the afternoon sun and covered with the softest fuzz, seems to rest in your hand. \"Gently now,\" she says. \"A ripe peach loves a slow, patient hand.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "Like this? I'm being very gentle.",
+      "ko": "이렇게요? 아주 살살 하고 있어요.",
+      "reaction": "\"Perfect. Slow and patient,\" she murmurs. \"Slow hands always find the sweetest fruit.\""
+     },
+     {
+      "en": "This one feels very soft.",
+      "ko": "이건 정말 부드러운데요.",
+      "reaction": "\"Then it is more than ready,\" she smiles. \"The soft ones never stay on the tree for long.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "You taste one peach, and juice runs down your chin before you can stop it. \"Careful,\" Mrs. Peach laughs. \"The really good ones are always a little messy.\""
+   },
+   {
+    "type": "text",
+    "text": "Then she points toward the top of the tallest tree. \"The finest ones grow on the highest branch, where most people never bother to reach. Do you think you can climb that high?\""
+   },
+   {
+    "type": "text",
+    "text": "You climb the ladder until you reach the very top, where the biggest and roundest peaches hang. You fill your basket until it overflows.",
+    "art": "orchard_tree"
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "Your orchard is truly amazing, Mrs. Peach.",
+      "ko": "과수원이 정말 멋져요.",
+      "reaction": "\"Thank you, dear. Most men give up long before the top branch. You, however, did not.\""
+     },
+     {
+      "en": "I could do this all day.",
+      "ko": "이거라면 하루 종일도 하겠어요.",
+      "reaction": "\"Careful, dear,\" she laughs. \"Say such things in my orchard, and I will certainly hold you to it.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "You walk home beside Mrs. Rose, carrying a basket that threatens to overflow. \"Well?\" she asks knowingly. \"Now you understand why I love her orchard so much.\"",
+    "art": "harvest_home"
+   },
+   {
+    "type": "text",
+    "text": "That night, the smell of peaches lingers on your hands. The sweetest things, you decide, are always worth getting a little messy for.",
+    "art": "night"
+   }
+  ]
+ },
+ "dict": {
+  "summer": {
+   "pos": "명사",
+   "ko": "여름"
+  },
+  "friend": {
+   "pos": "명사",
+   "ko": "친구"
+  },
+  "peach": {
+   "pos": "명사",
+   "ko": "복숭아",
+   "exEn": "This peach is ripe.",
+   "exKo": "이 복숭아는 잘 익었어요."
+  },
+  "peaches": {
+   "pos": "명사",
+   "ko": "복숭아들 (peach의 복수형)"
+  },
+  "who": {
+   "pos": "대명사",
+   "ko": "~하는 (사람) (관계대명사)"
+  },
+  "owns": {
+   "pos": "동사",
+   "ko": "소유해요 (own의 3인칭)"
+  },
+  "orchard": {
+   "pos": "명사",
+   "ko": "과수원"
+  },
+  "hill": {
+   "pos": "명사",
+   "ko": "언덕"
+  },
+  "tree": {
+   "pos": "명사",
+   "ko": "나무"
+  },
+  "trees": {
+   "pos": "명사",
+   "ko": "나무들 (tree의 복수형)"
+  },
+  "fruit": {
+   "pos": "명사",
+   "ko": "과일, 열매"
+  },
+  "harvest": {
+   "pos": "명사",
+   "ko": "수확"
+  },
+  "gate": {
+   "pos": "명사",
+   "ko": "대문, 입구"
+  },
+  "welcome": {
+   "pos": "감탄사",
+   "ko": "어서 와요, 환영해요"
+  },
+  "cant": {
+   "pos": "축약",
+   "ko": "can't = cannot (~할 수 없어요)"
+  },
+  "get": {
+   "pos": "동사",
+   "ko": "~하게 되다 (get started: 시작하다)"
+  },
+  "getting": {
+   "pos": "동사",
+   "ko": "~하게 되는 것 (get의 -ing형)"
+  },
+  "started": {
+   "pos": "동사",
+   "ko": "시작하다의 과거분사 (get started: 시작하다)"
+  },
+  "eager": {
+   "pos": "형용사",
+   "ko": "의욕 넘치는, 열심인"
+  },
+  "helper": {
+   "pos": "명사",
+   "ko": "돕는 사람, 일손"
+  },
+  "helpers": {
+   "pos": "명사",
+   "ko": "일손들 (helper의 복수형)"
+  },
+  "kind": {
+   "pos": "명사",
+   "ko": "종류"
+  },
+  "do": {
+   "pos": "동사",
+   "ko": "하다 (의문문을 만드는 조동사로도 써요)"
+  },
+  "know": {
+   "pos": "동사",
+   "ko": "알다"
+  },
+  "which": {
+   "pos": "대명사",
+   "ko": "어느 것, 어떤"
+  },
+  "ones": {
+   "pos": "대명사",
+   "ko": "것들 (one의 복수형)"
+  },
+  "ready": {
+   "pos": "형용사",
+   "ko": "준비된, (과일이) 다 익은"
+  },
+  "listen": {
+   "pos": "동사",
+   "ko": "귀 기울이다, 듣다"
+  },
+  "fingers": {
+   "pos": "명사",
+   "ko": "손가락들"
+  },
+  "shows": {
+   "pos": "동사",
+   "ko": "보여줘요 (show의 3인칭)"
+  },
+  "touch": {
+   "pos": "동사",
+   "ko": "만지다, 닿다"
+  },
+  "skin": {
+   "pos": "명사",
+   "ko": "껍질, 살갗"
+  },
+  "sun": {
+   "pos": "명사",
+   "ko": "해, 햇살"
+  },
+  "covered": {
+   "pos": "동사",
+   "ko": "덮여 있는 (cover의 과거분사)"
+  },
+  "soft": {
+   "pos": "형용사",
+   "ko": "부드러운"
+  },
+  "fuzz": {
+   "pos": "명사",
+   "ko": "솜털"
+  },
+  "being": {
+   "pos": "동사",
+   "ko": "~하고 있는 (be의 진행형)"
+  },
+  "sweetest": {
+   "pos": "형용사",
+   "ko": "가장 달콤한 (sweet의 최상급)"
+  },
+  "feels": {
+   "pos": "동사",
+   "ko": "~한 느낌이에요 (feel의 3인칭)"
+  },
+  "last": {
+   "pos": "동사",
+   "ko": "오래가다, 남아 있다"
+  },
+  "taste": {
+   "pos": "동사",
+   "ko": "맛보다"
+  },
+  "juice": {
+   "pos": "명사",
+   "ko": "즙, 과즙"
+  },
+  "runs": {
+   "pos": "동사",
+   "ko": "흘러내려요 (run의 3인칭)"
+  },
+  "chin": {
+   "pos": "명사",
+   "ko": "턱"
+  },
+  "messy": {
+   "pos": "형용사",
+   "ko": "지저분해지는, 흘리게 되는"
+  },
+  "points": {
+   "pos": "동사",
+   "ko": "가리켜요 (point의 3인칭)"
+  },
+  "grow": {
+   "pos": "동사",
+   "ko": "자라다, 열리다"
+  },
+  "highest": {
+   "pos": "형용사",
+   "ko": "가장 높은 (high의 최상급)"
+  },
+  "high": {
+   "pos": "부사",
+   "ko": "높이, 높은 곳까지"
+  },
+  "branch": {
+   "pos": "명사",
+   "ko": "나뭇가지"
+  },
+  "branches": {
+   "pos": "명사",
+   "ko": "나뭇가지들"
+  },
+  "most": {
+   "pos": "형용사",
+   "ko": "대부분의"
+  },
+  "reach": {
+   "pos": "동사",
+   "ko": "닿다, 손을 뻗다"
+  },
+  "climb": {
+   "pos": "동사",
+   "ko": "오르다 (명사로는 '오르는 일')"
+  },
+  "ladder": {
+   "pos": "명사",
+   "ko": "사다리"
+  },
+  "top": {
+   "pos": "명사",
+   "ko": "꼭대기"
+  },
+  "roundest": {
+   "pos": "형용사",
+   "ko": "가장 둥근 (round의 최상급)"
+  },
+  "fill": {
+   "pos": "동사",
+   "ko": "채우다"
+  },
+  "until": {
+   "pos": "접속사",
+   "ko": "~할 때까지"
+  },
+  "overflows": {
+   "pos": "동사",
+   "ko": "넘쳐흘러요 (overflow의 3인칭)"
+  },
+  "overflow": {
+   "pos": "동사",
+   "ko": "넘치다"
+  },
+  "men": {
+   "pos": "명사",
+   "ko": "남자들 (man의 복수형)"
+  },
+  "did": {
+   "pos": "동사",
+   "ko": "했어요 (do의 과거형)"
+  },
+  "asks": {
+   "pos": "동사",
+   "ko": "물어요 (ask의 3인칭)"
+  },
+  "why": {
+   "pos": "부사",
+   "ko": "왜"
+  },
+  "love": {
+   "pos": "동사",
+   "ko": "사랑하다, 아주 좋아하다"
+  },
+  "smell": {
+   "pos": "명사",
+   "ko": "냄새, 향기 (동사: 냄새가 나다)"
+  },
+  "some": {
+   "pos": "형용사",
+   "ko": "어떤, 몇몇의"
+  },
+  "worth": {
+   "pos": "형용사",
+   "ko": "~할 가치가 있는"
+  },
+  "news": {
+   "pos": "명사",
+   "ko": "소식"
+  },
+  "ground": {
+   "pos": "명사",
+   "ko": "땅"
+  },
+  "promised": {
+   "pos": "동사",
+   "ko": "약속했어요 (promise의 과거형)"
+  },
+  "hardest": {
+   "pos": "형용사",
+   "ko": "가장 열심인 (hard의 최상급)"
+  },
+  "worker": {
+   "pos": "명사",
+   "ko": "일꾼"
+  },
+  "greets": {
+   "pos": "동사",
+   "ko": "맞이해요 (greet의 3인칭)"
+  },
+  "knowing": {
+   "pos": "형용사",
+   "ko": "다 안다는 듯한"
+  },
+  "perfectly": {
+   "pos": "부사",
+   "ko": "완벽하게"
+  },
+  "season": {
+   "pos": "명사",
+   "ko": "계절, 철"
+  },
+  "approvingly": {
+   "pos": "부사",
+   "ko": "흐뭇하다는 듯"
+  },
+  "rarest": {
+   "pos": "형용사",
+   "ko": "가장 귀한 (rare의 최상급)"
+  },
+  "itself": {
+   "pos": "대명사",
+   "ko": "그것 스스로"
+  },
+  "simply": {
+   "pos": "부사",
+   "ko": "그저, 단지"
+  },
+  "leads": {
+   "pos": "동사",
+   "ko": "데려가요, 이끌어요 (lead의 3인칭)"
+  },
+  "instructs": {
+   "pos": "동사",
+   "ko": "알려줘요, 가르쳐줘요 (instruct의 3인칭)"
+  },
+  "afternoon": {
+   "pos": "명사",
+   "ko": "오후"
+  },
+  "softest": {
+   "pos": "형용사",
+   "ko": "가장 부드러운 (soft의 최상급)"
+  },
+  "seems": {
+   "pos": "동사",
+   "ko": "~처럼 보여요 (seem의 3인칭)"
+  },
+  "rest": {
+   "pos": "동사",
+   "ko": "머물다, 가만히 놓이다"
+  },
+  "gently": {
+   "pos": "부사",
+   "ko": "부드럽게, 살살"
+  },
+  "patient": {
+   "pos": "형용사",
+   "ko": "참을성 있는, 느긋한"
+  },
+  "find": {
+   "pos": "동사",
+   "ko": "찾다, 찾아내다"
+  },
+  "stay": {
+   "pos": "동사",
+   "ko": "머무르다, 남아 있다"
+  },
+  "tallest": {
+   "pos": "형용사",
+   "ko": "가장 키가 큰 (tall의 최상급)"
+  },
+  "where": {
+   "pos": "부사",
+   "ko": "~하는 곳 (관계부사)"
+  },
+  "bother": {
+   "pos": "동사",
+   "ko": "굳이 ~하려 하다, 애쓰다"
+  },
+  "hang": {
+   "pos": "동사",
+   "ko": "매달리다, 열려 있다"
+  },
+  "however": {
+   "pos": "부사",
+   "ko": "하지만, 그러나"
+  },
+  "things": {
+   "pos": "명사",
+   "ko": "것들, 말들"
+  },
+  "beside": {
+   "pos": "전치사",
+   "ko": "~옆에서"
+  },
+  "threatens": {
+   "pos": "동사",
+   "ko": "금방이라도 ~할 것 같아요 (threaten의 3인칭)"
+  },
+  "understand": {
+   "pos": "동사",
+   "ko": "이해하다"
+  },
+  "lingers": {
+   "pos": "동사",
+   "ko": "은은하게 남아 있어요 (linger의 3인칭)"
+  }
+ },
+ "wink": {
+  "peach": "영어에서 peach는 '매력적인 사람'을 가리키는 오래된 은어이기도 해요.",
+  "peaches": "영어에서 peach는 '매력적인 사람'을 가리키는 오래된 은어이기도 해요.",
+  "ripe": "'무르익었다'는 말, 꼭 과일에만 쓰는 건 아니죠.",
+  "squeeze": "살짝 쥐어보면 안다는 것 — 꼭 과일 고르는 이야기만은 아닌 것처럼 들릴 수 있어요.",
+  "fuzz": "복숭아 솜털 이야기지만, 보드라운 살결 묘사로도 읽힐 수 있어요.",
+  "soft": "잘 익어 부드러운 것부터 먼저 없어진다 — 임자가 금방 나타난다는 말로도 들려요.",
+  "juice": "즙이 턱을 타고 흐른다는 표현은… 다른 장면에도 어울리는 말이죠.",
+  "messy": "'좋은 건 원래 좀 흘리게 된다'는 말에 어른들은 다르게 웃을 수 있어요.",
+  "climb": "'제일 좋은 건 제일 높은 가지에 있다'는 말 — 과일 얘기가 아니라 Peach 부인 자기 얘기로 들릴 수도 있어요.",
+  "overflows": "바구니가 넘친다는 건, 넘치도록 만족스러웠다는 뜻으로도 읽혀요.",
+  "overflow": "바구니가 넘친다는 건, 넘치도록 만족스러웠다는 뜻으로도 읽혀요."
+ }
+}

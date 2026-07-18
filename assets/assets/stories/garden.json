@@ -1,0 +1,217 @@
+{
+ "id": "garden",
+ "title": "The Secret Garden of Mrs. Rose",
+ "badge": "A2+ · 표현 주의",
+ "introKo": "이웃집 Rose 부인의 정원 일을 돕는 아주 건전한 이야기.\n…표면적으로는요. 단어를 탭하면 속뜻이 보여요.",
+ "adult": true,
+ "minLevel": 5,
+ "quiz": {
+  "q": "Rose 부인이 기르는, 마을에서 가장 큰 것은?",
+  "options": [
+   "토마토",
+   "가지",
+   "호박"
+  ],
+  "answer": 1
+ },
+ "scripts": {
+  "normal": [
+   {
+    "type": "text",
+    "text": "Spring comes to the village. Your neighbor, Mrs. Rose, loves her garden very much.",
+    "art": "village"
+   },
+   {
+    "type": "text",
+    "text": "People say she grows the biggest eggplants in town. Today, she calls you over the fence.",
+    "art": "fence_eggplant"
+   },
+   {
+    "type": "text",
+    "text": "\"My garden is hungry,\" she says. \"I need strong hands. Can you help me this morning?\"",
+    "art": "garden_help"
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 답할까요?",
+    "options": [
+     {
+      "en": "Sure! I'm good with my hands.",
+      "ko": "그럼요! 제가 손재주가 좀 있어요.",
+      "reaction": "\"Wonderful,\" she smiles. \"I can see that.\""
+     },
+     {
+      "en": "Okay, but I've never done this before.",
+      "ko": "네, 근데 처음이라서요.",
+      "reaction": "\"Don't worry,\" she smiles. \"I will teach you everything. Everyone has a first time.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "First, you dig a small hole. \"Deeper,\" Mrs. Rose says. \"Don't be shy. The seed needs a deep, warm bed.\"",
+    "art": "dig_hole"
+   },
+   {
+    "type": "text",
+    "text": "\"Now water it well. A dry garden is a sad garden. Everything works better when the soil is wet.\"",
+    "art": "watering"
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "Like this? Am I doing it right?",
+      "ko": "이렇게요? 제대로 하고 있나요?",
+      "reaction": "\"Perfect. Slow and gentle,\" she says. \"You are a natural.\""
+     },
+     {
+      "en": "How much water is too much?",
+      "ko": "물이 얼마나 많으면 너무 많은 거예요?",
+      "reaction": "\"Oh, honey,\" she laughs. \"In my garden, there is no such thing as too wet.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "Next, the zucchini. You hold it carefully. It is long and surprisingly heavy.",
+    "art": "zucchini"
+   },
+   {
+    "type": "text",
+    "text": "\"What a big one!\" Mrs. Rose says. \"Size is not everything — but it never hurts.\""
+   },
+   {
+    "type": "text",
+    "text": "You pick two round melons and put them in the basket. \"Careful,\" she says. \"Squeeze them softly to see if they are ripe.\"",
+    "art": "melons"
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "Your garden is amazing, Mrs. Rose.",
+      "ko": "정원이 정말 대단해요.",
+      "reaction": "\"Thank you, dear. My husband never watered it enough. Now look at it.\""
+     },
+     {
+      "en": "I should garden more often.",
+      "ko": "저도 정원 일을 자주 해야겠어요.",
+      "reaction": "\"You should! Gardening is like riding a bicycle — once you learn, your body never forgets.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "You go home with a basket of vegetables. Your body is tired, but your heart is full.",
+    "art": "harvest_home"
+   },
+   {
+    "type": "text",
+    "text": "That night, you sleep very well. Gardening, you think, is the best exercise in the world.",
+    "art": "night"
+   }
+  ],
+  "hard": [
+   {
+    "type": "text",
+    "text": "Spring settles over the village, and no one welcomes it more eagerly than your neighbor, Mrs. Rose, whose garden is her pride and joy.",
+    "art": "village"
+   },
+   {
+    "type": "text",
+    "text": "People around town swear she grows the biggest eggplants for miles. Today she waves you over the fence with a meaningful smile.",
+    "art": "fence_eggplant"
+   },
+   {
+    "type": "text",
+    "text": "\"My garden has been terribly neglected,\" she sighs. \"I could use a pair of strong hands. Would you spare me your morning?\"",
+    "art": "garden_help"
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 답할까요?",
+    "options": [
+     {
+      "en": "Sure! I have always been good with my hands.",
+      "ko": "그럼요! 저 원래 손재주가 좋아요.",
+      "reaction": "\"Wonderful,\" she smiles. \"Somehow I knew you would be.\""
+     },
+     {
+      "en": "Okay, but I have never done this before.",
+      "ko": "네, 근데 처음이라서요.",
+      "reaction": "\"Don't you worry,\" she smiles. \"I will walk you through everything. Everyone has a first time.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "First you dig a hole. \"Deeper,\" Mrs. Rose insists. \"Don't be shy about it. The seed deserves a deep, warm bed.\"",
+    "art": "dig_hole"
+   },
+   {
+    "type": "text",
+    "text": "\"Now water it generously. A dry garden is a miserable garden. Everything performs better once the soil is properly wet.\"",
+    "art": "watering"
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "Like this? Am I doing it right?",
+      "ko": "이렇게요? 제대로 하고 있나요?",
+      "reaction": "\"Perfect. Slow and gentle,\" she murmurs. \"You are a natural at this.\""
+     },
+     {
+      "en": "How much water would be too much?",
+      "ko": "물이 얼마나 많으면 너무 많은 걸까요?",
+      "reaction": "\"Oh, honey,\" she laughs. \"In my garden, no such thing has ever existed.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "Next comes the zucchini. You lift it carefully; it is remarkably long and surprisingly heavy in your hands.",
+    "art": "zucchini"
+   },
+   {
+    "type": "text",
+    "text": "\"My, what a big one!\" Mrs. Rose exclaims. \"Size is not everything, of course — though it certainly never hurts.\""
+   },
+   {
+    "type": "text",
+    "text": "You gather two round melons and settle them in the basket. \"Careful now,\" she warns. \"Give them a gentle squeeze to see whether they are ripe.\"",
+    "art": "melons"
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "Your garden is truly amazing, Mrs. Rose.",
+      "ko": "정원이 정말 대단해요.",
+      "reaction": "\"Thank you, dear. My husband never watered it nearly enough. And now look at it.\""
+     },
+     {
+      "en": "I really should garden more often.",
+      "ko": "저도 정원 일을 자주 해야겠어요.",
+      "reaction": "\"You should! Gardening is like riding a bicycle — once you learn, the body never forgets.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "You head home with a basket of vegetables, arms tired but heart full.",
+    "art": "harvest_home"
+   },
+   {
+    "type": "text",
+    "text": "That night you sleep wonderfully well. Gardening, you decide, is the finest exercise in the world.",
+    "art": "night"
+   }
+  ]
+ }
+}

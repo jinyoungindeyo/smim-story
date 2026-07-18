@@ -1,0 +1,738 @@
+{
+ "id": "dance",
+ "title": "The Tango Lesson",
+ "badge": "A2+ · 표현 주의",
+ "introKo": "동네 문화센터에서 배우는 아주 건전한 탱고 강습 이야기.\n…표면적으로는요. 단어를 탭하면 속뜻이 보여요.",
+ "adult": true,
+ "minLevel": 5,
+ "quiz": {
+  "q": "Carlos는 탱고가 두 몸이 나누는 무엇이라고 했나요?",
+  "options": [
+   "대화",
+   "시합",
+   "숙제"
+  ],
+  "answer": 0
+ },
+ "scripts": {
+  "normal": [
+   {
+    "type": "text",
+    "text": "Friday evening. You walk into the community center for your first tango class. The teacher, Carlos, waits in the middle of the room.",
+    "art": "dance_hall"
+   },
+   {
+    "type": "text",
+    "text": "\"Welcome,\" he says. \"Tango is a conversation between two bodies. Tonight, you will learn to listen.\""
+   },
+   {
+    "type": "text",
+    "text": "He takes your hand. \"First, the hold. Come closer. Closer. In tango, there is no polite distance.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 답할까요?",
+    "options": [
+     {
+      "en": "Like this? Is this close enough?",
+      "ko": "이렇게요? 이 정도면 돼요?",
+      "reaction": "\"Closer,\" he says. \"When you can feel your partner breathe, you are ready.\""
+     },
+     {
+      "en": "Okay, but I'm a little nervous.",
+      "ko": "네, 근데 사실 좀 긴장돼요.",
+      "reaction": "\"Good,\" he smiles. \"The body dances better when the heart beats fast.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "\"My hand goes here,\" he says, and places it on your waist. \"Firm, but gentle. You must trust the hand that holds you.\""
+   },
+   {
+    "type": "text",
+    "text": "\"Now the lead. I lead, you follow. Do not think. Feel my body, and let yours answer.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "How do I know where you want me to go?",
+      "ko": "어디로 가야 하는지 어떻게 알아요?",
+      "reaction": "\"You will feel it,\" he says. \"My body will tell yours. Words are not needed.\""
+     },
+     {
+      "en": "What if I make a mistake?",
+      "ko": "실수하면 어떡해요?",
+      "reaction": "\"In tango there are no mistakes,\" he says. \"Only moves we did not plan.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "You walk together across the floor. Step, step, pause. Slowly, your two bodies find one rhythm.",
+    "art": "dance_hold"
+   },
+   {
+    "type": "text",
+    "text": "\"Now hook your leg around mine,\" Carlos says. \"Slowly. Yes — let them tangle. Do not hurry out of it.\""
+   },
+   {
+    "type": "text",
+    "text": "The music slows. Your face is warm. \"Good,\" Carlos says. \"A cold dancer makes a cold tango. Heat is part of the dance.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "Can we try the ending?",
+      "ko": "마지막 동작 해봐도 돼요?",
+      "reaction": "\"Ah, the dip,\" he smiles. \"Beginners always rush to the ending. The good ones learn to take their time.\""
+     },
+     {
+      "en": "I don't want this song to end.",
+      "ko": "이 노래가 안 끝났으면 좋겠어요.",
+      "reaction": "\"Everyone says that on the first night,\" he laughs. \"Tango does that to people.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "For the last move, Carlos dips you low and holds you there. \"Give me your weight. I have you. Stay — I could hold this all night, but the music, sadly, cannot.\"",
+    "art": "dance_dip"
+   },
+   {
+    "type": "text",
+    "text": "You walk home with tired legs and a busy heart. Next week feels very far away. Once tango is in your body, it never leaves."
+   }
+  ],
+  "hard": [
+   {
+    "type": "text",
+    "text": "It is Friday evening, and you push open the door of the community center, where your first tango class is about to begin. The teacher, Carlos, is waiting in the middle of the room.",
+    "art": "dance_hall"
+   },
+   {
+    "type": "text",
+    "text": "\"Welcome,\" he says with a small smile. \"Tango is a conversation between two bodies. Tonight I will teach you how to listen.\""
+   },
+   {
+    "type": "text",
+    "text": "He offers his hand, and you take it without thinking twice. \"First, the hold. Come closer. Closer still. Tango is not a dance that respects polite distance.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 답할까요?",
+    "options": [
+     {
+      "en": "Like this? Is this close enough for you?",
+      "ko": "이렇게요? 이 정도면 돼요?",
+      "reaction": "\"Closer,\" he says. \"When you can feel your partner breathe, then you are ready to begin.\""
+     },
+     {
+      "en": "Okay, but I have to admit I'm a little nervous.",
+      "ko": "네, 근데 사실 좀 긴장돼요.",
+      "reaction": "\"Good,\" he smiles. \"The body always dances better when the heart is beating fast.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "\"My hand belongs here,\" he says, settling it on your waist. \"Firm, but gentle. You must learn to trust the hand that holds you.\""
+   },
+   {
+    "type": "text",
+    "text": "\"Now the lead. I lead, and you follow. Do not think about the steps. Feel what my body is saying, and let yours answer.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "How am I supposed to know where you want me to go?",
+      "ko": "어디로 가야 하는지 어떻게 알아요?",
+      "reaction": "\"You will feel it,\" he says. \"My body will tell yours everything. Words are rarely needed.\""
+     },
+     {
+      "en": "What happens if I make a mistake?",
+      "ko": "실수하면 어떡해요?",
+      "reaction": "\"In tango there are no mistakes,\" he says, \"only moves that nobody planned.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "You move together across the floor. Step, step, pause. Little by little, your two bodies settle into a single rhythm.",
+    "art": "dance_hold"
+   },
+   {
+    "type": "text",
+    "text": "\"Now hook your leg around mine,\" Carlos says. \"Slowly. Yes — let them tangle properly. Do not be in a hurry to untangle them.\""
+   },
+   {
+    "type": "text",
+    "text": "The music slows, and you notice that your face is burning. \"Good,\" Carlos says. \"A cold dancer makes a cold tango. Heat is part of the dance.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "Could we try the ending together?",
+      "ko": "마지막 동작 해봐도 돼요?",
+      "reaction": "\"Ah, the dip,\" he smiles. \"Beginners are always in a hurry to reach the ending. The good ones take their time.\""
+     },
+     {
+      "en": "Honestly, I don't want this song to end.",
+      "ko": "솔직히 이 노래가 안 끝났으면 좋겠어요.",
+      "reaction": "\"Everyone says that on their first night,\" he laughs. \"Tango has that effect on people.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "For the final move, Carlos dips you low and holds you there. \"Give me all your weight. I have you. Stay — I could hold this all night, but sadly, the music cannot.\"",
+    "art": "dance_dip"
+   },
+   {
+    "type": "text",
+    "text": "You walk home on legs that no longer feel like yours, with a heart that refuses to slow down. Next week seems terribly far away. Once tango is in your body, it never leaves."
+   }
+  ]
+ },
+ "dict": {
+  "friday": {
+   "pos": "명사",
+   "ko": "금요일"
+  },
+  "evening": {
+   "pos": "명사",
+   "ko": "저녁"
+  },
+  "community": {
+   "pos": "명사",
+   "ko": "지역 사회, 공동체 (community center: 문화센터)"
+  },
+  "center": {
+   "pos": "명사",
+   "ko": "센터, 회관"
+  },
+  "tango": {
+   "pos": "명사",
+   "ko": "탱고"
+  },
+  "class": {
+   "pos": "명사",
+   "ko": "수업, 강습"
+  },
+  "teacher": {
+   "pos": "명사",
+   "ko": "선생님, 강사"
+  },
+  "carlos": {
+   "pos": "고유명사",
+   "ko": "카를로스 (탱고 강사 이름)"
+  },
+  "middle": {
+   "pos": "명사",
+   "ko": "한가운데"
+  },
+  "welcome": {
+   "pos": "감탄사",
+   "ko": "환영해요, 어서 오세요"
+  },
+  "conversation": {
+   "pos": "명사",
+   "ko": "대화"
+  },
+  "between": {
+   "pos": "전치사",
+   "ko": "~ 사이의"
+  },
+  "bodies": {
+   "pos": "명사",
+   "ko": "몸 (body의 복수형)"
+  },
+  "tonight": {
+   "pos": "부사",
+   "ko": "오늘 밤"
+  },
+  "listen": {
+   "pos": "동사",
+   "ko": "귀 기울이다"
+  },
+  "takes": {
+   "pos": "동사",
+   "ko": "(손을) 잡다"
+  },
+  "polite": {
+   "pos": "형용사",
+   "ko": "예의 바른, 점잖은"
+  },
+  "distance": {
+   "pos": "명사",
+   "ko": "거리, 간격"
+  },
+  "feel": {
+   "pos": "동사",
+   "ko": "느끼다"
+  },
+  "feels": {
+   "pos": "동사",
+   "ko": "~하게 느껴지다"
+  },
+  "partner": {
+   "pos": "명사",
+   "ko": "파트너, 짝"
+  },
+  "breathe": {
+   "pos": "동사",
+   "ko": "숨 쉬다"
+  },
+  "ready": {
+   "pos": "형용사",
+   "ko": "준비된"
+  },
+  "nervous": {
+   "pos": "형용사",
+   "ko": "긴장한"
+  },
+  "admit": {
+   "pos": "동사",
+   "ko": "인정하다, 솔직히 말하다"
+  },
+  "dances": {
+   "pos": "동사",
+   "ko": "춤추다"
+  },
+  "beats": {
+   "pos": "동사",
+   "ko": "(심장이) 뛰다"
+  },
+  "beating": {
+   "pos": "동사",
+   "ko": "뛰고 있는 (beat의 -ing형)"
+  },
+  "fast": {
+   "pos": "부사",
+   "ko": "빠르게"
+  },
+  "places": {
+   "pos": "동사",
+   "ko": "(가만히) 놓다"
+  },
+  "belongs": {
+   "pos": "동사",
+   "ko": "제자리가 ~이다, 속하다"
+  },
+  "settling": {
+   "pos": "동사",
+   "ko": "가만히 얹는 (settle의 -ing형)"
+  },
+  "waist": {
+   "pos": "명사",
+   "ko": "허리"
+  },
+  "firm": {
+   "pos": "형용사",
+   "ko": "단단한, 흔들림 없는"
+  },
+  "must": {
+   "pos": "조동사",
+   "ko": "~해야 하다"
+  },
+  "trust": {
+   "pos": "동사",
+   "ko": "믿다, 맡기다"
+  },
+  "lead": {
+   "pos": "동사",
+   "ko": "이끌다, 리드하다 (명사: 리드)"
+  },
+  "follow": {
+   "pos": "동사",
+   "ko": "따라가다"
+  },
+  "do": {
+   "pos": "조동사",
+   "ko": "(부정문·의문문을 만드는) do"
+  },
+  "let": {
+   "pos": "동사",
+   "ko": "~하게 두다"
+  },
+  "yours": {
+   "pos": "대명사",
+   "ko": "너의 것, 너의 몸"
+  },
+  "answer": {
+   "pos": "동사",
+   "ko": "답하다, 응답하다"
+  },
+  "steps": {
+   "pos": "명사",
+   "ko": "스텝, 발걸음"
+  },
+  "saying": {
+   "pos": "동사",
+   "ko": "말하는 (say의 -ing형)"
+  },
+  "know": {
+   "pos": "동사",
+   "ko": "알다"
+  },
+  "where": {
+   "pos": "부사",
+   "ko": "어디로, 어디에"
+  },
+  "want": {
+   "pos": "동사",
+   "ko": "원하다"
+  },
+  "supposed": {
+   "pos": "형용사",
+   "ko": "~하기로 되어 있는 (be supposed to)"
+  },
+  "tell": {
+   "pos": "동사",
+   "ko": "말해 주다, 알려 주다"
+  },
+  "words": {
+   "pos": "명사",
+   "ko": "말 (word의 복수형)"
+  },
+  "needed": {
+   "pos": "동사",
+   "ko": "필요하다 (need의 과거분사)"
+  },
+  "rarely": {
+   "pos": "부사",
+   "ko": "좀처럼 ~ 않다"
+  },
+  "make": {
+   "pos": "동사",
+   "ko": "(실수를) 하다, 만들다"
+  },
+  "makes": {
+   "pos": "동사",
+   "ko": "만들다"
+  },
+  "mistake": {
+   "pos": "명사",
+   "ko": "실수"
+  },
+  "mistakes": {
+   "pos": "명사",
+   "ko": "실수 (복수형)"
+  },
+  "only": {
+   "pos": "부사",
+   "ko": "오직, ~만"
+  },
+  "move": {
+   "pos": "명사",
+   "ko": "동작 (동사로는 '움직이다')"
+  },
+  "moves": {
+   "pos": "명사",
+   "ko": "동작들"
+  },
+  "we": {
+   "pos": "대명사",
+   "ko": "우리"
+  },
+  "did": {
+   "pos": "동사",
+   "ko": "do의 과거형"
+  },
+  "plan": {
+   "pos": "동사",
+   "ko": "계획하다"
+  },
+  "planned": {
+   "pos": "동사",
+   "ko": "계획하다 (plan의 과거분사)"
+  },
+  "happens": {
+   "pos": "동사",
+   "ko": "일어나다, 생기다"
+  },
+  "nobody": {
+   "pos": "대명사",
+   "ko": "아무도 ~ 않다"
+  },
+  "across": {
+   "pos": "전치사",
+   "ko": "~을 가로질러"
+  },
+  "floor": {
+   "pos": "명사",
+   "ko": "바닥, 플로어"
+  },
+  "pause": {
+   "pos": "명사",
+   "ko": "멈춤, 정지"
+  },
+  "slowly": {
+   "pos": "부사",
+   "ko": "천천히"
+  },
+  "find": {
+   "pos": "동사",
+   "ko": "찾다, 찾아내다"
+  },
+  "single": {
+   "pos": "형용사",
+   "ko": "단 하나의"
+  },
+  "rhythm": {
+   "pos": "명사",
+   "ko": "리듬, 박자"
+  },
+  "hook": {
+   "pos": "동사",
+   "ko": "걸다, 감다"
+  },
+  "leg": {
+   "pos": "명사",
+   "ko": "다리"
+  },
+  "legs": {
+   "pos": "명사",
+   "ko": "다리 (복수형)"
+  },
+  "mine": {
+   "pos": "대명사",
+   "ko": "내 것, 내 다리"
+  },
+  "yes": {
+   "pos": "감탄사",
+   "ko": "네, 그래요"
+  },
+  "tangle": {
+   "pos": "동사",
+   "ko": "엉키다"
+  },
+  "untangle": {
+   "pos": "동사",
+   "ko": "(엉킨 것을) 풀다"
+  },
+  "out": {
+   "pos": "부사",
+   "ko": "밖으로, 빠져나와"
+  },
+  "music": {
+   "pos": "명사",
+   "ko": "음악"
+  },
+  "slows": {
+   "pos": "동사",
+   "ko": "느려지다"
+  },
+  "notice": {
+   "pos": "동사",
+   "ko": "알아차리다"
+  },
+  "face": {
+   "pos": "명사",
+   "ko": "얼굴"
+  },
+  "burning": {
+   "pos": "형용사",
+   "ko": "화끈거리는, 달아오른"
+  },
+  "dancer": {
+   "pos": "명사",
+   "ko": "춤추는 사람"
+  },
+  "heat": {
+   "pos": "명사",
+   "ko": "열기"
+  },
+  "part": {
+   "pos": "명사",
+   "ko": "부분, 일부"
+  },
+  "dance": {
+   "pos": "명사",
+   "ko": "춤"
+  },
+  "try": {
+   "pos": "동사",
+   "ko": "해 보다, 시도하다"
+  },
+  "ending": {
+   "pos": "명사",
+   "ko": "마무리 동작, 결말"
+  },
+  "ah": {
+   "pos": "감탄사",
+   "ko": "아"
+  },
+  "dip": {
+   "pos": "명사",
+   "ko": "딥 (상대를 뒤로 깊게 눕히는 동작)"
+  },
+  "dips": {
+   "pos": "동사",
+   "ko": "(몸을) 뒤로 깊게 기울이다"
+  },
+  "favorite": {
+   "pos": "형용사",
+   "ko": "가장 좋아하는"
+  },
+  "honestly": {
+   "pos": "부사",
+   "ko": "솔직히"
+  },
+  "song": {
+   "pos": "명사",
+   "ko": "노래, 곡"
+  },
+  "end": {
+   "pos": "동사",
+   "ko": "끝나다"
+  },
+  "does": {
+   "pos": "동사",
+   "ko": "do의 3인칭 단수형"
+  },
+  "their": {
+   "pos": "한정사",
+   "ko": "그들의, 각자의"
+  },
+  "effect": {
+   "pos": "명사",
+   "ko": "효과, 영향"
+  },
+  "last": {
+   "pos": "형용사",
+   "ko": "마지막의"
+  },
+  "final": {
+   "pos": "형용사",
+   "ko": "마지막의, 최종의"
+  },
+  "low": {
+   "pos": "부사",
+   "ko": "낮게"
+  },
+  "longer": {
+   "pos": "부사",
+   "ko": "더 오래 (no longer: 더 이상 ~ 않다)"
+  },
+  "asks": {
+   "pos": "동사",
+   "ko": "요구하다, 청하다"
+  },
+  "weight": {
+   "pos": "명사",
+   "ko": "몸무게, 무게"
+  },
+  "stay": {
+   "pos": "동사",
+   "ko": "머무르다, 그대로 있다"
+  },
+  "sweetest": {
+   "pos": "형용사",
+   "ko": "가장 달콤한 (sweet의 최상급)"
+  },
+  "busy": {
+   "pos": "형용사",
+   "ko": "(마음이) 분주한, 바쁜"
+  },
+  "week": {
+   "pos": "명사",
+   "ko": "주, 일주일"
+  },
+  "far": {
+   "pos": "부사",
+   "ko": "멀리"
+  },
+  "refuses": {
+   "pos": "동사",
+   "ko": "거부하다, ~하려 들지 않다"
+  },
+  "seems": {
+   "pos": "동사",
+   "ko": "~처럼 보이다"
+  },
+  "push": {
+   "pos": "동사",
+   "ko": "밀다"
+  },
+  "open": {
+   "pos": "동사",
+   "ko": "열다"
+  },
+  "begin": {
+   "pos": "동사",
+   "ko": "시작하다"
+  },
+  "asking": {
+   "pos": "동사",
+   "ko": "묻기 (ask의 -ing형)"
+  },
+  "twice": {
+   "pos": "부사",
+   "ko": "두 번"
+  },
+  "respects": {
+   "pos": "동사",
+   "ko": "존중하다"
+  },
+  "offers": {
+   "pos": "동사",
+   "ko": "내밀다, 권하다"
+  },
+  "thinking": {
+   "pos": "동사",
+   "ko": "생각하기 (think의 -ing형)"
+  },
+  "beginners": {
+   "pos": "명사",
+   "ko": "초보자 (beginner의 복수형)"
+  },
+  "rush": {
+   "pos": "동사",
+   "ko": "서두르다, 급히 가다"
+  },
+  "reach": {
+   "pos": "동사",
+   "ko": "도달하다, 이르다"
+  },
+  "ones": {
+   "pos": "대명사",
+   "ko": "~한 사람들 (the good ones: 잘하는 사람들)"
+  },
+  "sadly": {
+   "pos": "부사",
+   "ko": "아쉽게도, 슬프게도"
+  },
+  "cannot": {
+   "pos": "조동사",
+   "ko": "~할 수 없다 (can not)"
+  },
+  "found": {
+   "pos": "동사",
+   "ko": "찾다 (find의 과거형)"
+  },
+  "our": {
+   "pos": "한정사",
+   "ko": "우리의"
+  }
+ },
+ "wink": {
+  "hold": "탱고 기본 자세의 정식 명칭이에요. 수업 밖에서 이 단어는 그냥 '안는 것'이라, 어느 쪽 수업이었는지는 억양이 결정하죠.",
+  "closer": "'더 가까이'라는 춤 지시어예요. 반복해서 들으면 춤 얘기가 아닌 것처럼 들리기 시작하죠.",
+  "lead": "춤에서 방향을 이끄는 역할이에요. 둘 사이의 주도권 얘기로도 읽힐 수 있고요.",
+  "follow": "리드를 따라간다는 춤 용어예요. 몸을 상대에게 맡긴다는 뜻으로 들리면… 기분 탓일까요.",
+  "waist": "'허리에 손'은 탱고의 공식 기본 자세예요. 다만 'My hand belongs here'라는 말은, 문맥 없이 들으면 춤 설명처럼 안 들릴 뿐이죠.",
+  "tangle": "다리가 엉키는 정식 탱고 스텝이에요. 문맥 없이 들으면 꽤 다른 장면이 떠오를 수 있죠.",
+  "rhythm": "두 사람이 하나의 박자를 탄다는 춤 용어예요. 'We found our rhythm'은 춤 밖에서도 쓰는 표현인데, 어디서 쓰는지는 각자 아는 만큼만 떠올리기로 해요.",
+  "dip": "상대를 뒤로 깊게 눕히는 마무리 동작이에요. '무게를 다 맡겨요'라는 말과 만나면, 상상은 각자의 몫이에요.",
+  "dips": "상대를 뒤로 깊게 눕히는 마무리 동작이에요. '무게를 다 맡겨요'라는 말과 만나면, 상상은 각자의 몫이에요."
+ }
+}

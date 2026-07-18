@@ -1,0 +1,759 @@
+{
+ "id": "tailor",
+ "title": "The Tailor Shop",
+ "badge": "A2+ · 표현 주의",
+ "introKo": "결혼식 하객 정장을 맞추러 간 양복점, 유난히 꼼꼼한 재단사 Mr. Pin의 이야기.\n…표면적으로는요. 단어를 탭하면 속뜻이 보여요.",
+ "adult": true,
+ "minLevel": 5,
+ "quiz": {
+  "q": "Mr. Pin이 무릎까지 꿇고 잰 것은요?",
+  "options": [
+   "어깨 너비",
+   "안쪽 다리 길이",
+   "목 둘레"
+  ],
+  "answer": 1
+ },
+ "scripts": {
+  "normal": [
+   {
+    "type": "text",
+    "text": "Your best friend is getting married next month. You need a suit, so you visit a small tailor shop on a quiet street.",
+    "art": "tailor_shop"
+   },
+   {
+    "type": "text",
+    "text": "The tailor, Mr. Pin, welcomes you with a warm smile. People say no one in town measures as carefully as he does."
+   },
+   {
+    "type": "text",
+    "text": "\"A wedding suit must fit like a second skin,\" he says. \"Please step up. First, I need to learn your measurements — all of them.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 답할까요?",
+    "options": [
+     {
+      "en": "Sure. It's my first time getting a suit made.",
+      "ko": "네. 정장 맞추는 건 처음이에요.",
+      "reaction": "\"A first time is special,\" he says. \"Relax and leave everything to me.\""
+     },
+     {
+      "en": "Okay. How long will this take?",
+      "ko": "네. 시간이 얼마나 걸릴까요?",
+      "reaction": "\"Good work takes time,\" he smiles. \"I never rush the important parts.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "He wraps his tape measure around your chest, then your waist. \"Breathe out slowly,\" he says. \"Don't hold anything back.\""
+   },
+   {
+    "type": "text",
+    "text": "\"Nice and snug,\" he murmurs, pulling the tape a little closer. \"The tape never lies. Your numbers are very good.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "Is it supposed to be this tight?",
+      "ko": "원래 이렇게 조이는 거예요?",
+      "reaction": "\"Snug is not tight,\" he says. \"A good suit should hold you close all day.\""
+     },
+     {
+      "en": "You are very thorough, Mr. Pin.",
+      "ko": "정말 꼼꼼하시네요.",
+      "reaction": "\"Always,\" he says. \"I take my time with every inch.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "\"Now, the inseam,\" he says, and he kneels in front of you. \"Stand still. This part needs a steady hand.\"",
+    "art": "tailor_measure"
+   },
+   {
+    "type": "text",
+    "text": "He runs the tape up along the inside of your leg. \"Almost done,\" he says. \"Numbers must be honest.\""
+   },
+   {
+    "type": "text",
+    "text": "Then he drapes soft fabric over your shoulders and pins it, piece by piece. \"Hold still,\" he says. \"Feel how it flows over the body.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "The fabric feels wonderful.",
+      "ko": "원단 감촉이 정말 좋네요.",
+      "reaction": "\"It should. Good fabric touches everything and hides nothing.\""
+     },
+     {
+      "en": "Will it be ready before the wedding?",
+      "ko": "결혼식 전까지 될까요?",
+      "reaction": "\"Of course. But come back for a second fitting. The second time is always better than the first.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "At last, he steps back and looks at you in the mirror. \"You see?\" he says. \"By now, this suit knows your body better than you do.\"",
+    "art": "tailor_mirror"
+   },
+   {
+    "type": "text",
+    "text": "On the wedding day, everyone asks where you got your suit. You just smile. Some things stay between you and your tailor."
+   }
+  ],
+  "hard": [
+   {
+    "type": "text",
+    "text": "Your best friend is getting married next month, which means you finally need a proper suit. You find a small tailor shop tucked away on a quiet street.",
+    "art": "tailor_shop"
+   },
+   {
+    "type": "text",
+    "text": "The tailor, Mr. Pin, welcomes you with a knowing smile. People around town swear that nobody takes measurements as carefully as he does."
+   },
+   {
+    "type": "text",
+    "text": "\"A wedding suit must fit like a second skin,\" he declares. \"Step up onto the platform, please. Before anything else, I must learn your measurements — every last one.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 답할까요?",
+    "options": [
+     {
+      "en": "Sure. It's my first time having a suit made.",
+      "ko": "네. 정장 맞추는 건 처음이에요.",
+      "reaction": "\"A first time is always special,\" he says softly. \"Relax, and leave everything in my hands.\""
+     },
+     {
+      "en": "Okay. Roughly how long will this take?",
+      "ko": "네. 대략 얼마나 걸릴까요?",
+      "reaction": "\"Good work cannot be rushed,\" he smiles. \"And I never hurry over the important parts.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "He wraps the tape measure around your chest, then lets it slide down to your waist. \"Breathe out slowly,\" he says. \"Don't hold anything back from me.\""
+   },
+   {
+    "type": "text",
+    "text": "\"Nice and snug,\" he murmurs, drawing the tape a touch closer. \"The tape never lies, and I must say, your numbers are excellent.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "Is it supposed to feel this tight?",
+      "ko": "원래 이렇게 조이는 느낌이에요?",
+      "reaction": "\"Snug is not the same as tight,\" he explains. \"A proper suit should hold you close from morning until night.\""
+     },
+     {
+      "en": "You are remarkably thorough, Mr. Pin.",
+      "ko": "정말 꼼꼼하시네요.",
+      "reaction": "\"Always,\" he says. \"I always take my time with every single inch.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "\"Now for the inseam,\" he says, kneeling down in front of you. \"Stand perfectly still. This particular measurement calls for a steady hand.\"",
+    "art": "tailor_measure"
+   },
+   {
+    "type": "text",
+    "text": "He runs the tape up along the inside of your leg. \"Almost there,\" he says. \"An honest number is worth a little patience.\""
+   },
+   {
+    "type": "text",
+    "text": "Then he drapes soft fabric across your shoulders, pinning it into place piece by piece. \"Hold still,\" he warns. \"Feel how it flows over the body — that is how you judge good fabric.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "The fabric feels absolutely wonderful.",
+      "ko": "원단 감촉이 정말 좋네요.",
+      "reaction": "\"It should. Fine fabric touches everything and hides nothing.\""
+     },
+     {
+      "en": "Will it be finished before the wedding?",
+      "ko": "결혼식 전까지 완성될까요?",
+      "reaction": "\"Naturally. But you must return for a second fitting — the second time is always better than the first.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "At last he steps back and looks at you in the mirror. \"You see?\" he says with quiet pride. \"By the end, the suit knows your body better than you know it yourself.\"",
+    "art": "tailor_mirror"
+   },
+   {
+    "type": "text",
+    "text": "On the wedding day, everyone wants to know where you found such a suit. You simply smile. Some things stay between you and your tailor."
+   }
+  ]
+ },
+ "dict": {
+  "friend": {
+   "pos": "명사",
+   "ko": "친구"
+  },
+  "getting": {
+   "pos": "동사",
+   "ko": "~하게 되다 (get의 -ing형)"
+  },
+  "married": {
+   "pos": "형용사",
+   "ko": "결혼한 (get married: 결혼하다)"
+  },
+  "month": {
+   "pos": "명사",
+   "ko": "달, 월"
+  },
+  "suit": {
+   "pos": "명사",
+   "ko": "정장, 양복"
+  },
+  "visit": {
+   "pos": "동사",
+   "ko": "방문하다, 찾아가다"
+  },
+  "tailor": {
+   "pos": "명사",
+   "ko": "재단사, 양복장이"
+  },
+  "shop": {
+   "pos": "명사",
+   "ko": "가게"
+  },
+  "quiet": {
+   "pos": "형용사",
+   "ko": "조용한"
+  },
+  "street": {
+   "pos": "명사",
+   "ko": "거리, 길"
+  },
+  "mr": {
+   "pos": "명사",
+   "ko": "~씨, ~ 선생 (남성 경칭)"
+  },
+  "pin": {
+   "pos": "명사",
+   "ko": "핀, 시침핀; 핀으로 고정하다 (여기서는 재단사 이름)"
+  },
+  "measures": {
+   "pos": "동사",
+   "ko": "치수를 재다 (3인칭)"
+  },
+  "does": {
+   "pos": "동사",
+   "ko": "하다 (3인칭)"
+  },
+  "wedding": {
+   "pos": "명사",
+   "ko": "결혼식"
+  },
+  "must": {
+   "pos": "조동사",
+   "ko": "~해야 하다, 분명 ~하다"
+  },
+  "fit": {
+   "pos": "동사",
+   "ko": "(몸에 꼭) 맞다; 맞음새, 핏"
+  },
+  "second": {
+   "pos": "형용사",
+   "ko": "두 번째의"
+  },
+  "skin": {
+   "pos": "명사",
+   "ko": "피부, 살갗"
+  },
+  "get": {
+   "pos": "동사",
+   "ko": "얻다, ~하게 되다"
+  },
+  "know": {
+   "pos": "동사",
+   "ko": "알다"
+  },
+  "made": {
+   "pos": "동사",
+   "ko": "만들었다 (make의 과거분사)"
+  },
+  "special": {
+   "pos": "형용사",
+   "ko": "특별한"
+  },
+  "relax": {
+   "pos": "동사",
+   "ko": "긴장을 풀다, 편하게 있다"
+  },
+  "leave": {
+   "pos": "동사",
+   "ko": "맡기다, 남겨 두다"
+  },
+  "work": {
+   "pos": "명사",
+   "ko": "일, 작업"
+  },
+  "takes": {
+   "pos": "동사",
+   "ko": "(시간이) 걸리다; 가져가다 (3인칭)"
+  },
+  "rush": {
+   "pos": "동사",
+   "ko": "서두르다, 재촉하다"
+  },
+  "important": {
+   "pos": "형용사",
+   "ko": "중요한"
+  },
+  "parts": {
+   "pos": "명사",
+   "ko": "부분들"
+  },
+  "wraps": {
+   "pos": "동사",
+   "ko": "감다, 두르다 (3인칭)"
+  },
+  "tape": {
+   "pos": "명사",
+   "ko": "줄자 (tape measure), 테이프"
+  },
+  "measure": {
+   "pos": "명사",
+   "ko": "재는 도구, 자; 재다"
+  },
+  "chest": {
+   "pos": "명사",
+   "ko": "가슴, 흉부"
+  },
+  "waist": {
+   "pos": "명사",
+   "ko": "허리"
+  },
+  "breathe": {
+   "pos": "동사",
+   "ko": "숨 쉬다"
+  },
+  "out": {
+   "pos": "부사",
+   "ko": "밖으로; (breathe out) 내쉬다"
+  },
+  "slowly": {
+   "pos": "부사",
+   "ko": "천천히"
+  },
+  "anything": {
+   "pos": "대명사",
+   "ko": "아무것도, 무엇이든"
+  },
+  "nice": {
+   "pos": "형용사",
+   "ko": "좋은, 괜찮은"
+  },
+  "snug": {
+   "pos": "형용사",
+   "ko": "몸에 딱 붙는, 아늑한"
+  },
+  "pulling": {
+   "pos": "동사",
+   "ko": "당기다 (-ing형)"
+  },
+  "lies": {
+   "pos": "동사",
+   "ko": "거짓말하다 (3인칭)"
+  },
+  "numbers": {
+   "pos": "명사",
+   "ko": "숫자들, 치수"
+  },
+  "number": {
+   "pos": "명사",
+   "ko": "숫자, 치수"
+  },
+  "supposed": {
+   "pos": "형용사",
+   "ko": "(be supposed to) 원래 ~하기로 되어 있는"
+  },
+  "tight": {
+   "pos": "형용사",
+   "ko": "꽉 조이는, 빡빡한"
+  },
+  "thorough": {
+   "pos": "형용사",
+   "ko": "꼼꼼한, 철저한"
+  },
+  "difference": {
+   "pos": "명사",
+   "ko": "차이"
+  },
+  "between": {
+   "pos": "전치사",
+   "ko": "~ 사이에"
+  },
+  "details": {
+   "pos": "명사",
+   "ko": "세부 사항, 디테일"
+  },
+  "inseam": {
+   "pos": "명사",
+   "ko": "안쪽 다리 길이, 바지 안솔기"
+  },
+  "kneels": {
+   "pos": "동사",
+   "ko": "무릎을 꿇다 (3인칭)"
+  },
+  "front": {
+   "pos": "명사",
+   "ko": "앞 (in front of: ~ 앞에)"
+  },
+  "part": {
+   "pos": "명사",
+   "ko": "부분"
+  },
+  "steady": {
+   "pos": "형용사",
+   "ko": "흔들림 없는, 안정된"
+  },
+  "runs": {
+   "pos": "동사",
+   "ko": "(손이나 도구를) 따라 움직이다; 달리다 (3인칭)"
+  },
+  "along": {
+   "pos": "전치사",
+   "ko": "~을 따라"
+  },
+  "inside": {
+   "pos": "명사",
+   "ko": "안쪽"
+  },
+  "leg": {
+   "pos": "명사",
+   "ko": "다리"
+  },
+  "higher": {
+   "pos": "형용사",
+   "ko": "더 높은 (high의 비교급)"
+  },
+  "expected": {
+   "pos": "동사",
+   "ko": "예상했다 (expect의 과거형)"
+  },
+  "asks": {
+   "pos": "동사",
+   "ko": "묻다 (3인칭)"
+  },
+  "honest": {
+   "pos": "형용사",
+   "ko": "정직한, 솔직한"
+  },
+  "drapes": {
+   "pos": "동사",
+   "ko": "(천을) 드리우다, 걸치다 (3인칭)"
+  },
+  "soft": {
+   "pos": "형용사",
+   "ko": "부드러운"
+  },
+  "fabric": {
+   "pos": "명사",
+   "ko": "원단, 천"
+  },
+  "shoulders": {
+   "pos": "명사",
+   "ko": "어깨"
+  },
+  "pins": {
+   "pos": "동사",
+   "ko": "핀으로 고정하다 (3인칭)"
+  },
+  "piece": {
+   "pos": "명사",
+   "ko": "조각 (piece by piece: 한 조각씩)"
+  },
+  "feel": {
+   "pos": "동사",
+   "ko": "느끼다; ~한 느낌이 들다"
+  },
+  "flows": {
+   "pos": "동사",
+   "ko": "흐르다 (3인칭)"
+  },
+  "feels": {
+   "pos": "동사",
+   "ko": "~한 느낌이 나다 (3인칭)"
+  },
+  "touches": {
+   "pos": "동사",
+   "ko": "닿다, 만지다 (3인칭)"
+  },
+  "hides": {
+   "pos": "동사",
+   "ko": "숨기다 (3인칭)"
+  },
+  "ready": {
+   "pos": "형용사",
+   "ko": "준비된, 다 된"
+  },
+  "fitting": {
+   "pos": "명사",
+   "ko": "가봉, 피팅 (옷을 맞춰 보는 일)"
+  },
+  "last": {
+   "pos": "명사",
+   "ko": "마지막 (at last: 마침내)"
+  },
+  "steps": {
+   "pos": "동사",
+   "ko": "걸음을 옮기다 (3인칭)"
+  },
+  "mirror": {
+   "pos": "명사",
+   "ko": "거울"
+  },
+  "knows": {
+   "pos": "동사",
+   "ko": "알다 (3인칭)"
+  },
+  "do": {
+   "pos": "동사",
+   "ko": "하다"
+  },
+  "where": {
+   "pos": "부사",
+   "ko": "어디서, 어디에"
+  },
+  "got": {
+   "pos": "동사",
+   "ko": "얻었다, 샀다 (get의 과거형)"
+  },
+  "some": {
+   "pos": "형용사",
+   "ko": "몇몇의, 어떤"
+  },
+  "things": {
+   "pos": "명사",
+   "ko": "것들, 일들"
+  },
+  "stay": {
+   "pos": "동사",
+   "ko": "머무르다, (비밀로) 남다"
+  },
+  "which": {
+   "pos": "대명사",
+   "ko": "(관계대명사) 그리고 그것은"
+  },
+  "means": {
+   "pos": "동사",
+   "ko": "의미하다 (3인칭)"
+  },
+  "proper": {
+   "pos": "형용사",
+   "ko": "제대로 된"
+  },
+  "find": {
+   "pos": "동사",
+   "ko": "찾다, 발견하다"
+  },
+  "tucked": {
+   "pos": "동사",
+   "ko": "(tucked away) 안쪽에 자리 잡은, 숨어 있는"
+  },
+  "knowing": {
+   "pos": "형용사",
+   "ko": "다 안다는 듯한; 알게 되는 (know의 -ing형)"
+  },
+  "nobody": {
+   "pos": "대명사",
+   "ko": "아무도 ~않다"
+  },
+  "measurements": {
+   "pos": "명사",
+   "ko": "치수, 측정값"
+  },
+  "declares": {
+   "pos": "동사",
+   "ko": "선언하듯 말하다 (3인칭)"
+  },
+  "onto": {
+   "pos": "전치사",
+   "ko": "~ 위로"
+  },
+  "platform": {
+   "pos": "명사",
+   "ko": "단, 받침대"
+  },
+  "else": {
+   "pos": "부사",
+   "ko": "그 밖에, 다른"
+  },
+  "having": {
+   "pos": "동사",
+   "ko": "(have의 -ing형) ~하게 하다"
+  },
+  "roughly": {
+   "pos": "부사",
+   "ko": "대략"
+  },
+  "cannot": {
+   "pos": "조동사",
+   "ko": "~할 수 없다"
+  },
+  "rushed": {
+   "pos": "동사",
+   "ko": "재촉된, 급히 이뤄진 (rush의 과거분사; cannot be rushed: 서두른다고 되는 게 아니다)"
+  },
+  "lets": {
+   "pos": "동사",
+   "ko": "~하게 두다 (3인칭)"
+  },
+  "drawing": {
+   "pos": "동사",
+   "ko": "끌어당기다 (-ing형)"
+  },
+  "touch": {
+   "pos": "명사",
+   "ko": "(a touch) 약간, 조금; 손길"
+  },
+  "excellent": {
+   "pos": "형용사",
+   "ko": "훌륭한, 아주 좋은"
+  },
+  "same": {
+   "pos": "형용사",
+   "ko": "같은"
+  },
+  "explains": {
+   "pos": "동사",
+   "ko": "설명하다 (3인칭)"
+  },
+  "until": {
+   "pos": "전치사",
+   "ko": "~까지"
+  },
+  "lives": {
+   "pos": "동사",
+   "ko": "(~ 안에) 있다, 깃들다 (3인칭)"
+  },
+  "kneeling": {
+   "pos": "동사",
+   "ko": "무릎을 꿇다 (-ing형)"
+  },
+  "perfectly": {
+   "pos": "부사",
+   "ko": "완벽하게, 꼼짝 않고"
+  },
+  "particular": {
+   "pos": "형용사",
+   "ko": "특정한, 바로 이"
+  },
+  "measurement": {
+   "pos": "명사",
+   "ko": "치수, 측정"
+  },
+  "taking": {
+   "pos": "동사",
+   "ko": "(take one's time) 천천히 하다 (-ing형)"
+  },
+  "worth": {
+   "pos": "형용사",
+   "ko": "~할 가치가 있는"
+  },
+  "patience": {
+   "pos": "명사",
+   "ko": "인내심, 참을성"
+  },
+  "across": {
+   "pos": "전치사",
+   "ko": "~을 가로질러, ~ 위로"
+  },
+  "pinning": {
+   "pos": "동사",
+   "ko": "핀으로 고정하다 (-ing형)"
+  },
+  "place": {
+   "pos": "명사",
+   "ko": "자리, 제자리"
+  },
+  "judge": {
+   "pos": "동사",
+   "ko": "판단하다, 가늠하다"
+  },
+  "absolutely": {
+   "pos": "부사",
+   "ko": "정말로, 완전히"
+  },
+  "fine": {
+   "pos": "형용사",
+   "ko": "질 좋은, 고급의"
+  },
+  "finished": {
+   "pos": "동사",
+   "ko": "완성되다 (finish의 과거분사)"
+  },
+  "naturally": {
+   "pos": "부사",
+   "ko": "당연히, 물론"
+  },
+  "return": {
+   "pos": "동사",
+   "ko": "돌아오다"
+  },
+  "ends": {
+   "pos": "동사",
+   "ko": "(end up) 결국 ~하게 되다 (3인칭)"
+  },
+  "wants": {
+   "pos": "동사",
+   "ko": "원하다 (3인칭)"
+  },
+  "found": {
+   "pos": "동사",
+   "ko": "찾았다, 발견했다 (find의 과거형)"
+  },
+  "simply": {
+   "pos": "부사",
+   "ko": "그저, 그냥"
+  },
+  "inch": {
+   "pos": "명사",
+   "ko": "인치 (길이 단위, 약 2.5cm)"
+  },
+  "almost": {
+   "pos": "부사",
+   "ko": "거의"
+  },
+  "end": {
+   "pos": "명사",
+   "ko": "끝 (by the end: 끝날 때쯤에는)"
+  },
+  "single": {
+   "pos": "형용사",
+   "ko": "단 하나의 (every single: 하나도 빠짐없이)"
+  }
+ },
+ "wink": {
+  "inseam": "안쪽 다리 길이. 재단사가 재는 부위 중 가장 민망한 곳이라, 어른들 농담에 단골로 등장해요.",
+  "snug": "몸에 딱 맞아 아늑한. 옷 얘기지만, 두 사람의 거리가 지나치게 가까울 때도 이렇게 말해요.",
+  "fit": "몸에 꼭 맞다. 옷이 아니라 두 사람이 잘 맞는다는 뜻으로 들릴 수도 있어요.",
+  "pin": "핀으로 고정하다. 상대를 움직이지 못하게 붙잡아 둔다는 뜻도 있어서, 재단사 이름치고는 꽤 의미심장해요.",
+  "measure": "치수를 재다. 온몸 구석구석 손이 가는 일이라, 이 가게에서는 줄자가 재는 게 치수만이 아닌 것처럼 들려요.",
+  "kneels": "무릎을 꿇다. 치수 잴 때 재단사의 정석 자세지만, 다른 이야기에서는 청혼처럼 아주 간절한 순간에 나오는 자세이기도 해요.",
+  "kneeling": "무릎을 꿇다. 치수 잴 때 재단사의 정석 자세지만, 다른 이야기에서는 청혼처럼 아주 간절한 순간에 나오는 자세이기도 해요.",
+  "tape": "줄자. 몸을 감고 살짝 조이는 물건이라, 행간에서는 손길처럼 읽히기도 해요.",
+  "flows": "흐르다. 원단이 몸을 따라 흐른다는 표현은, 무언가가 피부 위를 스쳐 가는 장면을 떠올리게 해요.",
+  "second": "두 번째. 두 번째 가봉이 처음보다 낫다는 말이지만, 원어민 귀에는 다른 종류의 '두 번째'부터 떠올라요."
+ }
+}

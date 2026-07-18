@@ -1,0 +1,277 @@
+{
+ "id": "umbrella",
+ "title": "The Red Umbrella",
+ "badge": "A2 · 일반",
+ "introKo": "비 오는 날, 당신의 이야기.\n선택에 따라 장면이 달라져요.",
+ "adult": false,
+ "minLevel": 1,
+ "quiz": {
+  "q": "이야기 속 할아버지가 나에게 준 것은 무엇인가요?",
+  "options": [
+   "따뜻한 코트",
+   "버스표 한 장",
+   "빨간 우산"
+  ],
+  "answer": 2
+ },
+ "scripts": {
+  "easy": [
+   {
+    "type": "text",
+    "text": "It rains. You run to the bus stop. You have no umbrella.",
+    "art": "rain_stop"
+   },
+   {
+    "type": "text",
+    "text": "Your coat is wet. Your shoes are wet. The bus comes in ten minutes."
+   },
+   {
+    "type": "choice",
+    "prompt": "어떻게 할까요?",
+    "options": [
+     {
+      "en": "Wait under the roof.",
+      "ko": "지붕 아래에서 기다린다",
+      "reaction": "You wait under the roof. The wind is cold. You are cold."
+     },
+     {
+      "en": "Look for a taxi.",
+      "ko": "택시를 찾아본다",
+      "reaction": "There is no taxi today. You put your phone away. You sigh."
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "An old man comes. He has a big red umbrella.",
+    "art": "red_umbrella"
+   },
+   {
+    "type": "text",
+    "text": "He smiles. He holds the umbrella over you."
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 말할까요?",
+    "options": [
+     {
+      "en": "Thank you so much!",
+      "ko": "정말 감사해요!",
+      "reaction": "\"It is nothing,\" he says. \"Rain is hard with no umbrella.\""
+     },
+     {
+      "en": "Oh, you don't have to!",
+      "ko": "아, 안 그러셔도 돼요!",
+      "reaction": "\"Don't worry,\" he says. \"There is room for two.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "You wait for the bus together. You talk about the rain. He talks about his garden.",
+    "art": "bus_talk"
+   },
+   {
+    "type": "text",
+    "text": "The bus comes. The man gives you the umbrella."
+   },
+   {
+    "type": "text",
+    "text": "\"Please keep it,\" he says. \"Someone gave it to me, too.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "마지막으로 뭐라고 할까요?",
+    "options": [
+     {
+      "en": "I will remember this. Thank you!",
+      "ko": "기억할게요. 감사해요!",
+      "reaction": "He waves his hand. The bus goes. You hold the umbrella."
+     },
+     {
+      "en": "Then I will give it to someone, too.",
+      "ko": "그럼 저도 누군가에게 줄게요.",
+      "reaction": "\"Good!\" he says with a big smile. The bus door closes."
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "You smile all the way home. The red umbrella is by your door. It waits for the next rainy day.",
+    "art": "home_rainbow"
+   }
+  ],
+  "normal": [
+   {
+    "type": "text",
+    "text": "Rain falls on the small town. You run to the bus stop, but you have no umbrella.",
+    "art": "rain_stop"
+   },
+   {
+    "type": "text",
+    "text": "Your coat and shoes are wet. The bus is ten minutes away."
+   },
+   {
+    "type": "choice",
+    "prompt": "어떻게 할까요?",
+    "options": [
+     {
+      "en": "Wait under the small roof.",
+      "ko": "작은 지붕 아래에서 기다린다",
+      "reaction": "You stand under the roof, but the wind blows the rain at you. You are cold."
+     },
+     {
+      "en": "Check your phone for a taxi.",
+      "ko": "휴대폰으로 택시를 찾아본다",
+      "reaction": "No taxis come on rainy days. You put your phone back and sigh."
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "Then an old man walks to the bus stop. He has a big red umbrella.",
+    "art": "red_umbrella"
+   },
+   {
+    "type": "text",
+    "text": "He looks at you and smiles. He holds the umbrella over your head."
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 말할까요?",
+    "options": [
+     {
+      "en": "Thank you so much!",
+      "ko": "정말 감사해요!",
+      "reaction": "\"It's nothing,\" he says. \"Rainy days are hard without an umbrella.\""
+     },
+     {
+      "en": "Oh, you don't have to!",
+      "ko": "아, 안 그러셔도 돼요!",
+      "reaction": "\"Don't worry,\" he laughs. \"There is room for two under here.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "You wait for the bus together and talk about the rain. The old man tells you about his little garden.",
+    "art": "bus_talk"
+   },
+   {
+    "type": "text",
+    "text": "The bus comes. The man gives the umbrella to you."
+   },
+   {
+    "type": "text",
+    "text": "\"Please keep it,\" he says. \"Someone gave it to me on a rainy day, too.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "마지막으로 뭐라고 할까요?",
+    "options": [
+     {
+      "en": "I will remember this. Thank you!",
+      "ko": "이 순간을 기억할게요. 감사해요!",
+      "reaction": "He waves his hand as the bus leaves. You hold the red umbrella close."
+     },
+     {
+      "en": "Then I will give it to someone, too.",
+      "ko": "그럼 저도 누군가에게 줄게요.",
+      "reaction": "\"That's the spirit!\" he says with a big smile. The bus door closes."
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "You smile all the way home. The red umbrella stands by your door, waiting for the next rainy day.",
+    "art": "home_rainbow"
+   }
+  ],
+  "hard": [
+   {
+    "type": "text",
+    "text": "Cold rain pours down on the small town as you hurry toward the bus stop, and of course, today of all days, you have no umbrella.",
+    "art": "rain_stop"
+   },
+   {
+    "type": "text",
+    "text": "Your coat is soaked through and your shoes squelch with every step. The next bus is still ten minutes away."
+   },
+   {
+    "type": "choice",
+    "prompt": "어떻게 할까요?",
+    "options": [
+     {
+      "en": "Take shelter under the narrow roof.",
+      "ko": "좁은 지붕 아래로 피한다",
+      "reaction": "You press yourself under the narrow roof, but the wind keeps driving the rain sideways into you. You are shivering before long."
+     },
+     {
+      "en": "Check your phone for a taxi.",
+      "ko": "휴대폰으로 택시를 찾아본다",
+      "reaction": "Taxis never seem to exist on rainy days. You slip the phone back into your pocket with a sigh."
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "Then an elderly man strolls up to the bus stop, carrying a splendid red umbrella.",
+    "art": "red_umbrella"
+   },
+   {
+    "type": "text",
+    "text": "He glances at you, smiles knowingly, and without a word tilts the umbrella over your head."
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 말할까요?",
+    "options": [
+     {
+      "en": "Thank you so much!",
+      "ko": "정말 감사해요!",
+      "reaction": "\"It's nothing,\" he chuckles. \"Rainy days are unkind to people without umbrellas.\""
+     },
+     {
+      "en": "Oh, you really don't have to!",
+      "ko": "아, 정말 안 그러셔도 돼요!",
+      "reaction": "\"Nonsense,\" he laughs. \"There is plenty of room for two under here.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "The two of you wait for the bus together, trading small talk about the weather. He tells you about the little garden he tends behind his house.",
+    "art": "bus_talk"
+   },
+   {
+    "type": "text",
+    "text": "When the bus finally arrives, the man presses the umbrella into your hands."
+   },
+   {
+    "type": "text",
+    "text": "\"Please keep it,\" he says. \"Someone once handed it to me on a rainy day, just like this.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "마지막으로 뭐라고 할까요?",
+    "options": [
+     {
+      "en": "I will remember this. Thank you!",
+      "ko": "이 순간을 기억할게요. 감사해요!",
+      "reaction": "He waves from the curb as the bus pulls away. You hold the red umbrella a little closer."
+     },
+     {
+      "en": "Then I will pass it on to someone, too.",
+      "ko": "그럼 저도 다른 누군가에게 건넬게요.",
+      "reaction": "\"That's the spirit!\" he beams as the doors slide shut."
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "You smile the whole way home. The red umbrella now stands by your door, waiting patiently for the next rainy day.",
+    "art": "home_rainbow"
+   }
+  ]
+ }
+}

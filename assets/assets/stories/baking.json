@@ -1,0 +1,765 @@
+{
+ "id": "baking",
+ "title": "The Baking Class",
+ "badge": "A2+ · 표현 주의",
+ "introKo": "동네 베이킹 클래스에서 반죽을 배우는 아주 건전한 이야기.\n…표면적으로는요. 단어를 탭하면 속뜻이 보여요.",
+ "adult": true,
+ "minLevel": 5,
+ "quiz": {
+  "q": "오늘 수업에서 마지막에 만든 것은?",
+  "options": [
+   "크림을 채운 빵",
+   "초콜릿 쿠키",
+   "애플파이"
+  ],
+  "answer": 0
+ },
+ "scripts": {
+  "normal": [
+   {
+    "type": "text",
+    "text": "It is Saturday morning. You walk into a small baking class in your neighborhood. The air smells warm and sweet.",
+    "art": "baking_class"
+   },
+   {
+    "type": "text",
+    "text": "The teacher, Miss Sugar, gives you a big smile. \"A new student,\" she says. \"Fresh hands. I love fresh hands.\""
+   },
+   {
+    "type": "text",
+    "text": "\"Today we make bread,\" she says. \"Good bread needs three things: warm hands, strong arms, and a lot of patience.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 답할까요?",
+    "options": [
+     {
+      "en": "I'm ready. My hands are always warm.",
+      "ko": "준비됐어요. 제 손은 항상 따뜻하거든요.",
+      "reaction": "\"Perfect,\" she says. \"Warm hands make the dough very happy.\""
+     },
+     {
+      "en": "I've never baked anything before.",
+      "ko": "저 한 번도 빵을 구워 본 적이 없어요.",
+      "reaction": "\"Even better,\" she smiles. \"I love teaching beginners. We will take it slowly.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "Miss Sugar puts soft dough in front of you. \"Now knead it,\" she says. \"Push with both hands. Don't be shy — this dough likes a firm touch.\"",
+    "art": "baking_knead"
+   },
+   {
+    "type": "text",
+    "text": "You push and fold, push and fold. \"Slower,\" she says. \"Find a rhythm. Feel how it changes under your hands.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "Like this? Is this the right rhythm?",
+      "ko": "이렇게요? 이 리듬이 맞는 거예요?",
+      "reaction": "\"Exactly like that. Slow and steady,\" she says. \"You have very good hands.\""
+     },
+     {
+      "en": "My arms are getting tired already.",
+      "ko": "벌써 팔이 좀 아픈데요.",
+      "reaction": "\"Already? Don't stop now,\" she laughs. \"The dough knows when you give up.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "\"Now we let it rest,\" she says. \"Cover it and keep it warm. Soon it will rise. It always rises for me.\""
+   },
+   {
+    "type": "text",
+    "text": "The oven is on, and the room grows hot. Miss Sugar fans her face. \"This heat,\" she says. \"You never get used to it. But without heat, nothing happens.\""
+   },
+   {
+    "type": "text",
+    "text": "You shape the dough into small round buns. \"Oh my,\" Miss Sugar says softly. \"Lovely buns. Some of the best I have seen in this class.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "It's all thanks to your teaching.",
+      "ko": "다 선생님이 잘 가르쳐 주신 덕분이에요.",
+      "reaction": "\"Oh, stop,\" she laughs. \"The hands did all the work. And what hands.\""
+     },
+     {
+      "en": "Baking is more fun than I expected.",
+      "ko": "베이킹이 생각보다 재미있네요.",
+      "reaction": "\"It always is,\" she says. \"Careful — once you start, it is very hard to stop.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "The buns come out of the oven, golden and warm. Miss Sugar hands you a bag of cream. \"Now the filling. Squeeze slowly, with steady pressure. If you hurry, it goes everywhere.\"",
+    "art": "baking_buns"
+   },
+   {
+    "type": "text",
+    "text": "You walk home with a box of warm cream buns. There is flour on your shirt and a smile on your face. \"Same time next week?\" Miss Sugar calls. You have already signed up."
+   }
+  ],
+  "hard": [
+   {
+    "type": "text",
+    "text": "On a quiet Saturday morning, you step into a small baking class in your neighborhood, where the air is thick with the smell of warm sugar.",
+    "art": "baking_class"
+   },
+   {
+    "type": "text",
+    "text": "The teacher, Miss Sugar, greets you with a bright smile. \"A new student,\" she says. \"Fresh hands. There is nothing I love more than fresh hands.\""
+   },
+   {
+    "type": "text",
+    "text": "\"Today we are making bread,\" she announces. \"Good bread asks for three things: warm hands, strong arms, and more patience than most people expect.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 답할까요?",
+    "options": [
+     {
+      "en": "I'm ready. My hands are always warm.",
+      "ko": "준비됐어요. 제 손은 항상 따뜻하거든요.",
+      "reaction": "\"Perfect,\" she says. \"You would be surprised how much difference warm hands make to the dough.\""
+     },
+     {
+      "en": "Okay, but I have never baked anything before.",
+      "ko": "네, 근데 저 한 번도 빵을 구워 본 적이 없어요.",
+      "reaction": "\"Even better,\" she smiles. \"There is nothing I enjoy more than teaching a complete beginner. We will take it nice and slowly.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "Miss Sugar sets a ball of soft dough in front of you. \"Now knead it,\" she says. \"Push with both hands and put your weight into it. Don't be shy — this dough responds to a firm touch.\"",
+    "art": "baking_knead"
+   },
+   {
+    "type": "text",
+    "text": "You push and fold, push and fold. \"Slower,\" she murmurs. \"Find a rhythm you can keep all day. Feel how it softens under your hands.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "Like this? Have I found the right rhythm?",
+      "ko": "이렇게요? 이 리듬이 맞는 거예요?",
+      "reaction": "\"Exactly like that. Slow and steady,\" she says approvingly. \"You have remarkably good hands.\""
+     },
+     {
+      "en": "My arms are getting tired already.",
+      "ko": "벌써 팔이 좀 아픈데요.",
+      "reaction": "\"Already? Don't you dare stop now,\" she laughs. \"The dough always knows when you give up.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "\"Now we let it rest,\" she says, covering the bowl with a cloth. \"Keep it warm and be patient. Soon it will rise. It has never once failed to rise for me.\""
+   },
+   {
+    "type": "text",
+    "text": "The oven has been on for a while, and the little room grows hot. Miss Sugar fans her face. \"This heat,\" she sighs. \"You never quite get used to it. But without heat, nothing ever happens in here.\""
+   },
+   {
+    "type": "text",
+    "text": "You shape the risen dough into small round buns. \"Oh my,\" Miss Sugar says softly, tilting her head. \"Lovely buns. Easily some of the finest I have seen in this class.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "It's all thanks to your teaching.",
+      "ko": "다 선생님이 잘 가르쳐 주신 덕분이에요.",
+      "reaction": "\"Oh, stop,\" she laughs, waving a hand. \"Your hands did all the work. And what hands they are.\""
+     },
+     {
+      "en": "Baking is far more fun than I expected.",
+      "ko": "베이킹이 생각보다 훨씬 재미있네요.",
+      "reaction": "\"It always is,\" she says knowingly. \"Careful — once you start, it becomes very hard to stop.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "The buns come out of the oven golden and warm. Miss Sugar hands you a bag of cream. \"Now for the filling,\" she says. \"Squeeze slowly, with steady pressure. Rush it, and the cream goes absolutely everywhere.\"",
+    "art": "baking_buns"
+   },
+   {
+    "type": "text",
+    "text": "You walk home with a box of warm cream buns, flour still dusting your shirt. \"Same time next week?\" Miss Sugar calls from the doorway. You had signed up before she even finished the question."
+   }
+  ]
+ },
+ "dict": {
+  "absolutely": {
+   "pos": "부사",
+   "ko": "완전히, 그야말로"
+  },
+  "after": {
+   "pos": "전치사",
+   "ko": "~후에"
+  },
+  "air": {
+   "pos": "명사",
+   "ko": "공기"
+  },
+  "already": {
+   "pos": "부사",
+   "ko": "벌써, 이미"
+  },
+  "announces": {
+   "pos": "동사",
+   "ko": "(announce의 3인칭) 알리다, 선언하듯 말하다"
+  },
+  "anything": {
+   "pos": "대명사",
+   "ko": "아무것도, 무엇이든"
+  },
+  "approvingly": {
+   "pos": "부사",
+   "ko": "흡족한 듯이"
+  },
+  "asks": {
+   "pos": "동사",
+   "ko": "(ask의 3인칭) 요구하다, 필요로 하다"
+  },
+  "bag": {
+   "pos": "명사",
+   "ko": "봉지, 짤주머니"
+  },
+  "baked": {
+   "pos": "동사",
+   "ko": "(bake의 과거분사) 구워 본, 구웠다"
+  },
+  "baking": {
+   "pos": "명사",
+   "ko": "베이킹, 빵 굽기"
+  },
+  "ball": {
+   "pos": "명사",
+   "ko": "공, 둥근 덩어리"
+  },
+  "becomes": {
+   "pos": "동사",
+   "ko": "(become의 3인칭) ~하게 되다"
+  },
+  "beginner": {
+   "pos": "명사",
+   "ko": "초보자"
+  },
+  "beginners": {
+   "pos": "명사",
+   "ko": "(beginner의 복수) 초보자들"
+  },
+  "both": {
+   "pos": "형용사",
+   "ko": "양쪽의, 둘 다"
+  },
+  "bowl": {
+   "pos": "명사",
+   "ko": "그릇, 볼"
+  },
+  "box": {
+   "pos": "명사",
+   "ko": "상자"
+  },
+  "bread": {
+   "pos": "명사",
+   "ko": "빵"
+  },
+  "bright": {
+   "pos": "형용사",
+   "ko": "환한, 밝은"
+  },
+  "buns": {
+   "pos": "명사",
+   "ko": "(bun의 복수) 둥근 빵, 번"
+  },
+  "changes": {
+   "pos": "동사",
+   "ko": "(change의 3인칭) 변하다"
+  },
+  "class": {
+   "pos": "명사",
+   "ko": "수업, 클래스"
+  },
+  "cloth": {
+   "pos": "명사",
+   "ko": "천, 보자기"
+  },
+  "complete": {
+   "pos": "형용사",
+   "ko": "완전한"
+  },
+  "cover": {
+   "pos": "동사",
+   "ko": "덮다"
+  },
+  "covering": {
+   "pos": "동사",
+   "ko": "(cover의 -ing) 덮으며"
+  },
+  "cream": {
+   "pos": "명사",
+   "ko": "크림"
+  },
+  "dare": {
+   "pos": "동사",
+   "ko": "감히 ~하다"
+  },
+  "did": {
+   "pos": "동사",
+   "ko": "(do의 과거) 했다"
+  },
+  "difference": {
+   "pos": "명사",
+   "ko": "차이"
+  },
+  "dough": {
+   "pos": "명사",
+   "ko": "반죽"
+  },
+  "doorway": {
+   "pos": "명사",
+   "ko": "문간, 출입구"
+  },
+  "dusting": {
+   "pos": "동사",
+   "ko": "(dust의 -ing) 가루가 얇게 묻은"
+  },
+  "easily": {
+   "pos": "부사",
+   "ko": "단연, 쉽게"
+  },
+  "enjoy": {
+   "pos": "동사",
+   "ko": "즐기다"
+  },
+  "even": {
+   "pos": "부사",
+   "ko": "훨씬, 심지어 ~조차"
+  },
+  "everywhere": {
+   "pos": "부사",
+   "ko": "사방에, 어디에나"
+  },
+  "exactly": {
+   "pos": "부사",
+   "ko": "정확히, 바로"
+  },
+  "expect": {
+   "pos": "동사",
+   "ko": "예상하다"
+  },
+  "expected": {
+   "pos": "동사",
+   "ko": "(expect의 과거) 예상했다"
+  },
+  "face": {
+   "pos": "명사",
+   "ko": "얼굴"
+  },
+  "failed": {
+   "pos": "동사",
+   "ko": "(fail의 과거분사) 실패한"
+  },
+  "fans": {
+   "pos": "동사",
+   "ko": "(fan의 3인칭) 부채질하다"
+  },
+  "far": {
+   "pos": "부사",
+   "ko": "훨씬"
+  },
+  "feel": {
+   "pos": "동사",
+   "ko": "느끼다"
+  },
+  "filling": {
+   "pos": "명사",
+   "ko": "(빵 속에 넣는) 필링, 속"
+  },
+  "find": {
+   "pos": "동사",
+   "ko": "찾다"
+  },
+  "finished": {
+   "pos": "동사",
+   "ko": "(finish의 과거) 끝냈다, 마쳤다"
+  },
+  "firm": {
+   "pos": "형용사",
+   "ko": "단단한, 확실한"
+  },
+  "flour": {
+   "pos": "명사",
+   "ko": "밀가루"
+  },
+  "fold": {
+   "pos": "동사",
+   "ko": "접다"
+  },
+  "found": {
+   "pos": "동사",
+   "ko": "(find의 과거분사) 찾은, 찾았다"
+  },
+  "fresh": {
+   "pos": "형용사",
+   "ko": "새로운, 신선한"
+  },
+  "front": {
+   "pos": "명사",
+   "ko": "앞 (in front of: ~ 앞에)"
+  },
+  "fun": {
+   "pos": "명사",
+   "ko": "재미, 재미있는 것"
+  },
+  "get": {
+   "pos": "동사",
+   "ko": "~해지다, 받다"
+  },
+  "gets": {
+   "pos": "동사",
+   "ko": "(get의 3인칭) 점점 ~해지다"
+  },
+  "getting": {
+   "pos": "동사",
+   "ko": "(get의 -ing) 점점 ~해지는"
+  },
+  "golden": {
+   "pos": "형용사",
+   "ko": "황금빛의, 노릇노릇한"
+  },
+  "greets": {
+   "pos": "동사",
+   "ko": "(greet의 3인칭) 맞이하다"
+  },
+  "had": {
+   "pos": "동사",
+   "ko": "(have의 과거) 이미 ~했다"
+  },
+  "happens": {
+   "pos": "동사",
+   "ko": "(happen의 3인칭) 일어나다"
+  },
+  "happy": {
+   "pos": "형용사",
+   "ko": "행복한, 기분 좋은"
+  },
+  "heat": {
+   "pos": "명사",
+   "ko": "열기, 더위"
+  },
+  "hot": {
+   "pos": "형용사",
+   "ko": "뜨거운, 더운"
+  },
+  "knead": {
+   "pos": "동사",
+   "ko": "(반죽을) 치대다, 주무르다"
+  },
+  "knows": {
+   "pos": "동사",
+   "ko": "(know의 3인칭) 알다"
+  },
+  "let": {
+   "pos": "동사",
+   "ko": "~하게 두다"
+  },
+  "likes": {
+   "pos": "동사",
+   "ko": "(like의 3인칭) 좋아하다"
+  },
+  "lot": {
+   "pos": "명사",
+   "ko": "많음 (a lot of: 많은)"
+  },
+  "love": {
+   "pos": "동사",
+   "ko": "아주 좋아하다, 사랑하다"
+  },
+  "lovely": {
+   "pos": "형용사",
+   "ko": "사랑스러운, 근사한"
+  },
+  "make": {
+   "pos": "동사",
+   "ko": "만들다"
+  },
+  "making": {
+   "pos": "동사",
+   "ko": "(make의 -ing) 만들기"
+  },
+  "miss": {
+   "pos": "명사",
+   "ko": "~양, ~선생님 (여성 호칭)"
+  },
+  "most": {
+   "pos": "형용사",
+   "ko": "대부분의"
+  },
+  "neighborhood": {
+   "pos": "명사",
+   "ko": "동네"
+  },
+  "new": {
+   "pos": "형용사",
+   "ko": "새로운"
+  },
+  "nice": {
+   "pos": "형용사",
+   "ko": "좋은 (nice and slowly: 아주 천천히)"
+  },
+  "only": {
+   "pos": "부사",
+   "ko": "오직, 그저 ~할 뿐"
+  },
+  "out": {
+   "pos": "부사",
+   "ko": "밖으로"
+  },
+  "oven": {
+   "pos": "명사",
+   "ko": "오븐"
+  },
+  "patience": {
+   "pos": "명사",
+   "ko": "인내심"
+  },
+  "patient": {
+   "pos": "형용사",
+   "ko": "참을성 있는"
+  },
+  "pressure": {
+   "pos": "명사",
+   "ko": "압력"
+  },
+  "push": {
+   "pos": "동사",
+   "ko": "밀다, 누르다"
+  },
+  "puts": {
+   "pos": "동사",
+   "ko": "(put의 3인칭) 놓다"
+  },
+  "question": {
+   "pos": "명사",
+   "ko": "질문"
+  },
+  "quiet": {
+   "pos": "형용사",
+   "ko": "조용한"
+  },
+  "quite": {
+   "pos": "부사",
+   "ko": "완전히, 꽤"
+  },
+  "ready": {
+   "pos": "형용사",
+   "ko": "준비된"
+  },
+  "responds": {
+   "pos": "동사",
+   "ko": "(respond의 3인칭) 반응하다"
+  },
+  "rest": {
+   "pos": "동사",
+   "ko": "쉬다, (반죽을) 휴지시키다"
+  },
+  "rhythm": {
+   "pos": "명사",
+   "ko": "리듬, 박자"
+  },
+  "rise": {
+   "pos": "동사",
+   "ko": "부풀다, 오르다"
+  },
+  "risen": {
+   "pos": "동사",
+   "ko": "(rise의 과거분사) 부푼"
+  },
+  "rises": {
+   "pos": "동사",
+   "ko": "(rise의 3인칭) 부풀다"
+  },
+  "rush": {
+   "pos": "동사",
+   "ko": "서두르다"
+  },
+  "same": {
+   "pos": "형용사",
+   "ko": "같은"
+  },
+  "saturday": {
+   "pos": "명사",
+   "ko": "토요일"
+  },
+  "seen": {
+   "pos": "동사",
+   "ko": "(see의 과거분사) 본"
+  },
+  "sets": {
+   "pos": "동사",
+   "ko": "(set의 3인칭) 놓다"
+  },
+  "shape": {
+   "pos": "동사",
+   "ko": "모양을 만들다, 빚다"
+  },
+  "shirt": {
+   "pos": "명사",
+   "ko": "셔츠"
+  },
+  "signed": {
+   "pos": "동사",
+   "ko": "(sign의 과거분사) 등록한, 신청한"
+  },
+  "slower": {
+   "pos": "부사",
+   "ko": "더 천천히"
+  },
+  "slowly": {
+   "pos": "부사",
+   "ko": "천천히"
+  },
+  "smell": {
+   "pos": "명사",
+   "ko": "냄새, 향"
+  },
+  "smells": {
+   "pos": "동사",
+   "ko": "(smell의 3인칭) 냄새가 나다"
+  },
+  "soft": {
+   "pos": "형용사",
+   "ko": "부드러운"
+  },
+  "softens": {
+   "pos": "동사",
+   "ko": "(soften의 3인칭) 부드러워지다"
+  },
+  "some": {
+   "pos": "형용사",
+   "ko": "몇몇의, 손꼽히는"
+  },
+  "soon": {
+   "pos": "부사",
+   "ko": "곧"
+  },
+  "standing": {
+   "pos": "동사",
+   "ko": "(stand의 -ing) 서서"
+  },
+  "start": {
+   "pos": "동사",
+   "ko": "시작하다"
+  },
+  "steady": {
+   "pos": "형용사",
+   "ko": "일정한, 꾸준한"
+  },
+  "student": {
+   "pos": "명사",
+   "ko": "학생, 수강생"
+  },
+  "sugar": {
+   "pos": "명사",
+   "ko": "설탕"
+  },
+  "surprised": {
+   "pos": "형용사",
+   "ko": "놀란"
+  },
+  "sweet": {
+   "pos": "형용사",
+   "ko": "달콤한"
+  },
+  "teacher": {
+   "pos": "명사",
+   "ko": "선생님, 강사"
+  },
+  "teaching": {
+   "pos": "명사",
+   "ko": "가르치기, 가르침"
+  },
+  "thanks": {
+   "pos": "명사",
+   "ko": "감사 (thanks to: ~ 덕분에)"
+  },
+  "thick": {
+   "pos": "형용사",
+   "ko": "짙은, 가득한"
+  },
+  "things": {
+   "pos": "명사",
+   "ko": "(thing의 복수) 것들"
+  },
+  "three": {
+   "pos": "수사",
+   "ko": "셋, 3"
+  },
+  "tilting": {
+   "pos": "동사",
+   "ko": "(tilt의 -ing) 갸웃하며, 기울이며"
+  },
+  "touch": {
+   "pos": "명사",
+   "ko": "손길, 만지기"
+  },
+  "used": {
+   "pos": "형용사",
+   "ko": "익숙한 (get used to: ~에 익숙해지다)"
+  },
+  "waving": {
+   "pos": "동사",
+   "ko": "(wave의 -ing) 손을 내저으며"
+  },
+  "we": {
+   "pos": "대명사",
+   "ko": "우리"
+  },
+  "week": {
+   "pos": "명사",
+   "ko": "주, 일주일"
+  },
+  "weight": {
+   "pos": "명사",
+   "ko": "무게, 체중"
+  },
+  "where": {
+   "pos": "부사",
+   "ko": "~하는 곳 (관계부사)"
+  },
+  "while": {
+   "pos": "명사",
+   "ko": "잠깐, 한동안 (for a while)"
+  },
+  "work": {
+   "pos": "명사",
+   "ko": "일, 작업"
+  }
+ },
+ "wink": {
+  "knead": "반죽을 치대다, 주무르다 — '주무르다'가 꼭 반죽에만 쓰는 말은 아니죠.",
+  "firm": "단단한, 확실한 — 반죽 말고 다른 걸 만질 때의 손길 얘기로 들릴 수 있어요.",
+  "rhythm": "리듬 — 반죽에만 필요한 건 아니라는 말투로 들릴 수 있어요.",
+  "rise": "부풀어 오르다 — 빵 말고 다른 것도 일어선다는 뜻으로 들릴 수 있어요.",
+  "hot": "뜨거운 — 오븐 온도만 말하는 게 아닐 수도 있어요.",
+  "buns": "둥근 빵 — 빵이 아닌 다른 둥근 것을 칭찬하는 걸로 들릴 수 있어요.",
+  "squeeze": "짜다, 쥐다 — 천천히 일정한 압력으로 하라는 조언이 묘하게 들릴 수 있어요.",
+  "cream": "크림 — '천천히, 일정한 압력으로 짜세요'라는 조언과 만나면 빵 얘기로만 들리지 않아요."
+ }
+}

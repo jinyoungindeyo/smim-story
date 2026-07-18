@@ -1,0 +1,704 @@
+{
+ "id": "pottery",
+ "title": "The Pottery Class",
+ "badge": "A2+ · 표현 주의",
+ "introKo": "도자기 공방 첫 수업, Clay 선생님이 물레를 손수 가르쳐 주는 아주 건전한 이야기.\n…표면적으로는요. 단어를 탭하면 속뜻이 보여요.",
+ "adult": true,
+ "minLevel": 5,
+ "quiz": {
+  "q": "Clay 선생님이 물레에서 가장 먼저 가르쳐 준 것은?",
+  "options": [
+   "점토 말리기",
+   "중심 잡기",
+   "유약 바르기"
+  ],
+  "answer": 1
+ },
+ "scripts": {
+  "normal": [
+   {
+    "type": "text",
+    "text": "Your first pottery class begins tonight. The studio is warm and smells of wet earth. Mrs. Clay welcomes you at the door.",
+    "art": "pottery_studio"
+   },
+   {
+    "type": "text",
+    "text": "\"Tonight we work with our hands,\" she says. \"Clay does not listen to words. It only listens to fingers.\""
+   },
+   {
+    "type": "text",
+    "text": "She puts a ball of wet clay on the wheel. \"Do not be afraid to get your hands wet,\" she says. \"Clay loves warm hands.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 답할까요?",
+    "options": [
+     {
+      "en": "I have never touched clay before.",
+      "ko": "저 점토 처음 만져 봐요.",
+      "reaction": "\"Then tonight will be special,\" she smiles. \"Untouched clay learns the fastest.\""
+     },
+     {
+      "en": "My hands are ready. Where do we start?",
+      "ko": "제 손은 준비됐어요. 어디서부터 시작하죠?",
+      "reaction": "\"Right here,\" she says. \"The wheel loves ready hands.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "The wheel begins to turn. The wet clay slips and slides under your fingers. It will not stay still.",
+    "art": "pottery_wheel"
+   },
+   {
+    "type": "text",
+    "text": "\"First, you must find the center,\" Mrs. Clay says. She steps behind you and puts her hands over yours. \"Feel the rhythm. Do not fight it.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "It keeps slipping away from me.",
+      "ko": "자꾸 미끄러져 빠져나가요.",
+      "reaction": "\"Then hold it firmer, dear,\" she says softly. \"Good hands are firm and gentle at the same time.\""
+     },
+     {
+      "en": "Like this? Slow and steady?",
+      "ko": "이렇게요? 천천히, 고르게요?",
+      "reaction": "\"Exactly,\" she says. \"Slow and steady. You learn fast.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "Together, four hands press the clay, and it finds its center. \"There,\" she says, stepping back. \"When it is centered, it stops slipping and starts to dance.\""
+   },
+   {
+    "type": "text",
+    "text": "\"Now we pull it up. Wet your hands again — clay only rises when it is wet.\" Slowly, the clay rises between your fingers."
+   },
+   {
+    "type": "text",
+    "text": "\"Gently now,\" she says. \"Squeeze softly and let it rise. See how tall it stands? It only rises like this for patient hands.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "I did not know my hands could do this.",
+      "ko": "제 손이 이런 걸 할 수 있는 줄 몰랐어요.",
+      "reaction": "\"Every hand can,\" she says. \"It only needs the right teacher. Lucky for you, I give private lessons.\""
+     },
+     {
+      "en": "Is it always this warm in here?",
+      "ko": "여기는 원래 이렇게 따뜻해요?",
+      "reaction": "\"That is the kiln, dear,\" she laughs. \"Things get much hotter before they are finished.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "At the end of class, your little bowl goes into the kiln. \"Now the fire finishes what our hands began,\" Mrs. Clay says. \"The heat makes it strong.\"",
+    "art": "pottery_kiln"
+   },
+   {
+    "type": "text",
+    "text": "You walk home in the cool night air. Your hands still remember the rhythm of the wheel. Next week, you will come back — for the pottery, of course.",
+    "art": "night"
+   }
+  ],
+  "hard": [
+   {
+    "type": "text",
+    "text": "Your first pottery class begins tonight, in a studio that smells of wet earth and warm dust. Mrs. Clay greets you at the door with an easy smile.",
+    "art": "pottery_studio"
+   },
+   {
+    "type": "text",
+    "text": "\"Tonight we let our hands do the talking,\" she announces. \"Clay ignores words. It answers only to fingers.\""
+   },
+   {
+    "type": "text",
+    "text": "She drops a ball of wet clay onto the wheel. \"Don't be afraid of getting your hands wet,\" she says. \"Clay has always preferred warm hands.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 답할까요?",
+    "options": [
+     {
+      "en": "I have never touched clay before in my life.",
+      "ko": "저 점토 태어나서 처음 만져 봐요.",
+      "reaction": "\"Then tonight will be a special one,\" she smiles. \"Untouched clay learns the fastest.\""
+     },
+     {
+      "en": "My hands are ready. Where do we start?",
+      "ko": "제 손은 준비됐어요. 어디서부터 시작하죠?",
+      "reaction": "\"Right here,\" she says. \"The wheel has a weakness for ready hands.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "The wheel begins to spin, and the wet clay slips and slides under your fingers, refusing to stay where you want it.",
+    "art": "pottery_wheel"
+   },
+   {
+    "type": "text",
+    "text": "\"Before anything else, you must find the center,\" Mrs. Clay says, stepping behind you and folding her hands over yours. \"Feel the rhythm of the wheel. Don't fight it — move with it.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "It keeps slipping away from me.",
+      "ko": "자꾸 미끄러져 빠져나가요.",
+      "reaction": "\"Then hold it a little firmer, dear,\" she murmurs. \"The best hands are firm and gentle at the very same time.\""
+     },
+     {
+      "en": "Like this? Slow and steady?",
+      "ko": "이렇게요? 천천히, 고르게요?",
+      "reaction": "\"Exactly so,\" she says. \"Slow and steady. You learn remarkably fast.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "Together, four hands press down, and the clay finally finds its center. \"There,\" she says, stepping back. \"Once it is centered, it stops slipping away and starts to dance.\""
+   },
+   {
+    "type": "text",
+    "text": "\"Now comes the pull. Wet your hands again — clay only rises when it is properly wet.\" Slowly, almost shyly, the clay rises between your fingers."
+   },
+   {
+    "type": "text",
+    "text": "\"Gently now,\" she says. \"A soft squeeze, a patient lift, and let it rise. See how tall it stands? It rises like this only for hands that take their time.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "I never knew my hands could do this.",
+      "ko": "제 손이 이런 걸 할 수 있는 줄 몰랐어요.",
+      "reaction": "\"Every hand can,\" she says. \"It simply needs the right teacher. Lucky for you, I give private lessons.\""
+     },
+     {
+      "en": "Is it always this warm in here?",
+      "ko": "여기는 원래 이렇게 따뜻해요?",
+      "reaction": "\"That would be the kiln, dear,\" she laughs. \"Things get considerably hotter before they are finished.\""
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "At the end of class, your little bowl disappears into the kiln. \"Now the fire finishes what our hands began,\" Mrs. Clay says. \"Nothing becomes strong without a little heat.\"",
+    "art": "pottery_kiln"
+   },
+   {
+    "type": "text",
+    "text": "You walk home through the cool night air, your hands still remembering the rhythm of the wheel. Next week you will be back — for the pottery, naturally.",
+    "art": "night"
+   }
+  ]
+ },
+ "dict": {
+  "pottery": {
+   "pos": "명사",
+   "ko": "도자기, 도예"
+  },
+  "class": {
+   "pos": "명사",
+   "ko": "수업"
+  },
+  "begins": {
+   "pos": "동사",
+   "ko": "시작해요 (begin의 3인칭)"
+  },
+  "began": {
+   "pos": "동사",
+   "ko": "시작했어요 (begin의 과거)"
+  },
+  "tonight": {
+   "pos": "부사",
+   "ko": "오늘 밤"
+  },
+  "studio": {
+   "pos": "명사",
+   "ko": "공방, 작업실"
+  },
+  "smells": {
+   "pos": "동사",
+   "ko": "냄새가 나요"
+  },
+  "earth": {
+   "pos": "명사",
+   "ko": "흙, 땅"
+  },
+  "clay": {
+   "pos": "명사",
+   "ko": "점토 (여기서는 선생님 이름이기도)"
+  },
+  "we": {
+   "pos": "대명사",
+   "ko": "우리"
+  },
+  "our": {
+   "pos": "대명사",
+   "ko": "우리의"
+  },
+  "work": {
+   "pos": "동사",
+   "ko": "일해요, 작업해요"
+  },
+  "does": {
+   "pos": "동사",
+   "ko": "해요 (do의 3인칭)"
+  },
+  "do": {
+   "pos": "동사",
+   "ko": "해요"
+  },
+  "did": {
+   "pos": "동사",
+   "ko": "했어요 (do의 과거)"
+  },
+  "listen": {
+   "pos": "동사",
+   "ko": "귀 기울여요"
+  },
+  "listens": {
+   "pos": "동사",
+   "ko": "귀 기울여요 (3인칭)"
+  },
+  "words": {
+   "pos": "명사",
+   "ko": "말, 단어들"
+  },
+  "only": {
+   "pos": "부사",
+   "ko": "오직, ~만"
+  },
+  "fingers": {
+   "pos": "명사",
+   "ko": "손가락"
+  },
+  "puts": {
+   "pos": "동사",
+   "ko": "놓아요, 얹어요"
+  },
+  "ball": {
+   "pos": "명사",
+   "ko": "공, 덩어리"
+  },
+  "wheel": {
+   "pos": "명사",
+   "ko": "물레"
+  },
+  "afraid": {
+   "pos": "형용사",
+   "ko": "두려운, 겁내는"
+  },
+  "get": {
+   "pos": "동사",
+   "ko": "~하게 돼요"
+  },
+  "getting": {
+   "pos": "동사",
+   "ko": "~하게 되는 것"
+  },
+  "touched": {
+   "pos": "동사",
+   "ko": "만졌어요 (touch의 과거)"
+  },
+  "special": {
+   "pos": "형용사",
+   "ko": "특별한"
+  },
+  "times": {
+   "pos": "명사",
+   "ko": "번, 때 (time의 복수)"
+  },
+  "ready": {
+   "pos": "형용사",
+   "ko": "준비된"
+  },
+  "where": {
+   "pos": "부사",
+   "ko": "어디서"
+  },
+  "start": {
+   "pos": "동사",
+   "ko": "시작해요"
+  },
+  "starts": {
+   "pos": "동사",
+   "ko": "시작해요 (3인칭)"
+  },
+  "turn": {
+   "pos": "동사",
+   "ko": "돌아요, 회전해요"
+  },
+  "spin": {
+   "pos": "동사",
+   "ko": "빙글빙글 돌아요"
+  },
+  "slips": {
+   "pos": "동사",
+   "ko": "미끄러져요"
+  },
+  "slides": {
+   "pos": "동사",
+   "ko": "미끄러지듯 움직여요"
+  },
+  "slipping": {
+   "pos": "동사",
+   "ko": "미끄러지는 것"
+  },
+  "stay": {
+   "pos": "동사",
+   "ko": "머물러요, 가만히 있어요"
+  },
+  "must": {
+   "pos": "조동사",
+   "ko": "~해야 해요"
+  },
+  "find": {
+   "pos": "동사",
+   "ko": "찾아요"
+  },
+  "finds": {
+   "pos": "동사",
+   "ko": "찾아요 (3인칭)"
+  },
+  "center": {
+   "pos": "명사",
+   "ko": "중심"
+  },
+  "centered": {
+   "pos": "형용사",
+   "ko": "중심이 잡힌"
+  },
+  "steps": {
+   "pos": "동사",
+   "ko": "발걸음을 옮겨요"
+  },
+  "stepping": {
+   "pos": "동사",
+   "ko": "발을 옮기며"
+  },
+  "yours": {
+   "pos": "대명사",
+   "ko": "당신의 것"
+  },
+  "feel": {
+   "pos": "동사",
+   "ko": "느껴요"
+  },
+  "rhythm": {
+   "pos": "명사",
+   "ko": "리듬, 박자"
+  },
+  "fight": {
+   "pos": "동사",
+   "ko": "싸워요, 거슬러요"
+  },
+  "fighting": {
+   "pos": "동사",
+   "ko": "싸우는 것"
+  },
+  "firmer": {
+   "pos": "형용사",
+   "ko": "더 단단히, 더 힘 있게 (firm의 비교급)"
+  },
+  "firm": {
+   "pos": "형용사",
+   "ko": "단단한, 힘 있는"
+  },
+  "same": {
+   "pos": "형용사",
+   "ko": "같은"
+  },
+  "exactly": {
+   "pos": "부사",
+   "ko": "정확히, 바로 그렇게"
+  },
+  "steady": {
+   "pos": "형용사",
+   "ko": "꾸준한, 흔들림 없는"
+  },
+  "fast": {
+   "pos": "부사",
+   "ko": "빨리"
+  },
+  "four": {
+   "pos": "수사",
+   "ko": "넷, 네 개의"
+  },
+  "near": {
+   "pos": "전치사",
+   "ko": "~가까이에"
+  },
+  "ear": {
+   "pos": "명사",
+   "ko": "귀"
+  },
+  "stops": {
+   "pos": "동사",
+   "ko": "멈춰요 (3인칭)"
+  },
+  "dance": {
+   "pos": "동사",
+   "ko": "춤춰요"
+  },
+  "pull": {
+   "pos": "동사",
+   "ko": "끌어올려요 (명사로는 '끌어올리기', 실제 물레 기법)"
+  },
+  "again": {
+   "pos": "부사",
+   "ko": "다시"
+  },
+  "rise": {
+   "pos": "동사",
+   "ko": "올라와요, 솟아요"
+  },
+  "rises": {
+   "pos": "동사",
+   "ko": "올라와요 (3인칭)"
+  },
+  "slowly": {
+   "pos": "부사",
+   "ko": "천천히"
+  },
+  "between": {
+   "pos": "전치사",
+   "ko": "~사이에"
+  },
+  "gently": {
+   "pos": "부사",
+   "ko": "부드럽게"
+  },
+  "let": {
+   "pos": "동사",
+   "ko": "~하게 두어요"
+  },
+  "tall": {
+   "pos": "형용사",
+   "ko": "키가 큰, 높이 선"
+  },
+  "patient": {
+   "pos": "형용사",
+   "ko": "참을성 있는"
+  },
+  "know": {
+   "pos": "동사",
+   "ko": "알아요"
+  },
+  "teacher": {
+   "pos": "명사",
+   "ko": "선생님"
+  },
+  "kiln": {
+   "pos": "명사",
+   "ko": "가마 (도자기 굽는 화로)"
+  },
+  "things": {
+   "pos": "명사",
+   "ko": "것들, 일들"
+  },
+  "hotter": {
+   "pos": "형용사",
+   "ko": "더 뜨거운 (hot의 비교급)"
+  },
+  "finished": {
+   "pos": "동사",
+   "ko": "완성된, 끝난"
+  },
+  "finishes": {
+   "pos": "동사",
+   "ko": "마무리해요"
+  },
+  "end": {
+   "pos": "명사",
+   "ko": "끝, 마지막"
+  },
+  "bowl": {
+   "pos": "명사",
+   "ko": "그릇"
+  },
+  "fire": {
+   "pos": "명사",
+   "ko": "불"
+  },
+  "heat": {
+   "pos": "명사",
+   "ko": "열기"
+  },
+  "makes": {
+   "pos": "동사",
+   "ko": "만들어요 (3인칭)"
+  },
+  "cool": {
+   "pos": "형용사",
+   "ko": "서늘한"
+  },
+  "air": {
+   "pos": "명사",
+   "ko": "공기"
+  },
+  "week": {
+   "pos": "명사",
+   "ko": "주, 일주일"
+  },
+  "dust": {
+   "pos": "명사",
+   "ko": "먼지, 흙가루"
+  },
+  "greets": {
+   "pos": "동사",
+   "ko": "맞이해요"
+  },
+  "easy": {
+   "pos": "형용사",
+   "ko": "편안한, 쉬운"
+  },
+  "talking": {
+   "pos": "동사",
+   "ko": "말하는 것"
+  },
+  "announces": {
+   "pos": "동사",
+   "ko": "선언하듯 말해요"
+  },
+  "ignores": {
+   "pos": "동사",
+   "ko": "무시해요"
+  },
+  "answers": {
+   "pos": "동사",
+   "ko": "대답해요, 반응해요"
+  },
+  "drops": {
+   "pos": "동사",
+   "ko": "툭 내려놓아요"
+  },
+  "onto": {
+   "pos": "전치사",
+   "ko": "~위로"
+  },
+  "preferred": {
+   "pos": "동사",
+   "ko": "더 좋아해 왔어요 (prefer의 과거분사)"
+  },
+  "life": {
+   "pos": "명사",
+   "ko": "인생, 삶"
+  },
+  "weakness": {
+   "pos": "명사",
+   "ko": "약점 (have a weakness for: ~에 약하다, ~을 아주 좋아하다)"
+  },
+  "refusing": {
+   "pos": "동사",
+   "ko": "거부하며"
+  },
+  "want": {
+   "pos": "동사",
+   "ko": "원해요"
+  },
+  "anything": {
+   "pos": "대명사",
+   "ko": "무엇이든"
+  },
+  "else": {
+   "pos": "부사",
+   "ko": "그 밖에, 다른"
+  },
+  "folding": {
+   "pos": "동사",
+   "ko": "포개며, 감싸며"
+  },
+  "move": {
+   "pos": "동사",
+   "ko": "움직여요"
+  },
+  "almost": {
+   "pos": "부사",
+   "ko": "거의"
+  },
+  "shyly": {
+   "pos": "부사",
+   "ko": "수줍게"
+  },
+  "soft": {
+   "pos": "형용사",
+   "ko": "부드러운"
+  },
+  "their": {
+   "pos": "대명사",
+   "ko": "그들의"
+  },
+  "simply": {
+   "pos": "부사",
+   "ko": "그저, 단지"
+  },
+  "considerably": {
+   "pos": "부사",
+   "ko": "상당히"
+  },
+  "disappears": {
+   "pos": "동사",
+   "ko": "사라져요"
+  },
+  "becomes": {
+   "pos": "동사",
+   "ko": "~이 돼요"
+  },
+  "remembering": {
+   "pos": "동사",
+   "ko": "기억하며"
+  },
+  "naturally": {
+   "pos": "부사",
+   "ko": "당연히, 자연스럽게"
+  },
+  "untouched": {
+   "pos": "형용사",
+   "ko": "아무도 만지지 않은"
+  },
+  "learns": {
+   "pos": "동사",
+   "ko": "배워요 (learn의 3인칭)"
+  },
+  "fastest": {
+   "pos": "부사",
+   "ko": "가장 빨리 (fast의 최상급)"
+  },
+  "lucky": {
+   "pos": "형용사",
+   "ko": "운이 좋은"
+  },
+  "private": {
+   "pos": "형용사",
+   "ko": "개인의, 일대일의"
+  },
+  "lessons": {
+   "pos": "명사",
+   "ko": "수업, 레슨 (lesson의 복수)"
+  }
+ },
+ "wink": {
+  "clay": "재료 이름이자 선생님 성함이에요. 'Clay는 따뜻한 손을 좋아해요' 같은 문장들, 재료 얘기로 한 번, 자기소개로 한 번 — 두 번 읽어 보세요.",
+  "wet": "점토는 젖어 있어야 빚어져요. …이 말을 공방 밖에서 하면 분위기가 조금 달라질 수 있어요.",
+  "rhythm": "물레의 리듬을 느끼라는 조언이지만, 둘이 호흡을 맞추는 장면에서는 묘하게 들리죠.",
+  "firmer": "'조금 더 단단히'는 순수한 물레 조언이에요. 등 뒤에서 나직이 말하면 얘기가 달라지지만요.",
+  "rises": "점토가 손끝에서 천천히 올라오는 것뿐인데, 왠지 문장을 두 번 읽게 돼요.",
+  "squeeze": "부드럽게 쥐라는 정식 도예 용어예요. 맥락이 맥락이라 귀가 먼저 반응할 뿐이에요.",
+  "pull": "'끌어올리기'는 실제 물레 기법 이름이에요. 최대한 진지한 표정으로 읽어 주세요.",
+  "hotter": "가마는 원래 갈수록 뜨거워져요. 이 대화도 그런 것 같지만 기분 탓이에요.",
+  "heat": "열기가 있어야 단단해진다는 건 어디까지나 도자기 얘기예요. 아마도요."
+ }
+}

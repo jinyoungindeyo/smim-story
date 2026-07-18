@@ -1,0 +1,409 @@
+{
+ "id": "lostcat",
+ "title": "The Lost Cat",
+ "badge": "A2 · 일반",
+ "introKo": "비 오는 저녁, 전봇대에 붙은 전단지 한 장.\n골목에서 만난 하얀 고양이 이야기예요.",
+ "adult": false,
+ "minLevel": 1,
+ "quiz": {
+  "q": "골목에서 찾아 준 고양이의 이름은 무엇인가요?",
+  "options": [
+   "나비",
+   "보리",
+   "코코"
+  ],
+  "answer": 1
+ },
+ "scripts": {
+  "easy": [
+   {
+    "type": "text",
+    "text": "It rains in the evening. You walk home. You see a small paper on a pole.",
+    "art": "rain_stop"
+   },
+   {
+    "type": "text",
+    "text": "The paper says: \"Lost cat. She is white. Her name is Bori. Please call this number.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "어떻게 할까요?",
+    "options": [
+     {
+      "en": "Take a photo of the paper.",
+      "ko": "전단지를 사진으로 찍어 둔다",
+      "reaction": "You take a photo. You think about the white cat in the cold rain."
+     },
+     {
+      "en": "Look around the rainy street for her.",
+      "ko": "혹시 근처에 있을까 주변을 둘러본다",
+      "reaction": "You look around the street. You see only rain. But you think about her now."
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "You walk into a narrow street. Then you hear a small sound. \"Meow.\"",
+    "art": "night"
+   },
+   {
+    "type": "text",
+    "text": "A white cat sits under a wet box. She is small and shivering. It is Bori!"
+   },
+   {
+    "type": "choice",
+    "prompt": "어떻게 다가갈까요?",
+    "options": [
+     {
+      "en": "Call her name softly.",
+      "ko": "이름을 살며시 불러 본다",
+      "reaction": "\"Bori,\" you say softly. The cat looks up at you. Then she slowly walks to you."
+     },
+     {
+      "en": "Hold out your hand slowly.",
+      "ko": "천천히 손을 내밀어 본다",
+      "reaction": "You open your hand and wait. She smells it. Then she comes closer."
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "Bori comes into your arms. You put her under your coat. You go back to the pole and call the number on the paper."
+   },
+   {
+    "type": "text",
+    "text": "An old woman answers. Her voice shakes. \"You have Bori? Oh, thank you! Please wait there!\""
+   },
+   {
+    "type": "text",
+    "text": "The grandmother comes fast. She holds Bori and cries. \"My house is near,\" she says. \"Please come for warm tea.\"",
+    "art": "village"
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 말할까요?",
+    "options": [
+     {
+      "en": "Thank you. I would love some tea.",
+      "ko": "감사해요. 차 마시고 갈게요.",
+      "reaction": "The tea is warm and sweet. Bori sleeps by your feet. The grandmother gives you cookies for home."
+     },
+     {
+      "en": "Thank you, but I have to go home.",
+      "ko": "감사하지만 이만 가 볼게요.",
+      "reaction": "\"Then take this,\" she says. She gives you a small bag of cookies. It is warm in your hands."
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "A week later, the rain stops. There is a rainbow over the town. You walk by her house. Bori sits in the window. You smile and wave.",
+    "art": "home_rainbow"
+   }
+  ],
+  "normal": [
+   {
+    "type": "text",
+    "text": "Rain falls on the town in the evening. On your way home, you see a small paper on a wooden pole.",
+    "art": "rain_stop"
+   },
+   {
+    "type": "text",
+    "text": "It says: \"Lost cat. She is white, and her name is Bori. Please call this number.\" The writing is small and shaky."
+   },
+   {
+    "type": "choice",
+    "prompt": "어떻게 할까요?",
+    "options": [
+     {
+      "en": "Take a photo of the paper.",
+      "ko": "전단지를 사진으로 찍어 둔다",
+      "reaction": "You save the number with a photo and think about the white cat, somewhere out in this cold rain."
+     },
+     {
+      "en": "Look around the rainy street for her.",
+      "ko": "혹시 근처에 있을까 주변을 둘러본다",
+      "reaction": "You look up and down the wet street. There is only rain under the lights, but now you cannot stop thinking about her."
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "You turn into a narrow street. Then, from behind some wet boxes, you hear a small sound. \"Meow.\"",
+    "art": "night"
+   },
+   {
+    "type": "text",
+    "text": "A white cat sits under a soaked box, small and shivering. You know that face. It is Bori!"
+   },
+   {
+    "type": "choice",
+    "prompt": "어떻게 다가갈까요?",
+    "options": [
+     {
+      "en": "Call her name softly.",
+      "ko": "이름을 살며시 불러 본다",
+      "reaction": "\"Bori,\" you call softly. Her ears move, she looks up at you, and then she walks to you, slowly."
+     },
+     {
+      "en": "Hold out your hand slowly.",
+      "ko": "천천히 손을 내밀어 본다",
+      "reaction": "You open your hand and wait quietly. She smells your fingers, then steps closer, one small step at a time."
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "Bori climbs into your arms. You put her inside your coat, walk back to the pole, and call the number on the paper."
+   },
+   {
+    "type": "text",
+    "text": "An old woman answers. Her voice shakes. \"You found Bori? Oh, thank you, thank you! Please wait there. I am coming now!\""
+   },
+   {
+    "type": "text",
+    "text": "The grandmother arrives, almost running. She holds Bori close and cries quietly. \"My house is just there,\" she says. \"Please come in for warm tea.\"",
+    "art": "village"
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 말할까요?",
+    "options": [
+     {
+      "en": "Thank you. I would love some tea.",
+      "ko": "감사해요. 차 마시고 갈게요.",
+      "reaction": "The tea warms your cold hands, and Bori falls asleep by your feet. When you stand up to leave, the grandmother hands you a small bag of cookies."
+     },
+     {
+      "en": "Thank you, but I have to go home.",
+      "ko": "감사하지만 이만 가 볼게요.",
+      "reaction": "\"Then take this, at least,\" she says, and presses a warm bag of cookies into your hands."
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "A week later, the rain stops and a rainbow hangs over the town. When you walk by her house, Bori is sitting in the window. The grandmother waves, and you wave back.",
+    "art": "home_rainbow"
+   }
+  ],
+  "hard": [
+   {
+    "type": "text",
+    "text": "Rain drums softly on the quiet town as you walk home through the early evening. On a wooden pole, a small paper catches your eye.",
+    "art": "rain_stop"
+   },
+   {
+    "type": "text",
+    "text": "It reads: \"Lost cat. She is white, and her name is Bori. If you see her, please call this number.\" The handwriting is small and shaky, the kind that belongs to someone old."
+   },
+   {
+    "type": "choice",
+    "prompt": "어떻게 할까요?",
+    "options": [
+     {
+      "en": "Take a photo of the paper.",
+      "ko": "전단지를 사진으로 찍어 둔다",
+      "reaction": "You take a photo of the number, thinking of a white cat somewhere out in this cold rain."
+     },
+     {
+      "en": "Look around the rainy street for her.",
+      "ko": "혹시 근처에 있을까 주변을 둘러본다",
+      "reaction": "You scan the empty street, but there is only rain falling through the lamplight — and now she is all you can think about."
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "You turn into a narrow street between old walls. Then, from behind a pile of wet boxes, comes a small, thin sound. \"Meow.\"",
+    "art": "night"
+   },
+   {
+    "type": "text",
+    "text": "A white cat is crouching under a soaked box, shivering and pressing herself against the wall. You know that face at once. It is Bori."
+   },
+   {
+    "type": "choice",
+    "prompt": "어떻게 다가갈까요?",
+    "options": [
+     {
+      "en": "Call her name softly.",
+      "ko": "이름을 살며시 불러 본다",
+      "reaction": "\"Bori,\" you call gently. Her ears turn toward you, and after a moment she lifts her head, meets your eyes, and pads toward you."
+     },
+     {
+      "en": "Hold out your hand slowly.",
+      "ko": "천천히 손을 내밀어 본다",
+      "reaction": "You crouch down and open your hand, waiting without a word. She smells your fingers, then steps closer, one careful paw at a time."
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "Bori climbs into your arms as if she has been waiting for you. You tuck her inside your coat, hurry back to the pole, and dial the number from the paper."
+   },
+   {
+    "type": "text",
+    "text": "An old woman answers, and her voice trembles. \"You found Bori? Oh, thank you, thank you! Please stay right where you are. I am coming now!\""
+   },
+   {
+    "type": "text",
+    "text": "The grandmother arrives almost at a run, holding an umbrella she has forgotten to open. She gathers Bori into her arms and cries quietly. \"My house is just there,\" she says. \"Please come in and warm yourself with a cup of tea.\"",
+    "art": "village"
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 말할까요?",
+    "options": [
+     {
+      "en": "Thank you. I would love some tea.",
+      "ko": "감사해요. 차 마시고 갈게요.",
+      "reaction": "The tea is warm and sweet, and Bori falls asleep against your feet. Before you leave, the grandmother packs a bag of homemade cookies and will not hear a single no."
+     },
+     {
+      "en": "Thank you, but I have to go home.",
+      "ko": "감사하지만 이만 가 볼게요.",
+      "reaction": "\"Then at least take these,\" she insists, pressing a warm bag of homemade cookies into your hands before you can say a word."
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "A week later, the rain clears and a rainbow rises over the town. Whenever you pass her house now, Bori is sitting in the window like a small white guard, and the grandmother waves at you as if you were an old friend.",
+    "art": "home_rainbow"
+   }
+  ]
+ },
+ "dict": {
+  "evening": {"pos": "명사", "ko": "저녁"},
+  "paper": {"pos": "명사", "ko": "종이, 전단지"},
+  "pole": {"pos": "명사", "ko": "전봇대, 기둥"},
+  "lost": {"pos": "형용사", "ko": "잃어버린"},
+  "cat": {"pos": "명사", "ko": "고양이"},
+  "white": {"pos": "형용사", "ko": "하얀"},
+  "name": {"pos": "명사", "ko": "이름"},
+  "bori": {"pos": "명사", "ko": "보리 (고양이 이름)"},
+  "call": {"pos": "동사", "ko": "전화하다, 부르다"},
+  "number": {"pos": "명사", "ko": "번호"},
+  "photo": {"pos": "명사", "ko": "사진", "exEn": "You take a photo.", "exKo": "사진을 찍어요."},
+  "forget": {"pos": "동사", "ko": "잊다"},
+  "face": {"pos": "명사", "ko": "얼굴"},
+  "eyes": {"pos": "명사", "ko": "눈 (eye의 복수형)"},
+  "pink": {"pos": "형용사", "ko": "분홍색의"},
+  "nose": {"pos": "명사", "ko": "코"},
+  "street": {"pos": "명사", "ko": "골목, 거리"},
+  "hear": {"pos": "동사", "ko": "듣다, 들리다"},
+  "sound": {"pos": "명사", "ko": "소리"},
+  "meow": {"pos": "감탄사", "ko": "야옹 (고양이 울음소리)"},
+  "sits": {"pos": "동사", "ko": "앉아 있다 (sit의 3인칭)"},
+  "box": {"pos": "명사", "ko": "상자"},
+  "boxes": {"pos": "명사", "ko": "상자들 (box의 복수형)"},
+  "out": {"pos": "부사", "ko": "밖에, 밖으로"},
+  "slowly": {"pos": "부사", "ko": "천천히"},
+  "open": {"pos": "동사", "ko": "펴다, 열다"},
+  "smells": {"pos": "동사", "ko": "냄새를 맡다 (smell의 3인칭)"},
+  "woman": {"pos": "명사", "ko": "여자, 부인"},
+  "grandmother": {"pos": "명사", "ko": "할머니"},
+  "answers": {"pos": "동사", "ko": "(전화를) 받다 (answer의 3인칭)"},
+  "voice": {"pos": "명사", "ko": "목소리"},
+  "shakes": {"pos": "동사", "ko": "떨리다 (shake의 3인칭)"},
+  "fast": {"pos": "부사", "ko": "빨리"},
+  "cries": {"pos": "동사", "ko": "울다 (cry의 3인칭)"},
+  "near": {"pos": "형용사", "ko": "가까운"},
+  "tea": {"pos": "명사", "ko": "차"},
+  "love": {"pos": "동사", "ko": "좋아하다 (would love: 기꺼이 ~하고 싶다)"},
+  "some": {"pos": "한정사", "ko": "약간의, 몇몇의"},
+  "sweet": {"pos": "형용사", "ko": "달콤한"},
+  "sleeps": {"pos": "동사", "ko": "자다 (sleep의 3인칭)"},
+  "feet": {"pos": "명사", "ko": "발 (foot의 복수형)"},
+  "cookies": {"pos": "명사", "ko": "쿠키 (cookie의 복수형)"},
+  "bag": {"pos": "명사", "ko": "봉지, 가방"},
+  "week": {"pos": "명사", "ko": "일주일, 주"},
+  "later": {"pos": "부사", "ko": "뒤에, 나중에"},
+  "stops": {"pos": "동사", "ko": "그치다, 멈추다 (stop의 3인칭)"},
+  "rainbow": {"pos": "명사", "ko": "무지개"},
+  "window": {"pos": "명사", "ko": "창문"},
+  "wave": {"pos": "동사", "ko": "손을 흔들다"},
+  "wooden": {"pos": "형용사", "ko": "나무로 된"},
+  "writing": {"pos": "명사", "ko": "글씨"},
+  "shaky": {"pos": "형용사", "ko": "떨리는, 삐뚤삐뚤한"},
+  "those": {"pos": "한정사", "ko": "그, 저 (that의 복수형)"},
+  "turn": {"pos": "동사", "ko": "방향을 틀다, 향하다"},
+  "know": {"pos": "동사", "ko": "알다, 알아보다"},
+  "ears": {"pos": "명사", "ko": "귀 (ear의 복수형)"},
+  "move": {"pos": "동사", "ko": "움직이다"},
+  "steps": {"pos": "동사", "ko": "다가서다, 발을 내딛다 (step의 3인칭)"},
+  "climbs": {"pos": "동사", "ko": "기어오르다 (climb의 3인칭)"},
+  "inside": {"pos": "전치사", "ko": "~안에, ~속에"},
+  "found": {"pos": "동사", "ko": "찾았다 (find의 과거형)"},
+  "coming": {"pos": "동사", "ko": "가는 중 (come의 -ing형)"},
+  "almost": {"pos": "부사", "ko": "거의"},
+  "running": {"pos": "동사", "ko": "뛰는, 달리는 (run의 -ing형)"},
+  "quietly": {"pos": "부사", "ko": "조용히"},
+  "least": {"pos": "부사", "ko": "최소한 (at least: 적어도 이거라도)"},
+  "hangs": {"pos": "동사", "ko": "걸리다, 떠 있다 (hang의 3인칭)"},
+  "sitting": {"pos": "동사", "ko": "앉아 있는 (sit의 -ing형)"},
+  "drums": {"pos": "동사", "ko": "북 치듯 두드리다 (drum의 3인칭)"},
+  "quiet": {"pos": "형용사", "ko": "조용한"},
+  "early": {"pos": "형용사", "ko": "이른"},
+  "catches": {"pos": "동사", "ko": "(시선을) 사로잡다 (catch의 3인칭)"},
+  "eye": {"pos": "명사", "ko": "눈, 시선"},
+  "reads": {"pos": "동사", "ko": "~라고 쓰여 있다 (read의 3인칭)"},
+  "handwriting": {"pos": "명사", "ko": "손글씨"},
+  "kind": {"pos": "명사", "ko": "종류, 유형"},
+  "belongs": {"pos": "동사", "ko": "~의 것이다 (belong의 3인칭)"},
+  "thinking": {"pos": "동사", "ko": "생각하며 (think의 -ing형)"},
+  "somewhere": {"pos": "부사", "ko": "어딘가에"},
+  "study": {"pos": "동사", "ko": "찬찬히 살펴보다"},
+  "until": {"pos": "접속사", "ko": "~할 때까지"},
+  "between": {"pos": "전치사", "ko": "~사이에"},
+  "walls": {"pos": "명사", "ko": "담, 벽 (wall의 복수형)"},
+  "wall": {"pos": "명사", "ko": "담, 벽"},
+  "pile": {"pos": "명사", "ko": "더미"},
+  "thin": {"pos": "형용사", "ko": "가느다란, 여린"},
+  "crouching": {"pos": "동사", "ko": "웅크리고 있는 (crouch의 -ing형)"},
+  "pressing": {"pos": "동사", "ko": "바짝 붙이는, 밀어 넣는 (press의 -ing형)"},
+  "herself": {"pos": "대명사", "ko": "그녀 자신, 제 몸"},
+  "against": {"pos": "전치사", "ko": "~에 기대어, ~에 붙여"},
+  "gently": {"pos": "부사", "ko": "부드럽게"},
+  "after": {"pos": "전치사", "ko": "~후에"},
+  "moment": {"pos": "명사", "ko": "잠깐, 순간"},
+  "lifts": {"pos": "동사", "ko": "들어 올리다 (lift의 3인칭)"},
+  "meet": {"pos": "동사", "ko": "마주치다, 만나다"},
+  "crouch": {"pos": "동사", "ko": "몸을 낮춰 웅크리다"},
+  "fingers": {"pos": "명사", "ko": "손가락 (finger의 복수형)"},
+  "paw": {"pos": "명사", "ko": "(동물의) 발"},
+  "tuck": {"pos": "동사", "ko": "품에 넣다, 감싸 넣다"},
+  "dial": {"pos": "동사", "ko": "전화를 걸다"},
+  "trembles": {"pos": "동사", "ko": "떨리다 (tremble의 3인칭)"},
+  "stay": {"pos": "동사", "ko": "머무르다, 그대로 있다"},
+  "where": {"pos": "부사", "ko": "~하는 곳"},
+  "holding": {"pos": "동사", "ko": "들고 있는 (hold의 -ing형)"},
+  "forgotten": {"pos": "동사", "ko": "잊어버린 (forget의 과거분사)"},
+  "gathers": {"pos": "동사", "ko": "끌어안다, 그러모으다 (gather의 3인칭)"},
+  "cup": {"pos": "명사", "ko": "잔, 컵"},
+  "asleep": {"pos": "형용사", "ko": "잠든"},
+  "leave": {"pos": "동사", "ko": "떠나다, 자리를 뜨다"},
+  "packs": {"pos": "동사", "ko": "싸 주다, 챙겨 넣다 (pack의 3인칭)"},
+  "homemade": {"pos": "형용사", "ko": "집에서 만든"},
+  "single": {"pos": "형용사", "ko": "단 하나의"},
+  "these": {"pos": "한정사", "ko": "이것들 (this의 복수형)"},
+  "clears": {"pos": "동사", "ko": "(비가) 개다 (clear의 3인칭)"},
+  "rises": {"pos": "동사", "ko": "떠오르다 (rise의 3인칭)"},
+  "whenever": {"pos": "접속사", "ko": "~할 때마다"},
+  "guard": {"pos": "명사", "ko": "경비원, 지킴이"},
+  "friend": {"pos": "명사", "ko": "친구"},
+  "were": {"pos": "동사", "ko": "~였다 (be의 과거형)"},
+  "only": {"pos": "부사", "ko": "오직, ~뿐"},
+  "cannot": {"pos": "동사", "ko": "~할 수 없다 (can not의 줄임)"},
+  "lights": {"pos": "명사", "ko": "불빛, 가로등 (light의 복수형)"},
+  "scan": {"pos": "동사", "ko": "쭉 훑어보다"},
+  "empty": {"pos": "형용사", "ko": "텅 빈"},
+  "falling": {"pos": "동사", "ko": "내리는, 떨어지는 (fall의 -ing형)"},
+  "lamplight": {"pos": "명사", "ko": "가로등 불빛"},
+  "save": {"pos": "동사", "ko": "저장하다, 남겨 두다"},
+  "meets": {"pos": "동사", "ko": "마주치다 (meet의 3인칭)"},
+  "pads": {"pos": "동사", "ko": "사뿐사뿐 걸어가다 (pad의 3인칭)"},
+  "warms": {"pos": "동사", "ko": "따뜻하게 데워 주다 (warm의 3인칭)"}
+ }
+}
