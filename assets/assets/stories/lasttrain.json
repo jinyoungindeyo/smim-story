@@ -14,6 +14,28 @@
   ],
   "answer": 2
  },
+ "endings": {
+  "0": {
+   "name": "고요한 밤의 승객",
+   "en": "At home, you make a warm dinner and eat it slowly, just like the old man said. The house is quiet, and the night feels soft and kind. Before you sleep, you think of one small warm thing from this long day.",
+   "ko": "집에 온 당신은 노인의 말대로 따뜻한 저녁을 만들어 천천히 먹어요. 집 안은 고요하고, 밤은 부드럽고 다정하게 느껴져요. 잠들기 전, 이 긴 하루의 작고 따뜻한 순간 하나를 떠올려요."
+  },
+  "1": {
+   "name": "여유로운 저녁의 산책자",
+   "en": "At home, you eat something warm and think about his words. The next evening, you finish work a little early and walk slowly to the station. The night air feels kind, and you are not so tired now.",
+   "ko": "집에 온 당신은 따뜻한 음식을 먹으며 노인의 말을 곱씹어요. 다음 날 저녁엔 일을 조금 일찍 끝내고 역까지 천천히 걸어가요. 밤공기가 다정하게 느껴지고, 이제는 그렇게 피곤하지 않아요."
+  },
+  "2": {
+   "name": "호기심 많은 야간 여행자",
+   "en": "The next night, you take the same train again and look for the old man. He is not there, but you smile at a tired stranger, and they smile back. Small warm things are everywhere, you think, if you only look.",
+   "ko": "다음 날 밤, 당신은 같은 기차를 다시 타고 노인을 찾아봐요. 그는 보이지 않지만, 당신은 지쳐 보이는 낯선 사람에게 미소를 건네고 그 사람도 미소로 답해요. 눈여겨보기만 하면 작고 따뜻한 것들은 어디에나 있구나, 하고 생각해요."
+  },
+  "3": {
+   "name": "겁 없는 막차 친구",
+   "en": "The next night, you run to catch the same train at the same time. The old man is there, and he laughs when he sees you. \"Same train, same time,\" you say, and this time you ask him about his forty years.",
+   "ko": "다음 날 밤, 당신은 같은 시간의 같은 기차를 잡으려고 달려가요. 노인은 그 자리에 있고, 당신을 보자 웃음을 터뜨려요. \"같은 기차, 같은 시간이죠.\" 그렇게 말하고는, 이번엔 당신이 그의 40년 이야기를 물어봐요."
+  }
+ },
  "scripts": {
   "easy": [
    {
@@ -32,12 +54,14 @@
      {
       "en": "Close your eyes and rest.",
       "ko": "눈을 감고 잠시 쉰다",
-      "reaction": "You close your eyes. The train moves softly. Your body feels heavy."
+      "reaction": "You close your eyes. The train moves softly. Your body feels heavy.",
+      "tone": "calm"
      },
      {
-      "en": "Look out the dark window.",
-      "ko": "어두운 창밖을 바라본다",
-      "reaction": "The city lights go by. The night is quiet."
+      "en": "Look around the almost-empty car.",
+      "ko": "텅 빈 열차 안을 둘러본다",
+      "reaction": "A few tired faces. An old man slowly walks toward the seat next to you.",
+      "tone": "bold"
      }
     ]
    },
@@ -56,12 +80,14 @@
      {
       "en": "Yes, today was very long.",
       "ko": "네, 오늘 정말 길었어요.",
-      "reaction": "He nods slowly. \"I know that feeling well,\" he says."
+      "reaction": "He nods slowly. \"I know that feeling well,\" he says.",
+      "tone": "calm"
      },
      {
       "en": "How did you know?",
       "ko": "어떻게 아셨어요?",
-      "reaction": "\"Your eyes,\" he laughs. \"My eyes were like that, too.\""
+      "reaction": "\"Your eyes,\" he laughs. \"My eyes were like that, too.\"",
+      "tone": "bold"
      }
     ]
    },
@@ -84,12 +110,14 @@
      {
       "en": "Thank you. Get home safe!",
       "ko": "감사해요. 조심히 들어가세요!",
-      "reaction": "\"You too,\" he says. \"And eat a warm dinner.\""
+      "reaction": "\"You too,\" he says. \"And eat a warm dinner.\"",
+      "tone": "calm"
      },
      {
       "en": "I hope we meet again.",
       "ko": "또 만나면 좋겠어요.",
-      "reaction": "\"Same train, same time,\" he laughs. The doors open."
+      "reaction": "\"Same train, same time,\" he laughs. The doors open.",
+      "tone": "bold"
      }
     ]
    },
@@ -116,12 +144,14 @@
      {
       "en": "Close your eyes and rest.",
       "ko": "눈을 감고 잠시 쉰다",
-      "reaction": "You close your eyes and let the day go. The train moves softly under you, and slowly your tired body begins to feel heavy and warm."
+      "reaction": "You close your eyes and let the day go. The train moves softly under you, and slowly your tired body begins to feel heavy and warm.",
+      "tone": "calm"
      },
      {
-      "en": "Look out the dark window.",
-      "ko": "어두운 창밖을 바라본다",
-      "reaction": "The city lights pass by outside the window, one after another. From the warm train, the night looks quiet and far away."
+      "en": "Look around the almost-empty car.",
+      "ko": "텅 빈 열차 안을 둘러본다",
+      "reaction": "You look around the almost-empty car. A few tired faces here and there. Then an old man slowly walks toward the seat next to you.",
+      "tone": "bold"
      }
     ]
    },
@@ -140,12 +170,14 @@
      {
       "en": "Yes, today was really long.",
       "ko": "네, 오늘은 정말 길었어요.",
-      "reaction": "He nods slowly. \"I had many days like that,\" he says. \"More than I can count.\""
+      "reaction": "He nods slowly. \"I had many days like that,\" he says. \"More than I can count.\"",
+      "tone": "calm"
      },
      {
       "en": "How did you know?",
       "ko": "어떻게 아셨어요?",
-      "reaction": "\"Your eyes,\" he laughs. \"A long time ago, my eyes looked just like that after work.\""
+      "reaction": "\"Your eyes,\" he laughs. \"A long time ago, my eyes looked just like that after work.\"",
+      "tone": "bold"
      }
     ]
    },
@@ -168,12 +200,14 @@
      {
       "en": "Thank you. Get home safe!",
       "ko": "감사해요. 조심히 들어가세요!",
-      "reaction": "\"You too,\" he says. \"And don't go to bed hungry — eat something warm tonight.\""
+      "reaction": "\"You too,\" he says. \"And don't go to bed hungry — eat something warm tonight.\"",
+      "tone": "calm"
      },
      {
       "en": "I hope we meet again.",
       "ko": "또 만나면 좋겠어요.",
-      "reaction": "\"Same train, same time,\" he laughs. \"That is how old friends are made.\" The doors open behind you."
+      "reaction": "\"Same train, same time,\" he laughs. \"That is how old friends are made.\" The doors open behind you.",
+      "tone": "bold"
      }
     ]
    },
@@ -200,12 +234,14 @@
      {
       "en": "Close your eyes and rest.",
       "ko": "눈을 감고 잠시 쉰다",
-      "reaction": "You sink into the seat and close your eyes. The train moves gently under you, and your tired body finally feels heavy."
+      "reaction": "You sink into the seat and close your eyes. The train moves gently under you, and your tired body finally feels heavy.",
+      "tone": "calm"
      },
      {
-      "en": "Look out the dark window.",
-      "ko": "어두운 창밖을 바라본다",
-      "reaction": "The city lights slip past outside the window, far away and quiet, like another world."
+      "en": "Look around the almost-empty car.",
+      "ko": "텅 빈 열차 안을 둘러본다",
+      "reaction": "You look around the almost-empty car. A few tired faces here and there, all deep in the same long day. Then an old man slowly walks toward the seat next to you.",
+      "tone": "bold"
      }
     ]
    },
@@ -224,12 +260,14 @@
      {
       "en": "Yes, today was really long.",
       "ko": "네, 오늘은 정말 길었어요.",
-      "reaction": "He nods slowly, as if he can see the whole day on your face. \"I know that feeling very well,\" he says."
+      "reaction": "He nods slowly, as if he can see the whole day on your face. \"I know that feeling very well,\" he says.",
+      "tone": "calm"
      },
      {
       "en": "How did you know?",
       "ko": "어떻게 아셨어요?",
-      "reaction": "\"Your eyes,\" he laughs quietly. \"Mine looked exactly like that once, a long time ago.\""
+      "reaction": "\"Your eyes,\" he laughs quietly. \"Mine looked exactly like that once, a long time ago.\"",
+      "tone": "bold"
      }
     ]
    },
@@ -252,12 +290,14 @@
      {
       "en": "Thank you. Get home safe!",
       "ko": "감사해요. 조심히 들어가세요!",
-      "reaction": "\"You too,\" he says warmly. \"And make sure you eat a proper warm dinner tonight.\""
+      "reaction": "\"You too,\" he says warmly. \"And make sure you eat a proper warm dinner tonight.\"",
+      "tone": "calm"
      },
      {
       "en": "I hope we meet again.",
       "ko": "또 만나면 좋겠어요.",
-      "reaction": "\"Same train, same time,\" he laughs as the doors open in front of you."
+      "reaction": "\"Same train, same time,\" he laughs as the doors open in front of you.",
+      "tone": "bold"
      }
     ]
    },
@@ -281,9 +321,17 @@
    "pos": "부사",
    "ko": "~ 전에"
   },
+  "air": {
+   "pos": "명사",
+   "ko": "공기 (night air: 밤공기)"
+  },
   "almost": {
    "pos": "부사",
    "ko": "거의"
+  },
+  "almostempty": {
+   "pos": "형용사",
+   "ko": "거의 텅 빈 (almost-empty)"
   },
   "another": {
    "pos": "한정사",
@@ -296,6 +344,10 @@
   "anyone": {
    "pos": "대명사",
    "ko": "누구, 그 누구 (better than anyone: 누구보다 잘)"
+  },
+  "ask": {
+   "pos": "동사",
+   "ko": "묻다, 물어보다"
   },
   "asks": {
    "pos": "동사",
@@ -341,6 +393,10 @@
    "pos": "명사",
    "ko": "저녁 식사"
   },
+  "early": {
+   "pos": "부사",
+   "ko": "일찍"
+  },
   "eat": {
    "pos": "동사",
    "ko": "먹다"
@@ -352,6 +408,14 @@
   "even": {
    "pos": "부사",
    "ko": "심지어, ~조차 (even now: 지금도)"
+  },
+  "evening": {
+   "pos": "명사",
+   "ko": "저녁"
+  },
+  "everywhere": {
+   "pos": "부사",
+   "ko": "어디에나"
   },
   "exactly": {
    "pos": "부사",
@@ -369,9 +433,17 @@
    "pos": "부사",
    "ko": "멀리 (far away: 멀리 떨어진)"
   },
+  "faces": {
+   "pos": "명사",
+   "ko": "얼굴들 (face의 복수)"
+  },
   "fast": {
    "pos": "부사",
    "ko": "빠르게"
+  },
+  "few": {
+   "pos": "한정사",
+   "ko": "몇몇의 (a few: 몇몇의, 두셋의)"
   },
   "feel": {
    "pos": "동사",
@@ -417,9 +489,17 @@
    "pos": "동사",
    "ko": "가졌다, 겪었다 (have의 과거)"
   },
+  "him": {
+   "pos": "대명사",
+   "ko": "그를, 그에게 (he의 목적격)"
+  },
   "hope": {
    "pos": "동사",
    "ko": "바라다"
+  },
+  "kind": {
+   "pos": "형용사",
+   "ko": "다정한, 친절한"
   },
   "know": {
    "pos": "동사",
@@ -565,6 +645,10 @@
    "pos": "형용사",
    "ko": "무사히, 안전하게 (get home safe: 조심히 들어가다)"
   },
+  "said": {
+   "pos": "동사",
+   "ko": "말했다 (say의 과거)"
+  },
   "same": {
    "pos": "형용사",
    "ko": "같은"
@@ -576,6 +660,10 @@
   "seems": {
    "pos": "동사",
    "ko": "~인 것 같다 (seem)"
+  },
+  "sees": {
+   "pos": "동사",
+   "ko": "보다 (see)"
   },
   "single": {
    "pos": "형용사",
@@ -601,13 +689,17 @@
    "pos": "동사",
    "ko": "잠들다 (sleep)"
   },
+  "slowly": {
+   "pos": "부사",
+   "ko": "천천히"
+  },
   "slows": {
    "pos": "동사",
    "ko": "느려지다 (slow down: 속도를 늦추다)"
   },
-  "slowly": {
-   "pos": "부사",
-   "ko": "천천히"
+  "soft": {
+   "pos": "형용사",
+   "ko": "부드러운"
   },
   "something": {
    "pos": "대명사",
@@ -632,6 +724,10 @@
   "stops": {
    "pos": "동사",
    "ko": "멈추다 (stop)"
+  },
+  "stranger": {
+   "pos": "명사",
+   "ko": "낯선 사람"
   },
   "streets": {
    "pos": "명사",
@@ -697,6 +793,10 @@
    "pos": "명사",
    "ko": "창문들 (window의 복수)"
   },
+  "words": {
+   "pos": "명사",
+   "ko": "말, 말들 (word의 복수)"
+  },
   "work": {
    "pos": "명사",
    "ko": "일, 직장"
@@ -708,10 +808,6 @@
   "working": {
    "pos": "형용사",
    "ko": "일하는 (working days: 일하던 시절)"
-  },
-  "words": {
-   "pos": "명사",
-   "ko": "말, 말들 (word의 복수)"
   },
   "years": {
    "pos": "명사",

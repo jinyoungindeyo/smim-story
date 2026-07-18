@@ -14,6 +14,28 @@
   ],
   "answer": 1
  },
+ "endings": {
+  "0": {
+   "name": "수줍은 새싹",
+   "en": "A week later, you wave at Mrs. Rose over the fence, but you stay on your side. Every Sunday she leaves a bag of vegetables at your door. Some gardens, you think, are best enjoyed from a safe distance.",
+   "ko": "일주일 뒤, 당신은 울타리 너머로 Rose 부인에게 손만 흔들어요. 부인은 일요일마다 문 앞에 채소 한 봉지를 놓고 가요. 어떤 정원은 안전한 거리에서 즐기는 게 제일 좋다고, 당신은 생각해요."
+  },
+  "1": {
+   "name": "성실한 견습생",
+   "en": "The next weekend, you visit the garden again, but only to water the flowers. Mrs. Rose teaches you slowly, one small step at a time. \"You are a careful student,\" she says, \"and my garden likes careful hands.\"",
+   "ko": "다음 주말, 당신은 다시 정원을 찾지만 꽃에 물만 줘요. Rose 부인은 한 걸음씩 천천히 가르쳐 줘요. \"당신은 신중한 학생이에요. 우리 정원은 신중한 손을 좋아하죠.\" 부인이 말해요."
+  },
+  "2": {
+   "name": "손끝 야무진 일꾼",
+   "en": "Every weekend, you come back to help in the garden. Each visit, you dig a little deeper and stay a little longer. \"You learn fast,\" Mrs. Rose smiles. \"Soon you will not need a teacher at all.\"",
+   "ko": "당신은 주말마다 정원 일을 도우러 다시 와요. 갈 때마다 조금 더 깊이 파고, 조금 더 오래 머물러요. \"배움이 빠르네요. 곧 선생님이 필요 없겠어요.\" Rose 부인이 웃으며 말해요."
+  },
+  "3": {
+   "name": "소문난 밤의 일손",
+   "en": "By summer, the whole village talks about Mrs. Rose and her garden — it has never looked so alive. She tells her friends you have the strongest hands in town. And the neighbors notice one small thing: her garden gate is never locked anymore — day or night.",
+   "ko": "여름이 되자 온 마을이 Rose 부인과 그 정원 이야기를 해요. 정원이 이렇게 생기 넘친 적이 없었거든요. 부인은 친구들에게 당신이 마을에서 손힘이 제일 좋다고 자랑해요. 그리고 이웃들은 작은 변화 하나를 눈치채요. 부인네 정원 문이 이제 밤에도 잠겨 있지 않다는 걸요."
+  }
+ },
  "scripts": {
   "normal": [
    {
@@ -38,12 +60,14 @@
      {
       "en": "Sure! I'm good with my hands.",
       "ko": "그럼요! 제가 손재주가 좀 있어요.",
-      "reaction": "\"Wonderful,\" she smiles. \"I can see that.\""
+      "reaction": "\"Wonderful,\" she smiles. \"I can see that.\"",
+      "tone": "bold"
      },
      {
       "en": "Okay, but I've never done this before.",
       "ko": "네, 근데 처음이라서요.",
-      "reaction": "\"Don't worry,\" she smiles. \"I will teach you everything. Everyone has a first time.\""
+      "reaction": "\"Don't worry,\" she smiles. \"I will teach you everything. Everyone has a first time.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -64,12 +88,14 @@
      {
       "en": "Like this? Am I doing it right?",
       "ko": "이렇게요? 제대로 하고 있나요?",
-      "reaction": "\"Perfect. Slow and gentle,\" she says. \"You are a natural.\""
+      "reaction": "\"Perfect. Slow and gentle,\" she says. \"You are a natural.\"",
+      "tone": "calm"
      },
      {
       "en": "How much water is too much?",
-      "ko": "물이 얼마나 많으면 너무 많은 거예요?",
-      "reaction": "\"Oh, honey,\" she laughs. \"In my garden, there is no such thing as too wet.\""
+      "ko": "물을 얼마나 주면 너무 많은 거예요?",
+      "reaction": "\"Oh, honey,\" she laughs. \"In my garden, there is no such thing as too wet.\"",
+      "tone": "bold"
      }
     ]
    },
@@ -94,12 +120,14 @@
      {
       "en": "Your garden is amazing, Mrs. Rose.",
       "ko": "정원이 정말 대단해요.",
-      "reaction": "\"Thank you, dear. My husband never watered it enough. Now look at it.\""
+      "reaction": "\"Thank you, dear. My husband never watered it enough. Now look at it.\"",
+      "tone": "calm"
      },
      {
-      "en": "I should garden more often.",
-      "ko": "저도 정원 일을 자주 해야겠어요.",
-      "reaction": "\"You should! Gardening is like riding a bicycle — once you learn, your body never forgets.\""
+      "en": "I want to do this again — can I come back next weekend?",
+      "ko": "또 하고 싶어요. 다음 주말에 다시 와도 돼요?",
+      "reaction": "\"You should! Gardening is like riding a bicycle — once you learn, your body never forgets.\"",
+      "tone": "bold"
      }
     ]
    },
@@ -137,12 +165,14 @@
      {
       "en": "Sure! I have always been good with my hands.",
       "ko": "그럼요! 저 원래 손재주가 좋아요.",
-      "reaction": "\"Wonderful,\" she smiles. \"Somehow I knew you would be.\""
+      "reaction": "\"Wonderful,\" she smiles. \"Somehow I knew you would be.\"",
+      "tone": "bold"
      },
      {
       "en": "Okay, but I have never done this before.",
       "ko": "네, 근데 처음이라서요.",
-      "reaction": "\"Don't you worry,\" she smiles. \"I will walk you through everything. Everyone has a first time.\""
+      "reaction": "\"Don't you worry,\" she smiles. \"I will walk you through everything. Everyone has a first time.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -163,12 +193,14 @@
      {
       "en": "Like this? Am I doing it right?",
       "ko": "이렇게요? 제대로 하고 있나요?",
-      "reaction": "\"Perfect. Slow and gentle,\" she murmurs. \"You are a natural at this.\""
+      "reaction": "\"Perfect. Slow and gentle,\" she murmurs. \"You are a natural at this.\"",
+      "tone": "calm"
      },
      {
       "en": "How much water would be too much?",
-      "ko": "물이 얼마나 많으면 너무 많은 걸까요?",
-      "reaction": "\"Oh, honey,\" she laughs. \"In my garden, no such thing has ever existed.\""
+      "ko": "물을 얼마나 주면 너무 많은 걸까요?",
+      "reaction": "\"Oh, honey,\" she laughs. \"In my garden, no such thing has ever existed.\"",
+      "tone": "bold"
      }
     ]
    },
@@ -193,12 +225,14 @@
      {
       "en": "Your garden is truly amazing, Mrs. Rose.",
       "ko": "정원이 정말 대단해요.",
-      "reaction": "\"Thank you, dear. My husband never watered it nearly enough. And now look at it.\""
+      "reaction": "\"Thank you, dear. My husband never watered it nearly enough. And now look at it.\"",
+      "tone": "calm"
      },
      {
-      "en": "I really should garden more often.",
-      "ko": "저도 정원 일을 자주 해야겠어요.",
-      "reaction": "\"You should! Gardening is like riding a bicycle — once you learn, the body never forgets.\""
+      "en": "I want to do this again. May I come back next weekend?",
+      "ko": "또 하고 싶어요. 다음 주말에 다시 와도 돼요?",
+      "reaction": "\"You should! Gardening is like riding a bicycle — once you learn, the body never forgets.\"",
+      "tone": "bold"
      }
     ]
    },
@@ -213,6 +247,168 @@
     "art": "night"
    }
   ]
+ },
+ "dict": {
+  "week": {
+   "pos": "명사",
+   "ko": "주, 일주일"
+  },
+  "later": {
+   "pos": "부사",
+   "ko": "~후에, 나중에"
+  },
+  "wave": {
+   "pos": "동사",
+   "ko": "손을 흔들다"
+  },
+  "stay": {
+   "pos": "동사",
+   "ko": "머무르다"
+  },
+  "side": {
+   "pos": "명사",
+   "ko": "쪽, 편"
+  },
+  "sunday": {
+   "pos": "명사",
+   "ko": "일요일"
+  },
+  "bag": {
+   "pos": "명사",
+   "ko": "봉지"
+  },
+  "some": {
+   "pos": "형용사",
+   "ko": "어떤, 몇몇의"
+  },
+  "gardens": {
+   "pos": "명사",
+   "ko": "정원들 — garden의 복수"
+  },
+  "enjoyed": {
+   "pos": "동사",
+   "ko": "즐기다 — enjoy의 과거분사"
+  },
+  "safe": {
+   "pos": "형용사",
+   "ko": "안전한"
+  },
+  "distance": {
+   "pos": "명사",
+   "ko": "거리"
+  },
+  "weekend": {
+   "pos": "명사",
+   "ko": "주말"
+  },
+  "visit": {
+   "pos": "동사",
+   "ko": "방문(하다)"
+  },
+  "again": {
+   "pos": "부사",
+   "ko": "다시"
+  },
+  "only": {
+   "pos": "부사",
+   "ko": "오직, ~만"
+  },
+  "flowers": {
+   "pos": "명사",
+   "ko": "꽃들 — flower의 복수"
+  },
+  "teaches": {
+   "pos": "동사",
+   "ko": "가르치다 — teach의 3인칭"
+  },
+  "slowly": {
+   "pos": "부사",
+   "ko": "천천히"
+  },
+  "student": {
+   "pos": "명사",
+   "ko": "학생"
+  },
+  "likes": {
+   "pos": "동사",
+   "ko": "좋아하다 — like의 3인칭"
+  },
+  "each": {
+   "pos": "형용사",
+   "ko": "각각의, 매 ~마다"
+  },
+  "longer": {
+   "pos": "부사",
+   "ko": "더 오래 — long의 비교급"
+  },
+  "fast": {
+   "pos": "부사",
+   "ko": "빨리"
+  },
+  "soon": {
+   "pos": "부사",
+   "ko": "곧"
+  },
+  "teacher": {
+   "pos": "명사",
+   "ko": "선생님"
+  },
+  "summer": {
+   "pos": "명사",
+   "ko": "여름"
+  },
+  "looked": {
+   "pos": "동사",
+   "ko": "~해 보였다 — look의 과거"
+  },
+  "alive": {
+   "pos": "형용사",
+   "ko": "생기 넘치는, 살아 있는"
+  },
+  "friends": {
+   "pos": "명사",
+   "ko": "친구들 — friend의 복수"
+  },
+  "strongest": {
+   "pos": "형용사",
+   "ko": "가장 힘센 — strong의 최상급"
+  },
+  "neighbors": {
+   "pos": "명사",
+   "ko": "이웃들 — neighbor의 복수"
+  },
+  "notice": {
+   "pos": "동사",
+   "ko": "알아차리다, 눈치채다"
+  },
+  "gate": {
+   "pos": "명사",
+   "ko": "문, 대문"
+  },
+  "locked": {
+   "pos": "형용사",
+   "ko": "잠긴"
+  },
+  "anymore": {
+   "pos": "부사",
+   "ko": "(부정문에서) 더는, 이제는"
+  },
+  "want": {
+   "pos": "동사",
+   "ko": "원하다, ~하고 싶다"
+  },
+  "do": {
+   "pos": "동사",
+   "ko": "하다"
+  },
+  "may": {
+   "pos": "조동사",
+   "ko": "~해도 될까요 (정중한 허락)"
+  },
+  "or": {
+   "pos": "접속사",
+   "ko": "또는, ~이든"
+  }
  },
  "introEn": "Helping Mrs. Rose with her garden. Perfectly wholesome.\n...on the surface. Tap words to see the hidden meaning."
 }

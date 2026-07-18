@@ -36,12 +36,14 @@
      {
       "en": "Hands-on? What does that mean?",
       "ko": "핸즈온이요? 그게 무슨 뜻이에요?",
-      "reaction": "\"It means I fix your form with my hands,\" he says. \"You will like the results.\""
+      "reaction": "\"It means I fix your form with my hands,\" he says. \"You will like the results.\"",
+      "tone": "calm"
      },
      {
       "en": "Great. I'm ready for anything.",
       "ko": "좋아요. 뭐든 할 준비 됐어요.",
-      "reaction": "\"Anything?\" He smiles slowly. \"I like that spirit.\""
+      "reaction": "\"Anything?\" He smiles slowly. \"I like that spirit.\"",
+      "tone": "bold"
      }
     ]
    },
@@ -61,12 +63,14 @@
      {
       "en": "Is this a normal position?",
       "ko": "이거 정상적인 자세 맞죠?",
-      "reaction": "\"Of course. Trust me — I have done this position a hundred times.\""
+      "reaction": "\"Of course. Trust me — I have done this position a hundred times.\"",
+      "tone": "calm"
      },
      {
-      "en": "How flexible do I need to be?",
-      "ko": "제가 얼마나 유연해야 돼요?",
-      "reaction": "\"Don't worry,\" he laughs. \"Flexibility comes with practice. Lots of practice.\""
+      "en": "Don't worry — I'm more flexible than I look.",
+      "ko": "걱정 마세요. 저 보기보다 유연하거든요.",
+      "reaction": "\"Is that so?\" he laughs. \"Then let's find out. Flexibility shows in practice — lots of practice.\"",
+      "tone": "bold"
      }
     ]
    },
@@ -90,12 +94,14 @@
      {
       "en": "Okay. But be gentle with me.",
       "ko": "알았어요. 대신 살살해 주세요.",
-      "reaction": "\"Gentle?\" He grins. \"That word is not in my program. But for you, maybe.\""
+      "reaction": "\"Gentle?\" He grins. \"That word is not in my program. But for you, maybe.\"",
+      "tone": "calm"
      },
      {
       "en": "Fine. But you owe me a break.",
       "ko": "좋아요. 대신 나중에 쉬게 해 줘요.",
-      "reaction": "\"Deal. Finish strong, and I will take good care of you after.\""
+      "reaction": "\"Deal. Finish strong, and I will take good care of you after.\"",
+      "tone": "bold"
      }
     ]
    },
@@ -130,12 +136,14 @@
      {
       "en": "Hands-on? What exactly does that mean?",
       "ko": "핸즈온이요? 그게 정확히 무슨 뜻이에요?",
-      "reaction": "\"It means I correct your form with my hands,\" he explains smoothly. \"You will see why everyone comes back.\""
+      "reaction": "\"It means I correct your form with my hands,\" he explains smoothly. \"You will see why everyone comes back.\"",
+      "tone": "calm"
      },
      {
       "en": "Great. I'm ready for anything.",
       "ko": "좋아요. 뭐든 할 준비 됐어요.",
-      "reaction": "\"Anything?\" He smiles slowly. \"I will remember that when we get to the last set.\""
+      "reaction": "\"Anything?\" He smiles slowly. \"I will remember that when we get to the last set.\"",
+      "tone": "bold"
      }
     ]
    },
@@ -155,12 +163,14 @@
      {
       "en": "Is this a normal position?",
       "ko": "이거 정상적인 자세 맞죠?",
-      "reaction": "\"Absolutely. Trust me — I have done this position more times than I can count.\""
+      "reaction": "\"Absolutely. Trust me — I have done this position more times than I can count.\"",
+      "tone": "calm"
      },
      {
-      "en": "How flexible do I need to be?",
-      "ko": "제가 얼마나 유연해야 돼요?",
-      "reaction": "\"Oh, don't you worry,\" he laughs. \"Flexibility comes with practice. A great deal of practice.\""
+      "en": "Don't worry — I'm more flexible than I look.",
+      "ko": "걱정 마세요. 저 보기보다 유연하거든요.",
+      "reaction": "\"Is that so?\" he laughs. \"Then let's find out. Flexibility shows in practice — a great deal of practice.\"",
+      "tone": "bold"
      }
     ]
    },
@@ -184,12 +194,14 @@
      {
       "en": "Okay. But be gentle with me.",
       "ko": "알았어요. 대신 살살해 주세요.",
-      "reaction": "\"Gentle?\" He grins. \"That word is not in my program. Although for you, I might make an exception.\""
+      "reaction": "\"Gentle?\" He grins. \"That word is not in my program. Although for you, I might make an exception.\"",
+      "tone": "calm"
      },
      {
       "en": "Fine. But afterwards you owe me a break.",
       "ko": "좋아요. 대신 나중에 쉬게 해 줘요.",
-      "reaction": "\"Deal. Finish strong, and afterwards I promise to take very good care of you.\""
+      "reaction": "\"Deal. Finish strong, and afterwards I promise to take very good care of you.\"",
+      "tone": "bold"
      }
     ]
    },
@@ -221,9 +233,17 @@
    "pos": "부사",
    "ko": "그 후에, 끝나고 나서"
   },
+  "again": {
+   "pos": "부사",
+   "ko": "다시, 또"
+  },
   "alex": {
    "pos": "고유명사",
    "ko": "알렉스 (트레이너 이름)"
+  },
+  "alone": {
+   "pos": "부사",
+   "ko": "혼자서"
   },
   "already": {
    "pos": "부사",
@@ -237,13 +257,25 @@
    "pos": "동사",
    "ko": "선언하다 (announce의 3인칭)"
   },
+  "answer": {
+   "pos": "명사",
+   "ko": "답장, 대답"
+  },
   "anything": {
    "pos": "대명사",
    "ko": "무엇이든"
   },
+  "arrive": {
+   "pos": "동사",
+   "ko": "도착하다"
+  },
   "asks": {
    "pos": "동사",
    "ko": "묻다 (ask의 3인칭)"
+  },
+  "asleep": {
+   "pos": "형용사",
+   "ko": "잠든 (fall asleep: 잠들다)"
   },
   "beating": {
    "pos": "동사",
@@ -257,9 +289,17 @@
    "pos": "동사",
    "ko": "(몸을) 숙이다, 굽히다"
   },
+  "book": {
+   "pos": "동사",
+   "ko": "예약하다"
+  },
   "break": {
    "pos": "명사",
    "ko": "휴식"
+  },
+  "breaks": {
+   "pos": "명사",
+   "ko": "휴식 (break의 복수)"
   },
   "breathe": {
    "pos": "동사",
@@ -293,9 +333,17 @@
    "pos": "동사",
    "ko": "(수를) 세다"
   },
+  "counting": {
+   "pos": "동사",
+   "ko": "(수를) 세다 (count의 진행형)"
+  },
   "deal": {
    "pos": "명사",
    "ko": "약속, 거래 (Deal: 좋아요, 콜) / a great deal of: 아주 많은"
+  },
+  "did": {
+   "pos": "동사",
+   "ko": "하다 (do의 과거형)"
   },
   "do": {
    "pos": "동사",
@@ -304,6 +352,10 @@
   "does": {
    "pos": "동사",
    "ko": "하다 (do의 3인칭)"
+  },
+  "early": {
+   "pos": "부사",
+   "ko": "일찍"
   },
   "end": {
    "pos": "명사",
@@ -341,6 +393,10 @@
    "pos": "형용사",
    "ko": "공정한 (fair warning: 미리 하는 경고)"
   },
+  "fall": {
+   "pos": "동사",
+   "ko": "~하게 되다 (fall asleep: 잠들다)"
+  },
   "fast": {
    "pos": "부사",
    "ko": "빠르게"
@@ -352,6 +408,10 @@
   "final": {
    "pos": "형용사",
    "ko": "마지막의"
+  },
+  "find": {
+   "pos": "동사",
+   "ko": "찾다, 알아내다"
   },
   "finds": {
    "pos": "동사",
@@ -380,6 +440,10 @@
   "flexible": {
    "pos": "형용사",
    "ko": "유연한"
+  },
+  "flips": {
+   "pos": "동사",
+   "ko": "뒤집다 (flip의 3인칭)"
   },
   "form": {
    "pos": "명사",
@@ -412,6 +476,10 @@
   "gym": {
    "pos": "명사",
    "ko": "헬스장"
+  },
+  "had": {
+   "pos": "동사",
+   "ko": "가지고 있었다 (have의 과거형)"
   },
   "handing": {
    "pos": "동사",
@@ -465,6 +533,10 @@
    "pos": "동사",
    "ko": "~하게 두다"
   },
+  "lets": {
+   "pos": "축약",
+   "ko": "let's = let us (~하자)"
+  },
   "likes": {
    "pos": "동사",
    "ko": "좋아하다 (like의 3인칭)"
@@ -500,6 +572,14 @@
   "means": {
    "pos": "동사",
    "ko": "의미하다 (mean의 3인칭)"
+  },
+  "mercy": {
+   "pos": "명사",
+   "ko": "자비, 봐주기 (no mercy: 봐주기 없음)"
+  },
+  "message": {
+   "pos": "명사",
+   "ko": "메시지, 문자"
   },
   "might": {
    "pos": "조동사",
@@ -537,6 +617,10 @@
    "pos": "동사",
    "ko": "열리다, 펴지다"
   },
+  "out": {
+   "pos": "부사",
+   "ko": "밖으로, 드러나게 (find out: 알아내다)"
+  },
   "owe": {
    "pos": "동사",
    "ko": "빚지다 (~해 줘야 한다)"
@@ -557,6 +641,14 @@
    "pos": "형용사",
    "ko": "개인의, 1대1의"
   },
+  "places": {
+   "pos": "명사",
+   "ko": "곳, 부위 (place의 복수)"
+  },
+  "plan": {
+   "pos": "명사",
+   "ko": "계획, 계획표"
+  },
   "position": {
    "pos": "명사",
    "ko": "자세"
@@ -573,6 +665,10 @@
    "pos": "동사",
    "ko": "누르다 (press의 진행형)"
   },
+  "private": {
+   "pos": "형용사",
+   "ko": "개인의, 사적인 (private lesson: 개인 수업)"
+  },
   "program": {
    "pos": "명사",
    "ko": "프로그램"
@@ -585,6 +681,14 @@
    "pos": "동사",
    "ko": "약속하다"
   },
+  "proud": {
+   "pos": "형용사",
+   "ko": "뿌듯한, 자랑스러운"
+  },
+  "purely": {
+   "pos": "부사",
+   "ko": "순전히, 오로지"
+  },
   "push": {
    "pos": "동사",
    "ko": "밀어붙이다, 버텨 내다"
@@ -592,6 +696,14 @@
   "rate": {
    "pos": "명사",
    "ko": "수치, 속도 (heart rate: 심박수)"
+  },
+  "read": {
+   "pos": "동사",
+   "ko": "읽다"
+  },
+  "reads": {
+   "pos": "동사",
+   "ko": "읽다 (read의 3인칭)"
   },
   "ready": {
    "pos": "형용사",
@@ -625,6 +737,10 @@
    "pos": "명사",
    "ko": "초 (아주 짧은 순간)"
   },
+  "send": {
+   "pos": "동사",
+   "ko": "보내다"
+  },
   "seriously": {
    "pos": "부사",
    "ko": "진지하게"
@@ -648,6 +764,18 @@
   "shoulder": {
    "pos": "명사",
    "ko": "어깨"
+  },
+  "shower": {
+   "pos": "명사",
+   "ko": "샤워"
+  },
+  "shows": {
+   "pos": "동사",
+   "ko": "드러나다, 보이다 (show의 3인칭)"
+  },
+  "sign": {
+   "pos": "명사",
+   "ko": "팻말, 표지판"
   },
   "single": {
    "pos": "형용사",
@@ -689,6 +817,10 @@
    "pos": "형용사",
    "ko": "뻣뻣한, 굳은"
   },
+  "strangely": {
+   "pos": "부사",
+   "ko": "이상하게, 묘하게"
+  },
   "stretch": {
    "pos": "동사",
    "ko": "스트레칭하다, 몸을 늘이다"
@@ -704,6 +836,10 @@
   "sweat": {
    "pos": "동사·명사",
    "ko": "땀을 흘리다; 땀"
+  },
+  "tell": {
+   "pos": "동사",
+   "ko": "말하다"
   },
   "tight": {
    "pos": "형용사",
@@ -736,6 +872,10 @@
   "trust": {
    "pos": "동사",
    "ko": "믿다"
+  },
+  "twice": {
+   "pos": "부사",
+   "ko": "두 번"
   },
   "us": {
    "pos": "대명사",
@@ -780,6 +920,10 @@
   "worked": {
    "pos": "동사",
    "ko": "효과가 있었다 (work의 과거형)"
+  },
+  "wrote": {
+   "pos": "동사",
+   "ko": "썼다, (계획을) 짰다 (write의 과거형)"
   }
  },
  "wink": {
@@ -793,5 +937,27 @@
   "sore": "다음 날 찾아오는 뻐근한 근육통이에요. 물론 몸이 뻐근해지는 이유가 운동만 있는 건 아니라고들 하죠.",
   "comes": "'오다'라는 평범한 동사예요. '제일 좋은 건 마지막에 온다'는 운동의 오랜 격언이죠. 운동만의 격언은 아니라고들 하지만요."
  },
- "introEn": "Your first personal training session. Very hands-on.\n...strictly professional, of course."
+ "introEn": "Your first personal training session. Very hands-on.\n...strictly professional, of course.",
+ "endings": {
+  "0": {
+   "name": "신중한 모범 회원",
+   "en": "You go home, take a long warm shower, and stretch alone, slowly and carefully. The next morning you are sore, but strangely proud. You book the same lesson again — and this time you read the whole program first.",
+   "ko": "집에 돌아와 따뜻한 물로 오래 샤워하고, 혼자서 천천히 조심조심 스트레칭을 해요. 다음 날 아침엔 몸이 뻐근하지만 이상하게 뿌듯하죠. 같은 수업을 다시 예약해요 — 이번엔 프로그램을 처음부터 끝까지 먼저 읽어 보고요."
+  },
+  "1": {
+   "name": "호기심 많은 새내기",
+   "en": "You walk home slowly, smiling at nothing. The next day you are sore in places you did not know you had. Still, you book next Monday — purely for the exercise, you tell yourself.",
+   "ko": "천천히 집으로 걸어가며 괜히 혼자 웃어요. 다음 날엔 있는 줄도 몰랐던 곳까지 뻐근하죠. 그래도 다음 주 월요일을 예약해요 — 순전히 운동 때문이라고, 스스로에게 말하면서요."
+  },
+  "2": {
+   "name": "은근히 과감한 수강생",
+   "en": "That night you send Alex a message: \"Same time next week. And this time, don't be gentle.\" His answer arrives in one second: \"Deal.\" You fall asleep smiling, already counting the days.",
+   "ko": "그날 밤 알렉스에게 메시지를 보내요. \"다음 주 같은 시간에요. 그리고 이번엔 살살하지 말아요.\" 답장은 1초 만에 도착하죠. \"콜.\" 벌써 남은 날을 세면서, 웃는 얼굴로 잠들어요."
+  },
+  "3": {
+   "name": "겁 없는 에이스",
+   "en": "Next Monday you arrive early and hand Alex a plan you wrote yourself: every set, no breaks, no mercy. He reads it twice and smiles very slowly. Then he flips the sign on the door: private lesson.",
+   "ko": "다음 주 월요일, 일찍 도착해서 직접 짠 계획표를 알렉스에게 건네요. 전 세트, 휴식 없음, 봐주기 없음. 그는 두 번 읽어 보더니 아주 천천히 웃어요. 그러고는 문에 걸린 팻말을 뒤집죠 — \"개인 수업 중\"."
+  }
+ }
 }

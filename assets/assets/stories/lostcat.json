@@ -32,12 +32,14 @@
      {
       "en": "Take a photo of the paper.",
       "ko": "전단지를 사진으로 찍어 둔다",
-      "reaction": "You take a photo. You think about the white cat in the cold rain."
+      "reaction": "You take a photo. You think about the white cat in the cold rain.",
+      "tone": "calm"
      },
      {
       "en": "Look around the rainy street for her.",
       "ko": "혹시 근처에 있을까 주변을 둘러본다",
-      "reaction": "You look around the street. You see only rain. But you think about her now."
+      "reaction": "You look around the street. You see only rain. But you think about her now.",
+      "tone": "bold"
      }
     ]
    },
@@ -55,14 +57,16 @@
     "prompt": "어떻게 다가갈까요?",
     "options": [
      {
-      "en": "Call her name softly.",
-      "ko": "이름을 살며시 불러 본다",
-      "reaction": "\"Bori,\" you say softly. The cat looks up at you. Then she slowly walks to you."
+      "en": "Step closer and call her name.",
+      "ko": "한 걸음 다가가 이름을 불러 본다",
+      "reaction": "\"Bori,\" you say, taking a step closer. The cat looks up at you. Then she walks to you.",
+      "tone": "bold"
      },
      {
       "en": "Hold out your hand slowly.",
       "ko": "천천히 손을 내밀어 본다",
-      "reaction": "You open your hand and wait. She smells it. Then she comes closer."
+      "reaction": "You open your hand and wait. She smells it. Then she comes closer.",
+      "tone": "calm"
      }
     ]
    },
@@ -86,12 +90,14 @@
      {
       "en": "Thank you. I would love some tea.",
       "ko": "감사해요. 차 마시고 갈게요.",
-      "reaction": "The tea is warm and sweet. Bori sleeps by your feet. The grandmother gives you cookies for home."
+      "reaction": "The tea is warm and sweet. Bori sleeps by your feet. The grandmother gives you cookies for home.",
+      "tone": "bold"
      },
      {
       "en": "Thank you, but I have to go home.",
       "ko": "감사하지만 이만 가 볼게요.",
-      "reaction": "\"Then take this,\" she says. She gives you a small bag of cookies. It is warm in your hands."
+      "reaction": "\"Then take this,\" she says. She gives you a small bag of cookies. It is warm in your hands.",
+      "tone": "calm"
      }
     ]
    },
@@ -118,12 +124,14 @@
      {
       "en": "Take a photo of the paper.",
       "ko": "전단지를 사진으로 찍어 둔다",
-      "reaction": "You save the number with a photo and think about the white cat, somewhere out in this cold rain."
+      "reaction": "You save the number with a photo and think about the white cat, somewhere out in this cold rain.",
+      "tone": "calm"
      },
      {
       "en": "Look around the rainy street for her.",
       "ko": "혹시 근처에 있을까 주변을 둘러본다",
-      "reaction": "You look up and down the wet street. There is only rain under the lights, but now you cannot stop thinking about her."
+      "reaction": "You look up and down the wet street. There is only rain under the lights, but now you cannot stop thinking about her.",
+      "tone": "bold"
      }
     ]
    },
@@ -141,14 +149,16 @@
     "prompt": "어떻게 다가갈까요?",
     "options": [
      {
-      "en": "Call her name softly.",
-      "ko": "이름을 살며시 불러 본다",
-      "reaction": "\"Bori,\" you call softly. Her ears move, she looks up at you, and then she walks to you, slowly."
+      "en": "Step closer and call her name.",
+      "ko": "한 걸음 다가가 이름을 불러 본다",
+      "reaction": "\"Bori,\" you call, taking a step closer. Her ears move, she looks up at you, and then she walks to you.",
+      "tone": "bold"
      },
      {
       "en": "Hold out your hand slowly.",
       "ko": "천천히 손을 내밀어 본다",
-      "reaction": "You open your hand and wait quietly. She smells your fingers, then steps closer, one small step at a time."
+      "reaction": "You open your hand and wait quietly. She smells your fingers, then steps closer, one small step at a time.",
+      "tone": "calm"
      }
     ]
    },
@@ -172,12 +182,14 @@
      {
       "en": "Thank you. I would love some tea.",
       "ko": "감사해요. 차 마시고 갈게요.",
-      "reaction": "The tea warms your cold hands, and Bori falls asleep by your feet. When you stand up to leave, the grandmother hands you a small bag of cookies."
+      "reaction": "The tea warms your cold hands, and Bori falls asleep by your feet. When you stand up to leave, the grandmother hands you a small bag of cookies.",
+      "tone": "bold"
      },
      {
       "en": "Thank you, but I have to go home.",
       "ko": "감사하지만 이만 가 볼게요.",
-      "reaction": "\"Then take this, at least,\" she says, and presses a warm bag of cookies into your hands."
+      "reaction": "\"Then take this, at least,\" she says, and presses a warm bag of cookies into your hands.",
+      "tone": "calm"
      }
     ]
    },
@@ -204,12 +216,14 @@
      {
       "en": "Take a photo of the paper.",
       "ko": "전단지를 사진으로 찍어 둔다",
-      "reaction": "You take a photo of the number, thinking of a white cat somewhere out in this cold rain."
+      "reaction": "You take a photo of the number, thinking of a white cat somewhere out in this cold rain.",
+      "tone": "calm"
      },
      {
       "en": "Look around the rainy street for her.",
       "ko": "혹시 근처에 있을까 주변을 둘러본다",
-      "reaction": "You scan the empty street, but there is only rain falling through the lamplight — and now she is all you can think about."
+      "reaction": "You scan the empty street, but there is only rain falling through the lamplight — and now she is all you can think about.",
+      "tone": "bold"
      }
     ]
    },
@@ -227,14 +241,16 @@
     "prompt": "어떻게 다가갈까요?",
     "options": [
      {
-      "en": "Call her name softly.",
-      "ko": "이름을 살며시 불러 본다",
-      "reaction": "\"Bori,\" you call gently. Her ears turn toward you, and after a moment she lifts her head, meets your eyes, and pads toward you."
+      "en": "Step closer and call her name.",
+      "ko": "한 걸음 다가가 이름을 불러 본다",
+      "reaction": "\"Bori,\" you call, stepping closer. Her ears turn toward you, and after a moment she lifts her head, meets your eyes, and pads toward you.",
+      "tone": "bold"
      },
      {
       "en": "Hold out your hand slowly.",
       "ko": "천천히 손을 내밀어 본다",
-      "reaction": "You crouch down and open your hand, waiting without a word. She smells your fingers, then steps closer, one careful paw at a time."
+      "reaction": "You crouch down and open your hand, waiting without a word. She smells your fingers, then steps closer, one careful paw at a time.",
+      "tone": "calm"
      }
     ]
    },
@@ -258,12 +274,14 @@
      {
       "en": "Thank you. I would love some tea.",
       "ko": "감사해요. 차 마시고 갈게요.",
-      "reaction": "The tea is warm and sweet, and Bori falls asleep against your feet. Before you leave, the grandmother packs a bag of homemade cookies and will not hear a single no."
+      "reaction": "The tea is warm and sweet, and Bori falls asleep against your feet. Before you leave, the grandmother packs a bag of homemade cookies and will not hear a single no.",
+      "tone": "bold"
      },
      {
       "en": "Thank you, but I have to go home.",
       "ko": "감사하지만 이만 가 볼게요.",
-      "reaction": "\"Then at least take these,\" she insists, pressing a warm bag of homemade cookies into your hands before you can say a word."
+      "reaction": "\"Then at least take these,\" she insists, pressing a warm bag of homemade cookies into your hands before you can say a word.",
+      "tone": "calm"
      }
     ]
    },
@@ -796,7 +814,117 @@
   "warms": {
    "pos": "동사",
    "ko": "따뜻하게 데워 주다 (warm의 3인칭)"
+  },
+  "evenings": {
+   "pos": "명사",
+   "ko": "저녁들, 저녁마다 (evening의 복수형)"
+  },
+  "knock": {
+   "pos": "동사",
+   "ko": "(문을) 두드리다, 노크하다"
+  },
+  "light": {
+   "pos": "명사",
+   "ko": "불빛, 빛"
+  },
+  "follows": {
+   "pos": "동사",
+   "ko": "따라오다 (follow의 3인칭)"
+  },
+  "hello": {
+   "pos": "감탄사",
+   "ko": "안녕 (가벼운 인사)"
+  },
+  "glass": {
+   "pos": "명사",
+   "ko": "유리, 유리창"
+  },
+  "sometimes": {
+   "pos": "부사",
+   "ko": "가끔, 때때로"
+  },
+  "feels": {
+   "pos": "동사",
+   "ko": "~하게 느껴지다 (feel의 3인칭)"
+  },
+  "gift": {
+   "pos": "명사",
+   "ko": "선물"
+  },
+  "runs": {
+   "pos": "동사",
+   "ko": "달리다 (run의 3인칭)"
+  },
+  "become": {
+   "pos": "동사",
+   "ko": "~이 되다 (has become: ~이 되었다)"
+  },
+  "warmest": {
+   "pos": "형용사",
+   "ko": "가장 따뜻한 (warm의 최상급)"
+  },
+  "part": {
+   "pos": "명사",
+   "ko": "부분 (part of: ~의 한 부분)"
+  },
+  "cats": {
+   "pos": "명사",
+   "ko": "고양이들 (cat의 복수형)"
+  },
+  "new": {
+   "pos": "형용사",
+   "ko": "새, 새로운"
+  },
+  "appears": {
+   "pos": "동사",
+   "ko": "나타나다, 붙다 (appear의 3인칭)"
+  },
+  "fear": {
+   "pos": "명사",
+   "ko": "두려움, 겁"
+  },
+  "watches": {
+   "pos": "동사",
+   "ko": "지켜보다 (watch의 3인칭)"
+  },
+  "proud": {
+   "pos": "형용사",
+   "ko": "자랑스러운"
+  },
+  "taking": {
+   "pos": "동사",
+   "ko": "(걸음을) 내딛는 (take의 -ing형)"
+  },
+  "stepping": {
+   "pos": "동사",
+   "ko": "발걸음을 옮기는 (step의 -ing형)"
+  },
+  "faintly": {
+   "pos": "부사",
+   "ko": "은은하게, 희미하게"
   }
  },
- "introEn": "A rainy evening, a flyer on a wooden pole.\nA white cat is waiting in the alley."
+ "introEn": "A rainy evening, a flyer on a wooden pole.\nA white cat is waiting in the alley.",
+ "endings": {
+  "0": {
+   "name": "조용한 이웃",
+   "en": "You still keep the photo of the paper on your phone. Some evenings, you walk slowly by the house and see Bori asleep in the warm window. You never knock, but that small warm light follows you all the way home.",
+   "ko": "지금도 휴대폰에는 그날 전단지 사진이 남아 있어요. 어떤 저녁엔 그 집 앞을 천천히 지나며, 따뜻한 창가에서 잠든 보리를 바라봐요. 문을 두드린 적은 없지만, 그 작고 따뜻한 불빛이 집까지 내내 따라와요."
+  },
+  "1": {
+   "name": "유리창 너머 친구",
+   "en": "On your way home, you often stop by the window and say a small hello to Bori through the glass. Sometimes the grandmother lifts her cup of tea and smiles at you. You wave back, and the walk home feels warm and light.",
+   "ko": "집에 가는 길이면 종종 창가에 멈춰 서서, 유리 너머 보리에게 작게 인사를 건네요. 가끔은 할머니가 찻잔을 들어 보이며 웃어 주세요. 손을 흔들어 답하고 나면, 집으로 가는 길이 따뜻하고 가벼워요."
+  },
+  "2": {
+   "name": "다정한 말벗",
+   "en": "These days, you knock on her door every week with a small gift. Bori runs to the door to meet you, and tea with the grandmother has become the warmest part of your week. On the way home, your coat still smells faintly of warm tea and cookies.",
+   "ko": "요즘은 매주 작은 선물을 들고 그 집 문을 두드려요. 보리가 문 앞까지 달려 나와 반겨 주고, 할머니와 마시는 차 한 잔은 일주일 중 가장 따뜻한 시간이 되었어요. 돌아오는 길, 코트에서는 아직 따뜻한 차와 쿠키 냄새가 은은하게 나요."
+  },
+  "3": {
+   "name": "골목의 수호자",
+   "en": "In town, people now call you the friend of lost cats. When a new paper appears on the pole, they come to you first, and you walk out into the rain without fear. From her window, Bori watches you go, like a proud white guard.",
+   "ko": "이제 동네 사람들은 당신을 '길 잃은 고양이들의 친구'라고 불러요. 전봇대에 새 전단지가 붙으면 다들 당신부터 찾아오고, 당신은 겁 없이 빗속으로 나서요. 그런 당신을 보리가 창가에서 자랑스러운 하얀 지킴이처럼 지켜봐요."
+  }
+ }
 }

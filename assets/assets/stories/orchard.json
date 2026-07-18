@@ -36,12 +36,14 @@
      {
       "en": "I can't wait to get started.",
       "ko": "빨리 시작하고 싶어요.",
-      "reaction": "\"I like that,\" Mrs. Peach says. \"An eager helper is the best kind.\""
+      "reaction": "\"I like that,\" Mrs. Peach says. \"An eager helper is the best kind.\"",
+      "tone": "bold"
      },
      {
       "en": "How do I know which ones are ready?",
       "ko": "어떤 게 익었는지 어떻게 알아요?",
-      "reaction": "\"Oh, you will know,\" she says. \"A ripe one tells you. Just listen with your fingers.\""
+      "reaction": "\"Oh, you will know,\" she says. \"A ripe one tells you. Just listen with your fingers.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -58,14 +60,16 @@
     "prompt": "뭐라고 할까요?",
     "options": [
      {
-      "en": "Like this? I'm being very gentle.",
-      "ko": "이렇게요? 아주 살살 하고 있어요.",
-      "reaction": "\"Perfect,\" she says. \"Slow hands find the sweetest fruit.\""
+      "en": "I think I'm a natural at this.",
+      "ko": "저 이거 소질이 있는 것 같아요.",
+      "reaction": "\"Confident, too,\" she laughs. \"Then the sweetest fruit will find you first.\"",
+      "tone": "bold"
      },
      {
       "en": "This one feels very soft.",
       "ko": "이건 정말 부드러운데요.",
-      "reaction": "\"Then it is ready,\" she smiles. \"The soft ones never last long here.\""
+      "reaction": "\"Then it is ready,\" she smiles. \"The soft ones never last long here.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -89,12 +93,14 @@
      {
       "en": "Your orchard is amazing, Mrs. Peach.",
       "ko": "과수원이 정말 멋져요.",
-      "reaction": "\"Thank you, dear. Most men give up before the top branch. You did not.\""
+      "reaction": "\"Thank you, dear. Most men give up before the top branch. You did not.\"",
+      "tone": "calm"
      },
      {
       "en": "I could do this all day.",
       "ko": "이거라면 하루 종일도 하겠어요.",
-      "reaction": "\"Careful, dear,\" she laughs. \"Say that in my orchard, and I will hold you to it.\""
+      "reaction": "\"Careful, dear,\" she laughs. \"Say that in my orchard, and I will hold you to it.\"",
+      "tone": "bold"
      }
     ]
    },
@@ -130,12 +136,14 @@
      {
       "en": "I can't wait to get started.",
       "ko": "빨리 시작하고 싶어요.",
-      "reaction": "\"I like that,\" Mrs. Peach says approvingly. \"An eager helper is the rarest fruit of all.\""
+      "reaction": "\"I like that,\" Mrs. Peach says approvingly. \"An eager helper is the rarest fruit of all.\"",
+      "tone": "bold"
      },
      {
       "en": "How do I know which ones are ready?",
       "ko": "어떤 게 익었는지 어떻게 알아요?",
-      "reaction": "\"Oh, you will know,\" she says. \"A ripe one tells you itself. You simply have to listen with your fingers.\""
+      "reaction": "\"Oh, you will know,\" she says. \"A ripe one tells you itself. You simply have to listen with your fingers.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -152,14 +160,16 @@
     "prompt": "뭐라고 할까요?",
     "options": [
      {
-      "en": "Like this? I'm being very gentle.",
-      "ko": "이렇게요? 아주 살살 하고 있어요.",
-      "reaction": "\"Perfect. Slow and patient,\" she murmurs. \"Slow hands always find the sweetest fruit.\""
+      "en": "I think I'm a natural at this.",
+      "ko": "저 이거 소질이 있는 것 같아요.",
+      "reaction": "\"Confident hands,\" she laughs softly. \"Then the sweetest fruit will find you before long.\"",
+      "tone": "bold"
      },
      {
       "en": "This one feels very soft.",
       "ko": "이건 정말 부드러운데요.",
-      "reaction": "\"Then it is more than ready,\" she smiles. \"The soft ones never stay on the tree for long.\""
+      "reaction": "\"Then it is more than ready,\" she smiles. \"The soft ones never stay on the tree for long.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -183,12 +193,14 @@
      {
       "en": "Your orchard is truly amazing, Mrs. Peach.",
       "ko": "과수원이 정말 멋져요.",
-      "reaction": "\"Thank you, dear. Most men give up long before the top branch. You, however, did not.\""
+      "reaction": "\"Thank you, dear. Most men give up long before the top branch. You, however, did not.\"",
+      "tone": "calm"
      },
      {
       "en": "I could do this all day.",
       "ko": "이거라면 하루 종일도 하겠어요.",
-      "reaction": "\"Careful, dear,\" she laughs. \"Say such things in my orchard, and I will certainly hold you to it.\""
+      "reaction": "\"Careful, dear,\" she laughs. \"Say such things in my orchard, and I will certainly hold you to it.\"",
+      "tone": "bold"
      }
     ]
    },
@@ -203,6 +215,28 @@
     "art": "night"
    }
   ]
+ },
+ "endings": {
+  "0": {
+   "name": "신중한 감별사",
+   "en": "The next week, you come back with Mrs. Rose and sort peaches at the table by the gate. You never go past the first row of trees, but your baskets are the neatest in the orchard. \"The trees trust you,\" Mrs. Peach says softly, \"and so do I.\"",
+   "ko": "다음 주에도 Rose 부인과 함께 과수원을 찾아, 대문 옆 탁자에서 복숭아를 골라 담아요. 첫 줄 나무 너머로는 가 본 적 없지만, 당신의 바구니는 과수원에서 제일 단정해요. \"나무들이 당신을 믿어요. 나도 그렇고요,\" Peach 부인이 나직이 말해요."
+  },
+  "1": {
+   "name": "느긋한 수확꾼",
+   "en": "You visit the orchard again that weekend, taking your time under the trees. Mrs. Peach teaches you to find the shy fruit that hides behind the leaves. \"A patient hand,\" she says, \"always gets the sweetest reward.\"",
+   "ko": "그 주말에 다시 과수원을 찾아 나무 아래서 느긋하게 시간을 보내요. Peach 부인은 잎사귀 뒤에 숨은 수줍은 열매를 찾는 법을 알려줘요. \"참을성 있는 손이 언제나 가장 달콤한 보상을 받는 법이에요,\" 부인이 말해요."
+  },
+  "2": {
+   "name": "넉살 좋은 일손",
+   "en": "A few days later, Mrs. Peach invites you back — this time without Mrs. Rose. \"You learn fast,\" she says, handing you the ladder with a smile. \"Today we will see how high you can really go.\"",
+   "ko": "며칠 뒤, Peach 부인이 당신을 다시 불러요 — 이번엔 Rose 부인 없이요. \"배움이 빠르네요,\" 부인이 웃으며 사다리를 건네요. \"오늘은 당신이 정말 얼마나 높이 올라갈 수 있는지 볼 거예요.\""
+  },
+  "3": {
+   "name": "가장 높은 가지의 주인",
+   "en": "By the end of summer, you know every tree in the orchard by hand. Mrs. Peach gives you your own key to the gate. \"The highest branches are yours now,\" she says, \"and the season is still long.\"",
+   "ko": "여름이 끝날 무렵, 당신은 과수원의 나무를 전부 손끝으로 외우고 있어요. Peach 부인은 당신에게 대문 열쇠를 아예 하나 내어줘요. \"이제 가장 높은 가지들은 다 당신 거예요,\" 부인이 말해요. \"그리고 이번 철은 아직 길거든요.\""
+  }
  },
  "dict": {
   "summer": {
@@ -614,6 +648,142 @@
   "lingers": {
    "pos": "동사",
    "ko": "은은하게 남아 있어요 (linger의 3인칭)"
+  },
+  "week": {
+   "pos": "명사",
+   "ko": "주, 일주일"
+  },
+  "return": {
+   "pos": "동사",
+   "ko": "돌아가다, 돌아오다"
+  },
+  "quietly": {
+   "pos": "부사",
+   "ko": "조용히"
+  },
+  "shade": {
+   "pos": "명사",
+   "ko": "그늘"
+  },
+  "watches": {
+   "pos": "동사",
+   "ko": "지켜봐요 (watch의 3인칭)"
+  },
+  "sort": {
+   "pos": "동사",
+   "ko": "고르다, 분류하다"
+  },
+  "each": {
+   "pos": "형용사",
+   "ko": "각각의, 하나하나"
+  },
+  "trust": {
+   "pos": "동사",
+   "ko": "믿다, 신뢰하다"
+  },
+  "visit": {
+   "pos": "동사",
+   "ko": "방문하다, 찾아가다"
+  },
+  "again": {
+   "pos": "부사",
+   "ko": "다시, 또"
+  },
+  "weekend": {
+   "pos": "명사",
+   "ko": "주말"
+  },
+  "taking": {
+   "pos": "동사",
+   "ko": "(시간을) 들이며 (take의 -ing형, take your time: 천천히 하다)"
+  },
+  "teaches": {
+   "pos": "동사",
+   "ko": "가르쳐줘요, 알려줘요 (teach의 3인칭)"
+  },
+  "hides": {
+   "pos": "동사",
+   "ko": "숨어요 (hide의 3인칭)"
+  },
+  "gets": {
+   "pos": "동사",
+   "ko": "받아요, 얻어요 (get의 3인칭)"
+  },
+  "reward": {
+   "pos": "명사",
+   "ko": "보상"
+  },
+  "few": {
+   "pos": "형용사",
+   "ko": "몇몇의 (a few days: 며칠)"
+  },
+  "later": {
+   "pos": "부사",
+   "ko": "나중에, ~뒤에"
+  },
+  "invites": {
+   "pos": "동사",
+   "ko": "초대해요, 불러요 (invite의 3인칭)"
+  },
+  "fast": {
+   "pos": "부사",
+   "ko": "빨리"
+  },
+  "handing": {
+   "pos": "동사",
+   "ko": "건네며 (hand의 -ing형)"
+  },
+  "we": {
+   "pos": "대명사",
+   "ko": "우리"
+  },
+  "end": {
+   "pos": "명사",
+   "ko": "끝, 끝 무렵"
+  },
+  "own": {
+   "pos": "형용사",
+   "ko": "자기 자신의"
+  },
+  "key": {
+   "pos": "명사",
+   "ko": "열쇠"
+  },
+  "whenever": {
+   "pos": "접속사",
+   "ko": "언제든, ~할 때마다"
+  },
+  "yours": {
+   "pos": "대명사",
+   "ko": "당신의 것"
+  },
+  "work": {
+   "pos": "동사",
+   "ko": "일하다"
+  },
+  "confident": {
+   "pos": "형용사",
+   "ko": "자신감 있는"
+  },
+  "table": {
+   "pos": "명사",
+   "ko": "탁자, 테이블"
+  },
+  "past": {
+   "pos": "전치사",
+   "ko": "~을 지나서, ~너머로"
+  },
+  "row": {
+   "pos": "명사",
+   "ko": "줄, 열"
+  },
+  "baskets": {
+   "pos": "명사",
+   "ko": "바구니들 (basket의 복수형)"
+  },
+  "neatest": {
+   "pos": "형용사",
+   "ko": "가장 단정한 (neat의 최상급)"
   }
  },
  "wink": {

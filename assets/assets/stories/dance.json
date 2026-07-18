@@ -36,12 +36,14 @@
      {
       "en": "Like this? Is this close enough?",
       "ko": "이렇게요? 이 정도면 돼요?",
-      "reaction": "\"Closer,\" he says. \"When you can feel your partner breathe, you are ready.\""
+      "reaction": "\"Closer,\" he says. \"When you can feel your partner breathe, you are ready.\"",
+      "tone": "bold"
      },
      {
       "en": "Okay, but I'm a little nervous.",
       "ko": "네, 근데 사실 좀 긴장돼요.",
-      "reaction": "\"Good,\" he smiles. \"The body dances better when the heart beats fast.\""
+      "reaction": "\"Good,\" he smiles. \"The body dances better when the heart beats fast.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -58,14 +60,16 @@
     "prompt": "뭐라고 할까요?",
     "options": [
      {
-      "en": "How do I know where you want me to go?",
-      "ko": "어디로 가야 하는지 어떻게 알아요?",
-      "reaction": "\"You will feel it,\" he says. \"My body will tell yours. Words are not needed.\""
+      "en": "Then lead me. I'll go wherever you take me.",
+      "ko": "그럼 리드해 줘요. 어디로 데려가든 따라갈게요.",
+      "reaction": "\"You will feel it,\" he says. \"My body will tell yours. Words are not needed.\"",
+      "tone": "bold"
      },
      {
       "en": "What if I make a mistake?",
       "ko": "실수하면 어떡해요?",
-      "reaction": "\"In tango there are no mistakes,\" he says. \"Only moves we did not plan.\""
+      "reaction": "\"In tango there are no mistakes,\" he says. \"Only moves we did not plan.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -89,12 +93,14 @@
      {
       "en": "Can we try the ending?",
       "ko": "마지막 동작 해봐도 돼요?",
-      "reaction": "\"Ah, the dip,\" he smiles. \"Beginners always rush to the ending. The good ones learn to take their time.\""
+      "reaction": "\"Ah, the dip,\" he smiles. \"Beginners always rush to the ending. The good ones learn to take their time.\"",
+      "tone": "bold"
      },
      {
       "en": "I don't want this song to end.",
       "ko": "이 노래가 안 끝났으면 좋겠어요.",
-      "reaction": "\"Everyone says that on the first night,\" he laughs. \"Tango does that to people.\""
+      "reaction": "\"Everyone says that on the first night,\" he laughs. \"Tango does that to people.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -129,12 +135,14 @@
      {
       "en": "Like this? Is this close enough for you?",
       "ko": "이렇게요? 이 정도면 돼요?",
-      "reaction": "\"Closer,\" he says. \"When you can feel your partner breathe, then you are ready to begin.\""
+      "reaction": "\"Closer,\" he says. \"When you can feel your partner breathe, then you are ready to begin.\"",
+      "tone": "bold"
      },
      {
       "en": "Okay, but I have to admit I'm a little nervous.",
       "ko": "네, 근데 사실 좀 긴장돼요.",
-      "reaction": "\"Good,\" he smiles. \"The body always dances better when the heart is beating fast.\""
+      "reaction": "\"Good,\" he smiles. \"The body always dances better when the heart is beating fast.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -151,14 +159,16 @@
     "prompt": "뭐라고 할까요?",
     "options": [
      {
-      "en": "How am I supposed to know where you want me to go?",
-      "ko": "어디로 가야 하는지 어떻게 알아요?",
-      "reaction": "\"You will feel it,\" he says. \"My body will tell yours everything. Words are rarely needed.\""
+      "en": "Then lead me — I'll follow you wherever you decide to go.",
+      "ko": "그럼 리드해 줘요. 어디로 데려가든 따라갈게요.",
+      "reaction": "\"You will feel it,\" he says. \"My body will tell yours everything. Words are rarely needed.\"",
+      "tone": "bold"
      },
      {
       "en": "What happens if I make a mistake?",
       "ko": "실수하면 어떡해요?",
-      "reaction": "\"In tango there are no mistakes,\" he says, \"only moves that nobody planned.\""
+      "reaction": "\"In tango there are no mistakes,\" he says, \"only moves that nobody planned.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -182,12 +192,14 @@
      {
       "en": "Could we try the ending together?",
       "ko": "마지막 동작 해봐도 돼요?",
-      "reaction": "\"Ah, the dip,\" he smiles. \"Beginners are always in a hurry to reach the ending. The good ones take their time.\""
+      "reaction": "\"Ah, the dip,\" he smiles. \"Beginners are always in a hurry to reach the ending. The good ones take their time.\"",
+      "tone": "bold"
      },
      {
       "en": "Honestly, I don't want this song to end.",
       "ko": "솔직히 이 노래가 안 끝났으면 좋겠어요.",
-      "reaction": "\"Everyone says that on their first night,\" he laughs. \"Tango has that effect on people.\""
+      "reaction": "\"Everyone says that on their first night,\" he laughs. \"Tango has that effect on people.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -722,6 +734,162 @@
   "our": {
    "pos": "한정사",
    "ko": "우리의"
+  },
+  "alone": {
+   "pos": "부사",
+   "ko": "혼자"
+  },
+  "already": {
+   "pos": "부사",
+   "ko": "이미, 벌써"
+  },
+  "another": {
+   "pos": "한정사",
+   "ko": "또 다른, 다른 한 명의"
+  },
+  "arrive": {
+   "pos": "동사",
+   "ko": "도착하다"
+  },
+  "ask": {
+   "pos": "동사",
+   "ko": "부탁하다, 묻다"
+  },
+  "because": {
+   "pos": "접속사",
+   "ko": "~하기 때문에"
+  },
+  "being": {
+   "pos": "동사",
+   "ko": "be의 -ing형 (being nervous: 긴장하는 것)"
+  },
+  "buy": {
+   "pos": "동사",
+   "ko": "사다"
+  },
+  "chair": {
+   "pos": "명사",
+   "ko": "의자"
+  },
+  "conversations": {
+   "pos": "명사",
+   "ko": "대화 (conversation의 복수형)"
+  },
+  "count": {
+   "pos": "동사",
+   "ko": "세다, 헤아리다"
+  },
+  "desk": {
+   "pos": "명사",
+   "ko": "책상"
+  },
+  "early": {
+   "pos": "부사",
+   "ko": "일찍"
+  },
+  "exactly": {
+   "pos": "부사",
+   "ko": "정확히, 딱"
+  },
+  "finishes": {
+   "pos": "동사",
+   "ko": "끝내다 (finish의 3인칭 단수형)"
+  },
+  "hoping": {
+   "pos": "동사",
+   "ko": "바라는 (hope의 -ing형)"
+  },
+  "kitchen": {
+   "pos": "명사",
+   "ko": "부엌"
+  },
+  "lessons": {
+   "pos": "명사",
+   "ko": "레슨, 수업 (lesson의 복수형)"
+  },
+  "many": {
+   "pos": "한정사",
+   "ko": "많은"
+  },
+  "moment": {
+   "pos": "명사",
+   "ko": "순간, 잠깐"
+  },
+  "monday": {
+   "pos": "명사",
+   "ko": "월요일"
+  },
+  "nights": {
+   "pos": "명사",
+   "ko": "밤 (night의 복수형)"
+  },
+  "outside": {
+   "pos": "부사",
+   "ko": "밖에서"
+  },
+  "patient": {
+   "pos": "형용사",
+   "ko": "참을성 있는"
+  },
+  "practice": {
+   "pos": "동사",
+   "ko": "연습하다"
+  },
+  "private": {
+   "pos": "형용사",
+   "ko": "개인의, 사적인 (private lesson: 개인 레슨)"
+  },
+  "question": {
+   "pos": "명사",
+   "ko": "질문"
+  },
+  "real": {
+   "pos": "형용사",
+   "ko": "진짜의, 제대로 된"
+  },
+  "secretly": {
+   "pos": "부사",
+   "ko": "몰래, 남모르게"
+  },
+  "sees": {
+   "pos": "동사",
+   "ko": "보다 (see의 3인칭 단수형)"
+  },
+  "short": {
+   "pos": "형용사",
+   "ko": "짧은"
+  },
+  "some": {
+   "pos": "한정사",
+   "ko": "어떤, 몇몇의"
+  },
+  "student": {
+   "pos": "명사",
+   "ko": "수강생, 학생"
+  },
+  "until": {
+   "pos": "접속사",
+   "ko": "~할 때까지"
+  },
+  "were": {
+   "pos": "동사",
+   "ko": "be의 과거형 (are의 과거)"
+  },
+  "work": {
+   "pos": "명사",
+   "ko": "직장, 일"
+  },
+  "worth": {
+   "pos": "형용사",
+   "ko": "~할 가치가 있는"
+  },
+  "wherever": {
+   "pos": "접속사",
+   "ko": "~하는 곳이면 어디든"
+  },
+  "ill": {
+   "pos": "축약",
+   "ko": "I'll = I will"
   }
  },
  "wink": {
@@ -735,5 +903,27 @@
   "dip": "상대를 뒤로 깊게 눕히는 마무리 동작이에요. '무게를 다 맡겨요'라는 말과 만나면, 상상은 각자의 몫이에요.",
   "dips": "상대를 뒤로 깊게 눕히는 마무리 동작이에요. '무게를 다 맡겨요'라는 말과 만나면, 상상은 각자의 몫이에요."
  },
- "introEn": "A perfectly wholesome tango lesson at the community center.\n...on the surface. Tap words to see the hidden meaning."
+ "introEn": "A perfectly wholesome tango lesson at the community center.\n...on the surface. Tap words to see the hidden meaning.",
+ "endings": {
+  "0": {
+   "name": "신중한 무용수",
+   "en": "At home, you practice the steps alone, with one hand on a kitchen chair. Slow, careful, no hurry — exactly how you like it. The chair is a patient partner: it never asks you to come closer.",
+   "ko": "집에 돌아와 부엌 의자에 한 손을 얹고 혼자 스텝을 연습해요. 천천히, 조심조심, 서두르지 않고 — 딱 좋아하는 방식대로요. 의자는 참을성 있는 파트너예요. 더 가까이 오라는 말은 절대 안 하거든요."
+  },
+  "1": {
+   "name": "설레는 초보자",
+   "en": "All week, you secretly count the steps under your desk at work. On Friday you arrive early, but you wait outside until another student goes in first. Carlos sees you and smiles — some conversations are worth being a little nervous for.",
+   "ko": "일주일 내내 회사 책상 밑에서 몰래 발로 스텝을 밟아 봐요. 금요일엔 일찍 도착하지만, 다른 수강생이 먼저 들어갈 때까지 밖에서 기다려요. 카를로스가 당신을 보고 미소 지어요 — 어떤 대화는 조금 긴장되더라도 해 볼 만하니까요."
+  },
+  "2": {
+   "name": "망설임 없는 파트너",
+   "en": "On Monday you buy real dance shoes, and on Friday you are the first one through the door. When Carlos offers his hand, you take it before he finishes the question. 'You learn fast,' he says — but you already knew that.",
+   "ko": "월요일에 진짜 댄스화를 사고, 금요일엔 제일 먼저 문을 열고 들어가요. 카를로스가 손을 내밀자 질문이 끝나기도 전에 잡아요. '빨리 배우시네요.' 그가 말하지만 — 그건 이미 알고 있었어요."
+  },
+  "3": {
+   "name": "플로어의 불꽃",
+   "en": "The next Friday, you ask Carlos for private lessons, because the class feels too short and you have so much to learn. He looks at you for a long moment and says, 'Then we will need many, many nights.' You were hoping he would say that.",
+   "ko": "다음 금요일, 카를로스에게 개인 레슨을 부탁해요. 수업이 너무 짧고, 배울 게 아직 너무 많거든요. 그가 당신을 한참 바라보다가 말해요. '그럼 밤이 아주, 아주 많이 필요하겠네요.' 사실 그 말을 기다리고 있었어요."
+  }
+ }
 }

@@ -14,6 +14,28 @@
   ],
   "answer": 0
  },
+ "endings": {
+  "0": {
+   "name": "신중한 여름 정원사",
+   "en": "You keep helping every week, always calm and always careful. Mrs. Rose says you are the most patient helper she has ever had. You water, you weed, and you go home before the glass steams up. The tomatoes grow slowly — and that, you insist, is the only thing you are waiting for.",
+   "ko": "당신은 매주 온실 일을 도와요. 언제나 차분하고, 언제나 조심스럽게요. Rose 부인은 당신이 지금껏 만난 가장 참을성 있는 일꾼이라고 해요. 물 주고, 풀 뽑고, 유리에 김이 서리기 전에 집에 가요. 토마토는 천천히 익어 가요 — 당신이 기다리는 건 오직 그것뿐이라고, 당신은 우겨요."
+  },
+  "1": {
+   "name": "예의 바른 이웃집 일꾼",
+   "en": "You work hard all summer and always go home before dark. Still, Mrs. Rose keeps a second cup of cold tea ready by the door — just in case you decide to stay a little longer one evening.",
+   "ko": "당신은 여름 내내 열심히 일하고, 어두워지기 전에는 꼭 집에 가요. 그래도 Rose 부인은 문가에 차가운 차 한 잔을 늘 더 준비해 둬요 — 어느 저녁엔 당신이 조금 더 머물기로 할지도 모르니까요."
+  },
+  "2": {
+   "name": "온실 열쇠를 받은 조수",
+   "en": "By July, you know the greenhouse better than your own garden. Mrs. Rose gives you your own key — \"for the early mornings,\" she says. The neighbors notice that her melons have never looked so happy.",
+   "ko": "7월쯤 되자 당신은 자기 정원보다 온실을 더 잘 알게 돼요. Rose 부인은 \"이른 아침용\"이라며 온실 열쇠를 하나 내줘요. 이웃들은 그 집 멜론이 이렇게 행복해 보인 적이 없다고 수군거려요."
+  },
+  "3": {
+   "name": "온실을 달군 장본인",
+   "en": "The hottest summer in years, and you spend most of it behind steamed glass. Mrs. Rose tells the whole village that you have a natural gift with your hands. By August, nobody can see anything through the greenhouse walls — and the tomatoes have never been redder.",
+   "ko": "몇 년 만에 가장 더운 여름, 당신은 그 대부분을 김 서린 유리 뒤에서 보내요. Rose 부인은 온 마을에 당신 손재주가 타고났다고 자랑하고 다녀요. 8월이 되자 온실 유리 너머로는 아무것도 보이지 않고 — 토마토는 그 어느 때보다 빨갛게 익어 가요."
+  }
+ },
  "scripts": {
   "normal": [
    {
@@ -38,12 +60,14 @@
      {
       "en": "I don't mind at all. I like the heat.",
       "ko": "전혀 상관없어요. 더운 거 좋아해요.",
-      "reaction": "\"Good,\" she smiles. \"Then you will love it in here.\""
+      "reaction": "\"Good,\" she smiles. \"Then you will love it in here.\"",
+      "tone": "bold"
      },
      {
       "en": "Wow, it really is warm in here.",
       "ko": "와, 안이 정말 후끈하네요.",
-      "reaction": "\"That is my secret,\" she says. \"Warm and wet — everything grows faster that way.\""
+      "reaction": "\"That is my secret,\" she says. \"Warm and wet — everything grows faster that way.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -63,12 +87,14 @@
      {
       "en": "Is this firm enough for you?",
       "ko": "이 정도면 충분히 단단한가요?",
-      "reaction": "\"Oh yes,\" she says. \"Very firm. You have learned a lot since spring.\""
+      "reaction": "\"Oh yes,\" she says. \"Very firm. You have learned a lot since spring.\"",
+      "tone": "bold"
      },
      {
       "en": "Should I tie them tight?",
       "ko": "꽉 묶어야 하나요?",
-      "reaction": "\"Gently, dear. Tight enough to hold, but loose enough to breathe. That is the trick with everything.\""
+      "reaction": "\"Gently, dear. Tight enough to hold, but loose enough to breathe. That is the trick with everything.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -91,14 +117,16 @@
     "prompt": "뭐라고 할까요?",
     "options": [
      {
-      "en": "They are so big already.",
-      "ko": "벌써 이렇게 컸네요.",
-      "reaction": "\"The heat does that,\" she says softly. \"Everything ripens faster in here.\""
+      "en": "You were right. They feel really heavy.",
+      "ko": "정말이네요 — 진짜 묵직한데요.",
+      "reaction": "\"The heat does that,\" she says softly. \"Everything ripens faster in here.\"",
+      "tone": "bold"
      },
      {
       "en": "When will they be ripe?",
       "ko": "언제쯤 다 익어요?",
-      "reaction": "\"Patience, dear,\" she says. \"The sweetest ones are always worth the wait.\""
+      "reaction": "\"Patience, dear,\" she says. \"The sweetest ones are always worth the wait.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -136,12 +164,14 @@
      {
       "en": "I don't mind at all. I have always liked the heat.",
       "ko": "전혀 상관없어요. 원래 더운 걸 좋아해요.",
-      "reaction": "\"Good,\" she smiles. \"Then you are going to love it in here.\""
+      "reaction": "\"Good,\" she smiles. \"Then you are going to love it in here.\"",
+      "tone": "bold"
      },
      {
       "en": "Wow, it really is warm in here.",
       "ko": "와, 안이 정말 후끈하네요.",
-      "reaction": "\"That is my little secret,\" she says. \"Warm and wet — everything grows so much faster that way.\""
+      "reaction": "\"That is my little secret,\" she says. \"Warm and wet — everything grows so much faster that way.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -161,12 +191,14 @@
      {
       "en": "Is this firm enough for you?",
       "ko": "이 정도면 충분히 단단한가요?",
-      "reaction": "\"Oh yes,\" she says. \"Wonderfully firm. You have learned a great deal since spring.\""
+      "reaction": "\"Oh yes,\" she says. \"Wonderfully firm. You have learned a great deal since spring.\"",
+      "tone": "bold"
      },
      {
       "en": "Should I tie them up tight?",
       "ko": "꽉 묶어야 하나요?",
-      "reaction": "\"Gently, dear. Tight enough to hold them, loose enough to let them breathe. That is the trick with everything.\""
+      "reaction": "\"Gently, dear. Tight enough to hold them, loose enough to let them breathe. That is the trick with everything.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -189,14 +221,16 @@
     "prompt": "뭐라고 할까요?",
     "options": [
      {
-      "en": "They are so big already.",
-      "ko": "벌써 이렇게 컸네요.",
-      "reaction": "\"The heat does that,\" she says softly. \"Everything ripens so much faster in here.\""
+      "en": "You were right. They feel wonderfully heavy.",
+      "ko": "정말이네요 — 굉장히 묵직한데요.",
+      "reaction": "\"The heat does that,\" she says softly. \"Everything ripens so much faster in here.\"",
+      "tone": "bold"
      },
      {
       "en": "When exactly will they be ripe?",
       "ko": "정확히 언제쯤 다 익어요?",
-      "reaction": "\"Patience, dear,\" she says. \"The sweetest ones are always the ones worth waiting for.\""
+      "reaction": "\"Patience, dear,\" she says. \"The sweetest ones are always the ones worth waiting for.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -688,6 +722,158 @@
   "begun": {
    "pos": "동사",
    "ko": "시작되었다 — begin의 과거분사"
+  },
+  "helping": {
+   "pos": "동사",
+   "ko": "돕는 — help의 진행형"
+  },
+  "calm": {
+   "pos": "형용사",
+   "ko": "차분한"
+  },
+  "most": {
+   "pos": "부사",
+   "ko": "가장 — 최상급을 만드는 말"
+  },
+  "patient": {
+   "pos": "형용사",
+   "ko": "참을성 있는"
+  },
+  "helper": {
+   "pos": "명사",
+   "ko": "돕는 사람, 일꾼"
+  },
+  "had": {
+   "pos": "동사",
+   "ko": "가졌다, 있었다 — have의 과거"
+  },
+  "their": {
+   "pos": "한정사",
+   "ko": "그들의"
+  },
+  "some": {
+   "pos": "한정사",
+   "ko": "어떤, 몇몇의"
+  },
+  "sweeter": {
+   "pos": "형용사",
+   "ko": "더 달콤한 — sweet의 비교급"
+  },
+  "grow": {
+   "pos": "동사",
+   "ko": "자라다"
+  },
+  "work": {
+   "pos": "동사",
+   "ko": "일하다"
+  },
+  "dark": {
+   "pos": "명사",
+   "ko": "어두움, 해 진 뒤"
+  },
+  "second": {
+   "pos": "형용사",
+   "ko": "두 번째의, 또 하나의"
+  },
+  "cup": {
+   "pos": "명사",
+   "ko": "잔, 컵"
+  },
+  "tea": {
+   "pos": "명사",
+   "ko": "차"
+  },
+  "case": {
+   "pos": "명사",
+   "ko": "(in case) 혹시 모를 경우"
+  },
+  "stay": {
+   "pos": "동사",
+   "ko": "머무르다"
+  },
+  "longer": {
+   "pos": "부사",
+   "ko": "더 오래 — long의 비교급"
+  },
+  "july": {
+   "pos": "명사",
+   "ko": "7월"
+  },
+  "own": {
+   "pos": "형용사",
+   "ko": "자기 자신의"
+  },
+  "key": {
+   "pos": "명사",
+   "ko": "열쇠"
+  },
+  "early": {
+   "pos": "형용사",
+   "ko": "이른"
+  },
+  "mornings": {
+   "pos": "명사",
+   "ko": "아침들 — morning의 복수"
+  },
+  "neighbors": {
+   "pos": "명사",
+   "ko": "이웃들 — neighbor의 복수"
+  },
+  "notice": {
+   "pos": "동사",
+   "ko": "알아차리다"
+  },
+  "looked": {
+   "pos": "동사",
+   "ko": "보였다 — look의 과거"
+  },
+  "happy": {
+   "pos": "형용사",
+   "ko": "행복한"
+  },
+  "spend": {
+   "pos": "동사",
+   "ko": "(시간을) 보내다"
+  },
+  "steamed": {
+   "pos": "형용사",
+   "ko": "김이 서린"
+  },
+  "gift": {
+   "pos": "명사",
+   "ko": "재능, 선물"
+  },
+  "august": {
+   "pos": "명사",
+   "ko": "8월"
+  },
+  "nobody": {
+   "pos": "대명사",
+   "ko": "아무도 ~않다"
+  },
+  "anything": {
+   "pos": "대명사",
+   "ko": "아무것도, 무엇이든"
+  },
+  "redder": {
+   "pos": "형용사",
+   "ko": "더 빨간 — red의 비교급"
+  },
+  "weed": {
+   "pos": "동사",
+   "ko": "잡초를 뽑다, 김매다"
+  },
+  "steams": {
+   "pos": "동사",
+   "ko": "(steam up) 김이 서리다 — steam의 3인칭"
+  },
+  "insist": {
+   "pos": "동사",
+   "ko": "우기다, 고집하다"
+  },
+  "were": {
+   "pos": "동사",
+   "ko": "~였다 — are의 과거"
   }
  },
  "wink": {

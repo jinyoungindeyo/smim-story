@@ -14,6 +14,28 @@
   ],
   "answer": 0
  },
+ "endings": {
+  "0": {
+   "name": "수줍은 견습생",
+   "en": "At home, you eat one warm bun with a cup of tea and save some for tomorrow. All week, you practice quietly in your own kitchen, just you and the dough. Next Saturday, you arrive early and take a seat in the back row.",
+   "ko": "집에 와서 따뜻한 번 하나를 차 한 잔과 함께 먹고, 나머지는 내일 몫으로 아껴 둬요. 일주일 내내 집 부엌에서 조용히 연습해요. 반죽과 단둘이서요. 다음 토요일엔 일찍 도착해서 뒷줄 자리에 앉아요."
+  },
+  "1": {
+   "name": "신중한 모범생",
+   "en": "Every Saturday, you take the same seat in the middle row and follow each step exactly the way Miss Sugar shows you. Your bread rises a little higher every week. \"Good hands learn fast,\" she says, and you almost believe her.",
+   "ko": "매주 토요일, 가운데 줄 같은 자리에 앉아 미스 슈가가 보여 주는 대로 한 단계씩 정확히 따라 해요. 빵은 매주 조금씩 더 높이 부풀어요. \"좋은 손은 빨리 배워요\"라고 선생님이 말하는데, 이제 거의 믿을 것 같아요."
+  },
+  "2": {
+   "name": "리듬을 아는 제빵사",
+   "en": "The next week, you bring your own apron and take the table closest to Miss Sugar. \"Someone came ready,\" she says with a smile. Your dough rises faster than all the others, and you both pretend not to notice.",
+   "ko": "다음 주엔 앞치마까지 챙겨 가서 미스 슈가와 가장 가까운 작업대를 골라요. \"준비하고 왔네요.\" 선생님이 웃으며 말해요. 당신의 반죽은 누구 것보다 빨리 부풀고, 두 사람 다 모르는 척해요."
+  },
+  "3": {
+   "name": "오븐보다 뜨거운 수강생",
+   "en": "A month later, you are Miss Sugar's private student, and the evening classes are just the two of you. The little kitchen gets hotter every week, and she says you never get used to the heat. You are no longer sure she is talking about the oven.",
+   "ko": "한 달 뒤, 당신은 미스 슈가의 개인 수강생이 돼요. 저녁 수업은 단둘뿐이고, 작은 주방은 매주 더 뜨거워져요. 열기엔 절대 익숙해지지 않는다고 선생님은 말하는데, 그게 정말 오븐 얘기인지 이제 잘 모르겠어요."
+  }
+ },
  "scripts": {
   "normal": [
    {
@@ -36,12 +58,14 @@
      {
       "en": "I'm ready. My hands are always warm.",
       "ko": "준비됐어요. 제 손은 항상 따뜻하거든요.",
-      "reaction": "\"Perfect,\" she says. \"Warm hands make the dough very happy.\""
+      "reaction": "\"Perfect,\" she says. \"Warm hands make the dough very happy.\"",
+      "tone": "bold"
      },
      {
       "en": "I've never baked anything before.",
       "ko": "저 한 번도 빵을 구워 본 적이 없어요.",
-      "reaction": "\"Even better,\" she smiles. \"I love teaching beginners. We will take it slowly.\""
+      "reaction": "\"Even better,\" she smiles. \"I love teaching beginners. We will take it slowly.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -59,14 +83,16 @@
     "prompt": "뭐라고 할까요?",
     "options": [
      {
-      "en": "Like this? Is this the right rhythm?",
-      "ko": "이렇게요? 이 리듬이 맞는 거예요?",
-      "reaction": "\"Exactly like that. Slow and steady,\" she says. \"You have very good hands.\""
+      "en": "I've found my rhythm. Watch me.",
+      "ko": "리듬 찾았어요. 잘 보세요.",
+      "reaction": "\"Exactly like that. Slow and steady,\" she says. \"You have very good hands.\"",
+      "tone": "bold"
      },
      {
       "en": "My arms are getting tired already.",
       "ko": "벌써 팔이 좀 아픈데요.",
-      "reaction": "\"Already? Don't stop now,\" she laughs. \"The dough knows when you give up.\""
+      "reaction": "\"Already? Don't stop now,\" she laughs. \"The dough knows when you give up.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -89,12 +115,14 @@
      {
       "en": "It's all thanks to your teaching.",
       "ko": "다 선생님이 잘 가르쳐 주신 덕분이에요.",
-      "reaction": "\"Oh, stop,\" she laughs. \"The hands did all the work. And what hands.\""
+      "reaction": "\"Oh, stop,\" she laughs. \"The hands did all the work. And what hands.\"",
+      "tone": "calm"
      },
      {
       "en": "Baking is more fun than I expected.",
       "ko": "베이킹이 생각보다 재미있네요.",
-      "reaction": "\"It always is,\" she says. \"Careful — once you start, it is very hard to stop.\""
+      "reaction": "\"It always is,\" she says. \"Careful — once you start, it is very hard to stop.\"",
+      "tone": "bold"
      }
     ]
    },
@@ -129,12 +157,14 @@
      {
       "en": "I'm ready. My hands are always warm.",
       "ko": "준비됐어요. 제 손은 항상 따뜻하거든요.",
-      "reaction": "\"Perfect,\" she says. \"You would be surprised how much difference warm hands make to the dough.\""
+      "reaction": "\"Perfect,\" she says. \"You would be surprised how much difference warm hands make to the dough.\"",
+      "tone": "bold"
      },
      {
       "en": "Okay, but I have never baked anything before.",
       "ko": "네, 근데 저 한 번도 빵을 구워 본 적이 없어요.",
-      "reaction": "\"Even better,\" she smiles. \"There is nothing I enjoy more than teaching a complete beginner. We will take it nice and slowly.\""
+      "reaction": "\"Even better,\" she smiles. \"There is nothing I enjoy more than teaching a complete beginner. We will take it nice and slowly.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -152,14 +182,16 @@
     "prompt": "뭐라고 할까요?",
     "options": [
      {
-      "en": "Like this? Have I found the right rhythm?",
-      "ko": "이렇게요? 이 리듬이 맞는 거예요?",
-      "reaction": "\"Exactly like that. Slow and steady,\" she says approvingly. \"You have remarkably good hands.\""
+      "en": "I believe I've found my rhythm. Watch me closely.",
+      "ko": "리듬을 찾은 것 같아요. 가까이서 봐 주세요.",
+      "reaction": "\"Exactly like that. Slow and steady,\" she says approvingly. \"You have remarkably good hands.\"",
+      "tone": "bold"
      },
      {
       "en": "My arms are getting tired already.",
       "ko": "벌써 팔이 좀 아픈데요.",
-      "reaction": "\"Already? Don't you dare stop now,\" she laughs. \"The dough always knows when you give up.\""
+      "reaction": "\"Already? Don't you dare stop now,\" she laughs. \"The dough always knows when you give up.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -182,12 +214,14 @@
      {
       "en": "It's all thanks to your teaching.",
       "ko": "다 선생님이 잘 가르쳐 주신 덕분이에요.",
-      "reaction": "\"Oh, stop,\" she laughs, waving a hand. \"Your hands did all the work. And what hands they are.\""
+      "reaction": "\"Oh, stop,\" she laughs, waving a hand. \"Your hands did all the work. And what hands they are.\"",
+      "tone": "calm"
      },
      {
       "en": "Baking is far more fun than I expected.",
       "ko": "베이킹이 생각보다 훨씬 재미있네요.",
-      "reaction": "\"It always is,\" she says knowingly. \"Careful — once you start, it becomes very hard to stop.\""
+      "reaction": "\"It always is,\" she says knowingly. \"Careful — once you start, it becomes very hard to stop.\"",
+      "tone": "bold"
      }
     ]
    },
@@ -215,6 +249,10 @@
    "pos": "명사",
    "ko": "공기"
   },
+  "almost": {
+   "pos": "부사",
+   "ko": "거의"
+  },
   "already": {
    "pos": "부사",
    "ko": "벌써, 이미"
@@ -230,6 +268,14 @@
   "approvingly": {
    "pos": "부사",
    "ko": "흡족한 듯이"
+  },
+  "apron": {
+   "pos": "명사",
+   "ko": "앞치마"
+  },
+  "arrive": {
+   "pos": "동사",
+   "ko": "도착하다"
   },
   "asks": {
    "pos": "동사",
@@ -263,6 +309,10 @@
    "pos": "명사",
    "ko": "(beginner의 복수) 초보자들"
   },
+  "believe": {
+   "pos": "동사",
+   "ko": "믿다"
+  },
   "both": {
    "pos": "형용사",
    "ko": "양쪽의, 둘 다"
@@ -283,9 +333,21 @@
    "pos": "형용사",
    "ko": "환한, 밝은"
   },
+  "bring": {
+   "pos": "동사",
+   "ko": "가져오다, 챙겨 오다"
+  },
+  "bun": {
+   "pos": "명사",
+   "ko": "둥근 빵, 번"
+  },
   "buns": {
    "pos": "명사",
    "ko": "(bun의 복수) 둥근 빵, 번"
+  },
+  "came": {
+   "pos": "동사",
+   "ko": "(come의 과거) 왔다"
   },
   "changes": {
    "pos": "동사",
@@ -295,9 +357,21 @@
    "pos": "명사",
    "ko": "수업, 클래스"
   },
+  "classes": {
+   "pos": "명사",
+   "ko": "(class의 복수) 수업들"
+  },
+  "closest": {
+   "pos": "형용사",
+   "ko": "(close의 최상급) 가장 가까운"
+  },
   "cloth": {
    "pos": "명사",
    "ko": "천, 보자기"
+  },
+  "closely": {
+   "pos": "부사",
+   "ko": "가까이서, 자세히"
   },
   "complete": {
    "pos": "형용사",
@@ -315,6 +389,10 @@
    "pos": "명사",
    "ko": "크림"
   },
+  "cup": {
+   "pos": "명사",
+   "ko": "컵, 잔"
+  },
   "dare": {
    "pos": "동사",
    "ko": "감히 ~하다"
@@ -327,21 +405,33 @@
    "pos": "명사",
    "ko": "차이"
   },
-  "dough": {
-   "pos": "명사",
-   "ko": "반죽"
-  },
   "doorway": {
    "pos": "명사",
    "ko": "문간, 출입구"
+  },
+  "dough": {
+   "pos": "명사",
+   "ko": "반죽"
   },
   "dusting": {
    "pos": "동사",
    "ko": "(dust의 -ing) 가루가 얇게 묻은"
   },
+  "each": {
+   "pos": "형용사",
+   "ko": "각각의, 하나하나의"
+  },
+  "early": {
+   "pos": "부사",
+   "ko": "일찍"
+  },
   "easily": {
    "pos": "부사",
    "ko": "단연, 쉽게"
+  },
+  "eat": {
+   "pos": "동사",
+   "ko": "먹다"
   },
   "enjoy": {
    "pos": "동사",
@@ -350,6 +440,10 @@
   "even": {
    "pos": "부사",
    "ko": "훨씬, 심지어 ~조차"
+  },
+  "evening": {
+   "pos": "명사",
+   "ko": "저녁"
   },
   "everywhere": {
    "pos": "부사",
@@ -383,6 +477,14 @@
    "pos": "부사",
    "ko": "훨씬"
   },
+  "fast": {
+   "pos": "부사",
+   "ko": "빨리"
+  },
+  "faster": {
+   "pos": "부사",
+   "ko": "(fast의 비교급) 더 빨리"
+  },
   "feel": {
    "pos": "동사",
    "ko": "느끼다"
@@ -410,6 +512,10 @@
   "fold": {
    "pos": "동사",
    "ko": "접다"
+  },
+  "follow": {
+   "pos": "동사",
+   "ko": "따라 하다, 따르다"
   },
   "found": {
    "pos": "동사",
@@ -463,9 +569,21 @@
    "pos": "명사",
    "ko": "열기, 더위"
   },
+  "higher": {
+   "pos": "부사",
+   "ko": "(high의 비교급) 더 높이"
+  },
   "hot": {
    "pos": "형용사",
    "ko": "뜨거운, 더운"
+  },
+  "hotter": {
+   "pos": "형용사",
+   "ko": "(hot의 비교급) 더 뜨거운"
+  },
+  "kitchen": {
+   "pos": "명사",
+   "ko": "부엌, 주방"
   },
   "knead": {
    "pos": "동사",
@@ -475,6 +593,10 @@
    "pos": "동사",
    "ko": "(know의 3인칭) 알다"
   },
+  "later": {
+   "pos": "부사",
+   "ko": "~후에, 나중에"
+  },
   "let": {
    "pos": "동사",
    "ko": "~하게 두다"
@@ -482,6 +604,10 @@
   "likes": {
    "pos": "동사",
    "ko": "(like의 3인칭) 좋아하다"
+  },
+  "longer": {
+   "pos": "부사",
+   "ko": "더 오래 (no longer: 더 이상 ~않다)"
   },
   "lot": {
    "pos": "명사",
@@ -503,9 +629,17 @@
    "pos": "동사",
    "ko": "(make의 -ing) 만들기"
   },
+  "middle": {
+   "pos": "명사",
+   "ko": "가운데, 중간"
+  },
   "miss": {
    "pos": "명사",
    "ko": "~양, ~선생님 (여성 호칭)"
+  },
+  "month": {
+   "pos": "명사",
+   "ko": "달, 한 달"
   },
   "most": {
    "pos": "형용사",
@@ -523,9 +657,17 @@
    "pos": "형용사",
    "ko": "좋은 (nice and slowly: 아주 천천히)"
   },
+  "notice": {
+   "pos": "동사",
+   "ko": "알아차리다"
+  },
   "only": {
    "pos": "부사",
    "ko": "오직, 그저 ~할 뿐"
+  },
+  "others": {
+   "pos": "대명사",
+   "ko": "(other의 복수) 다른 것들, 나머지"
   },
   "out": {
    "pos": "부사",
@@ -535,6 +677,10 @@
    "pos": "명사",
    "ko": "오븐"
   },
+  "own": {
+   "pos": "형용사",
+   "ko": "자기 자신의"
+  },
   "patience": {
    "pos": "명사",
    "ko": "인내심"
@@ -543,9 +689,21 @@
    "pos": "형용사",
    "ko": "참을성 있는"
   },
+  "practice": {
+   "pos": "동사",
+   "ko": "연습하다"
+  },
   "pressure": {
    "pos": "명사",
    "ko": "압력"
+  },
+  "pretend": {
+   "pos": "동사",
+   "ko": "~인 척하다"
+  },
+  "private": {
+   "pos": "형용사",
+   "ko": "개인의, 일대일의"
   },
   "push": {
    "pos": "동사",
@@ -562,6 +720,10 @@
   "quiet": {
    "pos": "형용사",
    "ko": "조용한"
+  },
+  "quietly": {
+   "pos": "부사",
+   "ko": "조용히"
   },
   "quite": {
    "pos": "부사",
@@ -595,6 +757,10 @@
    "pos": "동사",
    "ko": "(rise의 3인칭) 부풀다"
   },
+  "row": {
+   "pos": "명사",
+   "ko": "줄, 열"
+  },
   "rush": {
    "pos": "동사",
    "ko": "서두르다"
@@ -606,6 +772,14 @@
   "saturday": {
    "pos": "명사",
    "ko": "토요일"
+  },
+  "save": {
+   "pos": "동사",
+   "ko": "아껴 두다, 남겨 두다"
+  },
+  "seat": {
+   "pos": "명사",
+   "ko": "자리, 좌석"
   },
   "seen": {
    "pos": "동사",
@@ -622,6 +796,10 @@
   "shirt": {
    "pos": "명사",
    "ko": "셔츠"
+  },
+  "shows": {
+   "pos": "동사",
+   "ko": "(show의 3인칭) 보여 주다"
   },
   "signed": {
    "pos": "동사",
@@ -679,6 +857,10 @@
    "pos": "명사",
    "ko": "설탕"
   },
+  "sugars": {
+   "pos": "명사",
+   "ko": "(Sugar의 소유격) 슈가 선생님의"
+  },
   "surprised": {
    "pos": "형용사",
    "ko": "놀란"
@@ -686,6 +868,22 @@
   "sweet": {
    "pos": "형용사",
    "ko": "달콤한"
+  },
+  "table": {
+   "pos": "명사",
+   "ko": "테이블, 작업대"
+  },
+  "talking": {
+   "pos": "동사",
+   "ko": "(talk의 -ing) 말하는 (talk about: ~에 대해 말하다)"
+  },
+  "taught": {
+   "pos": "동사",
+   "ko": "(teach의 과거) 가르쳤다"
+  },
+  "tea": {
+   "pos": "명사",
+   "ko": "차, 홍차"
   },
   "teacher": {
    "pos": "명사",
@@ -715,6 +913,10 @@
    "pos": "동사",
    "ko": "(tilt의 -ing) 갸웃하며, 기울이며"
   },
+  "tomorrow": {
+   "pos": "명사",
+   "ko": "내일"
+  },
   "touch": {
    "pos": "명사",
    "ko": "손길, 만지기"
@@ -722,6 +924,10 @@
   "used": {
    "pos": "형용사",
    "ko": "익숙한 (get used to: ~에 익숙해지다)"
+  },
+  "watch": {
+   "pos": "동사",
+   "ko": "지켜보다, 잘 보다"
   },
   "waving": {
    "pos": "동사",

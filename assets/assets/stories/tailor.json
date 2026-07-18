@@ -36,12 +36,14 @@
      {
       "en": "Sure. It's my first time getting a suit made.",
       "ko": "네. 정장 맞추는 건 처음이에요.",
-      "reaction": "\"A first time is special,\" he says. \"Relax and leave everything to me.\""
+      "reaction": "\"A first time is special,\" he says. \"Relax and leave everything to me.\"",
+      "tone": "bold"
      },
      {
       "en": "Okay. How long will this take?",
       "ko": "네. 시간이 얼마나 걸릴까요?",
-      "reaction": "\"Good work takes time,\" he smiles. \"I never rush the important parts.\""
+      "reaction": "\"Good work takes time,\" he smiles. \"I never rush the important parts.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -60,12 +62,14 @@
      {
       "en": "Is it supposed to be this tight?",
       "ko": "원래 이렇게 조이는 거예요?",
-      "reaction": "\"Snug is not tight,\" he says. \"A good suit should hold you close all day.\""
+      "reaction": "\"Snug is not tight,\" he says. \"A good suit should hold you close all day.\"",
+      "tone": "calm"
      },
      {
       "en": "You are very thorough, Mr. Pin.",
       "ko": "정말 꼼꼼하시네요.",
-      "reaction": "\"Always,\" he says. \"I take my time with every inch.\""
+      "reaction": "\"Always,\" he says. \"I take my time with every inch.\"",
+      "tone": "bold"
      }
     ]
    },
@@ -89,12 +93,14 @@
      {
       "en": "The fabric feels wonderful.",
       "ko": "원단 감촉이 정말 좋네요.",
-      "reaction": "\"It should. Good fabric touches everything and hides nothing.\""
+      "reaction": "\"It should. Good fabric touches everything and hides nothing.\"",
+      "tone": "bold"
      },
      {
       "en": "Will it be ready before the wedding?",
       "ko": "결혼식 전까지 될까요?",
-      "reaction": "\"Of course. But come back for a second fitting. The second time is always better than the first.\""
+      "reaction": "\"Of course. But come back for a second fitting. The second time is always better than the first.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -129,12 +135,14 @@
      {
       "en": "Sure. It's my first time having a suit made.",
       "ko": "네. 정장 맞추는 건 처음이에요.",
-      "reaction": "\"A first time is always special,\" he says softly. \"Relax, and leave everything in my hands.\""
+      "reaction": "\"A first time is always special,\" he says softly. \"Relax, and leave everything in my hands.\"",
+      "tone": "bold"
      },
      {
       "en": "Okay. Roughly how long will this take?",
       "ko": "네. 대략 얼마나 걸릴까요?",
-      "reaction": "\"Good work cannot be rushed,\" he smiles. \"And I never hurry over the important parts.\""
+      "reaction": "\"Good work cannot be rushed,\" he smiles. \"And I never hurry over the important parts.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -153,12 +161,14 @@
      {
       "en": "Is it supposed to feel this tight?",
       "ko": "원래 이렇게 조이는 느낌이에요?",
-      "reaction": "\"Snug is not the same as tight,\" he explains. \"A proper suit should hold you close from morning until night.\""
+      "reaction": "\"Snug is not the same as tight,\" he explains. \"A proper suit should hold you close from morning until night.\"",
+      "tone": "calm"
      },
      {
       "en": "You are remarkably thorough, Mr. Pin.",
       "ko": "정말 꼼꼼하시네요.",
-      "reaction": "\"Always,\" he says. \"I always take my time with every single inch.\""
+      "reaction": "\"Always,\" he says. \"I always take my time with every single inch.\"",
+      "tone": "bold"
      }
     ]
    },
@@ -182,12 +192,14 @@
      {
       "en": "The fabric feels absolutely wonderful.",
       "ko": "원단 감촉이 정말 좋네요.",
-      "reaction": "\"It should. Fine fabric touches everything and hides nothing.\""
+      "reaction": "\"It should. Fine fabric touches everything and hides nothing.\"",
+      "tone": "bold"
      },
      {
       "en": "Will it be finished before the wedding?",
       "ko": "결혼식 전까지 완성될까요?",
-      "reaction": "\"Naturally. But you must return for a second fitting — the second time is always better than the first.\""
+      "reaction": "\"Naturally. But you must return for a second fitting — the second time is always better than the first.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -201,6 +213,28 @@
     "text": "On the wedding day, everyone wants to know where you found such a suit. You simply smile. Some things stay between you and your tailor."
    }
   ]
+ },
+ "endings": {
+  "0": {
+   "name": "신중한 첫 손님",
+   "en": "After the wedding, you hang the suit carefully in your closet. You write Mr. Pin a short and polite thank you card. A good fit is a good fit, you tell yourself, and some measurements are best taken only once.",
+   "ko": "결혼식이 끝난 뒤, 당신은 정장을 옷장에 조심스럽게 걸어 둬요. Mr. Pin에게는 짧고 정중한 감사 카드를 써 보내요. 좋은 핏은 그저 좋은 핏일 뿐이라고, 당신은 속으로 되뇌어요. 어떤 치수는 딱 한 번만 재는 게 제일 좋으니까요."
+  },
+  "1": {
+   "name": "진열창 앞의 수줍은 손님",
+   "en": "Weeks later, you find yourself walking down that quiet street again. You only look at the shop window, but Mr. Pin sees you and smiles. 'For the next wedding,' you tell yourself, and you walk home a little slower than usual.",
+   "ko": "몇 주 뒤, 당신은 어느새 그 조용한 거리를 다시 걷고 있어요. 가게 진열창만 바라볼 생각이었는데, Mr. Pin이 당신을 알아보고 미소 지어요. '다음 결혼식 때문이야'라고 속으로 되뇌며, 평소보다 조금 느리게 집으로 걸어가요."
+  },
+  "2": {
+   "name": "능청스러운 손님",
+   "en": "One month later, you return for that second fitting, even though the suit fits perfectly. 'Just checking the numbers,' you say, and Mr. Pin smiles. 'Of course. The tape missed you too.'",
+   "ko": "한 달 뒤, 정장이 완벽하게 맞는데도 당신은 두 번째 가봉을 받으러 돌아가요. '치수만 확인하려고요'라고 말하자 Mr. Pin이 미소 지어요. '물론이죠. 줄자도 당신을 그리워했거든요.'"
+  },
+  "3": {
+   "name": "겁 없는 단골",
+   "en": "You become Mr. Pin's most regular customer. Winter coat, spring jacket, summer trousers — somehow you always need something new, and every visit ends with the inseam. 'Same time next week?' he asks, and you never say no.",
+   "ko": "당신은 Mr. Pin 가게의 최고 단골이 돼요. 겨울 코트, 봄 재킷, 여름 바지 — 어쩐지 늘 새로 맞출 옷이 생기고, 방문은 매번 안쪽 다리 치수 재기로 끝나요. '다음 주 같은 시간에요?'라고 그가 물을 때마다, 당신은 한 번도 싫다고 한 적이 없어요."
+  }
  },
  "dict": {
   "friend": {
@@ -713,7 +747,7 @@
   },
   "ends": {
    "pos": "동사",
-   "ko": "(end up) 결국 ~하게 되다 (3인칭)"
+   "ko": "끝나다; (end up) 결국 ~하게 되다 (3인칭)"
   },
   "wants": {
    "pos": "동사",
@@ -742,6 +776,138 @@
   "single": {
    "pos": "형용사",
    "ko": "단 하나의 (every single: 하나도 빠짐없이)"
+  },
+  "after": {
+   "pos": "전치사",
+   "ko": "~ 후에, ~이 끝난 뒤"
+  },
+  "hang": {
+   "pos": "동사",
+   "ko": "걸다, 걸어 두다"
+  },
+  "closet": {
+   "pos": "명사",
+   "ko": "옷장"
+  },
+  "write": {
+   "pos": "동사",
+   "ko": "쓰다, 적다"
+  },
+  "short": {
+   "pos": "형용사",
+   "ko": "짧은"
+  },
+  "polite": {
+   "pos": "형용사",
+   "ko": "정중한, 예의 바른"
+  },
+  "card": {
+   "pos": "명사",
+   "ko": "카드, 엽서"
+  },
+  "tell": {
+   "pos": "동사",
+   "ko": "말하다 (tell yourself: 스스로에게 말하다)"
+  },
+  "taken": {
+   "pos": "동사",
+   "ko": "재어진, 행해진 (take의 과거분사)"
+  },
+  "only": {
+   "pos": "부사",
+   "ko": "오직, ~만"
+  },
+  "weeks": {
+   "pos": "명사",
+   "ko": "몇 주 (week의 복수형)"
+  },
+  "later": {
+   "pos": "부사",
+   "ko": "나중에, ~ 뒤에"
+  },
+  "walking": {
+   "pos": "동사",
+   "ko": "걷다 (-ing형)"
+  },
+  "again": {
+   "pos": "부사",
+   "ko": "다시, 또"
+  },
+  "window": {
+   "pos": "명사",
+   "ko": "창문, 진열창"
+  },
+  "sees": {
+   "pos": "동사",
+   "ko": "보다, 알아보다 (3인칭)"
+  },
+  "slower": {
+   "pos": "부사",
+   "ko": "더 느리게 (slow의 비교급)"
+  },
+  "usual": {
+   "pos": "형용사",
+   "ko": "평소의 (than usual: 평소보다)"
+  },
+  "even": {
+   "pos": "부사",
+   "ko": "~조차, 심지어 (even though: ~인데도)"
+  },
+  "fits": {
+   "pos": "동사",
+   "ko": "(몸에 꼭) 맞다 (3인칭)"
+  },
+  "checking": {
+   "pos": "동사",
+   "ko": "확인하다 (-ing형)"
+  },
+  "missed": {
+   "pos": "동사",
+   "ko": "그리워했다, 보고 싶어 했다 (miss의 과거형)"
+  },
+  "become": {
+   "pos": "동사",
+   "ko": "~이 되다"
+  },
+  "most": {
+   "pos": "부사",
+   "ko": "가장 (최상급을 만드는 말)"
+  },
+  "regular": {
+   "pos": "형용사",
+   "ko": "단골의, 정기적인 (regular customer: 단골손님)"
+  },
+  "customer": {
+   "pos": "명사",
+   "ko": "손님, 고객"
+  },
+  "winter": {
+   "pos": "명사",
+   "ko": "겨울"
+  },
+  "jacket": {
+   "pos": "명사",
+   "ko": "재킷, 상의"
+  },
+  "summer": {
+   "pos": "명사",
+   "ko": "여름"
+  },
+  "trousers": {
+   "pos": "명사",
+   "ko": "바지"
+  },
+  "something": {
+   "pos": "대명사",
+   "ko": "무언가, 어떤 것"
+  },
+  "new": {
+   "pos": "형용사",
+   "ko": "새로운"
+  },
+  "week": {
+   "pos": "명사",
+   "ko": "주, 일주일"
   }
  },
  "wink": {

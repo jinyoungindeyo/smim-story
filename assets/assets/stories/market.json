@@ -14,6 +14,28 @@
   ],
   "answer": 1
  },
+ "endings": {
+  "0": {
+   "name": "조용한 단골",
+   "en": "You walk home slowly and cook a quiet dinner with the fresh vegetables. The green onions make the kitchen smell like the morning market. Next Saturday, you stand at the same stall again, and the grandmother smiles — she already knows what you like.",
+   "ko": "집으로 천천히 걸어가 신선한 채소로 조용히 저녁을 차려요. 부엌 가득 파 향이 퍼지면 꼭 아침 시장에 서 있는 것 같아요. 다음 주 토요일, 같은 좌판 앞에 다시 서면 할머니가 웃어요 — 당신이 뭘 좋아하는지 벌써 알고 계시거든요."
+  },
+  "1": {
+   "name": "따뜻한 이웃",
+   "en": "That evening, the melon tastes as sweet as the grandmother promised. Every Saturday you ask about her garden, and she tells you the story of another vegetable. A month later, she starts setting aside your vegetables before you even arrive — the market has become a second home.",
+   "ko": "그날 저녁, 멜론은 할머니 말씀처럼 달콤해요. 토요일마다 텃밭 이야기를 물어보면 할머니는 채소 하나에 얽힌 이야기를 새로 들려주세요. 한 달쯤 지나면 당신이 오기도 전에 할머니가 당신 몫의 채소를 먼저 골라 두세요 — 어느새 시장이 두 번째 집이 되어 있어요."
+  },
+  "2": {
+   "name": "넉살 좋은 손님",
+   "en": "That evening, your friends taste the melon and demand to see the stall themselves. Next Saturday, two of them walk to the market with you. The grandmother laughs when she sees three hungry faces. \"You brought me new customers,\" she says, and drops extra green onions into every bag.",
+   "ko": "그날 저녁, 멜론을 맛본 친구들이 그 좌판을 직접 봐야겠다고 성화예요. 다음 주 토요일, 친구 둘이 당신과 함께 시장으로 가요. 배고픈 얼굴 셋을 본 할머니가 웃어요. \"새 손님들을 데려왔네,\" 하시며 봉지마다 파 한 줌씩을 덤으로 넣어 주세요."
+  },
+  "3": {
+   "name": "겁 없는 흥정꾼",
+   "en": "Next Saturday, you arrive early and greet the grandmother in a loud, happy voice. You joke, you bargain, and you win two dollars off. Then she asks for your name, and from that day she greets you by name — her first true regular customer.",
+   "ko": "다음 주 토요일, 일찍 도착해서 크고 명랑한 목소리로 할머니에게 인사해요. 농담도 하고 흥정도 해서 2달러나 깎아 내요. 그러자 할머니가 당신 이름을 물어보시고, 그날부터는 이름을 부르며 맞아 주세요 — 당신은 할머니의 첫 진짜 단골이거든요."
+  }
+ },
  "scripts": {
   "easy": [
    {
@@ -32,12 +54,14 @@
      {
       "en": "Go to the vegetable stall.",
       "ko": "채소 좌판으로 간다",
-      "reaction": "An old grandmother sits behind the stall. She smiles at you."
+      "reaction": "An old grandmother sits behind the stall. She smiles at you.",
+      "tone": "bold"
      },
      {
       "en": "Walk around the market first.",
       "ko": "먼저 시장을 한 바퀴 돈다",
-      "reaction": "You see bread, fish, and flowers. But the best smell comes from the vegetable stall. \"I saw you walking around,\" the grandmother laughs. \"Everyone comes to me in the end.\""
+      "reaction": "You see bread, fish, and flowers. But the best smell comes from the vegetable stall. \"I saw you walking around,\" the grandmother laughs. \"Everyone comes to me in the end.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -57,12 +81,14 @@
      {
       "en": "How much are the eggplants?",
       "ko": "가지는 얼마예요?",
-      "reaction": "\"Three for five dollars,\" she says. \"They are the best in the market.\""
+      "reaction": "\"Three for five dollars,\" she says. \"They are the best in the market.\"",
+      "tone": "calm"
      },
      {
-      "en": "Everything looks so fresh!",
-      "ko": "다 정말 신선해 보여요!",
-      "reaction": "\"Of course!\" she laughs. \"I picked them this morning.\""
+      "en": "Three for four dollars, please?",
+      "ko": "가지 3개에 4달러는 어때요?",
+      "reaction": "\"You are brave!\" she laughs. \"Four fifty — because you made me smile.\"",
+      "tone": "bold"
      }
     ]
    },
@@ -84,20 +110,22 @@
     "prompt": "마지막으로 뭐라고 할까요?",
     "options": [
      {
-      "en": "Thank you! You are so kind.",
-      "ko": "감사해요! 정말 친절하세요.",
-      "reaction": "\"Come again,\" she says. \"I am here every Saturday.\""
+      "en": "Thank you. That is very kind of you.",
+      "ko": "고마워요. 마음이 참 따뜻하시네요.",
+      "reaction": "\"Come again,\" she says. \"I am here every Saturday.\"",
+      "tone": "calm"
      },
      {
       "en": "I will come back next week!",
       "ko": "다음 주에 또 올게요!",
-      "reaction": "\"Good!\" she laughs. \"I will keep the best melons for you.\""
+      "reaction": "\"Good!\" she laughs. \"I will keep the best melons for you.\"",
+      "tone": "bold"
      }
     ]
    },
    {
     "type": "text",
-    "text": "You walk home with a heavy bag and a light heart. In the bag, the green onions smell fresh. Next Saturday, you will come back.",
+    "text": "You walk home with a heavy bag and a light heart. In the bag, the green onions smell fresh.",
     "art": "harvest_home"
    }
   ],
@@ -118,12 +146,14 @@
      {
       "en": "Go straight to the vegetable stall.",
       "ko": "채소 좌판으로 바로 간다",
-      "reaction": "An old grandmother sits behind the vegetable stall. When she sees you, she smiles warmly."
+      "reaction": "An old grandmother sits behind the vegetable stall. When she sees you, she smiles warmly.",
+      "tone": "bold"
      },
      {
       "en": "Take a walk around the market first.",
       "ko": "먼저 시장을 한 바퀴 돈다",
-      "reaction": "You walk past stalls of bread, fish, and flowers, but the best smell pulls you to the vegetable stall. \"I saw you walking around,\" the grandmother laughs. \"Everyone comes to me in the end.\""
+      "reaction": "You walk past stalls of bread, fish, and flowers, but the best smell pulls you to the vegetable stall. \"I saw you walking around,\" the grandmother laughs. \"Everyone comes to me in the end.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -143,12 +173,14 @@
      {
       "en": "How much are the eggplants?",
       "ko": "가지는 얼마예요?",
-      "reaction": "\"Three for five dollars,\" she answers with pride. \"Nobody in this market sells better ones.\""
+      "reaction": "\"Three for five dollars,\" she answers with pride. \"Nobody in this market sells better ones.\"",
+      "tone": "calm"
      },
      {
-      "en": "Wow, everything here looks really fresh!",
-      "ko": "다 정말 신선해 보여요!",
-      "reaction": "\"Of course it is!\" she laughs. \"I picked all of them myself early this morning.\""
+      "en": "Will you give me three for four dollars?",
+      "ko": "가지 3개에 4달러는 어때요?",
+      "reaction": "\"You are a brave one!\" she laughs out loud. \"Four fifty, then — because you made me smile.\"",
+      "tone": "bold"
      }
     ]
    },
@@ -170,14 +202,16 @@
     "prompt": "마지막으로 뭐라고 할까요?",
     "options": [
      {
-      "en": "Thank you so much! You are really kind.",
-      "ko": "감사해요! 정말 친절하세요.",
-      "reaction": "\"Come again, dear,\" she says. \"I am here every Saturday morning.\""
+      "en": "Thank you. That is very kind of you.",
+      "ko": "고마워요. 마음이 참 따뜻하시네요.",
+      "reaction": "\"Come again, dear,\" she says. \"I am here every Saturday morning.\"",
+      "tone": "calm"
      },
      {
       "en": "I will come back again next week!",
       "ko": "다음 주에 또 올게요!",
-      "reaction": "\"Good!\" she laughs. \"Then I will keep my best melons just for you.\""
+      "reaction": "\"Good!\" she laughs. \"Then I will keep my best melons just for you.\"",
+      "tone": "bold"
      }
     ]
    },
@@ -204,12 +238,14 @@
      {
       "en": "Head straight to the vegetable stall.",
       "ko": "채소 좌판으로 곧장 간다",
-      "reaction": "An old grandmother sits behind the vegetable stall, arranging her eggplants with care. When she notices you, her face breaks into a warm smile."
+      "reaction": "An old grandmother sits behind the vegetable stall, arranging her eggplants with care. When she notices you, her face breaks into a warm smile.",
+      "tone": "bold"
      },
      {
       "en": "Wander around the market first.",
       "ko": "먼저 시장을 한 바퀴 돈다",
-      "reaction": "You wander past stalls of bread, fresh fish, and flowers, but the finest smell of all draws you back to the vegetable stall. \"I watched you circle the whole market,\" the grandmother chuckles. \"They always end up at my stall.\""
+      "reaction": "You wander past stalls of bread, fresh fish, and flowers, but the finest smell of all draws you back to the vegetable stall. \"I watched you circle the whole market,\" the grandmother chuckles. \"They always end up at my stall.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -229,12 +265,14 @@
      {
       "en": "How much are the eggplants?",
       "ko": "가지는 얼마예요?",
-      "reaction": "\"Three for five dollars,\" she announces with pride. \"You will not find better ones in this whole market.\""
+      "reaction": "\"Three for five dollars,\" she announces with pride. \"You will not find better ones in this whole market.\"",
+      "tone": "calm"
      },
      {
-      "en": "Everything looks wonderfully fresh!",
-      "ko": "다 정말 신선해 보여요!",
-      "reaction": "\"Of course it does!\" she laughs. \"I picked every single one of them myself before the sun rose.\""
+      "en": "How about three for four dollars?",
+      "ko": "가지 3개에 4달러는 어때요?",
+      "reaction": "\"How brave you are!\" she laughs out loud. \"Four fifty — only because you made me smile.\"",
+      "tone": "bold"
      }
     ]
    },
@@ -256,14 +294,16 @@
     "prompt": "마지막으로 뭐라고 할까요?",
     "options": [
      {
-      "en": "Thank you! You are so kind.",
-      "ko": "감사해요! 정말 친절하세요.",
-      "reaction": "\"Come again anytime, dear,\" she says. \"You will find me here every Saturday morning, rain or shine.\""
+      "en": "Thank you. That is very kind of you.",
+      "ko": "고마워요. 마음이 참 따뜻하시네요.",
+      "reaction": "\"Come again anytime, dear,\" she says. \"You will find me here every Saturday morning, rain or shine.\"",
+      "tone": "calm"
      },
      {
       "en": "I will definitely come back next week!",
       "ko": "다음 주에 꼭 다시 올게요!",
-      "reaction": "\"Good!\" she laughs. \"Then I will set aside my very best melons just for you.\""
+      "reaction": "\"Good!\" she laughs. \"Then I will set aside my very best melons just for you.\"",
+      "tone": "bold"
      }
     ]
    },
@@ -295,6 +335,10 @@
    "pos": "동사",
    "ko": "대답하다 (answer)"
   },
+  "another": {
+   "pos": "형용사",
+   "ko": "또 하나의, 다른"
+  },
   "any": {
    "pos": "형용사",
    "ko": "조금이라도, 어떤"
@@ -307,17 +351,29 @@
    "pos": "동사",
    "ko": "정리하는, 진열하는 (arrange)"
   },
-  "ask": {
+  "arrive": {
    "pos": "동사",
-   "ko": "묻다, 물어보다"
+   "ko": "도착하다"
   },
   "aside": {
    "pos": "부사",
    "ko": "따로, 한쪽에 (set aside: 따로 남겨 두다)"
   },
+  "ask": {
+   "pos": "동사",
+   "ko": "묻다, 물어보다"
+  },
+  "asks": {
+   "pos": "동사",
+   "ko": "묻다, 청하다 (ask)"
+  },
   "bag": {
    "pos": "명사",
    "ko": "봉지, 가방"
+  },
+  "bargain": {
+   "pos": "동사",
+   "ko": "흥정하다"
   },
   "baskets": {
    "pos": "명사",
@@ -326,6 +382,14 @@
   "because": {
    "pos": "접속사",
    "ko": "~이기 때문에"
+  },
+  "become": {
+   "pos": "동사",
+   "ko": "~이 되다 (has become: ~이 되었다)"
+  },
+  "brave": {
+   "pos": "형용사",
+   "ko": "용감한, 겁 없는"
   },
   "bread": {
    "pos": "명사",
@@ -342,6 +406,10 @@
   "bring": {
    "pos": "동사",
    "ko": "데려가다, 이끌다"
+  },
+  "brought": {
+   "pos": "동사",
+   "ko": "데려왔다 (bring의 과거)"
   },
   "bundles": {
    "pos": "명사",
@@ -379,6 +447,10 @@
    "pos": "동사",
    "ko": "한 바퀴 돌다"
   },
+  "cook": {
+   "pos": "동사",
+   "ko": "요리하다"
+  },
   "corner": {
    "pos": "명사",
    "ko": "구석, 모퉁이"
@@ -387,9 +459,25 @@
    "pos": "형용사",
    "ko": "붐비는"
   },
+  "customer": {
+   "pos": "명사",
+   "ko": "손님"
+  },
+  "customers": {
+   "pos": "명사",
+   "ko": "손님 (customer의 복수)"
+  },
   "definitely": {
    "pos": "부사",
    "ko": "꼭, 반드시"
+  },
+  "demand": {
+   "pos": "동사",
+   "ko": "(강하게) 요구하다, 조르다"
+  },
+  "dinner": {
+   "pos": "명사",
+   "ko": "저녁 식사"
   },
   "direction": {
    "pos": "명사",
@@ -398,10 +486,6 @@
   "discount": {
    "pos": "명사",
    "ko": "할인"
-  },
-  "does": {
-   "pos": "동사",
-   "ko": "(강조) 정말 그렇다 (do)"
   },
   "dollar": {
    "pos": "명사",
@@ -435,6 +519,10 @@
    "pos": "부사",
    "ko": "심지어, ~조차"
   },
+  "evening": {
+   "pos": "명사",
+   "ko": "저녁"
+  },
   "everywhere": {
    "pos": "부사",
    "ko": "어디에나, 사방에"
@@ -447,6 +535,10 @@
    "pos": "명사",
    "ko": "얼굴"
   },
+  "faces": {
+   "pos": "명사",
+   "ko": "얼굴 (face의 복수)"
+  },
   "far": {
    "pos": "부사",
    "ko": "훨씬"
@@ -458,6 +550,10 @@
   "feet": {
    "pos": "명사",
    "ko": "발 (foot의 복수)"
+  },
+  "fifty": {
+   "pos": "수사",
+   "ko": "쉰, 50 (four fifty: 4달러 50센트)"
   },
   "fill": {
    "pos": "동사",
@@ -483,6 +579,10 @@
    "pos": "명사",
    "ko": "꽃 (flower의 복수)"
   },
+  "four": {
+   "pos": "수사",
+   "ko": "넷, 4"
+  },
   "fresh": {
    "pos": "형용사",
    "ko": "신선한"
@@ -490,6 +590,10 @@
   "freshly": {
    "pos": "부사",
    "ko": "갓, 방금 (freshly picked: 갓 딴)"
+  },
+  "friends": {
+   "pos": "명사",
+   "ko": "친구 (friend의 복수)"
   },
   "fruit": {
    "pos": "명사",
@@ -503,6 +607,10 @@
    "pos": "형용사",
    "ko": "초록색의 (green onions: 파)"
   },
+  "greet": {
+   "pos": "동사",
+   "ko": "인사하다"
+  },
   "greets": {
    "pos": "동사",
    "ko": "인사하다, 맞이하다 (greet)"
@@ -515,6 +623,10 @@
    "pos": "명사",
    "ko": "한 줌"
   },
+  "happy": {
+   "pos": "형용사",
+   "ko": "행복한, 명랑한"
+  },
   "hear": {
    "pos": "동사",
    "ko": "듣다, 들리다"
@@ -522,6 +634,10 @@
   "honest": {
    "pos": "형용사",
    "ko": "정직한, 진실해 보이는"
+  },
+  "joke": {
+   "pos": "동사",
+   "ko": "농담하다"
   },
   "joking": {
    "pos": "동사",
@@ -531,6 +647,18 @@
    "pos": "형용사",
    "ko": "친절한"
   },
+  "kitchen": {
+   "pos": "명사",
+   "ko": "부엌"
+  },
+  "knows": {
+   "pos": "동사",
+   "ko": "알다 (know)"
+  },
+  "later": {
+   "pos": "부사",
+   "ko": "~ 뒤에, 나중에 (a month later: 한 달 뒤)"
+  },
   "light": {
    "pos": "형용사",
    "ko": "가벼운"
@@ -538,6 +666,10 @@
   "loud": {
    "pos": "부사",
    "ko": "큰 소리로 (out loud: 소리 내어)"
+  },
+  "made": {
+   "pos": "동사",
+   "ko": "~하게 만들었다 (make의 과거)"
   },
   "make": {
    "pos": "동사",
@@ -559,9 +691,17 @@
    "pos": "명사",
    "ko": "돈"
   },
-  "myself": {
-   "pos": "대명사",
-   "ko": "내가 직접"
+  "month": {
+   "pos": "명사",
+   "ko": "달, 한 달"
+  },
+  "name": {
+   "pos": "명사",
+   "ko": "이름"
+  },
+  "new": {
+   "pos": "형용사",
+   "ko": "새로운"
   },
   "nine": {
    "pos": "수사",
@@ -623,9 +763,25 @@
    "pos": "명사",
    "ko": "가격 (price의 복수)"
   },
+  "promised": {
+   "pos": "동사",
+   "ko": "약속했다 (promise의 과거)"
+  },
   "puts": {
    "pos": "동사",
    "ko": "넣다, 놓다 (put)"
+  },
+  "quiet": {
+   "pos": "형용사",
+   "ko": "조용한"
+  },
+  "regular": {
+   "pos": "형용사",
+   "ko": "단골의 (regular customer: 단골손님)"
+  },
+  "same": {
+   "pos": "형용사",
+   "ko": "같은"
   },
   "saturday": {
    "pos": "명사",
@@ -634,6 +790,10 @@
   "saw": {
    "pos": "동사",
    "ko": "보았다 (see의 과거)"
+  },
+  "second": {
+   "pos": "형용사",
+   "ko": "두 번째의"
   },
   "sees": {
    "pos": "동사",
@@ -651,6 +811,10 @@
    "pos": "동사",
    "ko": "놓다 (set aside: 따로 남겨 두다)"
   },
+  "setting": {
+   "pos": "동사",
+   "ko": "따로 두는 (set aside: 따로 남겨 두다)"
+  },
   "shine": {
    "pos": "명사",
    "ko": "맑은 날씨 (rain or shine: 비가 오나 해가 뜨나)"
@@ -659,13 +823,13 @@
    "pos": "형용사",
    "ko": "반들반들한, 윤이 나는"
   },
-  "single": {
-   "pos": "형용사",
-   "ko": "하나하나의 (every single one: 하나도 빠짐없이)"
-  },
   "sits": {
    "pos": "동사",
    "ko": "앉아 있다 (sit)"
+  },
+  "slowly": {
+   "pos": "부사",
+   "ko": "천천히"
   },
   "smell": {
    "pos": "명사",
@@ -687,17 +851,25 @@
    "pos": "명사",
    "ko": "좌판들 (stall의 복수)"
   },
+  "starts": {
+   "pos": "동사",
+   "ko": "시작하다 (start)"
+  },
+  "story": {
+   "pos": "명사",
+   "ko": "이야기"
+  },
   "straight": {
    "pos": "부사",
    "ko": "곧장, 바로"
   },
-  "strikes": {
-   "pos": "동사",
-   "ko": "(생각이) 문득 들다 (it strikes you that)"
-  },
   "stretching": {
    "pos": "동사",
    "ko": "뻗어 있는 (stretch)"
+  },
+  "strikes": {
+   "pos": "동사",
+   "ko": "(생각이) 문득 들다 (it strikes you that)"
   },
   "sun": {
    "pos": "명사",
@@ -715,9 +887,21 @@
    "pos": "동사",
    "ko": "받다, 가져가다 (take)"
   },
+  "taste": {
+   "pos": "동사",
+   "ko": "맛보다"
+  },
+  "tastes": {
+   "pos": "동사",
+   "ko": "~한 맛이 나다 (taste)"
+  },
   "their": {
    "pos": "대명사",
    "ko": "그들의, 각자의"
+  },
+  "themselves": {
+   "pos": "대명사",
+   "ko": "직접, 그들 스스로"
   },
   "these": {
    "pos": "대명사",
@@ -731,9 +915,17 @@
    "pos": "동사",
    "ko": "젖히다, 던지다 (throw one's head back: 고개를 젖히다)"
   },
+  "true": {
+   "pos": "형용사",
+   "ko": "진짜의, 진정한"
+  },
   "vegetable": {
    "pos": "명사",
    "ko": "채소"
+  },
+  "voice": {
+   "pos": "명사",
+   "ko": "목소리"
   },
   "walking": {
    "pos": "동사",
@@ -763,9 +955,9 @@
    "pos": "대명사",
    "ko": "(관계대명사) 그것들 모두"
   },
-  "wow": {
-   "pos": "감탄사",
-   "ko": "와, 우와"
+  "win": {
+   "pos": "동사",
+   "ko": "얻어 내다, 이기다"
   }
  },
  "introEn": "Saturday morning at the town market.\nA little extra from grandma warms your heart."

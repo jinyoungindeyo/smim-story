@@ -35,11 +35,13 @@
     "options": [
      {
       "en": "I have never touched clay before.",
+      "tone": "calm",
       "ko": "저 점토 처음 만져 봐요.",
       "reaction": "\"Then tonight will be special,\" she smiles. \"Untouched clay learns the fastest.\""
      },
      {
       "en": "My hands are ready. Where do we start?",
+      "tone": "bold",
       "ko": "제 손은 준비됐어요. 어디서부터 시작하죠?",
       "reaction": "\"Right here,\" she says. \"The wheel loves ready hands.\""
      }
@@ -59,12 +61,14 @@
     "prompt": "뭐라고 할까요?",
     "options": [
      {
-      "en": "It keeps slipping away from me.",
-      "ko": "자꾸 미끄러져 빠져나가요.",
+      "en": "It keeps slipping. Maybe you should steady my hands.",
+      "tone": "bold",
+      "ko": "자꾸 미끄러지네요. 선생님이 제 손 좀 잡아 주셔야겠어요.",
       "reaction": "\"Then hold it firmer, dear,\" she says softly. \"Good hands are firm and gentle at the same time.\""
      },
      {
       "en": "Like this? Slow and steady?",
+      "tone": "calm",
       "ko": "이렇게요? 천천히, 고르게요?",
       "reaction": "\"Exactly,\" she says. \"Slow and steady. You learn fast.\""
      }
@@ -88,11 +92,13 @@
     "options": [
      {
       "en": "I did not know my hands could do this.",
+      "tone": "calm",
       "ko": "제 손이 이런 걸 할 수 있는 줄 몰랐어요.",
       "reaction": "\"Every hand can,\" she says. \"It only needs the right teacher. Lucky for you, I give private lessons.\""
      },
      {
       "en": "Is it always this warm in here?",
+      "tone": "bold",
       "ko": "여기는 원래 이렇게 따뜻해요?",
       "reaction": "\"That is the kiln, dear,\" she laughs. \"Things get much hotter before they are finished.\""
      }
@@ -129,11 +135,13 @@
     "options": [
      {
       "en": "I have never touched clay before in my life.",
+      "tone": "calm",
       "ko": "저 점토 태어나서 처음 만져 봐요.",
       "reaction": "\"Then tonight will be a special one,\" she smiles. \"Untouched clay learns the fastest.\""
      },
      {
       "en": "My hands are ready. Where do we start?",
+      "tone": "bold",
       "ko": "제 손은 준비됐어요. 어디서부터 시작하죠?",
       "reaction": "\"Right here,\" she says. \"The wheel has a weakness for ready hands.\""
      }
@@ -153,12 +161,14 @@
     "prompt": "뭐라고 할까요?",
     "options": [
      {
-      "en": "It keeps slipping away from me.",
-      "ko": "자꾸 미끄러져 빠져나가요.",
+      "en": "It keeps slipping away. Perhaps you should steady my hands yourself.",
+      "tone": "bold",
+      "ko": "자꾸 미끄러져 빠져나가네요. 선생님이 직접 제 손을 잡아 주셔야 할 것 같은데요.",
       "reaction": "\"Then hold it a little firmer, dear,\" she murmurs. \"The best hands are firm and gentle at the very same time.\""
      },
      {
       "en": "Like this? Slow and steady?",
+      "tone": "calm",
       "ko": "이렇게요? 천천히, 고르게요?",
       "reaction": "\"Exactly so,\" she says. \"Slow and steady. You learn remarkably fast.\""
      }
@@ -182,11 +192,13 @@
     "options": [
      {
       "en": "I never knew my hands could do this.",
+      "tone": "calm",
       "ko": "제 손이 이런 걸 할 수 있는 줄 몰랐어요.",
       "reaction": "\"Every hand can,\" she says. \"It simply needs the right teacher. Lucky for you, I give private lessons.\""
      },
      {
       "en": "Is it always this warm in here?",
+      "tone": "bold",
       "ko": "여기는 원래 이렇게 따뜻해요?",
       "reaction": "\"That would be the kiln, dear,\" she laughs. \"Things get considerably hotter before they are finished.\""
      }
@@ -427,7 +439,15 @@
   },
   "steady": {
    "pos": "형용사",
-   "ko": "꾸준한, 흔들림 없는"
+   "ko": "꾸준한, 흔들림 없는 (동사로는 '흔들리지 않게 잡아 주다')"
+  },
+  "maybe": {
+   "pos": "부사",
+   "ko": "아마, 어쩌면"
+  },
+  "perhaps": {
+   "pos": "부사",
+   "ko": "어쩌면, 혹시 (maybe보다 격식 있는 표현)"
   },
   "fast": {
    "pos": "부사",
@@ -688,6 +708,78 @@
   "lessons": {
    "pos": "명사",
    "ko": "수업, 레슨 (lesson의 복수)"
+  },
+  "later": {
+   "pos": "부사",
+   "ko": "나중에, ~뒤에"
+  },
+  "out": {
+   "pos": "부사",
+   "ko": "밖으로, 나와서"
+  },
+  "some": {
+   "pos": "한정사",
+   "ko": "몇몇의, 어떤"
+  },
+  "longer": {
+   "pos": "부사",
+   "ko": "더 오래 (long의 비교급)"
+  },
+  "arrive": {
+   "pos": "동사",
+   "ko": "도착해요"
+  },
+  "early": {
+   "pos": "부사",
+   "ko": "일찍"
+  },
+  "closest": {
+   "pos": "형용사",
+   "ko": "가장 가까운 (close의 최상급)"
+  },
+  "confident": {
+   "pos": "형용사",
+   "ko": "자신감 있는"
+  },
+  "already": {
+   "pos": "부사",
+   "ko": "벌써, 이미"
+  },
+  "new": {
+   "pos": "형용사",
+   "ko": "새, 새로운"
+  },
+  "pot": {
+   "pos": "명사",
+   "ko": "도자기, 항아리"
+  },
+  "even": {
+   "pos": "부사",
+   "ko": "한층 더, 훨씬"
+  },
+  "taller": {
+   "pos": "형용사",
+   "ko": "더 높이 선 (tall의 비교급)"
+  },
+  "open": {
+   "pos": "형용사",
+   "ko": "열린, 문을 연"
+  },
+  "late": {
+   "pos": "부사",
+   "ko": "늦게"
+  },
+  "midnight": {
+   "pos": "명사",
+   "ko": "자정, 한밤중"
+  },
+  "running": {
+   "pos": "동사",
+   "ko": "돌아가는, 달아오르는 (run의 -ing형)"
+  },
+  "hot": {
+   "pos": "형용사",
+   "ko": "뜨거운"
   }
  },
  "wink": {
@@ -700,6 +792,28 @@
   "pull": "'끌어올리기'는 실제 물레 기법 이름이에요. 최대한 진지한 표정으로 읽어 주세요.",
   "hotter": "가마는 원래 갈수록 뜨거워져요. 이 대화도 그런 것 같지만 기분 탓이에요.",
   "heat": "열기가 있어야 단단해진다는 건 어디까지나 도자기 얘기예요. 아마도요."
+ },
+ "endings": {
+  "0": {
+   "name": "신중한 도예가",
+   "en": "A week later, your little bowl comes out of the kiln, warm and strong. You hold it in careful hands and smile. Some things are best when they take their time.",
+   "ko": "일주일 뒤, 작은 그릇이 따뜻하고 단단하게 가마에서 나와요. 조심스러운 두 손으로 그릇을 감싸 쥐고 미소 지어요. 천천히 시간을 들여야 좋아지는 것들이 있는 법이에요."
+  },
+  "1": {
+   "name": "호기심 많은 수강생",
+   "en": "Your bowl stands tall at home, and you look at it a little longer than you should. Next week, you arrive at class ten minutes early. Just to check the wheel, of course.",
+   "ko": "집에 둔 그릇이 우뚝 서 있는데, 괜히 자꾸만 눈길이 가요. 다음 주엔 수업에 10분이나 일찍 도착해요. 물론, 물레를 확인하러 간 것뿐이에요."
+  },
+  "2": {
+   "name": "능청스러운 물레잡이",
+   "en": "The next week, you take the wheel closest to Mrs. Clay and wet your hands before she says a word. \"Confident hands already,\" she smiles, and steps a little closer than before. Your new pot rises even taller than the first.",
+   "ko": "다음 주, 당신은 Clay 선생님과 가장 가까운 물레를 차지하고, 선생님이 말을 꺼내기도 전에 손부터 적셔요. \"벌써 자신감 넘치는 손이네요.\" 선생님이 미소 지으며 지난주보다 한 걸음 더 가까이 다가와요. 새 도자기는 첫 작품보다 한층 더 높이 올라가요."
+  },
+  "3": {
+   "name": "겁 없는 불장난꾼",
+   "en": "Mrs. Clay now keeps the studio open late, just for you. \"Private lessons,\" she says, \"for hands that learn this fast.\" By midnight, the kiln is not the only thing in the room running hot.",
+   "ko": "이제 Clay 선생님은 당신만을 위해 공방 문을 늦게까지 열어 둬요. \"이렇게 빨리 배우는 손에는 개인 레슨이 필요하죠.\" 자정 무렵이면, 이 방에서 뜨겁게 달아오른 게 가마만은 아니에요."
+  }
  },
  "introEn": "Mrs. Clay teaches the pottery wheel, hands over hands. Perfectly wholesome.\n...on the surface. Tap words to see the hidden meaning."
 }

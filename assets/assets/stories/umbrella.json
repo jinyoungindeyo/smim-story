@@ -32,12 +32,14 @@
      {
       "en": "Wait under the roof.",
       "ko": "지붕 아래에서 기다린다",
-      "reaction": "You wait under the roof. The wind is cold. You are cold."
+      "reaction": "You wait under the roof. The wind is cold. You are cold.",
+      "tone": "calm"
      },
      {
-      "en": "Look for a taxi.",
-      "ko": "택시를 찾아본다",
-      "reaction": "There is no taxi today. You put your phone away. You sigh."
+      "en": "Just stand in the rain and wait.",
+      "ko": "그냥 비를 맞으며 기다린다",
+      "reaction": "You stand in the rain. You are very wet, but you feel a little brave.",
+      "tone": "bold"
      }
     ]
    },
@@ -57,12 +59,14 @@
      {
       "en": "Thank you so much!",
       "ko": "정말 감사해요!",
-      "reaction": "\"It is nothing,\" he says. \"Rain is hard with no umbrella.\""
+      "reaction": "\"It is nothing,\" he says. \"Rain is hard with no umbrella.\"",
+      "tone": "bold"
      },
      {
       "en": "Oh, you don't have to!",
       "ko": "아, 안 그러셔도 돼요!",
-      "reaction": "\"Don't worry,\" he says. \"There is room for two.\""
+      "reaction": "\"Don't worry,\" he says. \"There is room for two.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -86,12 +90,14 @@
      {
       "en": "I will remember this. Thank you!",
       "ko": "기억할게요. 감사해요!",
-      "reaction": "He waves his hand. The bus goes. You hold the umbrella."
+      "reaction": "He waves his hand. The bus goes. You hold the umbrella.",
+      "tone": "calm"
      },
      {
       "en": "Then I will give it to someone, too.",
       "ko": "그럼 저도 누군가에게 줄게요.",
-      "reaction": "\"Good!\" he says with a big smile. The bus door closes."
+      "reaction": "\"Good!\" he says with a big smile. The bus door closes.",
+      "tone": "bold"
      }
     ]
    },
@@ -118,12 +124,14 @@
      {
       "en": "Wait under the small roof.",
       "ko": "작은 지붕 아래에서 기다린다",
-      "reaction": "You stand under the roof, but the wind blows the rain at you. You are cold."
+      "reaction": "You stand under the roof, but the wind blows the rain at you. You are cold.",
+      "tone": "calm"
      },
      {
-      "en": "Check your phone for a taxi.",
-      "ko": "휴대폰으로 택시를 찾아본다",
-      "reaction": "No taxis come on rainy days. You put your phone back and sigh."
+      "en": "Walk out and wait in the rain.",
+      "ko": "빗속으로 걸어 나가 기다린다",
+      "reaction": "You walk out into the rain. Soon you are very wet, but you feel a little brave.",
+      "tone": "bold"
      }
     ]
    },
@@ -143,12 +151,14 @@
      {
       "en": "Thank you so much!",
       "ko": "정말 감사해요!",
-      "reaction": "\"It's nothing,\" he says. \"Rainy days are hard without an umbrella.\""
+      "reaction": "\"It's nothing,\" he says. \"Rainy days are hard without an umbrella.\"",
+      "tone": "bold"
      },
      {
       "en": "Oh, you don't have to!",
       "ko": "아, 안 그러셔도 돼요!",
-      "reaction": "\"Don't worry,\" he laughs. \"There is room for two under here.\""
+      "reaction": "\"Don't worry,\" he laughs. \"There is room for two under here.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -172,12 +182,14 @@
      {
       "en": "I will remember this. Thank you!",
       "ko": "이 순간을 기억할게요. 감사해요!",
-      "reaction": "He waves his hand as the bus leaves. You hold the red umbrella close."
+      "reaction": "He waves his hand as the bus leaves. You hold the red umbrella close.",
+      "tone": "calm"
      },
      {
       "en": "Then I will give it to someone, too.",
       "ko": "그럼 저도 누군가에게 줄게요.",
-      "reaction": "\"That's the spirit!\" he says with a big smile. The bus door closes."
+      "reaction": "\"That's the spirit!\" he says with a big smile. The bus door closes.",
+      "tone": "bold"
      }
     ]
    },
@@ -204,12 +216,14 @@
      {
       "en": "Take shelter under the narrow roof.",
       "ko": "좁은 지붕 아래로 피한다",
-      "reaction": "You press yourself under the narrow roof, but the wind keeps driving the rain sideways into you. You are shivering before long."
+      "reaction": "You press yourself under the narrow roof, but the wind keeps driving the rain sideways into you. You are shivering before long.",
+      "tone": "calm"
      },
      {
-      "en": "Check your phone for a taxi.",
-      "ko": "휴대폰으로 택시를 찾아본다",
-      "reaction": "Taxis never seem to exist on rainy days. You slip the phone back into your pocket with a sigh."
+      "en": "Step out and wait in the open rain.",
+      "ko": "빗속으로 나가 그대로 비를 맞으며 기다린다",
+      "reaction": "You step out into the open rain. Before long you are soaked through, yet somehow you feel a little brave.",
+      "tone": "bold"
      }
     ]
    },
@@ -229,12 +243,14 @@
      {
       "en": "Thank you so much!",
       "ko": "정말 감사해요!",
-      "reaction": "\"It's nothing,\" he chuckles. \"Rainy days are unkind to people without umbrellas.\""
+      "reaction": "\"It's nothing,\" he chuckles. \"Rainy days are unkind to people without umbrellas.\"",
+      "tone": "bold"
      },
      {
       "en": "Oh, you really don't have to!",
       "ko": "아, 정말 안 그러셔도 돼요!",
-      "reaction": "\"Nonsense,\" he laughs. \"There is plenty of room for two under here.\""
+      "reaction": "\"Nonsense,\" he laughs. \"There is plenty of room for two under here.\"",
+      "tone": "calm"
      }
     ]
    },
@@ -258,12 +274,14 @@
      {
       "en": "I will remember this. Thank you!",
       "ko": "이 순간을 기억할게요. 감사해요!",
-      "reaction": "He waves from the curb as the bus pulls away. You hold the red umbrella a little closer."
+      "reaction": "He waves from the curb as the bus pulls away. You hold the red umbrella a little closer.",
+      "tone": "calm"
      },
      {
       "en": "Then I will pass it on to someone, too.",
       "ko": "그럼 저도 다른 누군가에게 건넬게요.",
-      "reaction": "\"That's the spirit!\" he beams as the doors slide shut."
+      "reaction": "\"That's the spirit!\" he beams as the doors slide shut.",
+      "tone": "bold"
      }
     ]
    },
@@ -273,6 +291,166 @@
     "art": "home_rainbow"
    }
   ]
+ },
+ "endings": {
+  "0": {
+   "name": "조용한 우산지기",
+   "en": "You keep the red umbrella by your door and take good care of it. On rainy evenings, you drink warm tea and think about the kind old man. The umbrella waits quietly beside you, like an old friend.",
+   "ko": "당신은 빨간 우산을 문 옆에 두고 소중히 아껴요. 비 오는 저녁이면 따뜻한 차를 마시며 그 친절한 할아버지를 떠올려요. 우산은 오랜 친구처럼 당신 곁에서 조용히 기다려요."
+  },
+  "1": {
+   "name": "수줍은 온기 배달부",
+   "en": "A week later, you see a wet student at the same bus stop. You quietly hold the red umbrella over her head, just like the old man did. She smiles, and your heart feels warm all the way home.",
+   "ko": "일주일 뒤, 같은 버스 정류장에서 비에 젖은 학생을 봐요. 당신은 할아버지가 그랬던 것처럼 학생에게 조용히 빨간 우산을 씌워 줘요. 학생이 환하게 웃고, 집에 가는 내내 당신 마음도 따뜻해요."
+  },
+  "2": {
+   "name": "씩씩한 빗길 친구",
+   "en": "On the next rainy day, you take the red umbrella and walk to the bus stop early. You find a stranger without an umbrella and share it, and you talk about rain and gardens together. Rainy days are now your favorite days.",
+   "ko": "다음 비 오는 날, 당신은 빨간 우산을 들고 일찍 버스 정류장으로 걸어가요. 우산 없는 낯선 사람을 찾아 우산을 같이 쓰고, 비와 정원 이야기를 나눠요. 이제 비 오는 날이 당신이 가장 좋아하는 날이에요."
+  },
+  "3": {
+   "name": "겁 없는 우산 대장",
+   "en": "You do not wait for the next rain. The very next morning, you buy three more umbrellas and leave them at the bus stop with a note: \"Please keep it.\" Somewhere in town, the old man is surely smiling.",
+   "ko": "당신은 다음 비를 기다리지 않아요. 바로 다음 날 아침, 우산 세 개를 더 사서 '가져가세요'라는 쪽지와 함께 버스 정류장에 놓아 둬요. 마을 어딘가에서 할아버지가 분명 웃고 있을 거예요."
+  }
+ },
+ "dict": {
+  "care": {
+   "pos": "명사",
+   "ko": "돌봄 (take care of ~을 소중히 돌보다)"
+  },
+  "evenings": {
+   "pos": "명사",
+   "ko": "저녁들 (evening의 복수형)"
+  },
+  "drink": {
+   "pos": "동사",
+   "ko": "마시다"
+  },
+  "tea": {
+   "pos": "명사",
+   "ko": "차 (마시는 차)"
+  },
+  "kind": {
+   "pos": "형용사",
+   "ko": "친절한"
+  },
+  "quietly": {
+   "pos": "부사",
+   "ko": "조용히"
+  },
+  "beside": {
+   "pos": "전치사",
+   "ko": "~옆에"
+  },
+  "friend": {
+   "pos": "명사",
+   "ko": "친구"
+  },
+  "week": {
+   "pos": "명사",
+   "ko": "일주일, 주"
+  },
+  "later": {
+   "pos": "부사",
+   "ko": "나중에, ~뒤에"
+  },
+  "student": {
+   "pos": "명사",
+   "ko": "학생"
+  },
+  "same": {
+   "pos": "형용사",
+   "ko": "같은"
+  },
+  "did": {
+   "pos": "동사",
+   "ko": "했다 (do의 과거형)"
+  },
+  "feels": {
+   "pos": "동사",
+   "ko": "느끼다 (feel의 3인칭 단수형)"
+  },
+  "early": {
+   "pos": "부사",
+   "ko": "일찍"
+  },
+  "find": {
+   "pos": "동사",
+   "ko": "찾다, 발견하다"
+  },
+  "stranger": {
+   "pos": "명사",
+   "ko": "낯선 사람"
+  },
+  "share": {
+   "pos": "동사",
+   "ko": "나누다, 같이 쓰다"
+  },
+  "gardens": {
+   "pos": "명사",
+   "ko": "정원들 (garden의 복수형)"
+  },
+  "favorite": {
+   "pos": "형용사",
+   "ko": "가장 좋아하는"
+  },
+  "do": {
+   "pos": "조동사",
+   "ko": "(do not ~하지 않다)"
+  },
+  "buy": {
+   "pos": "동사",
+   "ko": "사다"
+  },
+  "three": {
+   "pos": "수사",
+   "ko": "3, 셋"
+  },
+  "leave": {
+   "pos": "동사",
+   "ko": "두고 가다, 남겨 두다"
+  },
+  "note": {
+   "pos": "명사",
+   "ko": "쪽지, 메모"
+  },
+  "somewhere": {
+   "pos": "부사",
+   "ko": "어딘가에"
+  },
+  "surely": {
+   "pos": "부사",
+   "ko": "분명히, 틀림없이"
+  },
+  "smiling": {
+   "pos": "동사",
+   "ko": "웃고 있는 (smile의 진행형)"
+  },
+  "brave": {
+   "pos": "형용사",
+   "ko": "용감한"
+  },
+  "feel": {
+   "pos": "동사",
+   "ko": "느끼다"
+  },
+  "open": {
+   "pos": "형용사",
+   "ko": "탁 트인, 가려지지 않은 (in the open rain 그대로 맞는 비)"
+  },
+  "out": {
+   "pos": "부사",
+   "ko": "밖으로"
+  },
+  "soon": {
+   "pos": "부사",
+   "ko": "곧, 금방"
+  },
+  "yet": {
+   "pos": "부사",
+   "ko": "그렇지만, 그런데도"
+  }
  },
  "introEn": "A rainy day, and a stranger's red umbrella.\nYour choices change how the story goes."
 }
