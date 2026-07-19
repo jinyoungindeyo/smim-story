@@ -17,21 +17,25 @@
  "endings": {
   "0": {
    "name": "고요한 밤의 승객",
+   "nameEn": "The Quiet Night Passenger",
    "en": "At home, you make a warm dinner and eat it slowly, just like the old man said. The house is quiet, and the night feels soft and kind. Before you sleep, you think of one small warm thing from this long day.",
    "ko": "집에 온 당신은 노인의 말대로 따뜻한 저녁을 만들어 천천히 먹어요. 집 안은 고요하고, 밤은 부드럽고 다정하게 느껴져요. 잠들기 전, 이 긴 하루의 작고 따뜻한 순간 하나를 떠올려요."
   },
   "1": {
    "name": "여유로운 저녁의 산책자",
+   "nameEn": "The Leisurely Evening Walker",
    "en": "At home, you eat something warm and think about his words. The next evening, you finish work a little early and walk slowly to the station. The night air feels kind, and you are not so tired now.",
    "ko": "집에 온 당신은 따뜻한 음식을 먹으며 노인의 말을 곱씹어요. 다음 날 저녁엔 일을 조금 일찍 끝내고 역까지 천천히 걸어가요. 밤공기가 다정하게 느껴지고, 이제는 그렇게 피곤하지 않아요."
   },
   "2": {
    "name": "호기심 많은 야간 여행자",
+   "nameEn": "The Curious Night Traveler",
    "en": "The next night, you take the same train again and look for the old man. He is not there, but you smile at a tired stranger, and they smile back. Small warm things are everywhere, you think, if you only look.",
    "ko": "다음 날 밤, 당신은 같은 기차를 다시 타고 노인을 찾아봐요. 그는 보이지 않지만, 당신은 지쳐 보이는 낯선 사람에게 미소를 건네고 그 사람도 미소로 답해요. 눈여겨보기만 하면 작고 따뜻한 것들은 어디에나 있구나, 하고 생각해요."
   },
   "3": {
    "name": "겁 없는 막차 친구",
+   "nameEn": "The Fearless Last-Train Friend",
    "en": "The next night, you run to catch the same train at the same time. The old man is there, and he laughs when he sees you. \"Same train, same time,\" you say, and this time you ask him about his forty years.",
    "ko": "다음 날 밤, 당신은 같은 시간의 같은 기차를 잡으려고 달려가요. 노인은 그 자리에 있고, 당신을 보자 웃음을 터뜨려요. \"같은 기차, 같은 시간이죠.\" 그렇게 말하고는, 이번엔 당신이 그의 40년 이야기를 물어봐요."
   }
@@ -311,515 +315,643 @@
  "dict": {
   "after": {
    "pos": "전치사",
-   "ko": "~ 후에"
+   "ko": "~ 후에",
+   "en": "later than something"
   },
   "again": {
    "pos": "부사",
-   "ko": "다시, 또"
+   "ko": "다시, 또",
+   "en": "one more time"
   },
   "ago": {
    "pos": "부사",
-   "ko": "~ 전에"
+   "ko": "~ 전에",
+   "en": "before now, in the past"
   },
   "air": {
    "pos": "명사",
-   "ko": "공기 (night air: 밤공기)"
+   "ko": "공기 (night air: 밤공기)",
+   "en": "what you breathe outside"
   },
   "almost": {
    "pos": "부사",
-   "ko": "거의"
+   "ko": "거의",
+   "en": "nearly, not fully"
   },
   "almostempty": {
    "pos": "형용사",
-   "ko": "거의 텅 빈 (almost-empty)"
+   "ko": "거의 텅 빈 (almost-empty)",
+   "en": "with very few people inside"
   },
   "another": {
    "pos": "한정사",
-   "ko": "또 다른"
+   "ko": "또 다른",
+   "en": "one more, a different one"
   },
   "answer": {
    "pos": "명사",
-   "ko": "대답"
+   "ko": "대답",
+   "en": "what you say to a question"
   },
   "anyone": {
    "pos": "대명사",
-   "ko": "누구, 그 누구 (better than anyone: 누구보다 잘)"
+   "ko": "누구, 그 누구 (better than anyone: 누구보다 잘)",
+   "en": "any person"
   },
   "ask": {
    "pos": "동사",
-   "ko": "묻다, 물어보다"
+   "ko": "묻다, 물어보다",
+   "en": "to say a question"
   },
   "asks": {
    "pos": "동사",
-   "ko": "묻다 (ask)"
+   "ko": "묻다 (ask)",
+   "en": "says a question (ask)"
   },
   "beating": {
    "pos": "동사",
-   "ko": "(심장이) 뛰고 있는 (beat)"
+   "ko": "(심장이) 뛰고 있는 (beat)",
+   "en": "going thump, thump (a fast heart)"
   },
   "beats": {
    "pos": "동사",
-   "ko": "(심장이) 뛰다 (beat)"
+   "ko": "(심장이) 뛰다 (beat)",
+   "en": "what a fast heart does (beat)"
   },
   "begins": {
    "pos": "동사",
-   "ko": "~하기 시작하다 (begin)"
+   "ko": "~하기 시작하다 (begin)",
+   "en": "starts (begin)"
   },
   "car": {
    "pos": "명사",
-   "ko": "(기차의) 객차, 칸"
+   "ko": "(기차의) 객차, 칸",
+   "en": "one part of a train"
   },
   "catch": {
    "pos": "동사",
-   "ko": "(차·기차를) 잡아타다"
+   "ko": "(차·기차를) 잡아타다",
+   "en": "get on a train just in time"
   },
   "city": {
    "pos": "명사",
-   "ko": "도시"
+   "ko": "도시",
+   "en": "a big town"
   },
   "count": {
    "pos": "동사",
-   "ko": "세다, 헤아리다 (more than I can count: 셀 수 없이 많이)"
+   "ko": "세다, 헤아리다 (more than I can count: 셀 수 없이 많이)",
+   "en": "to say numbers: one, two, three"
   },
   "dark": {
    "pos": "형용사",
-   "ko": "어두운"
+   "ko": "어두운",
+   "en": "with no light"
   },
   "did": {
    "pos": "조동사",
-   "ko": "do의 과거 (질문·과거를 나타냄)"
+   "ko": "do의 과거 (질문·과거를 나타냄)",
+   "en": "past of do"
   },
   "dinner": {
    "pos": "명사",
-   "ko": "저녁 식사"
+   "ko": "저녁 식사",
+   "en": "the evening meal"
   },
   "early": {
    "pos": "부사",
-   "ko": "일찍"
+   "ko": "일찍",
+   "en": "before the usual time"
   },
   "eat": {
    "pos": "동사",
-   "ko": "먹다"
+   "ko": "먹다",
+   "en": "to put food in your mouth"
   },
   "empty": {
    "pos": "형용사",
-   "ko": "텅 빈"
+   "ko": "텅 빈",
+   "en": "with nothing or no one inside"
   },
   "even": {
    "pos": "부사",
-   "ko": "심지어, ~조차 (even now: 지금도)"
+   "ko": "심지어, ~조차 (even now: 지금도)",
+   "en": "used for something surprising (even now)"
   },
   "evening": {
    "pos": "명사",
-   "ko": "저녁"
+   "ko": "저녁",
+   "en": "the end of the day"
   },
   "everywhere": {
    "pos": "부사",
-   "ko": "어디에나"
+   "ko": "어디에나",
+   "en": "in all places"
   },
   "exactly": {
    "pos": "부사",
-   "ko": "정확히, 꼭"
+   "ko": "정확히, 꼭",
+   "en": "just like that, no difference"
   },
   "eyes": {
    "pos": "명사",
-   "ko": "눈 (eye의 복수)"
+   "ko": "눈 (eye의 복수)",
+   "en": "you see with these"
   },
   "face": {
    "pos": "명사",
-   "ko": "얼굴"
+   "ko": "얼굴",
+   "en": "the front of your head"
   },
   "far": {
    "pos": "부사",
-   "ko": "멀리 (far away: 멀리 떨어진)"
+   "ko": "멀리 (far away: 멀리 떨어진)",
+   "en": "a long way away"
   },
   "faces": {
    "pos": "명사",
-   "ko": "얼굴들 (face의 복수)"
+   "ko": "얼굴들 (face의 복수)",
+   "en": "more than one face"
   },
   "fast": {
    "pos": "부사",
-   "ko": "빠르게"
+   "ko": "빠르게",
+   "en": "quick, with speed"
   },
   "few": {
    "pos": "한정사",
-   "ko": "몇몇의 (a few: 몇몇의, 두셋의)"
+   "ko": "몇몇의 (a few: 몇몇의, 두셋의)",
+   "en": "a small number (a few)"
   },
   "feel": {
    "pos": "동사",
-   "ko": "느껴지다"
+   "ko": "느껴지다",
+   "en": "to seem or sense"
   },
   "feeling": {
    "pos": "명사",
-   "ko": "기분, 느낌"
+   "ko": "기분, 느낌",
+   "en": "something you sense inside"
   },
   "feels": {
    "pos": "동사",
-   "ko": "느껴지다 (feel)"
+   "ko": "느껴지다 (feel)",
+   "en": "seems (feel)"
   },
   "find": {
    "pos": "동사",
-   "ko": "발견하다 (find myself -ing: 어느새 ~하고 있다)"
+   "ko": "발견하다 (find myself -ing: 어느새 ~하고 있다)",
+   "en": "to discover or notice"
   },
   "finish": {
    "pos": "동사",
-   "ko": "끝내다"
+   "ko": "끝내다",
+   "en": "to end, to complete"
   },
   "forty": {
    "pos": "수사",
-   "ko": "40, 마흔"
+   "ko": "40, 마흔",
+   "en": "the number 40"
   },
   "friends": {
    "pos": "명사",
-   "ko": "친구들 (friend의 복수)"
+   "ko": "친구들 (friend의 복수)",
+   "en": "people you like and know well"
   },
   "front": {
    "pos": "명사",
-   "ko": "앞 (in front of: ~ 앞에서)"
+   "ko": "앞 (in front of: ~ 앞에서)",
+   "en": "the side facing you (in front)"
   },
   "gently": {
    "pos": "부사",
-   "ko": "부드럽게"
+   "ko": "부드럽게",
+   "en": "in a soft, careful way"
   },
   "get": {
    "pos": "동사",
-   "ko": "(집에) 가다, 도착하다 (get home: 집에 가다)"
+   "ko": "(집에) 가다, 도착하다 (get home: 집에 가다)",
+   "en": "to arrive (get home: reach home)"
   },
   "had": {
    "pos": "동사",
-   "ko": "가졌다, 겪었다 (have의 과거)"
+   "ko": "가졌다, 겪었다 (have의 과거)",
+   "en": "past of have"
   },
   "him": {
    "pos": "대명사",
-   "ko": "그를, 그에게 (he의 목적격)"
+   "ko": "그를, 그에게 (he의 목적격)",
+   "en": "that man (object of he)"
   },
   "hope": {
    "pos": "동사",
-   "ko": "바라다"
+   "ko": "바라다",
+   "en": "to want something to happen"
   },
   "kind": {
    "pos": "형용사",
-   "ko": "다정한, 친절한"
+   "ko": "다정한, 친절한",
+   "en": "nice and warm to people"
   },
   "know": {
    "pos": "동사",
-   "ko": "알다"
+   "ko": "알다",
+   "en": "to have something in your mind"
   },
   "last": {
    "pos": "형용사",
-   "ko": "마지막의 (last train: 막차)"
+   "ko": "마지막의 (last train: 막차)",
+   "en": "the final one (last train)"
   },
   "late": {
    "pos": "형용사",
-   "ko": "늦은"
+   "ko": "늦은",
+   "en": "after the usual time"
   },
   "left": {
    "pos": "동사",
-   "ko": "켜 둔 (leave의 과거분사, left on: 켜 놓은)"
+   "ko": "켜 둔 (leave의 과거분사, left on: 켜 놓은)",
+   "en": "past of leave (left on: kept on)"
   },
   "less": {
    "pos": "부사",
-   "ko": "덜"
+   "ko": "덜",
+   "en": "not as much"
   },
   "let": {
    "pos": "동사",
-   "ko": "~하게 두다 (let the day go: 하루를 흘려보내다)"
+   "ko": "~하게 두다 (let the day go: 하루를 흘려보내다)",
+   "en": "to allow (let go: release)"
   },
   "life": {
    "pos": "명사",
-   "ko": "삶, 인생"
+   "ko": "삶, 인생",
+   "en": "the time you are alive"
   },
   "light": {
    "pos": "명사",
-   "ko": "불빛"
+   "ko": "불빛",
+   "en": "brightness, like from a lamp"
   },
   "lights": {
    "pos": "명사",
-   "ko": "불빛들 (light의 복수)"
+   "ko": "불빛들 (light의 복수)",
+   "en": "more than one light"
   },
   "listens": {
    "pos": "동사",
-   "ko": "귀 기울여 듣다 (listen)"
+   "ko": "귀 기울여 듣다 (listen)",
+   "en": "hears with care (listen)"
   },
   "looked": {
    "pos": "동사",
-   "ko": "~해 보였다 (look의 과거)"
+   "ko": "~해 보였다 (look의 과거)",
+   "en": "past of look, seemed"
   },
   "made": {
    "pos": "동사",
-   "ko": "만들어진 (make의 과거분사, are made: 만들어지다)"
+   "ko": "만들어진 (make의 과거분사, are made: 만들어지다)",
+   "en": "past form of make"
   },
   "make": {
    "pos": "동사",
-   "ko": "~하게 만들다"
+   "ko": "~하게 만들다",
+   "en": "to cause something to be"
   },
   "many": {
    "pos": "한정사",
-   "ko": "많은"
+   "ko": "많은",
+   "en": "a large number of"
   },
   "meet": {
    "pos": "동사",
-   "ko": "만나다"
+   "ko": "만나다",
+   "en": "to see and talk with someone"
   },
   "midnight": {
    "pos": "명사",
-   "ko": "자정, 밤 12시"
+   "ko": "자정, 밤 12시",
+   "en": "twelve o'clock at night"
   },
   "mind": {
    "pos": "명사",
-   "ko": "마음, 머릿속"
+   "ko": "마음, 머릿속",
+   "en": "the place where you think"
   },
   "mine": {
    "pos": "대명사",
-   "ko": "내 것 (여기서는 '내 눈')"
+   "ko": "내 것 (여기서는 '내 눈')",
+   "en": "my thing, here: my eyes"
   },
   "moments": {
    "pos": "명사",
-   "ko": "순간들 (moment의 복수)"
+   "ko": "순간들 (moment의 복수)",
+   "en": "short times (moment)"
   },
   "moves": {
    "pos": "동사",
-   "ko": "움직이다 (move)"
+   "ko": "움직이다 (move)",
+   "en": "goes, changes place (move)"
   },
   "myself": {
    "pos": "대명사",
-   "ko": "나 자신 (find myself: 어느새 ~하게 되다)"
+   "ko": "나 자신 (find myself: 어느새 ~하게 되다)",
+   "en": "me (find myself: notice I am)"
   },
   "nights": {
    "pos": "명사",
-   "ko": "밤들 (night의 복수)"
+   "ko": "밤들 (night의 복수)",
+   "en": "more than one night"
   },
   "nods": {
    "pos": "동사",
-   "ko": "고개를 끄덕이다 (nod)"
+   "ko": "고개를 끄덕이다 (nod)",
+   "en": "moves the head up and down"
   },
   "office": {
    "pos": "명사",
-   "ko": "사무실"
+   "ko": "사무실",
+   "en": "a place where people work"
   },
   "only": {
    "pos": "부사",
-   "ko": "오직 ~만"
+   "ko": "오직 ~만",
+   "en": "just, nothing more"
   },
   "open": {
    "pos": "동사",
-   "ko": "열리다"
+   "ko": "열리다",
+   "en": "(doors) move apart, not closed"
   },
   "out": {
    "pos": "부사",
-   "ko": "밖을, 밖으로 (look out: 밖을 내다보다)"
+   "ko": "밖을, 밖으로 (look out: 밖을 내다보다)",
+   "en": "away from the inside"
   },
   "outside": {
    "pos": "부사",
-   "ko": "바깥에"
+   "ko": "바깥에",
+   "en": "not inside, in the open air"
   },
   "past": {
    "pos": "전치사",
-   "ko": "~을 스쳐 지나"
+   "ko": "~을 스쳐 지나",
+   "en": "moving by, going beyond"
   },
   "proper": {
    "pos": "형용사",
-   "ko": "제대로 된"
+   "ko": "제대로 된",
+   "en": "real and good, done right"
   },
   "quiet": {
    "pos": "형용사",
-   "ko": "조용한"
+   "ko": "조용한",
+   "en": "with little or no sound"
   },
   "quietly": {
    "pos": "부사",
-   "ko": "조용히"
+   "ko": "조용히",
+   "en": "with little sound"
   },
   "rest": {
    "pos": "동사",
-   "ko": "쉬다"
+   "ko": "쉬다",
+   "en": "to stop and relax"
   },
   "ride": {
    "pos": "동사",
-   "ko": "(기차 등을) 타다"
+   "ko": "(기차 등을) 타다",
+   "en": "to travel on a train"
   },
   "rolls": {
    "pos": "동사",
-   "ko": "(풍경이) 흘러가다 (roll)"
+   "ko": "(풍경이) 흘러가다 (roll)",
+   "en": "moves smoothly past (roll)"
   },
   "safe": {
    "pos": "형용사",
-   "ko": "무사히, 안전하게 (get home safe: 조심히 들어가다)"
+   "ko": "무사히, 안전하게 (get home safe: 조심히 들어가다)",
+   "en": "away from danger, without harm"
   },
   "said": {
    "pos": "동사",
-   "ko": "말했다 (say의 과거)"
+   "ko": "말했다 (say의 과거)",
+   "en": "past of say"
   },
   "same": {
    "pos": "형용사",
-   "ko": "같은"
+   "ko": "같은",
+   "en": "not different"
   },
   "seat": {
    "pos": "명사",
-   "ko": "좌석, 자리"
+   "ko": "좌석, 자리",
+   "en": "a place to sit"
   },
   "seems": {
    "pos": "동사",
-   "ko": "~인 것 같다 (seem)"
+   "ko": "~인 것 같다 (seem)",
+   "en": "looks like, appears (seem)"
   },
   "sees": {
    "pos": "동사",
-   "ko": "보다 (see)"
+   "ko": "보다 (see)",
+   "en": "looks and notices (see)"
   },
   "single": {
    "pos": "형용사",
-   "ko": "단 하나의"
+   "ko": "단 하나의",
+   "en": "only one"
   },
   "sink": {
    "pos": "동사",
-   "ko": "(자리에) 몸을 깊이 묻다"
+   "ko": "(자리에) 몸을 깊이 묻다",
+   "en": "to drop deep into a seat"
   },
   "sits": {
    "pos": "동사",
-   "ko": "앉다 (sit)"
+   "ko": "앉다 (sit)",
+   "en": "takes a seat (sit)"
   },
   "sky": {
    "pos": "명사",
-   "ko": "하늘"
+   "ko": "하늘",
+   "en": "the space above with stars"
   },
   "sleeping": {
    "pos": "형용사",
-   "ko": "잠든"
+   "ko": "잠든",
+   "en": "in sleep, not awake"
   },
   "sleeps": {
    "pos": "동사",
-   "ko": "잠들다 (sleep)"
+   "ko": "잠들다 (sleep)",
+   "en": "rests with eyes closed (sleep)"
   },
   "slowly": {
    "pos": "부사",
-   "ko": "천천히"
+   "ko": "천천히",
+   "en": "not fast"
   },
   "slows": {
    "pos": "동사",
-   "ko": "느려지다 (slow down: 속도를 늦추다)"
+   "ko": "느려지다 (slow down: 속도를 늦추다)",
+   "en": "goes less fast (slow down)"
   },
   "soft": {
    "pos": "형용사",
-   "ko": "부드러운"
+   "ko": "부드러운",
+   "en": "gentle, not hard"
   },
   "something": {
    "pos": "대명사",
-   "ko": "무언가, 어떤 것"
+   "ko": "무언가, 어떤 것",
+   "en": "a thing, not named"
   },
   "sometimes": {
    "pos": "부사",
-   "ko": "가끔, 때때로"
+   "ko": "가끔, 때때로",
+   "en": "not always, but at times"
   },
   "spent": {
    "pos": "동사",
-   "ko": "(시간을) 보냈다 (spend의 과거)"
+   "ko": "(시간을) 보냈다 (spend의 과거)",
+   "en": "past of spend, used time"
   },
   "station": {
    "pos": "명사",
-   "ko": "역"
+   "ko": "역",
+   "en": "where trains stop for people"
   },
   "stay": {
    "pos": "동사",
-   "ko": "남다, 머무르다"
+   "ko": "남다, 머무르다",
+   "en": "to remain, not leave"
   },
   "stops": {
    "pos": "동사",
-   "ko": "멈추다 (stop)"
+   "ko": "멈추다 (stop)",
+   "en": "ends moving (stop)"
   },
   "stranger": {
    "pos": "명사",
-   "ko": "낯선 사람"
+   "ko": "낯선 사람",
+   "en": "a person you do not know"
   },
   "streets": {
    "pos": "명사",
-   "ko": "거리들 (street의 복수)"
+   "ko": "거리들 (street의 복수)",
+   "en": "roads in a town"
   },
   "these": {
    "pos": "한정사",
-   "ko": "이, 요즘의 (these days: 요즘)"
+   "ko": "이, 요즘의 (these days: 요즘)",
+   "en": "the ones here (these days: now)"
   },
   "things": {
    "pos": "명사",
-   "ko": "것들 (thing의 복수)"
+   "ko": "것들 (thing의 복수)",
+   "en": "objects or matters (thing)"
   },
   "thinking": {
    "pos": "동사",
-   "ko": "생각하고 있는 (think의 -ing형)"
+   "ko": "생각하고 있는 (think의 -ing형)",
+   "en": "using your mind (think)"
   },
   "thought": {
    "pos": "동사",
-   "ko": "생각했다 (think의 과거)"
+   "ko": "생각했다 (think의 과거)",
+   "en": "past of think"
   },
   "tonight": {
    "pos": "부사",
-   "ko": "오늘 밤"
+   "ko": "오늘 밤",
+   "en": "this night"
   },
   "took": {
    "pos": "동사",
-   "ko": "탔다 (take의 과거, take a train: 기차를 타다)"
+   "ko": "탔다 (take의 과거, take a train: 기차를 타다)",
+   "en": "past of take, rode"
   },
   "train": {
    "pos": "명사",
-   "ko": "기차, 열차"
+   "ko": "기차, 열차",
+   "en": "long vehicle that runs on rails"
   },
   "turning": {
    "pos": "동사",
-   "ko": "곱씹고 있는 (turn over in one's mind: 마음속으로 곱씹다)"
+   "ko": "곱씹고 있는 (turn over in one's mind: 마음속으로 곱씹다)",
+   "en": "thinking about again (turn over)"
   },
   "warmly": {
    "pos": "부사",
-   "ko": "따뜻하게"
+   "ko": "따뜻하게",
+   "en": "in a warm, friendly way"
   },
   "was": {
    "pos": "동사",
-   "ko": "~였다 (is의 과거)"
+   "ko": "~였다 (is의 과거)",
+   "en": "past of is"
   },
   "we": {
    "pos": "대명사",
-   "ko": "우리"
+   "ko": "우리",
+   "en": "you and I"
   },
   "were": {
    "pos": "동사",
-   "ko": "~였다 (are의 과거)"
+   "ko": "~였다 (are의 과거)",
+   "en": "past of are"
   },
   "while": {
    "pos": "접속사",
-   "ko": "~하는 동안"
+   "ko": "~하는 동안",
+   "en": "during the time that"
   },
   "window": {
    "pos": "명사",
-   "ko": "창문"
+   "ko": "창문",
+   "en": "glass you look through"
   },
   "windows": {
    "pos": "명사",
-   "ko": "창문들 (window의 복수)"
+   "ko": "창문들 (window의 복수)",
+   "en": "more than one window"
   },
   "words": {
    "pos": "명사",
-   "ko": "말, 말들 (word의 복수)"
+   "ko": "말, 말들 (word의 복수)",
+   "en": "things you say (word)"
   },
   "work": {
    "pos": "명사",
-   "ko": "일, 직장"
+   "ko": "일, 직장",
+   "en": "your job"
   },
   "worked": {
    "pos": "동사",
-   "ko": "일했다 (work의 과거)"
+   "ko": "일했다 (work의 과거)",
+   "en": "past of work"
   },
   "working": {
    "pos": "형용사",
-   "ko": "일하는 (working days: 일하던 시절)"
+   "ko": "일하는 (working days: 일하던 시절)",
+   "en": "doing a job (working days)"
   },
   "years": {
    "pos": "명사",
-   "ko": "해, 년 (year의 복수)"
+   "ko": "해, 년 (year의 복수)",
+   "en": "more than one year"
   },
   "yes": {
    "pos": "감탄사",
-   "ko": "네, 응"
+   "ko": "네, 응",
+   "en": "word for agreeing"
   },
   "young": {
    "pos": "형용사",
-   "ko": "젊은"
+   "ko": "젊은",
+   "en": "not old"
   }
  },
  "introEn": "You barely catch the last train after overtime.\nThe old man in the next seat starts to talk."

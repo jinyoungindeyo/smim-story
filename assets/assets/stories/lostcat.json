@@ -295,634 +295,790 @@
  "dict": {
   "evening": {
    "pos": "명사",
-   "ko": "저녁"
+   "ko": "저녁",
+   "en": "the time when day becomes night"
   },
   "paper": {
    "pos": "명사",
-   "ko": "종이, 전단지"
+   "ko": "종이, 전단지",
+   "en": "a small sheet with writing on it"
   },
   "pole": {
    "pos": "명사",
-   "ko": "전봇대, 기둥"
+   "ko": "전봇대, 기둥",
+   "en": "a tall post on the street"
   },
   "lost": {
    "pos": "형용사",
-   "ko": "잃어버린"
+   "ko": "잃어버린",
+   "en": "missing; cannot be found"
   },
   "cat": {
    "pos": "명사",
-   "ko": "고양이"
+   "ko": "고양이",
+   "en": "a small animal that says meow"
   },
   "white": {
    "pos": "형용사",
-   "ko": "하얀"
+   "ko": "하얀",
+   "en": "the color of snow"
   },
   "name": {
    "pos": "명사",
-   "ko": "이름"
+   "ko": "이름",
+   "en": "what you call a person or animal"
   },
   "bori": {
    "pos": "명사",
-   "ko": "보리 (고양이 이름)"
+   "ko": "보리 (고양이 이름)",
+   "en": "the white cat's name in this story"
   },
   "call": {
    "pos": "동사",
-   "ko": "전화하다, 부르다"
+   "ko": "전화하다, 부르다",
+   "en": "to phone someone or say a name"
   },
   "number": {
    "pos": "명사",
-   "ko": "번호"
+   "ko": "번호",
+   "en": "digits you press to phone someone"
   },
   "photo": {
    "pos": "명사",
    "ko": "사진",
+   "en": "a picture made with a camera",
    "exEn": "You take a photo.",
    "exKo": "사진을 찍어요."
   },
   "forget": {
    "pos": "동사",
-   "ko": "잊다"
+   "ko": "잊다",
+   "en": "to not remember something"
   },
   "face": {
    "pos": "명사",
-   "ko": "얼굴"
+   "ko": "얼굴",
+   "en": "the front of your head"
   },
   "eyes": {
    "pos": "명사",
-   "ko": "눈 (eye의 복수형)"
+   "ko": "눈 (eye의 복수형)",
+   "en": "body parts you see with"
   },
   "pink": {
    "pos": "형용사",
-   "ko": "분홍색의"
+   "ko": "분홍색의",
+   "en": "a light red color"
   },
   "nose": {
    "pos": "명사",
-   "ko": "코"
+   "ko": "코",
+   "en": "the face part that smells things"
   },
   "street": {
    "pos": "명사",
-   "ko": "골목, 거리"
+   "ko": "골목, 거리",
+   "en": "a road in a town"
   },
   "hear": {
    "pos": "동사",
-   "ko": "듣다, 들리다"
+   "ko": "듣다, 들리다",
+   "en": "to notice a sound with your ears"
   },
   "sound": {
    "pos": "명사",
-   "ko": "소리"
+   "ko": "소리",
+   "en": "something you hear"
   },
   "meow": {
    "pos": "감탄사",
-   "ko": "야옹 (고양이 울음소리)"
+   "ko": "야옹 (고양이 울음소리)",
+   "en": "the sound a cat makes"
   },
   "sits": {
    "pos": "동사",
-   "ko": "앉아 있다 (sit의 3인칭)"
+   "ko": "앉아 있다 (sit의 3인칭)",
+   "en": "rests on the bottom; not standing"
   },
   "box": {
    "pos": "명사",
-   "ko": "상자"
+   "ko": "상자",
+   "en": "a container with straight sides"
   },
   "boxes": {
    "pos": "명사",
-   "ko": "상자들 (box의 복수형)"
+   "ko": "상자들 (box의 복수형)",
+   "en": "more than one box"
   },
   "out": {
    "pos": "부사",
-   "ko": "밖에, 밖으로"
+   "ko": "밖에, 밖으로",
+   "en": "away from the inside"
   },
   "slowly": {
    "pos": "부사",
-   "ko": "천천히"
+   "ko": "천천히",
+   "en": "not fast"
   },
   "open": {
    "pos": "동사",
-   "ko": "펴다, 열다"
+   "ko": "펴다, 열다",
+   "en": "to spread out; not closed"
   },
   "smells": {
    "pos": "동사",
-   "ko": "냄새를 맡다 (smell의 3인칭)"
+   "ko": "냄새를 맡다 (smell의 3인칭)",
+   "en": "notices something with the nose"
   },
   "woman": {
    "pos": "명사",
-   "ko": "여자, 부인"
+   "ko": "여자, 부인",
+   "en": "an adult female person"
   },
   "grandmother": {
    "pos": "명사",
-   "ko": "할머니"
+   "ko": "할머니",
+   "en": "the mother of your mother or father"
   },
   "answers": {
    "pos": "동사",
-   "ko": "(전화를) 받다 (answer의 3인칭)"
+   "ko": "(전화를) 받다 (answer의 3인칭)",
+   "en": "picks up the phone and speaks"
   },
   "voice": {
    "pos": "명사",
-   "ko": "목소리"
+   "ko": "목소리",
+   "en": "the sound you make when speaking"
   },
   "shakes": {
    "pos": "동사",
-   "ko": "떨리다 (shake의 3인칭)"
+   "ko": "떨리다 (shake의 3인칭)",
+   "en": "moves quickly from side to side"
   },
   "fast": {
    "pos": "부사",
-   "ko": "빨리"
+   "ko": "빨리",
+   "en": "quickly; with speed"
   },
   "cries": {
    "pos": "동사",
-   "ko": "울다 (cry의 3인칭)"
+   "ko": "울다 (cry의 3인칭)",
+   "en": "makes tears because of strong feelings"
   },
   "near": {
    "pos": "형용사",
-   "ko": "가까운"
+   "ko": "가까운",
+   "en": "close; not far"
   },
   "tea": {
    "pos": "명사",
-   "ko": "차"
+   "ko": "차",
+   "en": "a hot drink made from leaves"
   },
   "love": {
    "pos": "동사",
-   "ko": "좋아하다 (would love: 기꺼이 ~하고 싶다)"
+   "ko": "좋아하다 (would love: 기꺼이 ~하고 싶다)",
+   "en": "would love: to want very much"
   },
   "some": {
    "pos": "한정사",
-   "ko": "약간의, 몇몇의"
+   "ko": "약간의, 몇몇의",
+   "en": "a small amount of something"
   },
   "sweet": {
    "pos": "형용사",
-   "ko": "달콤한"
+   "ko": "달콤한",
+   "en": "tasting like sugar"
   },
   "sleeps": {
    "pos": "동사",
-   "ko": "자다 (sleep의 3인칭)"
+   "ko": "자다 (sleep의 3인칭)",
+   "en": "rests with eyes closed"
   },
   "feet": {
    "pos": "명사",
-   "ko": "발 (foot의 복수형)"
+   "ko": "발 (foot의 복수형)",
+   "en": "more than one foot"
   },
   "cookies": {
    "pos": "명사",
-   "ko": "쿠키 (cookie의 복수형)"
+   "ko": "쿠키 (cookie의 복수형)",
+   "en": "small sweet baked treats"
   },
   "bag": {
    "pos": "명사",
-   "ko": "봉지, 가방"
+   "ko": "봉지, 가방",
+   "en": "a soft container for carrying things"
   },
   "week": {
    "pos": "명사",
-   "ko": "일주일, 주"
+   "ko": "일주일, 주",
+   "en": "seven days"
   },
   "later": {
    "pos": "부사",
-   "ko": "뒤에, 나중에"
+   "ko": "뒤에, 나중에",
+   "en": "after some time"
   },
   "stops": {
    "pos": "동사",
-   "ko": "그치다, 멈추다 (stop의 3인칭)"
+   "ko": "그치다, 멈추다 (stop의 3인칭)",
+   "en": "ends; does not continue"
   },
   "rainbow": {
    "pos": "명사",
-   "ko": "무지개"
+   "ko": "무지개",
+   "en": "colored arc in the sky after rain"
   },
   "window": {
    "pos": "명사",
-   "ko": "창문"
+   "ko": "창문",
+   "en": "glass in a wall you see through"
   },
   "wave": {
    "pos": "동사",
-   "ko": "손을 흔들다"
+   "ko": "손을 흔들다",
+   "en": "to move your hand to greet someone"
   },
   "wooden": {
    "pos": "형용사",
-   "ko": "나무로 된"
+   "ko": "나무로 된",
+   "en": "made of wood"
   },
   "writing": {
    "pos": "명사",
-   "ko": "글씨"
+   "ko": "글씨",
+   "en": "words put down by hand"
   },
   "shaky": {
    "pos": "형용사",
-   "ko": "떨리는, 삐뚤삐뚤한"
+   "ko": "떨리는, 삐뚤삐뚤한",
+   "en": "not steady; trembling"
   },
   "those": {
    "pos": "한정사",
-   "ko": "그, 저 (that의 복수형)"
+   "ko": "그, 저 (that의 복수형)",
+   "en": "the ones over there"
   },
   "turn": {
    "pos": "동사",
-   "ko": "방향을 틀다, 향하다"
+   "ko": "방향을 틀다, 향하다",
+   "en": "to change direction"
   },
   "know": {
    "pos": "동사",
-   "ko": "알다, 알아보다"
+   "ko": "알다, 알아보다",
+   "en": "to recognize; have seen before"
   },
   "ears": {
    "pos": "명사",
-   "ko": "귀 (ear의 복수형)"
+   "ko": "귀 (ear의 복수형)",
+   "en": "body parts you hear with"
   },
   "move": {
    "pos": "동사",
-   "ko": "움직이다"
+   "ko": "움직이다",
+   "en": "to change place or position"
   },
   "steps": {
    "pos": "동사",
-   "ko": "다가서다, 발을 내딛다 (step의 3인칭)"
+   "ko": "다가서다, 발을 내딛다 (step의 3인칭)",
+   "en": "moves one foot forward"
   },
   "climbs": {
    "pos": "동사",
-   "ko": "기어오르다 (climb의 3인칭)"
+   "ko": "기어오르다 (climb의 3인칭)",
+   "en": "goes up using paws or hands"
   },
   "inside": {
    "pos": "전치사",
-   "ko": "~안에, ~속에"
+   "ko": "~안에, ~속에",
+   "en": "in; within something"
   },
   "found": {
    "pos": "동사",
-   "ko": "찾았다 (find의 과거형)"
+   "ko": "찾았다 (find의 과거형)",
+   "en": "past of find; discovered"
   },
   "coming": {
    "pos": "동사",
-   "ko": "가는 중 (come의 -ing형)"
+   "ko": "가는 중 (come의 -ing형)",
+   "en": "moving toward here"
   },
   "almost": {
    "pos": "부사",
-   "ko": "거의"
+   "ko": "거의",
+   "en": "nearly; not quite"
   },
   "running": {
    "pos": "동사",
-   "ko": "뛰는, 달리는 (run의 -ing형)"
+   "ko": "뛰는, 달리는 (run의 -ing형)",
+   "en": "moving very fast on foot"
   },
   "quietly": {
    "pos": "부사",
-   "ko": "조용히"
+   "ko": "조용히",
+   "en": "with little or no sound"
   },
   "least": {
    "pos": "부사",
-   "ko": "최소한 (at least: 적어도 이거라도)"
+   "ko": "최소한 (at least: 적어도 이거라도)",
+   "en": "at least: this much, even if small"
   },
   "hangs": {
    "pos": "동사",
-   "ko": "걸리다, 떠 있다 (hang의 3인칭)"
+   "ko": "걸리다, 떠 있다 (hang의 3인칭)",
+   "en": "stays in the air above something"
   },
   "sitting": {
    "pos": "동사",
-   "ko": "앉아 있는 (sit의 -ing형)"
+   "ko": "앉아 있는 (sit의 -ing형)",
+   "en": "resting on the bottom, not standing"
   },
   "drums": {
    "pos": "동사",
-   "ko": "북 치듯 두드리다 (drum의 3인칭)"
+   "ko": "북 치듯 두드리다 (drum의 3인칭)",
+   "en": "taps again and again like a drum"
   },
   "quiet": {
    "pos": "형용사",
-   "ko": "조용한"
+   "ko": "조용한",
+   "en": "with little sound; calm"
   },
   "early": {
    "pos": "형용사",
-   "ko": "이른"
+   "ko": "이른",
+   "en": "near the start of a time"
   },
   "catches": {
    "pos": "동사",
-   "ko": "(시선을) 사로잡다 (catch의 3인칭)"
+   "ko": "(시선을) 사로잡다 (catch의 3인칭)",
+   "en": "catches your eye: gets your attention"
   },
   "eye": {
    "pos": "명사",
-   "ko": "눈, 시선"
+   "ko": "눈, 시선",
+   "en": "the body part that sees"
   },
   "reads": {
    "pos": "동사",
-   "ko": "~라고 쓰여 있다 (read의 3인칭)"
+   "ko": "~라고 쓰여 있다 (read의 3인칭)",
+   "en": "has these words written on it"
   },
   "handwriting": {
    "pos": "명사",
-   "ko": "손글씨"
+   "ko": "손글씨",
+   "en": "writing made by a person's hand"
   },
   "kind": {
    "pos": "명사",
-   "ko": "종류, 유형"
+   "ko": "종류, 유형",
+   "en": "a type or sort"
   },
   "belongs": {
    "pos": "동사",
-   "ko": "~의 것이다 (belong의 3인칭)"
+   "ko": "~의 것이다 (belong의 3인칭)",
+   "en": "is owned by someone"
   },
   "thinking": {
    "pos": "동사",
-   "ko": "생각하며 (think의 -ing형)"
+   "ko": "생각하며 (think의 -ing형)",
+   "en": "using your mind about something"
   },
   "somewhere": {
    "pos": "부사",
-   "ko": "어딘가에"
+   "ko": "어딘가에",
+   "en": "in a place you do not know"
   },
   "study": {
    "pos": "동사",
-   "ko": "찬찬히 살펴보다"
+   "ko": "찬찬히 살펴보다",
+   "en": "to look at something very carefully"
   },
   "until": {
    "pos": "접속사",
-   "ko": "~할 때까지"
+   "ko": "~할 때까지",
+   "en": "up to that time"
   },
   "between": {
    "pos": "전치사",
-   "ko": "~사이에"
+   "ko": "~사이에",
+   "en": "in the middle of two things"
   },
   "walls": {
    "pos": "명사",
-   "ko": "담, 벽 (wall의 복수형)"
+   "ko": "담, 벽 (wall의 복수형)",
+   "en": "more than one wall"
   },
   "wall": {
    "pos": "명사",
-   "ko": "담, 벽"
+   "ko": "담, 벽",
+   "en": "the side of a building or yard"
   },
   "pile": {
    "pos": "명사",
-   "ko": "더미"
+   "ko": "더미",
+   "en": "many things on top of each other"
   },
   "thin": {
    "pos": "형용사",
-   "ko": "가느다란, 여린"
+   "ko": "가느다란, 여린",
+   "en": "small and weak; not thick"
   },
   "crouching": {
    "pos": "동사",
-   "ko": "웅크리고 있는 (crouch의 -ing형)"
+   "ko": "웅크리고 있는 (crouch의 -ing형)",
+   "en": "sitting low with bent legs"
   },
   "pressing": {
    "pos": "동사",
-   "ko": "바짝 붙이는, 밀어 넣는 (press의 -ing형)"
+   "ko": "바짝 붙이는, 밀어 넣는 (press의 -ing형)",
+   "en": "pushing tightly against something"
   },
   "herself": {
    "pos": "대명사",
-   "ko": "그녀 자신, 제 몸"
+   "ko": "그녀 자신, 제 몸",
+   "en": "her own self or body"
   },
   "against": {
    "pos": "전치사",
-   "ko": "~에 기대어, ~에 붙여"
+   "ko": "~에 기대어, ~에 붙여",
+   "en": "touching; pressed to"
   },
   "gently": {
    "pos": "부사",
-   "ko": "부드럽게"
+   "ko": "부드럽게",
+   "en": "in a soft, careful way"
   },
   "after": {
    "pos": "전치사",
-   "ko": "~후에"
+   "ko": "~후에",
+   "en": "later than; following"
   },
   "moment": {
    "pos": "명사",
-   "ko": "잠깐, 순간"
+   "ko": "잠깐, 순간",
+   "en": "a very short time"
   },
   "lifts": {
    "pos": "동사",
-   "ko": "들어 올리다 (lift의 3인칭)"
+   "ko": "들어 올리다 (lift의 3인칭)",
+   "en": "raises; moves something up"
   },
   "meet": {
    "pos": "동사",
-   "ko": "마주치다, 만나다"
+   "ko": "마주치다, 만나다",
+   "en": "meet eyes: to look at each other"
   },
   "crouch": {
    "pos": "동사",
-   "ko": "몸을 낮춰 웅크리다"
+   "ko": "몸을 낮춰 웅크리다",
+   "en": "to bend low near the ground"
   },
   "fingers": {
    "pos": "명사",
-   "ko": "손가락 (finger의 복수형)"
+   "ko": "손가락 (finger의 복수형)",
+   "en": "the five parts of your hand"
   },
   "paw": {
    "pos": "명사",
-   "ko": "(동물의) 발"
+   "ko": "(동물의) 발",
+   "en": "an animal's foot"
   },
   "tuck": {
    "pos": "동사",
-   "ko": "품에 넣다, 감싸 넣다"
+   "ko": "품에 넣다, 감싸 넣다",
+   "en": "to put safely into a warm place"
   },
   "dial": {
    "pos": "동사",
-   "ko": "전화를 걸다"
+   "ko": "전화를 걸다",
+   "en": "to press numbers to make a call"
   },
   "trembles": {
    "pos": "동사",
-   "ko": "떨리다 (tremble의 3인칭)"
+   "ko": "떨리다 (tremble의 3인칭)",
+   "en": "shakes a little from cold or feeling"
   },
   "stay": {
    "pos": "동사",
-   "ko": "머무르다, 그대로 있다"
+   "ko": "머무르다, 그대로 있다",
+   "en": "to remain; not leave"
   },
   "where": {
    "pos": "부사",
-   "ko": "~하는 곳"
+   "ko": "~하는 곳",
+   "en": "in the place that"
   },
   "holding": {
    "pos": "동사",
-   "ko": "들고 있는 (hold의 -ing형)"
+   "ko": "들고 있는 (hold의 -ing형)",
+   "en": "keeping something in your hands"
   },
   "forgotten": {
    "pos": "동사",
-   "ko": "잊어버린 (forget의 과거분사)"
+   "ko": "잊어버린 (forget의 과거분사)",
+   "en": "not remembered"
   },
   "gathers": {
    "pos": "동사",
-   "ko": "끌어안다, 그러모으다 (gather의 3인칭)"
+   "ko": "끌어안다, 그러모으다 (gather의 3인칭)",
+   "en": "pulls close into her arms"
   },
   "cup": {
    "pos": "명사",
-   "ko": "잔, 컵"
+   "ko": "잔, 컵",
+   "en": "a small container you drink from"
   },
   "asleep": {
    "pos": "형용사",
-   "ko": "잠든"
+   "ko": "잠든",
+   "en": "sleeping"
   },
   "leave": {
    "pos": "동사",
-   "ko": "떠나다, 자리를 뜨다"
+   "ko": "떠나다, 자리를 뜨다",
+   "en": "to go away from a place"
   },
   "packs": {
    "pos": "동사",
-   "ko": "싸 주다, 챙겨 넣다 (pack의 3인칭)"
+   "ko": "싸 주다, 챙겨 넣다 (pack의 3인칭)",
+   "en": "puts things into a bag"
   },
   "homemade": {
    "pos": "형용사",
-   "ko": "집에서 만든"
+   "ko": "집에서 만든",
+   "en": "made at home, not bought"
   },
   "single": {
    "pos": "형용사",
-   "ko": "단 하나의"
+   "ko": "단 하나의",
+   "en": "only one"
   },
   "these": {
    "pos": "한정사",
-   "ko": "이것들 (this의 복수형)"
+   "ko": "이것들 (this의 복수형)",
+   "en": "the ones here"
   },
   "clears": {
    "pos": "동사",
-   "ko": "(비가) 개다 (clear의 3인칭)"
+   "ko": "(비가) 개다 (clear의 3인칭)",
+   "en": "stops; the sky becomes bright"
   },
   "rises": {
    "pos": "동사",
-   "ko": "떠오르다 (rise의 3인칭)"
+   "ko": "떠오르다 (rise의 3인칭)",
+   "en": "goes up; appears above"
   },
   "whenever": {
    "pos": "접속사",
-   "ko": "~할 때마다"
+   "ko": "~할 때마다",
+   "en": "every time that"
   },
   "guard": {
    "pos": "명사",
-   "ko": "경비원, 지킴이"
+   "ko": "경비원, 지킴이",
+   "en": "someone who watches and protects"
   },
   "friend": {
    "pos": "명사",
-   "ko": "친구"
+   "ko": "친구",
+   "en": "a person you like and trust"
   },
   "were": {
    "pos": "동사",
-   "ko": "~였다 (be의 과거형)"
+   "ko": "~였다 (be의 과거형)",
+   "en": "past form of are"
   },
   "only": {
    "pos": "부사",
-   "ko": "오직, ~뿐"
+   "ko": "오직, ~뿐",
+   "en": "just; nothing more"
   },
   "cannot": {
    "pos": "동사",
-   "ko": "~할 수 없다 (can not의 줄임)"
+   "ko": "~할 수 없다 (can not의 줄임)",
+   "en": "short for can not"
   },
   "lights": {
    "pos": "명사",
-   "ko": "불빛, 가로등 (light의 복수형)"
+   "ko": "불빛, 가로등 (light의 복수형)",
+   "en": "street lamps that shine at night"
   },
   "scan": {
    "pos": "동사",
-   "ko": "쭉 훑어보다"
+   "ko": "쭉 훑어보다",
+   "en": "to look quickly over an area"
   },
   "empty": {
    "pos": "형용사",
-   "ko": "텅 빈"
+   "ko": "텅 빈",
+   "en": "with nothing or nobody inside"
   },
   "falling": {
    "pos": "동사",
-   "ko": "내리는, 떨어지는 (fall의 -ing형)"
+   "ko": "내리는, 떨어지는 (fall의 -ing형)",
+   "en": "coming down from the sky"
   },
   "lamplight": {
    "pos": "명사",
-   "ko": "가로등 불빛"
+   "ko": "가로등 불빛",
+   "en": "light from a street lamp"
   },
   "save": {
    "pos": "동사",
-   "ko": "저장하다, 남겨 두다"
+   "ko": "저장하다, 남겨 두다",
+   "en": "to keep for later"
   },
   "meets": {
    "pos": "동사",
-   "ko": "마주치다 (meet의 3인칭)"
+   "ko": "마주치다 (meet의 3인칭)",
+   "en": "meets your eyes: looks at you"
   },
   "pads": {
    "pos": "동사",
-   "ko": "사뿐사뿐 걸어가다 (pad의 3인칭)"
+   "ko": "사뿐사뿐 걸어가다 (pad의 3인칭)",
+   "en": "walks softly on quiet paws"
   },
   "warms": {
    "pos": "동사",
-   "ko": "따뜻하게 데워 주다 (warm의 3인칭)"
+   "ko": "따뜻하게 데워 주다 (warm의 3인칭)",
+   "en": "makes something warm"
   },
   "evenings": {
    "pos": "명사",
-   "ko": "저녁들, 저녁마다 (evening의 복수형)"
+   "ko": "저녁들, 저녁마다 (evening의 복수형)",
+   "en": "more than one evening"
   },
   "knock": {
    "pos": "동사",
-   "ko": "(문을) 두드리다, 노크하다"
+   "ko": "(문을) 두드리다, 노크하다",
+   "en": "to hit a door with your hand"
   },
   "light": {
    "pos": "명사",
-   "ko": "불빛, 빛"
+   "ko": "불빛, 빛",
+   "en": "a warm glow you can see"
   },
   "follows": {
    "pos": "동사",
-   "ko": "따라오다 (follow의 3인칭)"
+   "ko": "따라오다 (follow의 3인칭)",
+   "en": "comes along behind you"
   },
   "hello": {
    "pos": "감탄사",
-   "ko": "안녕 (가벼운 인사)"
+   "ko": "안녕 (가벼운 인사)",
+   "en": "a word you say to greet"
   },
   "glass": {
    "pos": "명사",
-   "ko": "유리, 유리창"
+   "ko": "유리, 유리창",
+   "en": "hard clear material in windows"
   },
   "sometimes": {
    "pos": "부사",
-   "ko": "가끔, 때때로"
+   "ko": "가끔, 때때로",
+   "en": "at some times, not always"
   },
   "feels": {
    "pos": "동사",
-   "ko": "~하게 느껴지다 (feel의 3인칭)"
+   "ko": "~하게 느껴지다 (feel의 3인칭)",
+   "en": "seems; gives a feeling"
   },
   "gift": {
    "pos": "명사",
-   "ko": "선물"
+   "ko": "선물",
+   "en": "a thing you give to someone"
   },
   "runs": {
    "pos": "동사",
-   "ko": "달리다 (run의 3인칭)"
+   "ko": "달리다 (run의 3인칭)",
+   "en": "moves very fast on foot"
   },
   "become": {
    "pos": "동사",
-   "ko": "~이 되다 (has become: ~이 되었다)"
+   "ko": "~이 되다 (has become: ~이 되었다)",
+   "en": "has become: has turned into"
   },
   "warmest": {
    "pos": "형용사",
-   "ko": "가장 따뜻한 (warm의 최상급)"
+   "ko": "가장 따뜻한 (warm의 최상급)",
+   "en": "the most warm"
   },
   "part": {
    "pos": "명사",
-   "ko": "부분 (part of: ~의 한 부분)"
+   "ko": "부분 (part of: ~의 한 부분)",
+   "en": "one piece of something bigger"
   },
   "cats": {
    "pos": "명사",
-   "ko": "고양이들 (cat의 복수형)"
+   "ko": "고양이들 (cat의 복수형)",
+   "en": "more than one cat"
   },
   "new": {
    "pos": "형용사",
-   "ko": "새, 새로운"
+   "ko": "새, 새로운",
+   "en": "not old; just appeared"
   },
   "appears": {
    "pos": "동사",
-   "ko": "나타나다, 붙다 (appear의 3인칭)"
+   "ko": "나타나다, 붙다 (appear의 3인칭)",
+   "en": "shows up; can be seen"
   },
   "fear": {
    "pos": "명사",
-   "ko": "두려움, 겁"
+   "ko": "두려움, 겁",
+   "en": "the feeling of being afraid"
   },
   "watches": {
    "pos": "동사",
-   "ko": "지켜보다 (watch의 3인칭)"
+   "ko": "지켜보다 (watch의 3인칭)",
+   "en": "looks at for some time"
   },
   "proud": {
    "pos": "형용사",
-   "ko": "자랑스러운"
+   "ko": "자랑스러운",
+   "en": "very pleased about someone or something"
   },
   "taking": {
    "pos": "동사",
-   "ko": "(걸음을) 내딛는 (take의 -ing형)"
+   "ko": "(걸음을) 내딛는 (take의 -ing형)",
+   "en": "taking a step: moving one foot"
   },
   "stepping": {
    "pos": "동사",
-   "ko": "발걸음을 옮기는 (step의 -ing형)"
+   "ko": "발걸음을 옮기는 (step의 -ing형)",
+   "en": "moving your feet forward"
   },
   "faintly": {
    "pos": "부사",
-   "ko": "은은하게, 희미하게"
+   "ko": "은은하게, 희미하게",
+   "en": "in a very light, soft way"
   }
  },
  "introEn": "A rainy evening, a flyer on a wooden pole.\nA white cat is waiting in the alley.",
  "endings": {
   "0": {
    "name": "조용한 이웃",
+   "nameEn": "The Quiet Neighbor",
    "en": "You still keep the photo of the paper on your phone. Some evenings, you walk slowly by the house and see Bori asleep in the warm window. You never knock, but that small warm light follows you all the way home.",
    "ko": "지금도 휴대폰에는 그날 전단지 사진이 남아 있어요. 어떤 저녁엔 그 집 앞을 천천히 지나며, 따뜻한 창가에서 잠든 보리를 바라봐요. 문을 두드린 적은 없지만, 그 작고 따뜻한 불빛이 집까지 내내 따라와요."
   },
   "1": {
    "name": "유리창 너머 친구",
+   "nameEn": "A Friend Through the Glass",
    "en": "On your way home, you often stop by the window and say a small hello to Bori through the glass. Sometimes the grandmother lifts her cup of tea and smiles at you. You wave back, and the walk home feels warm and light.",
    "ko": "집에 가는 길이면 종종 창가에 멈춰 서서, 유리 너머 보리에게 작게 인사를 건네요. 가끔은 할머니가 찻잔을 들어 보이며 웃어 주세요. 손을 흔들어 답하고 나면, 집으로 가는 길이 따뜻하고 가벼워요."
   },
   "2": {
    "name": "다정한 말벗",
+   "nameEn": "The Kindly Companion",
    "en": "These days, you knock on her door every week with a small gift. Bori runs to the door to meet you, and tea with the grandmother has become the warmest part of your week. On the way home, your coat still smells faintly of warm tea and cookies.",
    "ko": "요즘은 매주 작은 선물을 들고 그 집 문을 두드려요. 보리가 문 앞까지 달려 나와 반겨 주고, 할머니와 마시는 차 한 잔은 일주일 중 가장 따뜻한 시간이 되었어요. 돌아오는 길, 코트에서는 아직 따뜻한 차와 쿠키 냄새가 은은하게 나요."
   },
   "3": {
    "name": "골목의 수호자",
+   "nameEn": "Guardian of the Alley",
    "en": "In town, people now call you the friend of lost cats. When a new paper appears on the pole, they come to you first, and you walk out into the rain without fear. From her window, Bori watches you go, like a proud white guard.",
    "ko": "이제 동네 사람들은 당신을 '길 잃은 고양이들의 친구'라고 불러요. 전봇대에 새 전단지가 붙으면 다들 당신부터 찾아오고, 당신은 겁 없이 빗속으로 나서요. 그런 당신을 보리가 창가에서 자랑스러운 하얀 지킴이처럼 지켜봐요."
   }

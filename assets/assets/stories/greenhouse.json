@@ -17,21 +17,25 @@
  "endings": {
   "0": {
    "name": "신중한 여름 정원사",
+   "nameEn": "The Careful Summer Gardener",
    "en": "You keep helping every week, always calm and always careful. Mrs. Rose says you are the most patient helper she has ever had. You water, you weed, and you go home before the glass steams up. The tomatoes grow slowly — and that, you insist, is the only thing you are waiting for.",
    "ko": "당신은 매주 온실 일을 도와요. 언제나 차분하고, 언제나 조심스럽게요. Rose 부인은 당신이 지금껏 만난 가장 참을성 있는 일꾼이라고 해요. 물 주고, 풀 뽑고, 유리에 김이 서리기 전에 집에 가요. 토마토는 천천히 익어 가요 — 당신이 기다리는 건 오직 그것뿐이라고, 당신은 우겨요."
   },
   "1": {
    "name": "예의 바른 이웃집 일꾼",
+   "nameEn": "The Polite Neighborly Helper",
    "en": "You work hard all summer and always go home before dark. Still, Mrs. Rose keeps a second cup of cold tea ready by the door — just in case you decide to stay a little longer one evening.",
    "ko": "당신은 여름 내내 열심히 일하고, 어두워지기 전에는 꼭 집에 가요. 그래도 Rose 부인은 문가에 차가운 차 한 잔을 늘 더 준비해 둬요 — 어느 저녁엔 당신이 조금 더 머물기로 할지도 모르니까요."
   },
   "2": {
    "name": "온실 열쇠를 받은 조수",
+   "nameEn": "The Assistant with the Greenhouse Key",
    "en": "By July, you know the greenhouse better than your own garden. Mrs. Rose gives you your own key — \"for the early mornings,\" she says. The neighbors notice that her melons have never looked so happy.",
    "ko": "7월쯤 되자 당신은 자기 정원보다 온실을 더 잘 알게 돼요. Rose 부인은 \"이른 아침용\"이라며 온실 열쇠를 하나 내줘요. 이웃들은 그 집 멜론이 이렇게 행복해 보인 적이 없다고 수군거려요."
   },
   "3": {
    "name": "온실을 달군 장본인",
+   "nameEn": "The One Who Turned Up the Heat",
    "en": "The hottest summer in years, and you spend most of it behind steamed glass. Mrs. Rose tells the whole village that you have a natural gift with your hands. By August, nobody can see anything through the greenhouse walls — and the tomatoes have never been redder.",
    "ko": "몇 년 만에 가장 더운 여름, 당신은 그 대부분을 김 서린 유리 뒤에서 보내요. Rose 부인은 온 마을에 당신 손재주가 타고났다고 자랑하고 다녀요. 8월이 되자 온실 유리 너머로는 아무것도 보이지 않고 — 토마토는 그 어느 때보다 빨갛게 익어 가요."
   }
@@ -249,631 +253,788 @@
  "dict": {
   "summer": {
    "pos": "명사",
-   "ko": "여름"
+   "ko": "여름",
+   "en": "the hot season of the year"
   },
   "hottest": {
    "pos": "형용사",
-   "ko": "가장 더운 — hot의 최상급"
+   "ko": "가장 더운 — hot의 최상급",
+   "en": "most hot; hot + -est"
   },
   "years": {
    "pos": "명사",
-   "ko": "몇 년 — year의 복수"
+   "ko": "몇 년 — year의 복수",
+   "en": "more than one year"
   },
   "news": {
    "pos": "명사",
-   "ko": "소식"
+   "ko": "소식",
+   "en": "new information someone tells you"
   },
   "built": {
    "pos": "동사",
-   "ko": "지었다 — build의 과거"
+   "ko": "지었다 — build의 과거",
+   "en": "past of build; made"
   },
   "greenhouse": {
    "pos": "명사",
-   "ko": "온실"
+   "ko": "온실",
+   "en": "a glass house for growing plants"
   },
   "past": {
    "pos": "전치사",
-   "ko": "~을 지나서"
+   "ko": "~을 지나서",
+   "en": "moving by the side of something"
   },
   "famous": {
    "pos": "형용사",
-   "ko": "유명한, 자랑거리인"
+   "ko": "유명한, 자랑거리인",
+   "en": "known by many people"
   },
   "inside": {
    "pos": "부사",
-   "ko": "안에서, 안은"
+   "ko": "안에서, 안은",
+   "en": "in the inner part"
   },
   "air": {
    "pos": "명사",
-   "ko": "공기"
+   "ko": "공기",
+   "en": "what we breathe"
   },
   "get": {
    "pos": "동사",
-   "ko": "~해지다, 얻다"
+   "ko": "~해지다, 얻다",
+   "en": "to become; to receive"
   },
   "gets": {
    "pos": "동사",
-   "ko": "~해지다 — get의 3인칭"
+   "ko": "~해지다 — get의 3인칭",
+   "en": "becomes; get + -s"
   },
   "hot": {
    "pos": "형용사",
-   "ko": "뜨거운, 더운"
+   "ko": "뜨거운, 더운",
+   "en": "very warm; full of heat"
   },
   "hope": {
    "pos": "동사",
-   "ko": "바라다, 희망하다"
+   "ko": "바라다, 희망하다",
+   "en": "to want something to happen"
   },
   "mind": {
    "pos": "동사",
-   "ko": "꺼리다, 신경 쓰다"
+   "ko": "꺼리다, 신경 쓰다",
+   "en": "to feel bothered by something"
   },
   "again": {
    "pos": "부사",
-   "ko": "다시, 또"
+   "ko": "다시, 또",
+   "en": "one more time"
   },
   "heat": {
    "pos": "명사",
-   "ko": "열기, 더위"
+   "ko": "열기, 더위",
+   "en": "hot air or warmth"
   },
   "love": {
    "pos": "동사",
-   "ko": "아주 좋아하다, 사랑하다"
+   "ko": "아주 좋아하다, 사랑하다",
+   "en": "to like very much"
   },
   "wow": {
    "pos": "감탄사",
-   "ko": "와"
+   "ko": "와",
+   "en": "a word of surprise"
   },
   "faster": {
    "pos": "부사",
-   "ko": "더 빨리 — fast의 비교급"
+   "ko": "더 빨리 — fast의 비교급",
+   "en": "more fast; fast + -er"
   },
   "plant": {
    "pos": "동사·명사",
-   "ko": "심다; 식물"
+   "ko": "심다; 식물",
+   "en": "put into soil; a growing green thing"
   },
   "plants": {
    "pos": "명사",
-   "ko": "식물들 — plant의 복수"
+   "ko": "식물들 — plant의 복수",
+   "en": "more than one plant"
   },
   "planting": {
    "pos": "동사",
-   "ko": "심기 — plant의 동명사"
+   "ko": "심기 — plant의 동명사",
+   "en": "putting seeds or plants into soil"
   },
   "tomato": {
    "pos": "명사",
-   "ko": "토마토"
+   "ko": "토마토",
+   "en": "a soft round red fruit"
   },
   "tomatoes": {
    "pos": "명사",
-   "ko": "토마토들 — tomato의 복수"
+   "ko": "토마토들 — tomato의 복수",
+   "en": "more than one tomato"
   },
   "seeds": {
    "pos": "명사",
-   "ko": "씨앗들 — seed의 복수"
+   "ko": "씨앗들 — seed의 복수",
+   "en": "small things plants grow from"
   },
   "push": {
    "pos": "동사",
-   "ko": "밀어 넣다, 밀다"
+   "ko": "밀어 넣다, 밀다",
+   "en": "to press something forward"
   },
   "each": {
    "pos": "한정사",
-   "ko": "각각의, 하나씩"
+   "ko": "각각의, 하나씩",
+   "en": "every one, one by one"
   },
   "slowly": {
    "pos": "부사",
-   "ko": "천천히"
+   "ko": "천천히",
+   "en": "not fast"
   },
   "soft": {
    "pos": "형용사",
-   "ko": "부드러운"
+   "ko": "부드러운",
+   "en": "not hard"
   },
   "ready": {
    "pos": "형용사",
-   "ko": "준비된"
+   "ko": "준비된",
+   "en": "prepared; able to start now"
   },
   "waited": {
    "pos": "동사",
-   "ko": "기다렸다 — wait의 과거"
+   "ko": "기다렸다 — wait의 과거",
+   "en": "past of wait"
   },
   "young": {
    "pos": "형용사",
-   "ko": "어린, 젊은"
+   "ko": "어린, 젊은",
+   "en": "not old"
   },
   "support": {
    "pos": "명사",
-   "ko": "지지대, 받침"
+   "ko": "지지대, 받침",
+   "en": "something that holds a plant up"
   },
   "stick": {
    "pos": "명사",
-   "ko": "막대기, 지지목"
+   "ko": "막대기, 지지목",
+   "en": "a thin piece of wood"
   },
   "firm": {
    "pos": "형용사",
-   "ko": "단단한, 흔들리지 않는"
+   "ko": "단단한, 흔들리지 않는",
+   "en": "strong and not moving"
   },
   "something": {
    "pos": "대명사",
-   "ko": "무언가"
+   "ko": "무언가",
+   "en": "a thing not named"
   },
   "yes": {
    "pos": "감탄사",
-   "ko": "네, 그래요"
+   "ko": "네, 그래요",
+   "en": "a word for agreeing"
   },
   "learned": {
    "pos": "동사",
-   "ko": "배웠다 — learn의 과거"
+   "ko": "배웠다 — learn의 과거",
+   "en": "past of learn"
   },
   "lot": {
    "pos": "명사",
-   "ko": "(a lot) 많이"
+   "ko": "(a lot) 많이",
+   "en": "(a lot) very much"
   },
   "since": {
    "pos": "전치사",
-   "ko": "~ 이후로"
+   "ko": "~ 이후로",
+   "en": "from that time until now"
   },
   "tie": {
    "pos": "동사",
-   "ko": "묶다"
+   "ko": "묶다",
+   "en": "to hold with string or rope"
   },
   "tight": {
    "pos": "부사",
-   "ko": "꽉, 단단히"
+   "ko": "꽉, 단단히",
+   "en": "firmly, with no loose space"
   },
   "gently": {
    "pos": "부사",
-   "ko": "부드럽게, 살살"
+   "ko": "부드럽게, 살살",
+   "en": "in a soft careful way"
   },
   "loose": {
    "pos": "형용사",
-   "ko": "느슨한"
+   "ko": "느슨한",
+   "en": "not tight"
   },
   "breathe": {
    "pos": "동사",
-   "ko": "숨 쉬다"
+   "ko": "숨 쉬다",
+   "en": "to take air in and out"
   },
   "trick": {
    "pos": "명사",
-   "ko": "요령, 비결"
+   "ko": "요령, 비결",
+   "en": "a clever way to do something"
   },
   "spray": {
    "pos": "동사",
-   "ko": "뿌리다, 분무하다"
+   "ko": "뿌리다, 분무하다",
+   "en": "to send out tiny water drops"
   },
   "thirsty": {
    "pos": "형용사",
-   "ko": "목마른"
+   "ko": "목마른",
+   "en": "needing water to drink"
   },
   "fast": {
    "pos": "부사",
-   "ko": "빨리"
+   "ko": "빨리",
+   "en": "quick; with speed"
   },
   "drip": {
    "pos": "동사",
-   "ko": "(물방울이) 뚝뚝 떨어지다"
+   "ko": "(물방울이) 뚝뚝 떨어지다",
+   "en": "to fall in small drops"
   },
   "until": {
    "pos": "전치사",
-   "ko": "~할 때까지"
+   "ko": "~할 때까지",
+   "en": "up to that time"
   },
   "soon": {
    "pos": "부사",
-   "ko": "곧"
+   "ko": "곧",
+   "en": "in a short time"
   },
   "do": {
    "pos": "동사",
-   "ko": "하다; 강조를 돕는 조동사"
+   "ko": "하다; 강조를 돕는 조동사",
+   "en": "to act; also makes words stronger"
   },
   "does": {
    "pos": "동사",
-   "ko": "하다 — do의 3인칭"
+   "ko": "하다 — do의 3인칭",
+   "en": "do + -s"
   },
   "things": {
    "pos": "명사",
-   "ko": "것들 — thing의 복수"
+   "ko": "것들 — thing의 복수",
+   "en": "more than one thing"
   },
   "glass": {
    "pos": "명사",
-   "ko": "유리"
+   "ko": "유리",
+   "en": "hard clear material for windows"
   },
   "covered": {
    "pos": "동사",
-   "ko": "덮였다 — cover의 과거분사"
+   "ko": "덮였다 — cover의 과거분사",
+   "en": "past of cover; hidden under something"
   },
   "steam": {
    "pos": "명사",
-   "ko": "김, 수증기"
+   "ko": "김, 수증기",
+   "en": "water in the air from heat"
   },
   "warmest": {
    "pos": "형용사",
-   "ko": "가장 따뜻한 — warm의 최상급"
+   "ko": "가장 따뜻한 — warm의 최상급",
+   "en": "most warm; warm + -est"
   },
   "corner": {
    "pos": "명사",
-   "ko": "구석, 모퉁이"
+   "ko": "구석, 모퉁이",
+   "en": "where two walls meet"
   },
   "rest": {
    "pos": "동사",
-   "ko": "놓여 있다, 쉬다"
+   "ko": "놓여 있다, 쉬다",
+   "en": "to lie and do nothing"
   },
   "straw": {
    "pos": "명사",
-   "ko": "짚"
+   "ko": "짚",
+   "en": "dry yellow grass stems"
   },
   "feel": {
    "pos": "동사",
-   "ko": "만져 보다, 느끼다"
+   "ko": "만져 보다, 느끼다",
+   "en": "to touch; to sense"
   },
   "grown": {
    "pos": "동사",
-   "ko": "자랐다 — grow의 과거분사"
+   "ko": "자랐다 — grow의 과거분사",
+   "en": "past form of grow; got bigger"
   },
   "already": {
    "pos": "부사",
-   "ko": "벌써, 이미"
+   "ko": "벌써, 이미",
+   "en": "before now; sooner than expected"
   },
   "ripens": {
    "pos": "동사",
-   "ko": "익다, 무르익다 — ripen의 3인칭"
+   "ko": "익다, 무르익다 — ripen의 3인칭",
+   "en": "becomes ready to eat; ripen + -s"
   },
   "know": {
    "pos": "동사",
-   "ko": "알다"
+   "ko": "알다",
+   "en": "to have information in your head"
   },
   "patience": {
    "pos": "명사",
-   "ko": "인내심, 참을성"
+   "ko": "인내심, 참을성",
+   "en": "the power to wait calmly"
   },
   "sweetest": {
    "pos": "형용사",
-   "ko": "가장 달콤한 — sweet의 최상급"
+   "ko": "가장 달콤한 — sweet의 최상급",
+   "en": "most sweet; sweet + -est"
   },
   "ones": {
    "pos": "대명사",
-   "ko": "것들 — one(것)의 복수"
+   "ko": "것들 — one(것)의 복수",
+   "en": "things; more than one"
   },
   "worth": {
    "pos": "형용사",
-   "ko": "~할 가치가 있는"
+   "ko": "~할 가치가 있는",
+   "en": "good enough to deserve the wait"
   },
   "out": {
    "pos": "부사",
-   "ko": "밖으로"
+   "ko": "밖으로",
+   "en": "away from the inside"
   },
   "cool": {
    "pos": "형용사",
-   "ko": "시원한"
+   "ko": "시원한",
+   "en": "a little cold, in a nice way"
   },
   "evening": {
    "pos": "명사",
-   "ko": "저녁"
+   "ko": "저녁",
+   "en": "the time before night"
   },
   "shirt": {
    "pos": "명사",
-   "ko": "셔츠"
+   "ko": "셔츠",
+   "en": "clothes worn on your upper body"
   },
   "damp": {
    "pos": "형용사",
-   "ko": "축축한"
+   "ko": "축축한",
+   "en": "a little wet"
   },
   "same": {
    "pos": "형용사",
-   "ko": "같은"
+   "ko": "같은",
+   "en": "not different"
   },
   "week": {
    "pos": "명사",
-   "ko": "주, 일주일"
+   "ko": "주, 일주일",
+   "en": "seven days"
   },
   "asks": {
    "pos": "동사",
-   "ko": "묻다 — ask의 3인칭"
+   "ko": "묻다 — ask의 3인칭",
+   "en": "says a question; ask + -s"
   },
   "leave": {
    "pos": "동사",
-   "ko": "그대로 두다, 떠나다"
+   "ko": "그대로 두다, 떠나다",
+   "en": "to let something stay; to go"
   },
   "window": {
    "pos": "명사",
-   "ko": "창문"
+   "ko": "창문",
+   "en": "a glass opening in a wall"
   },
   "open": {
    "pos": "형용사",
-   "ko": "열린, 활짝 연"
+   "ko": "열린, 활짝 연",
+   "en": "not closed"
   },
   "only": {
    "pos": "부사",
-   "ko": "겨우, 이제 막"
+   "ko": "겨우, 이제 막",
+   "en": "just; no more than"
   },
   "started": {
    "pos": "동사",
-   "ko": "시작했다 — start의 과거"
+   "ko": "시작했다 — start의 과거",
+   "en": "past of start; began"
   },
   "going": {
    "pos": "동사",
-   "ko": "(be going to) ~할 것이다"
+   "ko": "(be going to) ~할 것이다",
+   "en": "(be going to) will happen"
   },
   "anyone": {
    "pos": "대명사",
-   "ko": "누구도, 아무나"
+   "ko": "누구도, 아무나",
+   "en": "any person"
   },
   "building": {
    "pos": "동사",
-   "ko": "짓고 있는 — build의 진행형"
+   "ko": "짓고 있는 — build의 진행형",
+   "en": "making; build + -ing"
   },
   "new": {
    "pos": "형용사",
-   "ko": "새로운"
+   "ko": "새로운",
+   "en": "not old; just made"
   },
   "proud": {
    "pos": "형용사",
-   "ko": "자랑스러운"
+   "ko": "자랑스러운",
+   "en": "feeling happy about what you did"
   },
   "thick": {
    "pos": "형용사",
-   "ko": "(공기가) 짙고 묵직한, 두꺼운"
+   "ko": "(공기가) 짙고 묵직한, 두꺼운",
+   "en": "heavy and full; not thin"
   },
   "handle": {
    "pos": "동사",
-   "ko": "견디다, 다루다"
+   "ko": "견디다, 다루다",
+   "en": "to deal with something hard"
   },
   "because": {
    "pos": "접속사",
-   "ko": "~이기 때문에"
+   "ko": "~이기 때문에",
+   "en": "for the reason that"
   },
   "liked": {
    "pos": "동사",
-   "ko": "좋아했다 — like의 과거"
+   "ko": "좋아했다 — like의 과거",
+   "en": "past of like"
   },
   "task": {
    "pos": "명사",
-   "ko": "할 일, 과제"
+   "ko": "할 일, 과제",
+   "en": "a job to do"
   },
   "instructs": {
    "pos": "동사",
-   "ko": "지시하다 — instruct의 3인칭"
+   "ko": "지시하다 — instruct의 3인칭",
+   "en": "tells someone how to do something"
   },
   "moment": {
    "pos": "명사",
-   "ko": "순간"
+   "ko": "순간",
+   "en": "a very short time"
   },
   "which": {
    "pos": "대명사",
-   "ko": "~하는 — 관계대명사"
+   "ko": "~하는 — 관계대명사",
+   "en": "a word pointing back to something"
   },
   "tall": {
    "pos": "형용사",
-   "ko": "키가 큰, 높이 자란"
+   "ko": "키가 큰, 높이 자란",
+   "en": "high; grown up high"
   },
   "great": {
    "pos": "형용사",
-   "ko": "큰, 훌륭한"
+   "ko": "큰, 훌륭한",
+   "en": "very big; very good"
   },
   "deal": {
    "pos": "명사",
-   "ko": "(a great deal) 아주 많이"
+   "ko": "(a great deal) 아주 많이",
+   "en": "(a great deal) very much"
   },
   "let": {
    "pos": "동사",
-   "ko": "~하게 해 주다"
+   "ko": "~하게 해 주다",
+   "en": "to allow"
   },
   "fine": {
    "pos": "형용사",
-   "ko": "고운, 미세한"
+   "ko": "고운, 미세한",
+   "en": "very thin and small"
   },
   "mist": {
    "pos": "명사",
-   "ko": "분무, 안개"
+   "ko": "분무, 안개",
+   "en": "tiny water drops floating in air"
   },
   "quickly": {
    "pos": "부사",
-   "ko": "빨리, 금방"
+   "ko": "빨리, 금방",
+   "en": "fast; in a short time"
   },
   "dare": {
    "pos": "동사",
-   "ko": "감히 ~하다"
+   "ko": "감히 ~하다",
+   "en": "to be brave enough to do"
   },
   "leaf": {
    "pos": "명사",
-   "ko": "잎"
+   "ko": "잎",
+   "en": "a flat green part of a plant"
   },
   "dripping": {
    "pos": "동사",
-   "ko": "뚝뚝 떨어지는 — drip의 진행형"
+   "ko": "뚝뚝 떨어지는 — drip의 진행형",
+   "en": "falling in drops; drip + -ing"
   },
   "walls": {
    "pos": "명사",
-   "ko": "벽들 — wall의 복수"
+   "ko": "벽들 — wall의 복수",
+   "en": "more than one wall"
   },
   "whenever": {
    "pos": "접속사",
-   "ko": "~할 때마다"
+   "ko": "~할 때마다",
+   "en": "every time that"
   },
   "start": {
    "pos": "동사",
-   "ko": "시작하다"
+   "ko": "시작하다",
+   "en": "to begin"
   },
   "heating": {
    "pos": "동사",
-   "ko": "(heat up) 뜨거워지기 — heat의 진행형"
+   "ko": "(heat up) 뜨거워지기 — heat의 진행형",
+   "en": "(heat up) getting hot"
   },
   "prized": {
    "pos": "형용사",
-   "ko": "아끼는, 애지중지하는"
+   "ko": "아끼는, 애지중지하는",
+   "en": "very special to the owner"
   },
   "adore": {
    "pos": "동사",
-   "ko": "아주 좋아하다"
+   "ko": "아주 좋아하다",
+   "en": "to love very much"
   },
   "become": {
    "pos": "동사",
-   "ko": "~이 되다"
+   "ko": "~이 되다",
+   "en": "to turn into; to grow to be"
   },
   "exactly": {
    "pos": "부사",
-   "ko": "정확히"
+   "ko": "정확히",
+   "en": "with no mistake; precisely"
   },
   "blushing": {
    "pos": "동사",
-   "ko": "발갛게 물드는 — blush의 진행형"
+   "ko": "발갛게 물드는 — blush의 진행형",
+   "en": "turning red"
   },
   "wide": {
    "pos": "부사",
-   "ko": "활짝"
+   "ko": "활짝",
+   "en": "fully open; far apart"
   },
   "begun": {
    "pos": "동사",
-   "ko": "시작되었다 — begin의 과거분사"
+   "ko": "시작되었다 — begin의 과거분사",
+   "en": "past form of begin; started"
   },
   "helping": {
    "pos": "동사",
-   "ko": "돕는 — help의 진행형"
+   "ko": "돕는 — help의 진행형",
+   "en": "help + -ing"
   },
   "calm": {
    "pos": "형용사",
-   "ko": "차분한"
+   "ko": "차분한",
+   "en": "quiet and relaxed"
   },
   "most": {
    "pos": "부사",
-   "ko": "가장 — 최상급을 만드는 말"
+   "ko": "가장 — 최상급을 만드는 말",
+   "en": "more than all others"
   },
   "patient": {
    "pos": "형용사",
-   "ko": "참을성 있는"
+   "ko": "참을성 있는",
+   "en": "able to wait without anger"
   },
   "helper": {
    "pos": "명사",
-   "ko": "돕는 사람, 일꾼"
+   "ko": "돕는 사람, 일꾼",
+   "en": "a person who helps"
   },
   "had": {
    "pos": "동사",
-   "ko": "가졌다, 있었다 — have의 과거"
+   "ko": "가졌다, 있었다 — have의 과거",
+   "en": "past of have"
   },
   "their": {
    "pos": "한정사",
-   "ko": "그들의"
+   "ko": "그들의",
+   "en": "belonging to them"
   },
   "some": {
    "pos": "한정사",
-   "ko": "어떤, 몇몇의"
+   "ko": "어떤, 몇몇의",
+   "en": "a few; not all"
   },
   "sweeter": {
    "pos": "형용사",
-   "ko": "더 달콤한 — sweet의 비교급"
+   "ko": "더 달콤한 — sweet의 비교급",
+   "en": "more sweet; sweet + -er"
   },
   "grow": {
    "pos": "동사",
-   "ko": "자라다"
+   "ko": "자라다",
+   "en": "to get bigger"
   },
   "work": {
    "pos": "동사",
-   "ko": "일하다"
+   "ko": "일하다",
+   "en": "to do a job"
   },
   "dark": {
    "pos": "명사",
-   "ko": "어두움, 해 진 뒤"
+   "ko": "어두움, 해 진 뒤",
+   "en": "when there is no light"
   },
   "second": {
    "pos": "형용사",
-   "ko": "두 번째의, 또 하나의"
+   "ko": "두 번째의, 또 하나의",
+   "en": "number two; one more"
   },
   "cup": {
    "pos": "명사",
-   "ko": "잔, 컵"
+   "ko": "잔, 컵",
+   "en": "a small container for drinks"
   },
   "tea": {
    "pos": "명사",
-   "ko": "차"
+   "ko": "차",
+   "en": "a hot drink made from leaves"
   },
   "case": {
    "pos": "명사",
-   "ko": "(in case) 혹시 모를 경우"
+   "ko": "(in case) 혹시 모를 경우",
+   "en": "(in case) if it happens"
   },
   "stay": {
    "pos": "동사",
-   "ko": "머무르다"
+   "ko": "머무르다",
+   "en": "to not leave"
   },
   "longer": {
    "pos": "부사",
-   "ko": "더 오래 — long의 비교급"
+   "ko": "더 오래 — long의 비교급",
+   "en": "more long; long + -er"
   },
   "july": {
    "pos": "명사",
-   "ko": "7월"
+   "ko": "7월",
+   "en": "the seventh month"
   },
   "own": {
    "pos": "형용사",
-   "ko": "자기 자신의"
+   "ko": "자기 자신의",
+   "en": "belonging to yourself"
   },
   "key": {
    "pos": "명사",
-   "ko": "열쇠"
+   "ko": "열쇠",
+   "en": "a metal thing that opens locks"
   },
   "early": {
    "pos": "형용사",
-   "ko": "이른"
+   "ko": "이른",
+   "en": "before the usual time"
   },
   "mornings": {
    "pos": "명사",
-   "ko": "아침들 — morning의 복수"
+   "ko": "아침들 — morning의 복수",
+   "en": "more than one morning"
   },
   "neighbors": {
    "pos": "명사",
-   "ko": "이웃들 — neighbor의 복수"
+   "ko": "이웃들 — neighbor의 복수",
+   "en": "people living next to you"
   },
   "notice": {
    "pos": "동사",
-   "ko": "알아차리다"
+   "ko": "알아차리다",
+   "en": "to see and pay attention"
   },
   "looked": {
    "pos": "동사",
-   "ko": "보였다 — look의 과거"
+   "ko": "보였다 — look의 과거",
+   "en": "past of look; seemed"
   },
   "happy": {
    "pos": "형용사",
-   "ko": "행복한"
+   "ko": "행복한",
+   "en": "feeling good"
   },
   "spend": {
    "pos": "동사",
-   "ko": "(시간을) 보내다"
+   "ko": "(시간을) 보내다",
+   "en": "to use time on something"
   },
   "steamed": {
    "pos": "형용사",
-   "ko": "김이 서린"
+   "ko": "김이 서린",
+   "en": "covered with steam"
   },
   "gift": {
    "pos": "명사",
-   "ko": "재능, 선물"
+   "ko": "재능, 선물",
+   "en": "a natural talent; a present"
   },
   "august": {
    "pos": "명사",
-   "ko": "8월"
+   "ko": "8월",
+   "en": "the eighth month"
   },
   "nobody": {
    "pos": "대명사",
-   "ko": "아무도 ~않다"
+   "ko": "아무도 ~않다",
+   "en": "no person"
   },
   "anything": {
    "pos": "대명사",
-   "ko": "아무것도, 무엇이든"
+   "ko": "아무것도, 무엇이든",
+   "en": "any thing at all"
   },
   "redder": {
    "pos": "형용사",
-   "ko": "더 빨간 — red의 비교급"
+   "ko": "더 빨간 — red의 비교급",
+   "en": "more red; red + -er"
   },
   "weed": {
    "pos": "동사",
-   "ko": "잡초를 뽑다, 김매다"
+   "ko": "잡초를 뽑다, 김매다",
+   "en": "to pull out unwanted plants"
   },
   "steams": {
    "pos": "동사",
-   "ko": "(steam up) 김이 서리다 — steam의 3인칭"
+   "ko": "(steam up) 김이 서리다 — steam의 3인칭",
+   "en": "(steam up) gets misty; steam + -s"
   },
   "insist": {
    "pos": "동사",
-   "ko": "우기다, 고집하다"
+   "ko": "우기다, 고집하다",
+   "en": "to say strongly it is true"
   },
   "were": {
    "pos": "동사",
-   "ko": "~였다 — are의 과거"
+   "ko": "~였다 — are의 과거",
+   "en": "past of are"
   }
  },
  "wink": {
@@ -887,6 +1048,18 @@
   "ripens": "\"Everything ripens faster in here\" — 이 온실에서 빨리 무르익는 게 과일만은 아닐지도 몰라요.",
   "feel": "잘 자랐는지 만져 보라는 평범한 권유예요. 대상이 하필 멜론이라는 게 문제일 뿐이죠. Mrs. Rose의 정원 이야기를 읽었다면 이유를 아실 거예요.",
   "damp": "저녁에 셔츠가 축축해진 건 순전히 온실 노동 때문이에요. 아마도요."
+ },
+ "winkEn": {
+  "greenhouse": "A glass room that turns hot and humid the moment the door closes. The whole story is two people spending the summer inside one. Draw your own conclusions.",
+  "hot": "Yes, it means warm weather. But in English, 'hot' also describes people and moods. So 'I like the heat' can be heard in at least two ways.",
+  "push": "'Push each one in slowly' is flawless seed-planting advice. Just maybe do not read that sentence aloud out of context.",
+  "firm": "Stakes should be firm — that is Gardening 101. Saying 'Is this firm enough for you?' with a straight face is the hard part.",
+  "thirsty": "Plants are not the only things that get thirsty. In modern slang, 'thirsty' also describes someone a little too eager for attention.",
+  "steam": "Fogged-up glass is simple physics. English also says things 'get steamy' when the mood in a room heats up.",
+  "drip": "Watering until every leaf drips is diligent gardening. Somehow the sentence still sounds better in a lower voice.",
+  "ripens": "'Everything ripens faster in here.' Fruit may not be the only thing maturing quickly in this greenhouse.",
+  "feel": "Being invited to feel how much they have grown is a normal gardening moment. It just happens to involve melons. Readers of Mrs. Rose's garden story will understand.",
+  "damp": "Your shirt is damp purely because of honest greenhouse labor. Purely. Probably."
  },
  "introEn": "Mrs. Rose built a glass greenhouse for summer — hotter than July inside.\nPerfectly wholesome gardening. ...on the surface."
 }

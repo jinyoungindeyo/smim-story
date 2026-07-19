@@ -219,711 +219,888 @@
  "dict": {
   "absolutely": {
    "pos": "부사",
-   "ko": "물론이죠, 전적으로"
+   "ko": "물론이죠, 전적으로",
+   "en": "yes, completely; without any doubt"
   },
   "admits": {
    "pos": "동사",
-   "ko": "인정하다 (admit의 3인칭)"
+   "ko": "인정하다 (admit의 3인칭)",
+   "en": "says that something is true"
   },
   "after": {
    "pos": "부사",
-   "ko": "나중에, 끝난 뒤에"
+   "ko": "나중에, 끝난 뒤에",
+   "en": "later, when something is finished"
   },
   "afterwards": {
    "pos": "부사",
-   "ko": "그 후에, 끝나고 나서"
+   "ko": "그 후에, 끝나고 나서",
+   "en": "later; after that"
   },
   "again": {
    "pos": "부사",
-   "ko": "다시, 또"
+   "ko": "다시, 또",
+   "en": "one more time"
   },
   "alex": {
    "pos": "고유명사",
-   "ko": "알렉스 (트레이너 이름)"
+   "ko": "알렉스 (트레이너 이름)",
+   "en": "the trainer's name"
   },
   "alone": {
    "pos": "부사",
-   "ko": "혼자서"
+   "ko": "혼자서",
+   "en": "with no one else"
   },
   "already": {
    "pos": "부사",
-   "ko": "이미, 벌써"
+   "ko": "이미, 벌써",
+   "en": "before now; sooner than expected"
   },
   "although": {
    "pos": "접속사",
-   "ko": "비록 ~이지만"
+   "ko": "비록 ~이지만",
+   "en": "but; even if"
   },
   "announces": {
    "pos": "동사",
-   "ko": "선언하다 (announce의 3인칭)"
+   "ko": "선언하다 (announce의 3인칭)",
+   "en": "says something in a strong, clear way"
   },
   "answer": {
    "pos": "명사",
-   "ko": "답장, 대답"
+   "ko": "답장, 대답",
+   "en": "a reply to a question or message"
   },
   "anything": {
    "pos": "대명사",
-   "ko": "무엇이든"
+   "ko": "무엇이든",
+   "en": "any thing at all"
   },
   "arrive": {
    "pos": "동사",
-   "ko": "도착하다"
+   "ko": "도착하다",
+   "en": "to get to a place"
   },
   "asks": {
    "pos": "동사",
-   "ko": "묻다 (ask의 3인칭)"
+   "ko": "묻다 (ask의 3인칭)",
+   "en": "says a question"
   },
   "asleep": {
    "pos": "형용사",
-   "ko": "잠든 (fall asleep: 잠들다)"
+   "ko": "잠든 (fall asleep: 잠들다)",
+   "en": "sleeping"
   },
   "beating": {
    "pos": "동사",
-   "ko": "(심장이) 뛰다 (beat의 진행형)"
+   "ko": "(심장이) 뛰다 (beat의 진행형)",
+   "en": "moving in a steady rhythm, like a heart"
   },
   "begin": {
    "pos": "동사",
-   "ko": "시작하다"
+   "ko": "시작하다",
+   "en": "to start"
   },
   "bend": {
    "pos": "동사",
-   "ko": "(몸을) 숙이다, 굽히다"
+   "ko": "(몸을) 숙이다, 굽히다",
+   "en": "to lean your body forward or down"
   },
   "book": {
    "pos": "동사",
-   "ko": "예약하다"
+   "ko": "예약하다",
+   "en": "to reserve a time or place"
   },
   "break": {
    "pos": "명사",
-   "ko": "휴식"
+   "ko": "휴식",
+   "en": "a short rest"
   },
   "breaks": {
    "pos": "명사",
-   "ko": "휴식 (break의 복수)"
+   "ko": "휴식 (break의 복수)",
+   "en": "short rests"
   },
   "breathe": {
    "pos": "동사",
-   "ko": "숨을 쉬다"
+   "ko": "숨을 쉬다",
+   "en": "to take air in and out"
   },
   "cannot": {
    "pos": "조동사",
-   "ko": "~할 수 없다"
+   "ko": "~할 수 없다",
+   "en": "can not; not able to"
   },
   "cant": {
    "pos": "축약",
-   "ko": "can not (~할 수 없다)"
+   "ko": "can not (~할 수 없다)",
+   "en": "short for can not"
   },
   "care": {
    "pos": "명사",
-   "ko": "돌봄 (take care of: 잘 챙겨 주다)"
+   "ko": "돌봄 (take care of: 잘 챙겨 주다)",
+   "en": "helping and looking after someone"
   },
   "climbing": {
    "pos": "동사",
-   "ko": "올라가다 (climb의 진행형)"
+   "ko": "올라가다 (climb의 진행형)",
+   "en": "going up"
   },
   "complained": {
    "pos": "동사",
-   "ko": "불평했다 (complain의 과거형)"
+   "ko": "불평했다 (complain의 과거형)",
+   "en": "said you were unhappy about something"
   },
   "correct": {
    "pos": "동사",
-   "ko": "바로잡다, 교정하다"
+   "ko": "바로잡다, 교정하다",
+   "en": "to fix; to make right"
   },
   "count": {
    "pos": "동사",
-   "ko": "(수를) 세다"
+   "ko": "(수를) 세다",
+   "en": "to say numbers one by one"
   },
   "counting": {
    "pos": "동사",
-   "ko": "(수를) 세다 (count의 진행형)"
+   "ko": "(수를) 세다 (count의 진행형)",
+   "en": "saying numbers one by one"
   },
   "deal": {
    "pos": "명사",
-   "ko": "약속, 거래 (Deal: 좋아요, 콜) / a great deal of: 아주 많은"
+   "ko": "약속, 거래 (Deal: 좋아요, 콜) / a great deal of: 아주 많은",
+   "en": "an agreement; okay, let's do it"
   },
   "did": {
    "pos": "동사",
-   "ko": "하다 (do의 과거형)"
+   "ko": "하다 (do의 과거형)",
+   "en": "past form of do"
   },
   "do": {
    "pos": "동사",
-   "ko": "하다"
+   "ko": "하다",
+   "en": "to make or perform an action"
   },
   "does": {
    "pos": "동사",
-   "ko": "하다 (do의 3인칭)"
+   "ko": "하다 (do의 3인칭)",
+   "en": "form of do for he or she"
   },
   "early": {
    "pos": "부사",
-   "ko": "일찍"
+   "ko": "일찍",
+   "en": "before the usual time"
   },
   "end": {
    "pos": "명사",
-   "ko": "끝, 마지막"
+   "ko": "끝, 마지막",
+   "en": "the last part"
   },
   "enjoying": {
    "pos": "동사",
-   "ko": "즐기다 (enjoy의 진행형)"
+   "ko": "즐기다 (enjoy의 진행형)",
+   "en": "having fun with something"
   },
   "evening": {
    "pos": "명사",
-   "ko": "저녁"
+   "ko": "저녁",
+   "en": "the time before night"
   },
   "exactly": {
    "pos": "부사",
-   "ko": "정확히"
+   "ko": "정확히",
+   "en": "in a precise way; just right"
   },
   "exception": {
    "pos": "명사",
-   "ko": "예외"
+   "ko": "예외",
+   "en": "something the rule does not include"
   },
   "explains": {
    "pos": "동사",
-   "ko": "설명하다 (explain의 3인칭)"
+   "ko": "설명하다 (explain의 3인칭)",
+   "en": "makes something clear with words"
   },
   "extremely": {
    "pos": "부사",
-   "ko": "몹시, 극도로"
+   "ko": "몹시, 극도로",
+   "en": "very, very"
   },
   "face": {
    "pos": "명사",
-   "ko": "얼굴"
+   "ko": "얼굴",
+   "en": "the front of your head"
   },
   "fair": {
    "pos": "형용사",
-   "ko": "공정한 (fair warning: 미리 하는 경고)"
+   "ko": "공정한 (fair warning: 미리 하는 경고)",
+   "en": "honest; fair warning means early warning"
   },
   "fall": {
    "pos": "동사",
-   "ko": "~하게 되다 (fall asleep: 잠들다)"
+   "ko": "~하게 되다 (fall asleep: 잠들다)",
+   "en": "fall asleep means start sleeping"
   },
   "fast": {
    "pos": "부사",
-   "ko": "빠르게"
+   "ko": "빠르게",
+   "en": "quickly"
   },
   "feel": {
    "pos": "동사",
-   "ko": "느끼다"
+   "ko": "느끼다",
+   "en": "to sense something in your body"
   },
   "final": {
    "pos": "형용사",
-   "ko": "마지막의"
+   "ko": "마지막의",
+   "en": "last"
   },
   "find": {
    "pos": "동사",
-   "ko": "찾다, 알아내다"
+   "ko": "찾다, 알아내다",
+   "en": "to discover or learn"
   },
   "finds": {
    "pos": "동사",
-   "ko": "(어느새) 데려다 놓다, 찾다 (find의 3인칭)"
+   "ko": "(어느새) 데려다 놓다, 찾다 (find의 3인칭)",
+   "en": "brings you to a place"
   },
   "fine": {
    "pos": "감탄사",
-   "ko": "좋아요, 알겠어요"
+   "ko": "좋아요, 알겠어요",
+   "en": "okay; all right"
   },
   "finish": {
    "pos": "동사",
-   "ko": "끝내다"
+   "ko": "끝내다",
+   "en": "to end; to complete"
   },
   "firmly": {
    "pos": "부사",
-   "ko": "단단히, 확실하게"
+   "ko": "단단히, 확실하게",
+   "en": "in a strong, steady way"
   },
   "fix": {
    "pos": "동사",
-   "ko": "고치다, 바로잡다"
+   "ko": "고치다, 바로잡다",
+   "en": "to make something right"
   },
   "flexibility": {
    "pos": "명사",
-   "ko": "유연성"
+   "ko": "유연성",
+   "en": "how easily your body bends"
   },
   "flexible": {
    "pos": "형용사",
-   "ko": "유연한"
+   "ko": "유연한",
+   "en": "able to bend easily"
   },
   "flips": {
    "pos": "동사",
-   "ko": "뒤집다 (flip의 3인칭)"
+   "ko": "뒤집다 (flip의 3인칭)",
+   "en": "turns something over"
   },
   "form": {
    "pos": "명사",
-   "ko": "자세, 폼"
+   "ko": "자세, 폼",
+   "en": "the way your body moves in exercise"
   },
   "forward": {
    "pos": "부사",
-   "ko": "앞으로"
+   "ko": "앞으로",
+   "en": "toward the front"
   },
   "get": {
    "pos": "동사",
-   "ko": "이르다, 도달하다 (get to: ~에 이르다)"
+   "ko": "이르다, 도달하다 (get to: ~에 이르다)",
+   "en": "to reach a place or point"
   },
   "great": {
    "pos": "형용사",
-   "ko": "좋아요, 훌륭한"
+   "ko": "좋아요, 훌륭한",
+   "en": "very good; wonderful"
   },
   "grins": {
    "pos": "동사",
-   "ko": "씩 웃다 (grin의 3인칭)"
+   "ko": "씩 웃다 (grin의 3인칭)",
+   "en": "smiles in a big, playful way"
   },
   "groan": {
    "pos": "동사",
-   "ko": "끙 하고 소리를 내다"
+   "ko": "끙 하고 소리를 내다",
+   "en": "to make a low, tired sound"
   },
   "guide": {
    "pos": "동사",
-   "ko": "이끌다, 잡아 주다"
+   "ko": "이끌다, 잡아 주다",
+   "en": "to lead or show the way"
   },
   "gym": {
    "pos": "명사",
-   "ko": "헬스장"
+   "ko": "헬스장",
+   "en": "a place for exercise"
   },
   "had": {
    "pos": "동사",
-   "ko": "가지고 있었다 (have의 과거형)"
+   "ko": "가지고 있었다 (have의 과거형)",
+   "en": "past form of have"
   },
   "handing": {
    "pos": "동사",
-   "ko": "건네주다 (hand의 진행형)"
+   "ko": "건네주다 (hand의 진행형)",
+   "en": "giving with your hand"
   },
   "handson": {
    "pos": "형용사",
-   "ko": "직접 손으로 지도하는 (hands-on)"
+   "ko": "직접 손으로 지도하는 (hands-on)",
+   "en": "using your hands directly to teach"
   },
   "hips": {
    "pos": "명사",
-   "ko": "골반, 엉덩이 양옆"
+   "ko": "골반, 엉덩이 양옆",
+   "en": "the wide part below your waist"
   },
   "hour": {
    "pos": "명사",
-   "ko": "시간 (60분)"
+   "ko": "시간 (60분)",
+   "en": "sixty minutes"
   },
   "hundred": {
    "pos": "명사",
-   "ko": "백(100)"
+   "ko": "백(100)",
+   "en": "the number 100"
   },
   "kind": {
    "pos": "명사",
-   "ko": "종류 (that kind of talk: 그런 말)"
+   "ko": "종류 (that kind of talk: 그런 말)",
+   "en": "a type or sort"
   },
   "know": {
    "pos": "동사",
-   "ko": "알다"
+   "ko": "알다",
+   "en": "to have information in your mind"
   },
   "knowing": {
    "pos": "형용사",
-   "ko": "다 안다는 듯한"
+   "ko": "다 안다는 듯한",
+   "en": "showing you understand a secret"
   },
   "last": {
    "pos": "형용사",
-   "ko": "마지막의"
+   "ko": "마지막의",
+   "en": "coming at the end; final"
   },
   "leans": {
    "pos": "동사",
-   "ko": "몸을 기울이다 (lean의 3인칭)"
+   "ko": "몸을 기울이다 (lean의 3인칭)",
+   "en": "moves the body toward something"
   },
   "legs": {
    "pos": "명사",
-   "ko": "다리 (leg의 복수)"
+   "ko": "다리 (leg의 복수)",
+   "en": "the parts of your body for walking"
   },
   "lesson": {
    "pos": "명사",
-   "ko": "수업, 레슨"
+   "ko": "수업, 레슨",
+   "en": "a class where you learn"
   },
   "let": {
    "pos": "동사",
-   "ko": "~하게 두다"
+   "ko": "~하게 두다",
+   "en": "to allow"
   },
   "lets": {
    "pos": "축약",
-   "ko": "let's = let us (~하자)"
+   "ko": "let's = let us (~하자)",
+   "en": "short for let us"
   },
   "likes": {
    "pos": "동사",
-   "ko": "좋아하다 (like의 3인칭)"
+   "ko": "좋아하다 (like의 3인칭)",
+   "en": "enjoys; feels good about"
   },
   "looking": {
    "pos": "동사",
-   "ko": "보다 (look의 진행형)"
+   "ko": "보다 (look의 진행형)",
+   "en": "using your eyes to see"
   },
   "loosen": {
    "pos": "동사",
-   "ko": "풀어 주다"
+   "ko": "풀어 주다",
+   "en": "to make less tight"
   },
   "lots": {
    "pos": "명사",
-   "ko": "많음 (lots of: 아주 많은)"
+   "ko": "많음 (lots of: 아주 많은)",
+   "en": "a large amount; many"
   },
   "lower": {
    "pos": "부사",
-   "ko": "더 낮게"
+   "ko": "더 낮게",
+   "en": "closer to the ground; further down"
   },
   "make": {
    "pos": "동사",
-   "ko": "만들다 (make an exception: 예외를 두다)"
+   "ko": "만들다 (make an exception: 예외를 두다)",
+   "en": "to create; make an exception means allow"
   },
   "maybe": {
    "pos": "부사",
-   "ko": "어쩌면, 아마"
+   "ko": "어쩌면, 아마",
+   "en": "possibly; perhaps"
   },
   "mean": {
    "pos": "동사",
-   "ko": "의미하다"
+   "ko": "의미하다",
+   "en": "to have as a meaning"
   },
   "means": {
    "pos": "동사",
-   "ko": "의미하다 (mean의 3인칭)"
+   "ko": "의미하다 (mean의 3인칭)",
+   "en": "has as a meaning"
   },
   "mercy": {
    "pos": "명사",
-   "ko": "자비, 봐주기 (no mercy: 봐주기 없음)"
+   "ko": "자비, 봐주기 (no mercy: 봐주기 없음)",
+   "en": "kindness to someone in your power"
   },
   "message": {
    "pos": "명사",
-   "ko": "메시지, 문자"
+   "ko": "메시지, 문자",
+   "en": "words you send to someone"
   },
   "might": {
    "pos": "조동사",
-   "ko": "~할지도 모른다"
+   "ko": "~할지도 모른다",
+   "en": "possibly will; may"
   },
   "mine": {
    "pos": "대명사",
-   "ko": "내 것"
+   "ko": "내 것",
+   "en": "belonging to me"
   },
   "monday": {
    "pos": "명사",
-   "ko": "월요일"
+   "ko": "월요일",
+   "en": "the first day of the work week"
   },
   "new": {
    "pos": "형용사",
-   "ko": "새로운"
+   "ko": "새로운",
+   "en": "not old; just started"
   },
   "nobody": {
    "pos": "대명사",
-   "ko": "아무도"
+   "ko": "아무도",
+   "en": "no person"
   },
   "normal": {
    "pos": "형용사",
-   "ko": "정상적인, 보통의"
+   "ko": "정상적인, 보통의",
+   "en": "usual; not strange"
   },
   "observes": {
    "pos": "동사",
-   "ko": "(보고) 말하다, 관찰하다 (observe의 3인칭)"
+   "ko": "(보고) 말하다, 관찰하다 (observe의 3인칭)",
+   "en": "notices and says"
   },
   "only": {
    "pos": "부사",
-   "ko": "그저, ~만"
+   "ko": "그저, ~만",
+   "en": "just; nothing more than"
   },
   "open": {
    "pos": "동사",
-   "ko": "열리다, 펴지다"
+   "ko": "열리다, 펴지다",
+   "en": "to spread out and relax"
   },
   "out": {
    "pos": "부사",
-   "ko": "밖으로, 드러나게 (find out: 알아내다)"
+   "ko": "밖으로, 드러나게 (find out: 알아내다)",
+   "en": "outside; find out means learn"
   },
   "owe": {
    "pos": "동사",
-   "ko": "빚지다 (~해 줘야 한다)"
+   "ko": "빚지다 (~해 줘야 한다)",
+   "en": "to have to give something back"
   },
   "part": {
    "pos": "명사",
-   "ko": "부분 (best part: 제일 좋은 순간)"
+   "ko": "부분 (best part: 제일 좋은 순간)",
+   "en": "one piece of something"
   },
   "patient": {
    "pos": "형용사",
-   "ko": "참을성 있는, 서두르지 않는"
+   "ko": "참을성 있는, 서두르지 않는",
+   "en": "calm and not rushing"
   },
   "perfectly": {
    "pos": "부사",
-   "ko": "완벽하게, 지극히"
+   "ko": "완벽하게, 지극히",
+   "en": "completely; in a perfect way"
   },
   "personal": {
    "pos": "형용사",
-   "ko": "개인의, 1대1의"
+   "ko": "개인의, 1대1의",
+   "en": "for one person only"
   },
   "places": {
    "pos": "명사",
-   "ko": "곳, 부위 (place의 복수)"
+   "ko": "곳, 부위 (place의 복수)",
+   "en": "spots; areas"
   },
   "plan": {
    "pos": "명사",
-   "ko": "계획, 계획표"
+   "ko": "계획, 계획표",
+   "en": "an idea of what to do"
   },
   "position": {
    "pos": "명사",
-   "ko": "자세"
+   "ko": "자세",
+   "en": "the way your body is placed"
   },
   "pounding": {
    "pos": "동사",
-   "ko": "(심장이) 쿵쿵 뛰다 (pound의 진행형)"
+   "ko": "(심장이) 쿵쿵 뛰다 (pound의 진행형)",
+   "en": "beating hard and fast"
   },
   "practice": {
    "pos": "명사",
-   "ko": "연습"
+   "ko": "연습",
+   "en": "doing something many times to improve"
   },
   "pressing": {
    "pos": "동사",
-   "ko": "누르다 (press의 진행형)"
+   "ko": "누르다 (press의 진행형)",
+   "en": "pushing down on something"
   },
   "private": {
    "pos": "형용사",
-   "ko": "개인의, 사적인 (private lesson: 개인 수업)"
+   "ko": "개인의, 사적인 (private lesson: 개인 수업)",
+   "en": "for one person; not public"
   },
   "program": {
    "pos": "명사",
-   "ko": "프로그램"
+   "ko": "프로그램",
+   "en": "a plan of exercises"
   },
   "project": {
    "pos": "명사",
-   "ko": "프로젝트, 과제"
+   "ko": "프로젝트, 과제",
+   "en": "a piece of planned work"
   },
   "promise": {
    "pos": "동사",
-   "ko": "약속하다"
+   "ko": "약속하다",
+   "en": "to say you will surely do something"
   },
   "proud": {
    "pos": "형용사",
-   "ko": "뿌듯한, 자랑스러운"
+   "ko": "뿌듯한, 자랑스러운",
+   "en": "feeling good about what you did"
   },
   "purely": {
    "pos": "부사",
-   "ko": "순전히, 오로지"
+   "ko": "순전히, 오로지",
+   "en": "only; for no other reason"
   },
   "push": {
    "pos": "동사",
-   "ko": "밀어붙이다, 버텨 내다"
+   "ko": "밀어붙이다, 버텨 내다",
+   "en": "to keep going even when hard"
   },
   "rate": {
    "pos": "명사",
-   "ko": "수치, 속도 (heart rate: 심박수)"
+   "ko": "수치, 속도 (heart rate: 심박수)",
+   "en": "how fast something happens"
   },
   "read": {
    "pos": "동사",
-   "ko": "읽다"
+   "ko": "읽다",
+   "en": "to look at words and understand"
   },
   "reads": {
    "pos": "동사",
-   "ko": "읽다 (read의 3인칭)"
+   "ko": "읽다 (read의 3인칭)",
+   "en": "looks at words and understands"
   },
   "ready": {
    "pos": "형용사",
-   "ko": "준비된"
+   "ko": "준비된",
+   "en": "prepared to do something"
   },
   "refuse": {
    "pos": "동사",
-   "ko": "거부하다"
+   "ko": "거부하다",
+   "en": "to say no"
   },
   "rest": {
    "pos": "동사",
-   "ko": "얹히다, 놓이다"
+   "ko": "얹히다, 놓이다",
+   "en": "to sit or lie on something"
   },
   "results": {
    "pos": "명사",
-   "ko": "결과, 성과 (result의 복수)"
+   "ko": "결과, 성과 (result의 복수)",
+   "en": "what happens after work or effort"
   },
   "rushing": {
    "pos": "명사",
-   "ko": "서두름 (no rushing: 서두르지 않기)"
+   "ko": "서두름 (no rushing: 서두르지 않기)",
+   "en": "going too fast; hurrying"
   },
   "same": {
    "pos": "형용사",
-   "ko": "같은"
+   "ko": "같은",
+   "en": "not different"
   },
   "satisfied": {
    "pos": "형용사",
-   "ko": "만족스러운"
+   "ko": "만족스러운",
+   "en": "pleased; happy with the result"
   },
   "second": {
    "pos": "명사",
-   "ko": "초 (아주 짧은 순간)"
+   "ko": "초 (아주 짧은 순간)",
+   "en": "a very short moment of time"
   },
   "send": {
    "pos": "동사",
-   "ko": "보내다"
+   "ko": "보내다",
+   "en": "to make a message go to someone"
   },
   "seriously": {
    "pos": "부사",
-   "ko": "진지하게"
+   "ko": "진지하게",
+   "en": "in a real, not joking way"
   },
   "session": {
    "pos": "명사",
-   "ko": "세션, 수업 시간"
+   "ko": "세션, 수업 시간",
+   "en": "one meeting for training"
   },
   "set": {
    "pos": "명사",
-   "ko": "세트 (운동 반복 단위)"
+   "ko": "세트 (운동 반복 단위)",
+   "en": "one group of exercise repeats"
   },
   "shaking": {
    "pos": "동사",
-   "ko": "떨리다 (shake의 진행형)"
+   "ko": "떨리다 (shake의 진행형)",
+   "en": "moving quickly from side to side"
   },
   "shirt": {
    "pos": "명사",
-   "ko": "셔츠, 상의"
+   "ko": "셔츠, 상의",
+   "en": "clothing for your upper body"
   },
   "shoulder": {
    "pos": "명사",
-   "ko": "어깨"
+   "ko": "어깨",
+   "en": "the body part between neck and arm"
   },
   "shower": {
    "pos": "명사",
-   "ko": "샤워"
+   "ko": "샤워",
+   "en": "washing your body under falling water"
   },
   "shows": {
    "pos": "동사",
-   "ko": "드러나다, 보이다 (show의 3인칭)"
+   "ko": "드러나다, 보이다 (show의 3인칭)",
+   "en": "can be seen; appears"
   },
   "sign": {
    "pos": "명사",
-   "ko": "팻말, 표지판"
+   "ko": "팻말, 표지판",
+   "en": "a board with words on it"
   },
   "single": {
    "pos": "형용사",
-   "ko": "하나하나의 (every single: 단 하나도 빠짐없이)"
+   "ko": "하나하나의 (every single: 단 하나도 빠짐없이)",
+   "en": "every single means each one"
   },
   "slower": {
    "pos": "부사",
-   "ko": "더 천천히"
+   "ko": "더 천천히",
+   "en": "less fast"
   },
   "slowly": {
    "pos": "부사",
-   "ko": "천천히"
+   "ko": "천천히",
+   "en": "not fast"
   },
   "smiling": {
    "pos": "동사",
-   "ko": "미소 짓다 (smile의 진행형)"
+   "ko": "미소 짓다 (smile의 진행형)",
+   "en": "making a happy face"
   },
   "smoothly": {
    "pos": "부사",
-   "ko": "부드럽게, 능청스럽게"
+   "ko": "부드럽게, 능청스럽게",
+   "en": "in an easy, confident way"
   },
   "sore": {
    "pos": "형용사",
-   "ko": "(근육이) 뻐근한, 알이 배긴"
+   "ko": "(근육이) 뻐근한, 알이 배긴",
+   "en": "hurting after hard exercise"
   },
   "squats": {
    "pos": "명사",
-   "ko": "스쿼트 (squat의 복수)"
+   "ko": "스쿼트 (squat의 복수)",
+   "en": "exercises where you bend your knees"
   },
   "start": {
    "pos": "동사",
-   "ko": "시작하다"
+   "ko": "시작하다",
+   "en": "to begin"
   },
   "steps": {
    "pos": "동사",
-   "ko": "다가서다 (step의 3인칭)"
+   "ko": "다가서다 (step의 3인칭)",
+   "en": "moves closer on foot"
   },
   "stiff": {
    "pos": "형용사",
-   "ko": "뻣뻣한, 굳은"
+   "ko": "뻣뻣한, 굳은",
+   "en": "hard to bend or move"
   },
   "strangely": {
    "pos": "부사",
-   "ko": "이상하게, 묘하게"
+   "ko": "이상하게, 묘하게",
+   "en": "in an odd, surprising way"
   },
   "stretch": {
    "pos": "동사",
-   "ko": "스트레칭하다, 몸을 늘이다"
+   "ko": "스트레칭하다, 몸을 늘이다",
+   "en": "to make your body long and loose"
   },
   "stretching": {
    "pos": "명사",
-   "ko": "스트레칭"
+   "ko": "스트레칭",
+   "en": "exercises that loosen your muscles"
   },
   "style": {
    "pos": "명사",
-   "ko": "스타일, 방식"
+   "ko": "스타일, 방식",
+   "en": "a special way of doing things"
   },
   "sweat": {
    "pos": "동사·명사",
-   "ko": "땀을 흘리다; 땀"
+   "ko": "땀을 흘리다; 땀",
+   "en": "water your skin makes when working hard"
   },
   "tell": {
    "pos": "동사",
-   "ko": "말하다"
+   "ko": "말하다",
+   "en": "to say something to someone"
   },
   "tight": {
    "pos": "형용사",
-   "ko": "(근육이) 뭉친, 뻣뻣한"
+   "ko": "(근육이) 뭉친, 뻣뻣한",
+   "en": "stiff and hard to loosen"
   },
   "times": {
    "pos": "명사",
-   "ko": "번, 횟수 (time의 복수)"
+   "ko": "번, 횟수 (time의 복수)",
+   "en": "more than one time"
   },
   "tomorrow": {
    "pos": "부사",
-   "ko": "내일"
+   "ko": "내일",
+   "en": "the day after today"
   },
   "tonight": {
    "pos": "부사",
-   "ko": "오늘 밤"
+   "ko": "오늘 밤",
+   "en": "this night"
   },
   "towel": {
    "pos": "명사",
-   "ko": "수건"
+   "ko": "수건",
+   "en": "a cloth for drying your body"
   },
   "trainer": {
    "pos": "명사",
-   "ko": "트레이너"
+   "ko": "트레이너",
+   "en": "a person who teaches exercise"
   },
   "training": {
    "pos": "명사",
-   "ko": "트레이닝, 훈련"
+   "ko": "트레이닝, 훈련",
+   "en": "learning and practicing exercise"
   },
   "trust": {
    "pos": "동사",
-   "ko": "믿다"
+   "ko": "믿다",
+   "en": "to believe someone is good and honest"
   },
   "twice": {
    "pos": "부사",
-   "ko": "두 번"
+   "ko": "두 번",
+   "en": "two times"
   },
   "us": {
    "pos": "대명사",
-   "ko": "우리를 (the two of us: 우리 둘)"
+   "ko": "우리를 (the two of us: 우리 둘)",
+   "en": "you and me"
   },
   "want": {
    "pos": "동사",
-   "ko": "원하다"
+   "ko": "원하다",
+   "en": "to wish for something"
   },
   "warning": {
    "pos": "명사",
-   "ko": "경고, 예고"
+   "ko": "경고, 예고",
+   "en": "words that tell of coming danger"
   },
   "watch": {
    "pos": "명사",
-   "ko": "시계 (스마트워치)"
+   "ko": "시계 (스마트워치)",
+   "en": "a small clock on your wrist"
   },
   "we": {
    "pos": "대명사",
-   "ko": "우리는"
+   "ko": "우리는",
+   "en": "you and I"
   },
   "week": {
    "pos": "명사",
-   "ko": "주, 일주일"
+   "ko": "주, 일주일",
+   "en": "seven days"
   },
   "welcome": {
    "pos": "감탄사",
-   "ko": "환영해요, 어서 와요"
+   "ko": "환영해요, 어서 와요",
+   "en": "a friendly hello to a guest"
   },
   "which": {
    "pos": "대명사",
-   "ko": "그것은 (앞 내용을 받는 관계대명사)"
+   "ko": "그것은 (앞 내용을 받는 관계대명사)",
+   "en": "a word that points back to something"
   },
   "why": {
    "pos": "부사",
-   "ko": "왜, 이유"
+   "ko": "왜, 이유",
+   "en": "for what reason"
   },
   "work": {
    "pos": "동사",
-   "ko": "운동하다, 일하다 (work up a sweat: 땀을 빼다)"
+   "ko": "운동하다, 일하다 (work up a sweat: 땀을 빼다)",
+   "en": "to exercise hard; to do a job"
   },
   "worked": {
    "pos": "동사",
-   "ko": "효과가 있었다 (work의 과거형)"
+   "ko": "효과가 있었다 (work의 과거형)",
+   "en": "gave good results"
   },
   "wrote": {
    "pos": "동사",
-   "ko": "썼다, (계획을) 짰다 (write의 과거형)"
+   "ko": "썼다, (계획을) 짰다 (write의 과거형)",
+   "en": "past form of write"
   }
  },
  "wink": {
@@ -937,27 +1114,42 @@
   "sore": "다음 날 찾아오는 뻐근한 근육통이에요. 물론 몸이 뻐근해지는 이유가 운동만 있는 건 아니라고들 하죠.",
   "comes": "'오다'라는 평범한 동사예요. '제일 좋은 건 마지막에 온다'는 운동의 오랜 격언이죠. 운동만의 격언은 아니라고들 하지만요."
  },
+ "winkEn": {
+  "handson": "A perfectly respectable teaching method — using your hands. Alex just takes it unusually seriously.",
+  "stretch": "A warm-up that prepares the body. What exactly it is preparing for is left to your imagination.",
+  "tight": "It just means stiff muscles. It is your first time, after all — or so the trainer says.",
+  "position": "A simple exercise stance. Though a trainer saying he has 'done this position a hundred times' lands a little differently.",
+  "flexibility": "Essential for exercise, of course. People say it comes in handy elsewhere, too.",
+  "sweat": "Proof of an honest workout. Though exercise is hardly the only way to work one up.",
+  "set": "'One more set' is classic gym talk. It has been heard in other rooms as well.",
+  "sore": "That next-day muscle ache. Though, as they say, workouts are not the only thing that leaves you feeling it.",
+  "comes": "A perfectly innocent verb. 'The best part comes at the end' is old gym wisdom — and, some say, not only gym wisdom."
+ },
  "introEn": "Your first personal training session. Very hands-on.\n...strictly professional, of course.",
  "endings": {
   "0": {
    "name": "신중한 모범 회원",
    "en": "You go home, take a long warm shower, and stretch alone, slowly and carefully. The next morning you are sore, but strangely proud. You book the same lesson again — and this time you read the whole program first.",
-   "ko": "집에 돌아와 따뜻한 물로 오래 샤워하고, 혼자서 천천히 조심조심 스트레칭을 해요. 다음 날 아침엔 몸이 뻐근하지만 이상하게 뿌듯하죠. 같은 수업을 다시 예약해요 — 이번엔 프로그램을 처음부터 끝까지 먼저 읽어 보고요."
+   "ko": "집에 돌아와 따뜻한 물로 오래 샤워하고, 혼자서 천천히 조심조심 스트레칭을 해요. 다음 날 아침엔 몸이 뻐근하지만 이상하게 뿌듯하죠. 같은 수업을 다시 예약해요 — 이번엔 프로그램을 처음부터 끝까지 먼저 읽어 보고요.",
+   "nameEn": "The Careful Model Member"
   },
   "1": {
    "name": "호기심 많은 새내기",
    "en": "You walk home slowly, smiling at nothing. The next day you are sore in places you did not know you had. Still, you book next Monday — purely for the exercise, you tell yourself.",
-   "ko": "천천히 집으로 걸어가며 괜히 혼자 웃어요. 다음 날엔 있는 줄도 몰랐던 곳까지 뻐근하죠. 그래도 다음 주 월요일을 예약해요 — 순전히 운동 때문이라고, 스스로에게 말하면서요."
+   "ko": "천천히 집으로 걸어가며 괜히 혼자 웃어요. 다음 날엔 있는 줄도 몰랐던 곳까지 뻐근하죠. 그래도 다음 주 월요일을 예약해요 — 순전히 운동 때문이라고, 스스로에게 말하면서요.",
+   "nameEn": "The Curious Beginner"
   },
   "2": {
    "name": "은근히 과감한 수강생",
    "en": "That night you send Alex a message: \"Same time next week. And this time, don't be gentle.\" His answer arrives in one second: \"Deal.\" You fall asleep smiling, already counting the days.",
-   "ko": "그날 밤 알렉스에게 메시지를 보내요. \"다음 주 같은 시간에요. 그리고 이번엔 살살하지 말아요.\" 답장은 1초 만에 도착하죠. \"콜.\" 벌써 남은 날을 세면서, 웃는 얼굴로 잠들어요."
+   "ko": "그날 밤 알렉스에게 메시지를 보내요. \"다음 주 같은 시간에요. 그리고 이번엔 살살하지 말아요.\" 답장은 1초 만에 도착하죠. \"콜.\" 벌써 남은 날을 세면서, 웃는 얼굴로 잠들어요.",
+   "nameEn": "The Quietly Bold Student"
   },
   "3": {
    "name": "겁 없는 에이스",
    "en": "Next Monday you arrive early and hand Alex a plan you wrote yourself: every set, no breaks, no mercy. He reads it twice and smiles very slowly. Then he flips the sign on the door: private lesson.",
-   "ko": "다음 주 월요일, 일찍 도착해서 직접 짠 계획표를 알렉스에게 건네요. 전 세트, 휴식 없음, 봐주기 없음. 그는 두 번 읽어 보더니 아주 천천히 웃어요. 그러고는 문에 걸린 팻말을 뒤집죠 — \"개인 수업 중\"."
+   "ko": "다음 주 월요일, 일찍 도착해서 직접 짠 계획표를 알렉스에게 건네요. 전 세트, 휴식 없음, 봐주기 없음. 그는 두 번 읽어 보더니 아주 천천히 웃어요. 그러고는 문에 걸린 팻말을 뒤집죠 — \"개인 수업 중\".",
+   "nameEn": "The Fearless Ace"
   }
  }
 }

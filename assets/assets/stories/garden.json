@@ -17,21 +17,25 @@
  "endings": {
   "0": {
    "name": "수줍은 새싹",
+   "nameEn": "The Shy Sprout",
    "en": "A week later, you wave at Mrs. Rose over the fence, but you stay on your side. Every Sunday she leaves a bag of vegetables at your door. Some gardens, you think, are best enjoyed from a safe distance.",
    "ko": "일주일 뒤, 당신은 울타리 너머로 Rose 부인에게 손만 흔들어요. 부인은 일요일마다 문 앞에 채소 한 봉지를 놓고 가요. 어떤 정원은 안전한 거리에서 즐기는 게 제일 좋다고, 당신은 생각해요."
   },
   "1": {
    "name": "성실한 견습생",
+   "nameEn": "The Diligent Apprentice",
    "en": "The next weekend, you visit the garden again, but only to water the flowers. Mrs. Rose teaches you slowly, one small step at a time. \"You are a careful student,\" she says, \"and my garden likes careful hands.\"",
    "ko": "다음 주말, 당신은 다시 정원을 찾지만 꽃에 물만 줘요. Rose 부인은 한 걸음씩 천천히 가르쳐 줘요. \"당신은 신중한 학생이에요. 우리 정원은 신중한 손을 좋아하죠.\" 부인이 말해요."
   },
   "2": {
    "name": "손끝 야무진 일꾼",
+   "nameEn": "The Deft-Handed Worker",
    "en": "Every weekend, you come back to help in the garden. Each visit, you dig a little deeper and stay a little longer. \"You learn fast,\" Mrs. Rose smiles. \"Soon you will not need a teacher at all.\"",
    "ko": "당신은 주말마다 정원 일을 도우러 다시 와요. 갈 때마다 조금 더 깊이 파고, 조금 더 오래 머물러요. \"배움이 빠르네요. 곧 선생님이 필요 없겠어요.\" Rose 부인이 웃으며 말해요."
   },
   "3": {
    "name": "소문난 밤의 일손",
+   "nameEn": "The Legendary Night Hand",
    "en": "By summer, the whole village talks about Mrs. Rose and her garden — it has never looked so alive. She tells her friends you have the strongest hands in town. And the neighbors notice one small thing: her garden gate is never locked anymore — day or night.",
    "ko": "여름이 되자 온 마을이 Rose 부인과 그 정원 이야기를 해요. 정원이 이렇게 생기 넘친 적이 없었거든요. 부인은 친구들에게 당신이 마을에서 손힘이 제일 좋다고 자랑해요. 그리고 이웃들은 작은 변화 하나를 눈치채요. 부인네 정원 문이 이제 밤에도 잠겨 있지 않다는 걸요."
   }
@@ -251,163 +255,203 @@
  "dict": {
   "week": {
    "pos": "명사",
-   "ko": "주, 일주일"
+   "ko": "주, 일주일",
+   "en": "seven days"
   },
   "later": {
    "pos": "부사",
-   "ko": "~후에, 나중에"
+   "ko": "~후에, 나중에",
+   "en": "after some time"
   },
   "wave": {
    "pos": "동사",
-   "ko": "손을 흔들다"
+   "ko": "손을 흔들다",
+   "en": "to move your hand to say hello"
   },
   "stay": {
    "pos": "동사",
-   "ko": "머무르다"
+   "ko": "머무르다",
+   "en": "to remain in a place"
   },
   "side": {
    "pos": "명사",
-   "ko": "쪽, 편"
+   "ko": "쪽, 편",
+   "en": "one part of a place"
   },
   "sunday": {
    "pos": "명사",
-   "ko": "일요일"
+   "ko": "일요일",
+   "en": "the last day of the weekend"
   },
   "bag": {
    "pos": "명사",
-   "ko": "봉지"
+   "ko": "봉지",
+   "en": "a soft container for carrying things"
   },
   "some": {
    "pos": "형용사",
-   "ko": "어떤, 몇몇의"
+   "ko": "어떤, 몇몇의",
+   "en": "a few, not all"
   },
   "gardens": {
    "pos": "명사",
-   "ko": "정원들 — garden의 복수"
+   "ko": "정원들 — garden의 복수",
+   "en": "more than one garden"
   },
   "enjoyed": {
    "pos": "동사",
-   "ko": "즐기다 — enjoy의 과거분사"
+   "ko": "즐기다 — enjoy의 과거분사",
+   "en": "past form of enjoy, to like"
   },
   "safe": {
    "pos": "형용사",
-   "ko": "안전한"
+   "ko": "안전한",
+   "en": "free from danger"
   },
   "distance": {
    "pos": "명사",
-   "ko": "거리"
+   "ko": "거리",
+   "en": "the space between two places"
   },
   "weekend": {
    "pos": "명사",
-   "ko": "주말"
+   "ko": "주말",
+   "en": "Saturday and Sunday"
   },
   "visit": {
    "pos": "동사",
-   "ko": "방문(하다)"
+   "ko": "방문(하다)",
+   "en": "to go see a person or place"
   },
   "again": {
    "pos": "부사",
-   "ko": "다시"
+   "ko": "다시",
+   "en": "one more time"
   },
   "only": {
    "pos": "부사",
-   "ko": "오직, ~만"
+   "ko": "오직, ~만",
+   "en": "just, and nothing more"
   },
   "flowers": {
    "pos": "명사",
-   "ko": "꽃들 — flower의 복수"
+   "ko": "꽃들 — flower의 복수",
+   "en": "more than one flower"
   },
   "teaches": {
    "pos": "동사",
-   "ko": "가르치다 — teach의 3인칭"
+   "ko": "가르치다 — teach의 3인칭",
+   "en": "helps someone learn, from teach"
   },
   "slowly": {
    "pos": "부사",
-   "ko": "천천히"
+   "ko": "천천히",
+   "en": "not fast"
   },
   "student": {
    "pos": "명사",
-   "ko": "학생"
+   "ko": "학생",
+   "en": "a person who is learning"
   },
   "likes": {
    "pos": "동사",
-   "ko": "좋아하다 — like의 3인칭"
+   "ko": "좋아하다 — like의 3인칭",
+   "en": "enjoys, from like"
   },
   "each": {
    "pos": "형용사",
-   "ko": "각각의, 매 ~마다"
+   "ko": "각각의, 매 ~마다",
+   "en": "every one, one by one"
   },
   "longer": {
    "pos": "부사",
-   "ko": "더 오래 — long의 비교급"
+   "ko": "더 오래 — long의 비교급",
+   "en": "for more time, from long"
   },
   "fast": {
    "pos": "부사",
-   "ko": "빨리"
+   "ko": "빨리",
+   "en": "quickly, at high speed"
   },
   "soon": {
    "pos": "부사",
-   "ko": "곧"
+   "ko": "곧",
+   "en": "in a short time"
   },
   "teacher": {
    "pos": "명사",
-   "ko": "선생님"
+   "ko": "선생님",
+   "en": "a person who helps you learn"
   },
   "summer": {
    "pos": "명사",
-   "ko": "여름"
+   "ko": "여름",
+   "en": "the hot season of the year"
   },
   "looked": {
    "pos": "동사",
-   "ko": "~해 보였다 — look의 과거"
+   "ko": "~해 보였다 — look의 과거",
+   "en": "seemed, past form of look"
   },
   "alive": {
    "pos": "형용사",
-   "ko": "생기 넘치는, 살아 있는"
+   "ko": "생기 넘치는, 살아 있는",
+   "en": "living and full of life"
   },
   "friends": {
    "pos": "명사",
-   "ko": "친구들 — friend의 복수"
+   "ko": "친구들 — friend의 복수",
+   "en": "people you know and like well"
   },
   "strongest": {
    "pos": "형용사",
-   "ko": "가장 힘센 — strong의 최상급"
+   "ko": "가장 힘센 — strong의 최상급",
+   "en": "most strong"
   },
   "neighbors": {
    "pos": "명사",
-   "ko": "이웃들 — neighbor의 복수"
+   "ko": "이웃들 — neighbor의 복수",
+   "en": "people who live near you"
   },
   "notice": {
    "pos": "동사",
-   "ko": "알아차리다, 눈치채다"
+   "ko": "알아차리다, 눈치채다",
+   "en": "to see and become aware of"
   },
   "gate": {
    "pos": "명사",
-   "ko": "문, 대문"
+   "ko": "문, 대문",
+   "en": "a door in a fence"
   },
   "locked": {
    "pos": "형용사",
-   "ko": "잠긴"
+   "ko": "잠긴",
+   "en": "closed with a key"
   },
   "anymore": {
    "pos": "부사",
-   "ko": "(부정문에서) 더는, 이제는"
+   "ko": "(부정문에서) 더는, 이제는",
+   "en": "no longer, not now"
   },
   "want": {
    "pos": "동사",
-   "ko": "원하다, ~하고 싶다"
+   "ko": "원하다, ~하고 싶다",
+   "en": "to wish for something"
   },
   "do": {
    "pos": "동사",
-   "ko": "하다"
+   "ko": "하다",
+   "en": "to perform an action"
   },
   "may": {
    "pos": "조동사",
-   "ko": "~해도 될까요 (정중한 허락)"
+   "ko": "~해도 될까요 (정중한 허락)",
+   "en": "a polite word to ask permission"
   },
   "or": {
    "pos": "접속사",
-   "ko": "또는, ~이든"
+   "ko": "또는, ~이든",
+   "en": "a word for choosing between things"
   }
  },
  "introEn": "Helping Mrs. Rose with her garden. Perfectly wholesome.\n...on the surface. Tap words to see the hidden meaning."

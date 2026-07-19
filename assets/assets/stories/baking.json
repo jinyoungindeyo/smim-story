@@ -17,21 +17,25 @@
  "endings": {
   "0": {
    "name": "수줍은 견습생",
+   "nameEn": "The Shy Apprentice",
    "en": "At home, you eat one warm bun with a cup of tea and save some for tomorrow. All week, you practice quietly in your own kitchen, just you and the dough. Next Saturday, you arrive early and take a seat in the back row.",
    "ko": "집에 와서 따뜻한 번 하나를 차 한 잔과 함께 먹고, 나머지는 내일 몫으로 아껴 둬요. 일주일 내내 집 부엌에서 조용히 연습해요. 반죽과 단둘이서요. 다음 토요일엔 일찍 도착해서 뒷줄 자리에 앉아요."
   },
   "1": {
    "name": "신중한 모범생",
+   "nameEn": "The Careful Model Student",
    "en": "Every Saturday, you take the same seat in the middle row and follow each step exactly the way Miss Sugar shows you. Your bread rises a little higher every week. \"Good hands learn fast,\" she says, and you almost believe her.",
    "ko": "매주 토요일, 가운데 줄 같은 자리에 앉아 미스 슈가가 보여 주는 대로 한 단계씩 정확히 따라 해요. 빵은 매주 조금씩 더 높이 부풀어요. \"좋은 손은 빨리 배워요\"라고 선생님이 말하는데, 이제 거의 믿을 것 같아요."
   },
   "2": {
    "name": "리듬을 아는 제빵사",
+   "nameEn": "The Baker Who Knows the Rhythm",
    "en": "The next week, you bring your own apron and take the table closest to Miss Sugar. \"Someone came ready,\" she says with a smile. Your dough rises faster than all the others, and you both pretend not to notice.",
    "ko": "다음 주엔 앞치마까지 챙겨 가서 미스 슈가와 가장 가까운 작업대를 골라요. \"준비하고 왔네요.\" 선생님이 웃으며 말해요. 당신의 반죽은 누구 것보다 빨리 부풀고, 두 사람 다 모르는 척해요."
   },
   "3": {
    "name": "오븐보다 뜨거운 수강생",
+   "nameEn": "The Student Hotter Than the Oven",
    "en": "A month later, you are Miss Sugar's private student, and the evening classes are just the two of you. The little kitchen gets hotter every week, and she says you never get used to the heat. You are no longer sure she is talking about the oven.",
    "ko": "한 달 뒤, 당신은 미스 슈가의 개인 수강생이 돼요. 저녁 수업은 단둘뿐이고, 작은 주방은 매주 더 뜨거워져요. 열기엔 절대 익숙해지지 않는다고 선생님은 말하는데, 그게 정말 오븐 얘기인지 이제 잘 모르겠어요."
   }
@@ -239,723 +243,903 @@
  "dict": {
   "absolutely": {
    "pos": "부사",
-   "ko": "완전히, 그야말로"
+   "ko": "완전히, 그야말로",
+   "en": "completely; totally"
   },
   "after": {
    "pos": "전치사",
-   "ko": "~후에"
+   "ko": "~후에",
+   "en": "later than; following"
   },
   "air": {
    "pos": "명사",
-   "ko": "공기"
+   "ko": "공기",
+   "en": "what you breathe"
   },
   "almost": {
    "pos": "부사",
-   "ko": "거의"
+   "ko": "거의",
+   "en": "nearly; not quite"
   },
   "already": {
    "pos": "부사",
-   "ko": "벌써, 이미"
+   "ko": "벌써, 이미",
+   "en": "before now; so soon"
   },
   "announces": {
    "pos": "동사",
-   "ko": "(announce의 3인칭) 알리다, 선언하듯 말하다"
+   "ko": "(announce의 3인칭) 알리다, 선언하듯 말하다",
+   "en": "says in a clear, public way"
   },
   "anything": {
    "pos": "대명사",
-   "ko": "아무것도, 무엇이든"
+   "ko": "아무것도, 무엇이든",
+   "en": "any thing at all"
   },
   "approvingly": {
    "pos": "부사",
-   "ko": "흡족한 듯이"
+   "ko": "흡족한 듯이",
+   "en": "showing that you like it"
   },
   "apron": {
    "pos": "명사",
-   "ko": "앞치마"
+   "ko": "앞치마",
+   "en": "cloth worn to keep clothes clean"
   },
   "arrive": {
    "pos": "동사",
-   "ko": "도착하다"
+   "ko": "도착하다",
+   "en": "to get to a place"
   },
   "asks": {
    "pos": "동사",
-   "ko": "(ask의 3인칭) 요구하다, 필요로 하다"
+   "ko": "(ask의 3인칭) 요구하다, 필요로 하다",
+   "en": "needs; calls for"
   },
   "bag": {
    "pos": "명사",
-   "ko": "봉지, 짤주머니"
+   "ko": "봉지, 짤주머니",
+   "en": "a soft container for holding things"
   },
   "baked": {
    "pos": "동사",
-   "ko": "(bake의 과거분사) 구워 본, 구웠다"
+   "ko": "(bake의 과거분사) 구워 본, 구웠다",
+   "en": "cooked in an oven"
   },
   "baking": {
    "pos": "명사",
-   "ko": "베이킹, 빵 굽기"
+   "ko": "베이킹, 빵 굽기",
+   "en": "making bread or cakes in an oven"
   },
   "ball": {
    "pos": "명사",
-   "ko": "공, 둥근 덩어리"
+   "ko": "공, 둥근 덩어리",
+   "en": "a round shape or lump"
   },
   "becomes": {
    "pos": "동사",
-   "ko": "(become의 3인칭) ~하게 되다"
+   "ko": "(become의 3인칭) ~하게 되다",
+   "en": "starts to be"
   },
   "beginner": {
    "pos": "명사",
-   "ko": "초보자"
+   "ko": "초보자",
+   "en": "a person just starting to learn"
   },
   "beginners": {
    "pos": "명사",
-   "ko": "(beginner의 복수) 초보자들"
+   "ko": "(beginner의 복수) 초보자들",
+   "en": "people just starting to learn"
   },
   "believe": {
    "pos": "동사",
-   "ko": "믿다"
+   "ko": "믿다",
+   "en": "to think something is true"
   },
   "both": {
    "pos": "형용사",
-   "ko": "양쪽의, 둘 다"
+   "ko": "양쪽의, 둘 다",
+   "en": "the two together"
   },
   "bowl": {
    "pos": "명사",
-   "ko": "그릇, 볼"
+   "ko": "그릇, 볼",
+   "en": "a deep round dish"
   },
   "box": {
    "pos": "명사",
-   "ko": "상자"
+   "ko": "상자",
+   "en": "a container with flat sides"
   },
   "bread": {
    "pos": "명사",
-   "ko": "빵"
+   "ko": "빵",
+   "en": "baked food made from flour"
   },
   "bright": {
    "pos": "형용사",
-   "ko": "환한, 밝은"
+   "ko": "환한, 밝은",
+   "en": "full of light; cheerful"
   },
   "bring": {
    "pos": "동사",
-   "ko": "가져오다, 챙겨 오다"
+   "ko": "가져오다, 챙겨 오다",
+   "en": "to carry something with you"
   },
   "bun": {
    "pos": "명사",
-   "ko": "둥근 빵, 번"
+   "ko": "둥근 빵, 번",
+   "en": "a small round bread"
   },
   "buns": {
    "pos": "명사",
-   "ko": "(bun의 복수) 둥근 빵, 번"
+   "ko": "(bun의 복수) 둥근 빵, 번",
+   "en": "small round breads"
   },
   "came": {
    "pos": "동사",
-   "ko": "(come의 과거) 왔다"
+   "ko": "(come의 과거) 왔다",
+   "en": "past form of come"
   },
   "changes": {
    "pos": "동사",
-   "ko": "(change의 3인칭) 변하다"
+   "ko": "(change의 3인칭) 변하다",
+   "en": "becomes different"
   },
   "class": {
    "pos": "명사",
-   "ko": "수업, 클래스"
+   "ko": "수업, 클래스",
+   "en": "a lesson with a teacher"
   },
   "classes": {
    "pos": "명사",
-   "ko": "(class의 복수) 수업들"
+   "ko": "(class의 복수) 수업들",
+   "en": "lessons with a teacher"
   },
   "closest": {
    "pos": "형용사",
-   "ko": "(close의 최상급) 가장 가까운"
+   "ko": "(close의 최상급) 가장 가까운",
+   "en": "nearest of all"
   },
   "cloth": {
    "pos": "명사",
-   "ko": "천, 보자기"
+   "ko": "천, 보자기",
+   "en": "a piece of soft material"
   },
   "closely": {
    "pos": "부사",
-   "ko": "가까이서, 자세히"
+   "ko": "가까이서, 자세히",
+   "en": "from very near; carefully"
   },
   "complete": {
    "pos": "형용사",
-   "ko": "완전한"
+   "ko": "완전한",
+   "en": "total; in every way"
   },
   "cover": {
    "pos": "동사",
-   "ko": "덮다"
+   "ko": "덮다",
+   "en": "to put something over a thing"
   },
   "covering": {
    "pos": "동사",
-   "ko": "(cover의 -ing) 덮으며"
+   "ko": "(cover의 -ing) 덮으며",
+   "en": "putting something over a thing"
   },
   "cream": {
    "pos": "명사",
-   "ko": "크림"
+   "ko": "크림",
+   "en": "a soft, sweet, white filling"
   },
   "cup": {
    "pos": "명사",
-   "ko": "컵, 잔"
+   "ko": "컵, 잔",
+   "en": "a small container for drinking"
   },
   "dare": {
    "pos": "동사",
-   "ko": "감히 ~하다"
+   "ko": "감히 ~하다",
+   "en": "to be brave enough to do"
   },
   "did": {
    "pos": "동사",
-   "ko": "(do의 과거) 했다"
+   "ko": "(do의 과거) 했다",
+   "en": "past form of do"
   },
   "difference": {
    "pos": "명사",
-   "ko": "차이"
+   "ko": "차이",
+   "en": "the way things are not alike"
   },
   "doorway": {
    "pos": "명사",
-   "ko": "문간, 출입구"
+   "ko": "문간, 출입구",
+   "en": "the opening where a door stands"
   },
   "dough": {
    "pos": "명사",
-   "ko": "반죽"
+   "ko": "반죽",
+   "en": "a soft mix of flour and water"
   },
   "dusting": {
    "pos": "동사",
-   "ko": "(dust의 -ing) 가루가 얇게 묻은"
+   "ko": "(dust의 -ing) 가루가 얇게 묻은",
+   "en": "lightly covering like powder"
   },
   "each": {
    "pos": "형용사",
-   "ko": "각각의, 하나하나의"
+   "ko": "각각의, 하나하나의",
+   "en": "every single one"
   },
   "early": {
    "pos": "부사",
-   "ko": "일찍"
+   "ko": "일찍",
+   "en": "before the usual time"
   },
   "easily": {
    "pos": "부사",
-   "ko": "단연, 쉽게"
+   "ko": "단연, 쉽게",
+   "en": "clearly; without question"
   },
   "eat": {
    "pos": "동사",
-   "ko": "먹다"
+   "ko": "먹다",
+   "en": "to take in food"
   },
   "enjoy": {
    "pos": "동사",
-   "ko": "즐기다"
+   "ko": "즐기다",
+   "en": "to like doing something"
   },
   "even": {
    "pos": "부사",
-   "ko": "훨씬, 심지어 ~조차"
+   "ko": "훨씬, 심지어 ~조차",
+   "en": "used to make an idea stronger"
   },
   "evening": {
    "pos": "명사",
-   "ko": "저녁"
+   "ko": "저녁",
+   "en": "the time before night"
   },
   "everywhere": {
    "pos": "부사",
-   "ko": "사방에, 어디에나"
+   "ko": "사방에, 어디에나",
+   "en": "in all places"
   },
   "exactly": {
    "pos": "부사",
-   "ko": "정확히, 바로"
+   "ko": "정확히, 바로",
+   "en": "in just that way"
   },
   "expect": {
    "pos": "동사",
-   "ko": "예상하다"
+   "ko": "예상하다",
+   "en": "to think something will happen"
   },
   "expected": {
    "pos": "동사",
-   "ko": "(expect의 과거) 예상했다"
+   "ko": "(expect의 과거) 예상했다",
+   "en": "thought something would happen"
   },
   "face": {
    "pos": "명사",
-   "ko": "얼굴"
+   "ko": "얼굴",
+   "en": "the front of your head"
   },
   "failed": {
    "pos": "동사",
-   "ko": "(fail의 과거분사) 실패한"
+   "ko": "(fail의 과거분사) 실패한",
+   "en": "did not succeed"
   },
   "fans": {
    "pos": "동사",
-   "ko": "(fan의 3인칭) 부채질하다"
+   "ko": "(fan의 3인칭) 부채질하다",
+   "en": "moves air to cool something"
   },
   "far": {
    "pos": "부사",
-   "ko": "훨씬"
+   "ko": "훨씬",
+   "en": "much; a lot"
   },
   "fast": {
    "pos": "부사",
-   "ko": "빨리"
+   "ko": "빨리",
+   "en": "quickly"
   },
   "faster": {
    "pos": "부사",
-   "ko": "(fast의 비교급) 더 빨리"
+   "ko": "(fast의 비교급) 더 빨리",
+   "en": "more quickly"
   },
   "feel": {
    "pos": "동사",
-   "ko": "느끼다"
+   "ko": "느끼다",
+   "en": "to notice through touch"
   },
   "filling": {
    "pos": "명사",
-   "ko": "(빵 속에 넣는) 필링, 속"
+   "ko": "(빵 속에 넣는) 필링, 속",
+   "en": "soft food put inside bread"
   },
   "find": {
    "pos": "동사",
-   "ko": "찾다"
+   "ko": "찾다",
+   "en": "to discover; to get"
   },
   "finished": {
    "pos": "동사",
-   "ko": "(finish의 과거) 끝냈다, 마쳤다"
+   "ko": "(finish의 과거) 끝냈다, 마쳤다",
+   "en": "ended; completed"
   },
   "firm": {
    "pos": "형용사",
-   "ko": "단단한, 확실한"
+   "ko": "단단한, 확실한",
+   "en": "strong and not soft"
   },
   "flour": {
    "pos": "명사",
-   "ko": "밀가루"
+   "ko": "밀가루",
+   "en": "powder from wheat, used for baking"
   },
   "fold": {
    "pos": "동사",
-   "ko": "접다"
+   "ko": "접다",
+   "en": "to bend one part over another"
   },
   "follow": {
    "pos": "동사",
-   "ko": "따라 하다, 따르다"
+   "ko": "따라 하다, 따르다",
+   "en": "to do the same as shown"
   },
   "found": {
    "pos": "동사",
-   "ko": "(find의 과거분사) 찾은, 찾았다"
+   "ko": "(find의 과거분사) 찾은, 찾았다",
+   "en": "past form of find"
   },
   "fresh": {
    "pos": "형용사",
-   "ko": "새로운, 신선한"
+   "ko": "새로운, 신선한",
+   "en": "new; not used before"
   },
   "front": {
    "pos": "명사",
-   "ko": "앞 (in front of: ~ 앞에)"
+   "ko": "앞 (in front of: ~ 앞에)",
+   "en": "in front of: facing something"
   },
   "fun": {
    "pos": "명사",
-   "ko": "재미, 재미있는 것"
+   "ko": "재미, 재미있는 것",
+   "en": "something that makes you happy"
   },
   "get": {
    "pos": "동사",
-   "ko": "~해지다, 받다"
+   "ko": "~해지다, 받다",
+   "en": "to become; to receive"
   },
   "gets": {
    "pos": "동사",
-   "ko": "(get의 3인칭) 점점 ~해지다"
+   "ko": "(get의 3인칭) 점점 ~해지다",
+   "en": "becomes; grows"
   },
   "getting": {
    "pos": "동사",
-   "ko": "(get의 -ing) 점점 ~해지는"
+   "ko": "(get의 -ing) 점점 ~해지는",
+   "en": "becoming"
   },
   "golden": {
    "pos": "형용사",
-   "ko": "황금빛의, 노릇노릇한"
+   "ko": "황금빛의, 노릇노릇한",
+   "en": "warm yellow-brown in color"
   },
   "greets": {
    "pos": "동사",
-   "ko": "(greet의 3인칭) 맞이하다"
+   "ko": "(greet의 3인칭) 맞이하다",
+   "en": "welcomes someone"
   },
   "had": {
    "pos": "동사",
-   "ko": "(have의 과거) 이미 ~했다"
+   "ko": "(have의 과거) 이미 ~했다",
+   "en": "past form of have"
   },
   "happens": {
    "pos": "동사",
-   "ko": "(happen의 3인칭) 일어나다"
+   "ko": "(happen의 3인칭) 일어나다",
+   "en": "takes place"
   },
   "happy": {
    "pos": "형용사",
-   "ko": "행복한, 기분 좋은"
+   "ko": "행복한, 기분 좋은",
+   "en": "feeling good and pleased"
   },
   "heat": {
    "pos": "명사",
-   "ko": "열기, 더위"
+   "ko": "열기, 더위",
+   "en": "how hot something is"
   },
   "higher": {
    "pos": "부사",
-   "ko": "(high의 비교급) 더 높이"
+   "ko": "(high의 비교급) 더 높이",
+   "en": "farther up"
   },
   "hot": {
    "pos": "형용사",
-   "ko": "뜨거운, 더운"
+   "ko": "뜨거운, 더운",
+   "en": "very warm"
   },
   "hotter": {
    "pos": "형용사",
-   "ko": "(hot의 비교급) 더 뜨거운"
+   "ko": "(hot의 비교급) 더 뜨거운",
+   "en": "more hot"
   },
   "kitchen": {
    "pos": "명사",
-   "ko": "부엌, 주방"
+   "ko": "부엌, 주방",
+   "en": "the room where food is made"
   },
   "knead": {
    "pos": "동사",
-   "ko": "(반죽을) 치대다, 주무르다"
+   "ko": "(반죽을) 치대다, 주무르다",
+   "en": "to press and fold dough by hand"
   },
   "knows": {
    "pos": "동사",
-   "ko": "(know의 3인칭) 알다"
+   "ko": "(know의 3인칭) 알다",
+   "en": "understands; has learned"
   },
   "later": {
    "pos": "부사",
-   "ko": "~후에, 나중에"
+   "ko": "~후에, 나중에",
+   "en": "after some time"
   },
   "let": {
    "pos": "동사",
-   "ko": "~하게 두다"
+   "ko": "~하게 두다",
+   "en": "to allow something to happen"
   },
   "likes": {
    "pos": "동사",
-   "ko": "(like의 3인칭) 좋아하다"
+   "ko": "(like의 3인칭) 좋아하다",
+   "en": "enjoys; is pleased by"
   },
   "longer": {
    "pos": "부사",
-   "ko": "더 오래 (no longer: 더 이상 ~않다)"
+   "ko": "더 오래 (no longer: 더 이상 ~않다)",
+   "en": "no longer: not anymore"
   },
   "lot": {
    "pos": "명사",
-   "ko": "많음 (a lot of: 많은)"
+   "ko": "많음 (a lot of: 많은)",
+   "en": "a lot of: much or many"
   },
   "love": {
    "pos": "동사",
-   "ko": "아주 좋아하다, 사랑하다"
+   "ko": "아주 좋아하다, 사랑하다",
+   "en": "to like very, very much"
   },
   "lovely": {
    "pos": "형용사",
-   "ko": "사랑스러운, 근사한"
+   "ko": "사랑스러운, 근사한",
+   "en": "beautiful; very nice"
   },
   "make": {
    "pos": "동사",
-   "ko": "만들다"
+   "ko": "만들다",
+   "en": "to create or build"
   },
   "making": {
    "pos": "동사",
-   "ko": "(make의 -ing) 만들기"
+   "ko": "(make의 -ing) 만들기",
+   "en": "creating; building"
   },
   "middle": {
    "pos": "명사",
-   "ko": "가운데, 중간"
+   "ko": "가운데, 중간",
+   "en": "the center part"
   },
   "miss": {
    "pos": "명사",
-   "ko": "~양, ~선생님 (여성 호칭)"
+   "ko": "~양, ~선생님 (여성 호칭)",
+   "en": "a polite title for a woman"
   },
   "month": {
    "pos": "명사",
-   "ko": "달, 한 달"
+   "ko": "달, 한 달",
+   "en": "about thirty days"
   },
   "most": {
    "pos": "형용사",
-   "ko": "대부분의"
+   "ko": "대부분의",
+   "en": "nearly all"
   },
   "neighborhood": {
    "pos": "명사",
-   "ko": "동네"
+   "ko": "동네",
+   "en": "the area around your home"
   },
   "new": {
    "pos": "형용사",
-   "ko": "새로운"
+   "ko": "새로운",
+   "en": "not seen before; just arrived"
   },
   "nice": {
    "pos": "형용사",
-   "ko": "좋은 (nice and slowly: 아주 천천히)"
+   "ko": "좋은 (nice and slowly: 아주 천천히)",
+   "en": "nice and slowly: very slowly"
   },
   "notice": {
    "pos": "동사",
-   "ko": "알아차리다"
+   "ko": "알아차리다",
+   "en": "to see and be aware of"
   },
   "only": {
    "pos": "부사",
-   "ko": "오직, 그저 ~할 뿐"
+   "ko": "오직, 그저 ~할 뿐",
+   "en": "just; nothing more"
   },
   "others": {
    "pos": "대명사",
-   "ko": "(other의 복수) 다른 것들, 나머지"
+   "ko": "(other의 복수) 다른 것들, 나머지",
+   "en": "the other ones"
   },
   "out": {
    "pos": "부사",
-   "ko": "밖으로"
+   "ko": "밖으로",
+   "en": "away from the inside"
   },
   "oven": {
    "pos": "명사",
-   "ko": "오븐"
+   "ko": "오븐",
+   "en": "a hot box for baking food"
   },
   "own": {
    "pos": "형용사",
-   "ko": "자기 자신의"
+   "ko": "자기 자신의",
+   "en": "belonging to yourself"
   },
   "patience": {
    "pos": "명사",
-   "ko": "인내심"
+   "ko": "인내심",
+   "en": "the power to wait calmly"
   },
   "patient": {
    "pos": "형용사",
-   "ko": "참을성 있는"
+   "ko": "참을성 있는",
+   "en": "able to wait calmly"
   },
   "practice": {
    "pos": "동사",
-   "ko": "연습하다"
+   "ko": "연습하다",
+   "en": "to repeat something to get better"
   },
   "pressure": {
    "pos": "명사",
-   "ko": "압력"
+   "ko": "압력",
+   "en": "the force of pressing"
   },
   "pretend": {
    "pos": "동사",
-   "ko": "~인 척하다"
+   "ko": "~인 척하다",
+   "en": "to act like something is true"
   },
   "private": {
    "pos": "형용사",
-   "ko": "개인의, 일대일의"
+   "ko": "개인의, 일대일의",
+   "en": "for one person only"
   },
   "push": {
    "pos": "동사",
-   "ko": "밀다, 누르다"
+   "ko": "밀다, 누르다",
+   "en": "to press away with force"
   },
   "puts": {
    "pos": "동사",
-   "ko": "(put의 3인칭) 놓다"
+   "ko": "(put의 3인칭) 놓다",
+   "en": "places; sets down"
   },
   "question": {
    "pos": "명사",
-   "ko": "질문"
+   "ko": "질문",
+   "en": "words that ask for an answer"
   },
   "quiet": {
    "pos": "형용사",
-   "ko": "조용한"
+   "ko": "조용한",
+   "en": "with little sound"
   },
   "quietly": {
    "pos": "부사",
-   "ko": "조용히"
+   "ko": "조용히",
+   "en": "with little sound; softly"
   },
   "quite": {
    "pos": "부사",
-   "ko": "완전히, 꽤"
+   "ko": "완전히, 꽤",
+   "en": "fully; completely"
   },
   "ready": {
    "pos": "형용사",
-   "ko": "준비된"
+   "ko": "준비된",
+   "en": "prepared to begin"
   },
   "responds": {
    "pos": "동사",
-   "ko": "(respond의 3인칭) 반응하다"
+   "ko": "(respond의 3인칭) 반응하다",
+   "en": "answers; reacts"
   },
   "rest": {
    "pos": "동사",
-   "ko": "쉬다, (반죽을) 휴지시키다"
+   "ko": "쉬다, (반죽을) 휴지시키다",
+   "en": "to stop and stay still"
   },
   "rhythm": {
    "pos": "명사",
-   "ko": "리듬, 박자"
+   "ko": "리듬, 박자",
+   "en": "a steady, repeating beat"
   },
   "rise": {
    "pos": "동사",
-   "ko": "부풀다, 오르다"
+   "ko": "부풀다, 오르다",
+   "en": "to grow bigger and go up"
   },
   "risen": {
    "pos": "동사",
-   "ko": "(rise의 과거분사) 부푼"
+   "ko": "(rise의 과거분사) 부푼",
+   "en": "grown bigger and gone up"
   },
   "rises": {
    "pos": "동사",
-   "ko": "(rise의 3인칭) 부풀다"
+   "ko": "(rise의 3인칭) 부풀다",
+   "en": "grows bigger and goes up"
   },
   "row": {
    "pos": "명사",
-   "ko": "줄, 열"
+   "ko": "줄, 열",
+   "en": "a line of seats or things"
   },
   "rush": {
    "pos": "동사",
-   "ko": "서두르다"
+   "ko": "서두르다",
+   "en": "to move or do too fast"
   },
   "same": {
    "pos": "형용사",
-   "ko": "같은"
+   "ko": "같은",
+   "en": "not different"
   },
   "saturday": {
    "pos": "명사",
-   "ko": "토요일"
+   "ko": "토요일",
+   "en": "the day after Friday"
   },
   "save": {
    "pos": "동사",
-   "ko": "아껴 두다, 남겨 두다"
+   "ko": "아껴 두다, 남겨 두다",
+   "en": "to keep for later"
   },
   "seat": {
    "pos": "명사",
-   "ko": "자리, 좌석"
+   "ko": "자리, 좌석",
+   "en": "a place to sit"
   },
   "seen": {
    "pos": "동사",
-   "ko": "(see의 과거분사) 본"
+   "ko": "(see의 과거분사) 본",
+   "en": "past form of see"
   },
   "sets": {
    "pos": "동사",
-   "ko": "(set의 3인칭) 놓다"
+   "ko": "(set의 3인칭) 놓다",
+   "en": "puts down carefully"
   },
   "shape": {
    "pos": "동사",
-   "ko": "모양을 만들다, 빚다"
+   "ko": "모양을 만들다, 빚다",
+   "en": "to give a form to something"
   },
   "shirt": {
    "pos": "명사",
-   "ko": "셔츠"
+   "ko": "셔츠",
+   "en": "clothes worn on your top half"
   },
   "shows": {
    "pos": "동사",
-   "ko": "(show의 3인칭) 보여 주다"
+   "ko": "(show의 3인칭) 보여 주다",
+   "en": "lets you see how"
   },
   "signed": {
    "pos": "동사",
-   "ko": "(sign의 과거분사) 등록한, 신청한"
+   "ko": "(sign의 과거분사) 등록한, 신청한",
+   "en": "signed up: put your name to join"
   },
   "slower": {
    "pos": "부사",
-   "ko": "더 천천히"
+   "ko": "더 천천히",
+   "en": "less fast"
   },
   "slowly": {
    "pos": "부사",
-   "ko": "천천히"
+   "ko": "천천히",
+   "en": "not fast"
   },
   "smell": {
    "pos": "명사",
-   "ko": "냄새, 향"
+   "ko": "냄새, 향",
+   "en": "what your nose notices"
   },
   "smells": {
    "pos": "동사",
-   "ko": "(smell의 3인칭) 냄새가 나다"
+   "ko": "(smell의 3인칭) 냄새가 나다",
+   "en": "gives off a smell"
   },
   "soft": {
    "pos": "형용사",
-   "ko": "부드러운"
+   "ko": "부드러운",
+   "en": "not hard; easy to press"
   },
   "softens": {
    "pos": "동사",
-   "ko": "(soften의 3인칭) 부드러워지다"
+   "ko": "(soften의 3인칭) 부드러워지다",
+   "en": "becomes soft"
   },
   "some": {
    "pos": "형용사",
-   "ko": "몇몇의, 손꼽히는"
+   "ko": "몇몇의, 손꼽히는",
+   "en": "a few; part of"
   },
   "soon": {
    "pos": "부사",
-   "ko": "곧"
+   "ko": "곧",
+   "en": "in a short time"
   },
   "standing": {
    "pos": "동사",
-   "ko": "(stand의 -ing) 서서"
+   "ko": "(stand의 -ing) 서서",
+   "en": "being on your feet"
   },
   "start": {
    "pos": "동사",
-   "ko": "시작하다"
+   "ko": "시작하다",
+   "en": "to begin"
   },
   "steady": {
    "pos": "형용사",
-   "ko": "일정한, 꾸준한"
+   "ko": "일정한, 꾸준한",
+   "en": "regular; not changing"
   },
   "student": {
    "pos": "명사",
-   "ko": "학생, 수강생"
+   "ko": "학생, 수강생",
+   "en": "a person who is learning"
   },
   "sugar": {
    "pos": "명사",
-   "ko": "설탕"
+   "ko": "설탕",
+   "en": "sweet white food for baking"
   },
   "sugars": {
    "pos": "명사",
-   "ko": "(Sugar의 소유격) 슈가 선생님의"
+   "ko": "(Sugar의 소유격) 슈가 선생님의",
+   "en": "belonging to Miss Sugar"
   },
   "surprised": {
    "pos": "형용사",
-   "ko": "놀란"
+   "ko": "놀란",
+   "en": "feeling wonder; not expecting it"
   },
   "sweet": {
    "pos": "형용사",
-   "ko": "달콤한"
+   "ko": "달콤한",
+   "en": "tasting like sugar"
   },
   "table": {
    "pos": "명사",
-   "ko": "테이블, 작업대"
+   "ko": "테이블, 작업대",
+   "en": "furniture with a flat top"
   },
   "talking": {
    "pos": "동사",
-   "ko": "(talk의 -ing) 말하는 (talk about: ~에 대해 말하다)"
+   "ko": "(talk의 -ing) 말하는 (talk about: ~에 대해 말하다)",
+   "en": "speaking; saying words"
   },
   "taught": {
    "pos": "동사",
-   "ko": "(teach의 과거) 가르쳤다"
+   "ko": "(teach의 과거) 가르쳤다",
+   "en": "past form of teach"
   },
   "tea": {
    "pos": "명사",
-   "ko": "차, 홍차"
+   "ko": "차, 홍차",
+   "en": "a hot drink from leaves"
   },
   "teacher": {
    "pos": "명사",
-   "ko": "선생님, 강사"
+   "ko": "선생님, 강사",
+   "en": "a person who helps you learn"
   },
   "teaching": {
    "pos": "명사",
-   "ko": "가르치기, 가르침"
+   "ko": "가르치기, 가르침",
+   "en": "helping people learn"
   },
   "thanks": {
    "pos": "명사",
-   "ko": "감사 (thanks to: ~ 덕분에)"
+   "ko": "감사 (thanks to: ~ 덕분에)",
+   "en": "thanks to: because of"
   },
   "thick": {
    "pos": "형용사",
-   "ko": "짙은, 가득한"
+   "ko": "짙은, 가득한",
+   "en": "full and heavy with something"
   },
   "things": {
    "pos": "명사",
-   "ko": "(thing의 복수) 것들"
+   "ko": "(thing의 복수) 것들",
+   "en": "objects; items"
   },
   "three": {
    "pos": "수사",
-   "ko": "셋, 3"
+   "ko": "셋, 3",
+   "en": "the number 3"
   },
   "tilting": {
    "pos": "동사",
-   "ko": "(tilt의 -ing) 갸웃하며, 기울이며"
+   "ko": "(tilt의 -ing) 갸웃하며, 기울이며",
+   "en": "leaning to one side"
   },
   "tomorrow": {
    "pos": "명사",
-   "ko": "내일"
+   "ko": "내일",
+   "en": "the day after today"
   },
   "touch": {
    "pos": "명사",
-   "ko": "손길, 만지기"
+   "ko": "손길, 만지기",
+   "en": "putting your hand on something"
   },
   "used": {
    "pos": "형용사",
-   "ko": "익숙한 (get used to: ~에 익숙해지다)"
+   "ko": "익숙한 (get used to: ~에 익숙해지다)",
+   "en": "get used to: become familiar with"
   },
   "watch": {
    "pos": "동사",
-   "ko": "지켜보다, 잘 보다"
+   "ko": "지켜보다, 잘 보다",
+   "en": "to look at carefully"
   },
   "waving": {
    "pos": "동사",
-   "ko": "(wave의 -ing) 손을 내저으며"
+   "ko": "(wave의 -ing) 손을 내저으며",
+   "en": "moving a hand side to side"
   },
   "we": {
    "pos": "대명사",
-   "ko": "우리"
+   "ko": "우리",
+   "en": "you and I"
   },
   "week": {
    "pos": "명사",
-   "ko": "주, 일주일"
+   "ko": "주, 일주일",
+   "en": "seven days"
   },
   "weight": {
    "pos": "명사",
-   "ko": "무게, 체중"
+   "ko": "무게, 체중",
+   "en": "how heavy something is"
   },
   "where": {
    "pos": "부사",
-   "ko": "~하는 곳 (관계부사)"
+   "ko": "~하는 곳 (관계부사)",
+   "en": "in which place"
   },
   "while": {
    "pos": "명사",
-   "ko": "잠깐, 한동안 (for a while)"
+   "ko": "잠깐, 한동안 (for a while)",
+   "en": "for a while: for some time"
   },
   "work": {
    "pos": "명사",
-   "ko": "일, 작업"
+   "ko": "일, 작업",
+   "en": "effort; a job done"
   }
  },
  "wink": {
@@ -967,6 +1151,16 @@
   "buns": "둥근 빵 — 빵이 아닌 다른 둥근 것을 칭찬하는 걸로 들릴 수 있어요.",
   "squeeze": "짜다, 쥐다 — 천천히 일정한 압력으로 하라는 조언이 묘하게 들릴 수 있어요.",
   "cream": "크림 — '천천히, 일정한 압력으로 짜세요'라는 조언과 만나면 빵 얘기로만 들리지 않아요."
+ },
+ "winkEn": {
+  "knead": "Working something soft with both hands — a skill that travels well beyond the kitchen.",
+  "firm": "A firm touch helps the dough relax. It reportedly works on people too.",
+  "rhythm": "Slow and steady rhythm is key in baking — and in certain other pastimes.",
+  "rise": "With enough warmth and attention, things rise. Not only bread, they say.",
+  "hot": "She may be talking about the oven temperature. Then again, she may not.",
+  "buns": "In a bakery, lovely buns are bread. Anywhere else, it's a cheeky compliment.",
+  "squeeze": "'Slowly, with steady pressure' is excellent piping advice — and sounds like advice for something else.",
+  "cream": "A sweet filling — though next to 'squeeze slowly,' the mind tends to wander."
  },
  "introEn": "A neighborhood baking class, perfectly wholesome.\n...on the surface. Tap words to see the hidden meaning."
 }

@@ -295,21 +295,25 @@
  "endings": {
   "0": {
    "name": "조용한 우산지기",
+   "nameEn": "The Quiet Umbrella Keeper",
    "en": "You keep the red umbrella by your door and take good care of it. On rainy evenings, you drink warm tea and think about the kind old man. The umbrella waits quietly beside you, like an old friend.",
    "ko": "당신은 빨간 우산을 문 옆에 두고 소중히 아껴요. 비 오는 저녁이면 따뜻한 차를 마시며 그 친절한 할아버지를 떠올려요. 우산은 오랜 친구처럼 당신 곁에서 조용히 기다려요."
   },
   "1": {
    "name": "수줍은 온기 배달부",
+   "nameEn": "The Shy Warmth Courier",
    "en": "A week later, you see a wet student at the same bus stop. You quietly hold the red umbrella over her head, just like the old man did. She smiles, and your heart feels warm all the way home.",
    "ko": "일주일 뒤, 같은 버스 정류장에서 비에 젖은 학생을 봐요. 당신은 할아버지가 그랬던 것처럼 학생에게 조용히 빨간 우산을 씌워 줘요. 학생이 환하게 웃고, 집에 가는 내내 당신 마음도 따뜻해요."
   },
   "2": {
    "name": "씩씩한 빗길 친구",
+   "nameEn": "The Plucky Rainy-Day Friend",
    "en": "On the next rainy day, you take the red umbrella and walk to the bus stop early. You find a stranger without an umbrella and share it, and you talk about rain and gardens together. Rainy days are now your favorite days.",
    "ko": "다음 비 오는 날, 당신은 빨간 우산을 들고 일찍 버스 정류장으로 걸어가요. 우산 없는 낯선 사람을 찾아 우산을 같이 쓰고, 비와 정원 이야기를 나눠요. 이제 비 오는 날이 당신이 가장 좋아하는 날이에요."
   },
   "3": {
    "name": "겁 없는 우산 대장",
+   "nameEn": "The Fearless Umbrella Captain",
    "en": "You do not wait for the next rain. The very next morning, you buy three more umbrellas and leave them at the bus stop with a note: \"Please keep it.\" Somewhere in town, the old man is surely smiling.",
    "ko": "당신은 다음 비를 기다리지 않아요. 바로 다음 날 아침, 우산 세 개를 더 사서 '가져가세요'라는 쪽지와 함께 버스 정류장에 놓아 둬요. 마을 어딘가에서 할아버지가 분명 웃고 있을 거예요."
   }
@@ -317,139 +321,173 @@
  "dict": {
   "care": {
    "pos": "명사",
-   "ko": "돌봄 (take care of ~을 소중히 돌보다)"
+   "ko": "돌봄 (take care of ~을 소중히 돌보다)",
+   "en": "looking after something well"
   },
   "evenings": {
    "pos": "명사",
-   "ko": "저녁들 (evening의 복수형)"
+   "ko": "저녁들 (evening의 복수형)",
+   "en": "the late parts of days"
   },
   "drink": {
    "pos": "동사",
-   "ko": "마시다"
+   "ko": "마시다",
+   "en": "to take liquid into your mouth"
   },
   "tea": {
    "pos": "명사",
-   "ko": "차 (마시는 차)"
+   "ko": "차 (마시는 차)",
+   "en": "a hot drink made from leaves"
   },
   "kind": {
    "pos": "형용사",
-   "ko": "친절한"
+   "ko": "친절한",
+   "en": "nice and helpful to people"
   },
   "quietly": {
    "pos": "부사",
-   "ko": "조용히"
+   "ko": "조용히",
+   "en": "with little or no sound"
   },
   "beside": {
    "pos": "전치사",
-   "ko": "~옆에"
+   "ko": "~옆에",
+   "en": "next to; at the side of"
   },
   "friend": {
    "pos": "명사",
-   "ko": "친구"
+   "ko": "친구",
+   "en": "a person you like and trust"
   },
   "week": {
    "pos": "명사",
-   "ko": "일주일, 주"
+   "ko": "일주일, 주",
+   "en": "seven days"
   },
   "later": {
    "pos": "부사",
-   "ko": "나중에, ~뒤에"
+   "ko": "나중에, ~뒤에",
+   "en": "after some time"
   },
   "student": {
    "pos": "명사",
-   "ko": "학생"
+   "ko": "학생",
+   "en": "a person who studies at school"
   },
   "same": {
    "pos": "형용사",
-   "ko": "같은"
+   "ko": "같은",
+   "en": "not different; exactly alike"
   },
   "did": {
    "pos": "동사",
-   "ko": "했다 (do의 과거형)"
+   "ko": "했다 (do의 과거형)",
+   "en": "past form of do"
   },
   "feels": {
    "pos": "동사",
-   "ko": "느끼다 (feel의 3인칭 단수형)"
+   "ko": "느끼다 (feel의 3인칭 단수형)",
+   "en": "form of feel (he/she/it)"
   },
   "early": {
    "pos": "부사",
-   "ko": "일찍"
+   "ko": "일찍",
+   "en": "before the usual time"
   },
   "find": {
    "pos": "동사",
-   "ko": "찾다, 발견하다"
+   "ko": "찾다, 발견하다",
+   "en": "to discover someone or something"
   },
   "stranger": {
    "pos": "명사",
-   "ko": "낯선 사람"
+   "ko": "낯선 사람",
+   "en": "a person you do not know"
   },
   "share": {
    "pos": "동사",
-   "ko": "나누다, 같이 쓰다"
+   "ko": "나누다, 같이 쓰다",
+   "en": "to use something together with others"
   },
   "gardens": {
    "pos": "명사",
-   "ko": "정원들 (garden의 복수형)"
+   "ko": "정원들 (garden의 복수형)",
+   "en": "places where flowers and plants grow"
   },
   "favorite": {
    "pos": "형용사",
-   "ko": "가장 좋아하는"
+   "ko": "가장 좋아하는",
+   "en": "liked more than all the others"
   },
   "do": {
    "pos": "조동사",
-   "ko": "(do not ~하지 않다)"
+   "ko": "(do not ~하지 않다)",
+   "en": "helper verb (do not = don't)"
   },
   "buy": {
    "pos": "동사",
-   "ko": "사다"
+   "ko": "사다",
+   "en": "to get something by paying money"
   },
   "three": {
    "pos": "수사",
-   "ko": "3, 셋"
+   "ko": "3, 셋",
+   "en": "the number 3"
   },
   "leave": {
    "pos": "동사",
-   "ko": "두고 가다, 남겨 두다"
+   "ko": "두고 가다, 남겨 두다",
+   "en": "to put something down and go"
   },
   "note": {
    "pos": "명사",
-   "ko": "쪽지, 메모"
+   "ko": "쪽지, 메모",
+   "en": "a short written message"
   },
   "somewhere": {
    "pos": "부사",
-   "ko": "어딘가에"
+   "ko": "어딘가에",
+   "en": "in some place"
   },
   "surely": {
    "pos": "부사",
-   "ko": "분명히, 틀림없이"
+   "ko": "분명히, 틀림없이",
+   "en": "certainly; without doubt"
   },
   "smiling": {
    "pos": "동사",
-   "ko": "웃고 있는 (smile의 진행형)"
+   "ko": "웃고 있는 (smile의 진행형)",
+   "en": "making a happy face"
   },
   "brave": {
    "pos": "형용사",
-   "ko": "용감한"
+   "ko": "용감한",
+   "en": "not afraid; ready to face things"
   },
   "feel": {
    "pos": "동사",
-   "ko": "느끼다"
+   "ko": "느끼다",
+   "en": "to have a feeling inside"
   },
   "open": {
    "pos": "형용사",
-   "ko": "탁 트인, 가려지지 않은 (in the open rain 그대로 맞는 비)"
+   "ko": "탁 트인, 가려지지 않은 (in the open rain 그대로 맞는 비)",
+   "en": "not covered by anything"
   },
   "out": {
    "pos": "부사",
-   "ko": "밖으로"
+   "ko": "밖으로",
+   "en": "away from the inside"
   },
   "soon": {
    "pos": "부사",
-   "ko": "곧, 금방"
+   "ko": "곧, 금방",
+   "en": "in a short time"
   },
   "yet": {
    "pos": "부사",
-   "ko": "그렇지만, 그런데도"
+   "ko": "그렇지만, 그런데도",
+   "en": "but still; even so"
   }
  },
  "introEn": "A rainy day, and a stranger's red umbrella.\nYour choices change how the story goes."

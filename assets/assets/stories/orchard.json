@@ -220,570 +220,710 @@
   "0": {
    "name": "신중한 감별사",
    "en": "The next week, you come back with Mrs. Rose and sort peaches at the table by the gate. You never go past the first row of trees, but your baskets are the neatest in the orchard. \"The trees trust you,\" Mrs. Peach says softly, \"and so do I.\"",
-   "ko": "다음 주에도 Rose 부인과 함께 과수원을 찾아, 대문 옆 탁자에서 복숭아를 골라 담아요. 첫 줄 나무 너머로는 가 본 적 없지만, 당신의 바구니는 과수원에서 제일 단정해요. \"나무들이 당신을 믿어요. 나도 그렇고요,\" Peach 부인이 나직이 말해요."
+   "ko": "다음 주에도 Rose 부인과 함께 과수원을 찾아, 대문 옆 탁자에서 복숭아를 골라 담아요. 첫 줄 나무 너머로는 가 본 적 없지만, 당신의 바구니는 과수원에서 제일 단정해요. \"나무들이 당신을 믿어요. 나도 그렇고요,\" Peach 부인이 나직이 말해요.",
+   "nameEn": "The Careful Connoisseur"
   },
   "1": {
    "name": "느긋한 수확꾼",
    "en": "You visit the orchard again that weekend, taking your time under the trees. Mrs. Peach teaches you to find the shy fruit that hides behind the leaves. \"A patient hand,\" she says, \"always gets the sweetest reward.\"",
-   "ko": "그 주말에 다시 과수원을 찾아 나무 아래서 느긋하게 시간을 보내요. Peach 부인은 잎사귀 뒤에 숨은 수줍은 열매를 찾는 법을 알려줘요. \"참을성 있는 손이 언제나 가장 달콤한 보상을 받는 법이에요,\" 부인이 말해요."
+   "ko": "그 주말에 다시 과수원을 찾아 나무 아래서 느긋하게 시간을 보내요. Peach 부인은 잎사귀 뒤에 숨은 수줍은 열매를 찾는 법을 알려줘요. \"참을성 있는 손이 언제나 가장 달콤한 보상을 받는 법이에요,\" 부인이 말해요.",
+   "nameEn": "The Unhurried Harvester"
   },
   "2": {
    "name": "넉살 좋은 일손",
    "en": "A few days later, Mrs. Peach invites you back — this time without Mrs. Rose. \"You learn fast,\" she says, handing you the ladder with a smile. \"Today we will see how high you can really go.\"",
-   "ko": "며칠 뒤, Peach 부인이 당신을 다시 불러요 — 이번엔 Rose 부인 없이요. \"배움이 빠르네요,\" 부인이 웃으며 사다리를 건네요. \"오늘은 당신이 정말 얼마나 높이 올라갈 수 있는지 볼 거예요.\""
+   "ko": "며칠 뒤, Peach 부인이 당신을 다시 불러요 — 이번엔 Rose 부인 없이요. \"배움이 빠르네요,\" 부인이 웃으며 사다리를 건네요. \"오늘은 당신이 정말 얼마나 높이 올라갈 수 있는지 볼 거예요.\"",
+   "nameEn": "The Cheeky Helper"
   },
   "3": {
    "name": "가장 높은 가지의 주인",
    "en": "By the end of summer, you know every tree in the orchard by hand. Mrs. Peach gives you your own key to the gate. \"The highest branches are yours now,\" she says, \"and the season is still long.\"",
-   "ko": "여름이 끝날 무렵, 당신은 과수원의 나무를 전부 손끝으로 외우고 있어요. Peach 부인은 당신에게 대문 열쇠를 아예 하나 내어줘요. \"이제 가장 높은 가지들은 다 당신 거예요,\" 부인이 말해요. \"그리고 이번 철은 아직 길거든요.\""
+   "ko": "여름이 끝날 무렵, 당신은 과수원의 나무를 전부 손끝으로 외우고 있어요. Peach 부인은 당신에게 대문 열쇠를 아예 하나 내어줘요. \"이제 가장 높은 가지들은 다 당신 거예요,\" 부인이 말해요. \"그리고 이번 철은 아직 길거든요.\"",
+   "nameEn": "Master of the Highest Branch"
   }
  },
  "dict": {
   "summer": {
    "pos": "명사",
-   "ko": "여름"
+   "ko": "여름",
+   "en": "the hottest season of the year"
   },
   "friend": {
    "pos": "명사",
-   "ko": "친구"
+   "ko": "친구",
+   "en": "a person you like and know well"
   },
   "peach": {
    "pos": "명사",
    "ko": "복숭아",
    "exEn": "This peach is ripe.",
-   "exKo": "이 복숭아는 잘 익었어요."
+   "exKo": "이 복숭아는 잘 익었어요.",
+   "en": "a soft sweet fruit with fuzzy skin"
   },
   "peaches": {
    "pos": "명사",
-   "ko": "복숭아들 (peach의 복수형)"
+   "ko": "복숭아들 (peach의 복수형)",
+   "en": "more than one peach"
   },
   "who": {
    "pos": "대명사",
-   "ko": "~하는 (사람) (관계대명사)"
+   "ko": "~하는 (사람) (관계대명사)",
+   "en": "the person that; asks about people"
   },
   "owns": {
    "pos": "동사",
-   "ko": "소유해요 (own의 3인칭)"
+   "ko": "소유해요 (own의 3인칭)",
+   "en": "has it as her own"
   },
   "orchard": {
    "pos": "명사",
-   "ko": "과수원"
+   "ko": "과수원",
+   "en": "a field full of fruit trees"
   },
   "hill": {
    "pos": "명사",
-   "ko": "언덕"
+   "ko": "언덕",
+   "en": "a small mountain"
   },
   "tree": {
    "pos": "명사",
-   "ko": "나무"
+   "ko": "나무",
+   "en": "a tall plant with branches"
   },
   "trees": {
    "pos": "명사",
-   "ko": "나무들 (tree의 복수형)"
+   "ko": "나무들 (tree의 복수형)",
+   "en": "more than one tree"
   },
   "fruit": {
    "pos": "명사",
-   "ko": "과일, 열매"
+   "ko": "과일, 열매",
+   "en": "sweet food from trees and plants"
   },
   "harvest": {
    "pos": "명사",
-   "ko": "수확"
+   "ko": "수확",
+   "en": "the picking of ripe fruit"
   },
   "gate": {
    "pos": "명사",
-   "ko": "대문, 입구"
+   "ko": "대문, 입구",
+   "en": "a door in a fence or wall"
   },
   "welcome": {
    "pos": "감탄사",
-   "ko": "어서 와요, 환영해요"
+   "ko": "어서 와요, 환영해요",
+   "en": "a friendly hello to a guest"
   },
   "cant": {
    "pos": "축약",
-   "ko": "can't = cannot (~할 수 없어요)"
+   "ko": "can't = cannot (~할 수 없어요)",
+   "en": "short for cannot"
   },
   "get": {
    "pos": "동사",
-   "ko": "~하게 되다 (get started: 시작하다)"
+   "ko": "~하게 되다 (get started: 시작하다)",
+   "en": "to become; get started means begin"
   },
   "getting": {
    "pos": "동사",
-   "ko": "~하게 되는 것 (get의 -ing형)"
+   "ko": "~하게 되는 것 (get의 -ing형)",
+   "en": "form of get; becoming"
   },
   "started": {
    "pos": "동사",
-   "ko": "시작하다의 과거분사 (get started: 시작하다)"
+   "ko": "시작하다의 과거분사 (get started: 시작하다)",
+   "en": "past of start; get started: begin"
   },
   "eager": {
    "pos": "형용사",
-   "ko": "의욕 넘치는, 열심인"
+   "ko": "의욕 넘치는, 열심인",
+   "en": "wanting to start right away"
   },
   "helper": {
    "pos": "명사",
-   "ko": "돕는 사람, 일손"
+   "ko": "돕는 사람, 일손",
+   "en": "a person who helps"
   },
   "helpers": {
    "pos": "명사",
-   "ko": "일손들 (helper의 복수형)"
+   "ko": "일손들 (helper의 복수형)",
+   "en": "more than one helper"
   },
   "kind": {
    "pos": "명사",
-   "ko": "종류"
+   "ko": "종류",
+   "en": "a type or sort"
   },
   "do": {
    "pos": "동사",
-   "ko": "하다 (의문문을 만드는 조동사로도 써요)"
+   "ko": "하다 (의문문을 만드는 조동사로도 써요)",
+   "en": "to act; also makes questions"
   },
   "know": {
    "pos": "동사",
-   "ko": "알다"
+   "ko": "알다",
+   "en": "to have facts in your mind"
   },
   "which": {
    "pos": "대명사",
-   "ko": "어느 것, 어떤"
+   "ko": "어느 것, 어떤",
+   "en": "asks: what one of these"
   },
   "ones": {
    "pos": "대명사",
-   "ko": "것들 (one의 복수형)"
+   "ko": "것들 (one의 복수형)",
+   "en": "the things we talked about"
   },
   "ready": {
    "pos": "형용사",
-   "ko": "준비된, (과일이) 다 익은"
+   "ko": "준비된, (과일이) 다 익은",
+   "en": "ripe and good to pick now"
   },
   "listen": {
    "pos": "동사",
-   "ko": "귀 기울이다, 듣다"
+   "ko": "귀 기울이다, 듣다",
+   "en": "to try to hear something"
   },
   "fingers": {
    "pos": "명사",
-   "ko": "손가락들"
+   "ko": "손가락들",
+   "en": "the long parts of your hand"
   },
   "shows": {
    "pos": "동사",
-   "ko": "보여줘요 (show의 3인칭)"
+   "ko": "보여줘요 (show의 3인칭)",
+   "en": "lets someone see something"
   },
   "touch": {
    "pos": "동사",
-   "ko": "만지다, 닿다"
+   "ko": "만지다, 닿다",
+   "en": "to feel with your hand"
   },
   "skin": {
    "pos": "명사",
-   "ko": "껍질, 살갗"
+   "ko": "껍질, 살갗",
+   "en": "the outside of fruit or people"
   },
   "sun": {
    "pos": "명사",
-   "ko": "해, 햇살"
+   "ko": "해, 햇살",
+   "en": "the bright star in the sky"
   },
   "covered": {
    "pos": "동사",
-   "ko": "덮여 있는 (cover의 과거분사)"
+   "ko": "덮여 있는 (cover의 과거분사)",
+   "en": "with something all over it"
   },
   "soft": {
    "pos": "형용사",
-   "ko": "부드러운"
+   "ko": "부드러운",
+   "en": "gentle to touch; not hard"
   },
   "fuzz": {
    "pos": "명사",
-   "ko": "솜털"
+   "ko": "솜털",
+   "en": "very short, soft hairs"
   },
   "being": {
    "pos": "동사",
-   "ko": "~하고 있는 (be의 진행형)"
+   "ko": "~하고 있는 (be의 진행형)",
+   "en": "form of be"
   },
   "sweetest": {
    "pos": "형용사",
-   "ko": "가장 달콤한 (sweet의 최상급)"
+   "ko": "가장 달콤한 (sweet의 최상급)",
+   "en": "the most sweet of all"
   },
   "feels": {
    "pos": "동사",
-   "ko": "~한 느낌이에요 (feel의 3인칭)"
+   "ko": "~한 느낌이에요 (feel의 3인칭)",
+   "en": "seems when you touch it"
   },
   "last": {
    "pos": "동사",
-   "ko": "오래가다, 남아 있다"
+   "ko": "오래가다, 남아 있다",
+   "en": "to stay good a long time"
   },
   "taste": {
    "pos": "동사",
-   "ko": "맛보다"
+   "ko": "맛보다",
+   "en": "to try food in your mouth"
   },
   "juice": {
    "pos": "명사",
-   "ko": "즙, 과즙"
+   "ko": "즙, 과즙",
+   "en": "the sweet liquid inside fruit"
   },
   "runs": {
    "pos": "동사",
-   "ko": "흘러내려요 (run의 3인칭)"
+   "ko": "흘러내려요 (run의 3인칭)",
+   "en": "flows or moves down"
   },
   "chin": {
    "pos": "명사",
-   "ko": "턱"
+   "ko": "턱",
+   "en": "the bottom of your face"
   },
   "messy": {
    "pos": "형용사",
-   "ko": "지저분해지는, 흘리게 되는"
+   "ko": "지저분해지는, 흘리게 되는",
+   "en": "not clean; a little dirty"
   },
   "points": {
    "pos": "동사",
-   "ko": "가리켜요 (point의 3인칭)"
+   "ko": "가리켜요 (point의 3인칭)",
+   "en": "shows something with a finger"
   },
   "grow": {
    "pos": "동사",
-   "ko": "자라다, 열리다"
+   "ko": "자라다, 열리다",
+   "en": "to get bigger on a plant"
   },
   "highest": {
    "pos": "형용사",
-   "ko": "가장 높은 (high의 최상급)"
+   "ko": "가장 높은 (high의 최상급)",
+   "en": "the most high of all"
   },
   "high": {
    "pos": "부사",
-   "ko": "높이, 높은 곳까지"
+   "ko": "높이, 높은 곳까지",
+   "en": "far up from the ground"
   },
   "branch": {
    "pos": "명사",
-   "ko": "나뭇가지"
+   "ko": "나뭇가지",
+   "en": "an arm of a tree"
   },
   "branches": {
    "pos": "명사",
-   "ko": "나뭇가지들"
+   "ko": "나뭇가지들",
+   "en": "more than one branch"
   },
   "most": {
    "pos": "형용사",
-   "ko": "대부분의"
+   "ko": "대부분의",
+   "en": "nearly all"
   },
   "reach": {
    "pos": "동사",
-   "ko": "닿다, 손을 뻗다"
+   "ko": "닿다, 손을 뻗다",
+   "en": "to stretch out and touch"
   },
   "climb": {
    "pos": "동사",
-   "ko": "오르다 (명사로는 '오르는 일')"
+   "ko": "오르다 (명사로는 '오르는 일')",
+   "en": "to go up with hands and feet"
   },
   "ladder": {
    "pos": "명사",
-   "ko": "사다리"
+   "ko": "사다리",
+   "en": "steps you climb to go up"
   },
   "top": {
    "pos": "명사",
-   "ko": "꼭대기"
+   "ko": "꼭대기",
+   "en": "the highest part"
   },
   "roundest": {
    "pos": "형용사",
-   "ko": "가장 둥근 (round의 최상급)"
+   "ko": "가장 둥근 (round의 최상급)",
+   "en": "the most round of all"
   },
   "fill": {
    "pos": "동사",
-   "ko": "채우다"
+   "ko": "채우다",
+   "en": "to make something full"
   },
   "until": {
    "pos": "접속사",
-   "ko": "~할 때까지"
+   "ko": "~할 때까지",
+   "en": "up to that time"
   },
   "overflows": {
    "pos": "동사",
-   "ko": "넘쳐흘러요 (overflow의 3인칭)"
+   "ko": "넘쳐흘러요 (overflow의 3인칭)",
+   "en": "spills over the top"
   },
   "overflow": {
    "pos": "동사",
-   "ko": "넘치다"
+   "ko": "넘치다",
+   "en": "to spill over the top"
   },
   "men": {
    "pos": "명사",
-   "ko": "남자들 (man의 복수형)"
+   "ko": "남자들 (man의 복수형)",
+   "en": "more than one man"
   },
   "did": {
    "pos": "동사",
-   "ko": "했어요 (do의 과거형)"
+   "ko": "했어요 (do의 과거형)",
+   "en": "past form of do"
   },
   "asks": {
    "pos": "동사",
-   "ko": "물어요 (ask의 3인칭)"
+   "ko": "물어요 (ask의 3인칭)",
+   "en": "says a question to someone"
   },
   "why": {
    "pos": "부사",
-   "ko": "왜"
+   "ko": "왜",
+   "en": "for what reason"
   },
   "love": {
    "pos": "동사",
-   "ko": "사랑하다, 아주 좋아하다"
+   "ko": "사랑하다, 아주 좋아하다",
+   "en": "to like very, very much"
   },
   "smell": {
    "pos": "명사",
-   "ko": "냄새, 향기 (동사: 냄새가 나다)"
+   "ko": "냄새, 향기 (동사: 냄새가 나다)",
+   "en": "what your nose notices"
   },
   "some": {
    "pos": "형용사",
-   "ko": "어떤, 몇몇의"
+   "ko": "어떤, 몇몇의",
+   "en": "a few, not all"
   },
   "worth": {
    "pos": "형용사",
-   "ko": "~할 가치가 있는"
+   "ko": "~할 가치가 있는",
+   "en": "good enough to deserve it"
   },
   "news": {
    "pos": "명사",
-   "ko": "소식"
+   "ko": "소식",
+   "en": "fresh information"
   },
   "ground": {
    "pos": "명사",
-   "ko": "땅"
+   "ko": "땅",
+   "en": "the land under your feet"
   },
   "promised": {
    "pos": "동사",
-   "ko": "약속했어요 (promise의 과거형)"
+   "ko": "약속했어요 (promise의 과거형)",
+   "en": "said she would surely do it"
   },
   "hardest": {
    "pos": "형용사",
-   "ko": "가장 열심인 (hard의 최상급)"
+   "ko": "가장 열심인 (hard의 최상급)",
+   "en": "working more than all others"
   },
   "worker": {
    "pos": "명사",
-   "ko": "일꾼"
+   "ko": "일꾼",
+   "en": "a person who works"
   },
   "greets": {
    "pos": "동사",
-   "ko": "맞이해요 (greet의 3인칭)"
+   "ko": "맞이해요 (greet의 3인칭)",
+   "en": "says hello to someone"
   },
   "knowing": {
    "pos": "형용사",
-   "ko": "다 안다는 듯한"
+   "ko": "다 안다는 듯한",
+   "en": "showing she understands a secret"
   },
   "perfectly": {
    "pos": "부사",
-   "ko": "완벽하게"
+   "ko": "완벽하게",
+   "en": "in a perfect way"
   },
   "season": {
    "pos": "명사",
-   "ko": "계절, 철"
+   "ko": "계절, 철",
+   "en": "a time of the year"
   },
   "approvingly": {
    "pos": "부사",
-   "ko": "흐뭇하다는 듯"
+   "ko": "흐뭇하다는 듯",
+   "en": "in a pleased, agreeing way"
   },
   "rarest": {
    "pos": "형용사",
-   "ko": "가장 귀한 (rare의 최상급)"
+   "ko": "가장 귀한 (rare의 최상급)",
+   "en": "the hardest to find"
   },
   "itself": {
    "pos": "대명사",
-   "ko": "그것 스스로"
+   "ko": "그것 스스로",
+   "en": "the thing on its own"
   },
   "simply": {
    "pos": "부사",
-   "ko": "그저, 단지"
+   "ko": "그저, 단지",
+   "en": "just; only"
   },
   "leads": {
    "pos": "동사",
-   "ko": "데려가요, 이끌어요 (lead의 3인칭)"
+   "ko": "데려가요, 이끌어요 (lead의 3인칭)",
+   "en": "goes first to show the way"
   },
   "instructs": {
    "pos": "동사",
-   "ko": "알려줘요, 가르쳐줘요 (instruct의 3인칭)"
+   "ko": "알려줘요, 가르쳐줘요 (instruct의 3인칭)",
+   "en": "tells you how to do something"
   },
   "afternoon": {
    "pos": "명사",
-   "ko": "오후"
+   "ko": "오후",
+   "en": "the time after midday"
   },
   "softest": {
    "pos": "형용사",
-   "ko": "가장 부드러운 (soft의 최상급)"
+   "ko": "가장 부드러운 (soft의 최상급)",
+   "en": "the most soft of all"
   },
   "seems": {
    "pos": "동사",
-   "ko": "~처럼 보여요 (seem의 3인칭)"
+   "ko": "~처럼 보여요 (seem의 3인칭)",
+   "en": "looks like; appears"
   },
   "rest": {
    "pos": "동사",
-   "ko": "머물다, 가만히 놓이다"
+   "ko": "머물다, 가만히 놓이다",
+   "en": "to sit quietly in one place"
   },
   "gently": {
    "pos": "부사",
-   "ko": "부드럽게, 살살"
+   "ko": "부드럽게, 살살",
+   "en": "in a soft, careful way"
   },
   "patient": {
    "pos": "형용사",
-   "ko": "참을성 있는, 느긋한"
+   "ko": "참을성 있는, 느긋한",
+   "en": "able to wait calmly"
   },
   "find": {
    "pos": "동사",
-   "ko": "찾다, 찾아내다"
+   "ko": "찾다, 찾아내다",
+   "en": "to discover; to see at last"
   },
   "stay": {
    "pos": "동사",
-   "ko": "머무르다, 남아 있다"
+   "ko": "머무르다, 남아 있다",
+   "en": "to remain in one place"
   },
   "tallest": {
    "pos": "형용사",
-   "ko": "가장 키가 큰 (tall의 최상급)"
+   "ko": "가장 키가 큰 (tall의 최상급)",
+   "en": "the most tall of all"
   },
   "where": {
    "pos": "부사",
-   "ko": "~하는 곳 (관계부사)"
+   "ko": "~하는 곳 (관계부사)",
+   "en": "the place that"
   },
   "bother": {
    "pos": "동사",
-   "ko": "굳이 ~하려 하다, 애쓰다"
+   "ko": "굳이 ~하려 하다, 애쓰다",
+   "en": "to take the trouble to try"
   },
   "hang": {
    "pos": "동사",
-   "ko": "매달리다, 열려 있다"
+   "ko": "매달리다, 열려 있다",
+   "en": "to be held up from above"
   },
   "however": {
    "pos": "부사",
-   "ko": "하지만, 그러나"
+   "ko": "하지만, 그러나",
+   "en": "but; even so"
   },
   "things": {
    "pos": "명사",
-   "ko": "것들, 말들"
+   "ko": "것들, 말들",
+   "en": "objects, or words you say"
   },
   "beside": {
    "pos": "전치사",
-   "ko": "~옆에서"
+   "ko": "~옆에서",
+   "en": "next to; at the side of"
   },
   "threatens": {
    "pos": "동사",
-   "ko": "금방이라도 ~할 것 같아요 (threaten의 3인칭)"
+   "ko": "금방이라도 ~할 것 같아요 (threaten의 3인칭)",
+   "en": "seems about to do something"
   },
   "understand": {
    "pos": "동사",
-   "ko": "이해하다"
+   "ko": "이해하다",
+   "en": "to know what something means"
   },
   "lingers": {
    "pos": "동사",
-   "ko": "은은하게 남아 있어요 (linger의 3인칭)"
+   "ko": "은은하게 남아 있어요 (linger의 3인칭)",
+   "en": "stays around for a long time"
   },
   "week": {
    "pos": "명사",
-   "ko": "주, 일주일"
+   "ko": "주, 일주일",
+   "en": "seven days"
   },
   "return": {
    "pos": "동사",
-   "ko": "돌아가다, 돌아오다"
+   "ko": "돌아가다, 돌아오다",
+   "en": "to go or come back"
   },
   "quietly": {
    "pos": "부사",
-   "ko": "조용히"
+   "ko": "조용히",
+   "en": "with little sound"
   },
   "shade": {
    "pos": "명사",
-   "ko": "그늘"
+   "ko": "그늘",
+   "en": "a cool spot out of sunlight"
   },
   "watches": {
    "pos": "동사",
-   "ko": "지켜봐요 (watch의 3인칭)"
+   "ko": "지켜봐요 (watch의 3인칭)",
+   "en": "looks at something for a while"
   },
   "sort": {
    "pos": "동사",
-   "ko": "고르다, 분류하다"
+   "ko": "고르다, 분류하다",
+   "en": "to put things into groups"
   },
   "each": {
    "pos": "형용사",
-   "ko": "각각의, 하나하나"
+   "ko": "각각의, 하나하나",
+   "en": "every single one"
   },
   "trust": {
    "pos": "동사",
-   "ko": "믿다, 신뢰하다"
+   "ko": "믿다, 신뢰하다",
+   "en": "to believe someone is honest"
   },
   "visit": {
    "pos": "동사",
-   "ko": "방문하다, 찾아가다"
+   "ko": "방문하다, 찾아가다",
+   "en": "to go and see someone"
   },
   "again": {
    "pos": "부사",
-   "ko": "다시, 또"
+   "ko": "다시, 또",
+   "en": "one more time"
   },
   "weekend": {
    "pos": "명사",
-   "ko": "주말"
+   "ko": "주말",
+   "en": "Saturday and Sunday"
   },
   "taking": {
    "pos": "동사",
-   "ko": "(시간을) 들이며 (take의 -ing형, take your time: 천천히 하다)"
+   "ko": "(시간을) 들이며 (take의 -ing형, take your time: 천천히 하다)",
+   "en": "taking your time: going slowly"
   },
   "teaches": {
    "pos": "동사",
-   "ko": "가르쳐줘요, 알려줘요 (teach의 3인칭)"
+   "ko": "가르쳐줘요, 알려줘요 (teach의 3인칭)",
+   "en": "shows you how to do something"
   },
   "hides": {
    "pos": "동사",
-   "ko": "숨어요 (hide의 3인칭)"
+   "ko": "숨어요 (hide의 3인칭)",
+   "en": "stays where nobody can see"
   },
   "gets": {
    "pos": "동사",
-   "ko": "받아요, 얻어요 (get의 3인칭)"
+   "ko": "받아요, 얻어요 (get의 3인칭)",
+   "en": "receives or wins"
   },
   "reward": {
    "pos": "명사",
-   "ko": "보상"
+   "ko": "보상",
+   "en": "a prize for doing well"
   },
   "few": {
    "pos": "형용사",
-   "ko": "몇몇의 (a few days: 며칠)"
+   "ko": "몇몇의 (a few days: 며칠)",
+   "en": "a small number (a few days)"
   },
   "later": {
    "pos": "부사",
-   "ko": "나중에, ~뒤에"
+   "ko": "나중에, ~뒤에",
+   "en": "after some time"
   },
   "invites": {
    "pos": "동사",
-   "ko": "초대해요, 불러요 (invite의 3인칭)"
+   "ko": "초대해요, 불러요 (invite의 3인칭)",
+   "en": "asks someone to come"
   },
   "fast": {
    "pos": "부사",
-   "ko": "빨리"
+   "ko": "빨리",
+   "en": "quickly"
   },
   "handing": {
    "pos": "동사",
-   "ko": "건네며 (hand의 -ing형)"
+   "ko": "건네며 (hand의 -ing형)",
+   "en": "giving something with your hand"
   },
   "we": {
    "pos": "대명사",
-   "ko": "우리"
+   "ko": "우리",
+   "en": "you and I"
   },
   "end": {
    "pos": "명사",
-   "ko": "끝, 끝 무렵"
+   "ko": "끝, 끝 무렵",
+   "en": "the last part"
   },
   "own": {
    "pos": "형용사",
-   "ko": "자기 자신의"
+   "ko": "자기 자신의",
+   "en": "belonging only to you"
   },
   "key": {
    "pos": "명사",
-   "ko": "열쇠"
+   "ko": "열쇠",
+   "en": "a small tool that opens locks"
   },
   "whenever": {
    "pos": "접속사",
-   "ko": "언제든, ~할 때마다"
+   "ko": "언제든, ~할 때마다",
+   "en": "at any time you like"
   },
   "yours": {
    "pos": "대명사",
-   "ko": "당신의 것"
+   "ko": "당신의 것",
+   "en": "the thing that belongs to you"
   },
   "work": {
    "pos": "동사",
-   "ko": "일하다"
+   "ko": "일하다",
+   "en": "to do a job"
   },
   "confident": {
    "pos": "형용사",
-   "ko": "자신감 있는"
+   "ko": "자신감 있는",
+   "en": "sure of yourself"
   },
   "table": {
    "pos": "명사",
-   "ko": "탁자, 테이블"
+   "ko": "탁자, 테이블",
+   "en": "furniture with a flat top"
   },
   "past": {
    "pos": "전치사",
-   "ko": "~을 지나서, ~너머로"
+   "ko": "~을 지나서, ~너머로",
+   "en": "beyond; farther than"
   },
   "row": {
    "pos": "명사",
-   "ko": "줄, 열"
+   "ko": "줄, 열",
+   "en": "a straight line of things"
   },
   "baskets": {
    "pos": "명사",
-   "ko": "바구니들 (basket의 복수형)"
+   "ko": "바구니들 (basket의 복수형)",
+   "en": "more than one basket"
   },
   "neatest": {
    "pos": "형용사",
-   "ko": "가장 단정한 (neat의 최상급)"
+   "ko": "가장 단정한 (neat의 최상급)",
+   "en": "the most tidy of all"
   }
  },
  "wink": {
@@ -798,6 +938,19 @@
   "climb": "'제일 좋은 건 제일 높은 가지에 있다'는 말 — 과일 얘기가 아니라 Peach 부인 자기 얘기로 들릴 수도 있어요.",
   "overflows": "바구니가 넘친다는 건, 넘치도록 만족스러웠다는 뜻으로도 읽혀요.",
   "overflow": "바구니가 넘친다는 건, 넘치도록 만족스러웠다는 뜻으로도 읽혀요."
+ },
+ "winkEn": {
+  "peach": "In old slang, a 'peach' is also a very attractive person.",
+  "peaches": "In old slang, a 'peach' is also a very attractive person.",
+  "ripe": "'Ripe and ready' is not only said about fruit — people say it about people, too.",
+  "squeeze": "A gentle squeeze to see if something 'gives' — a phrase that wanders beyond the fruit stand. ('Main squeeze' even means sweetheart.)",
+  "fuzz": "All this warm, soft-fuzzed skin could describe more than a peach.",
+  "soft": "'The soft ones never last long' — ripe fruit gets picked fast, and so, they say, do charming people.",
+  "juice": "Juice running down your chin paints a picture that fits other pleasures, too.",
+  "messy": "'The good ones are always a little messy' — grown-ups may hear that as advice about more than fruit.",
+  "climb": "'The best ones grow on the highest branch' — Mrs. Peach may not be talking about peaches at all.",
+  "overflows": "A basket filled until it overflows — a polite way of saying the visit was more than satisfying.",
+  "overflow": "A basket filled until it overflows — a polite way of saying the visit was more than satisfying."
  },
  "introEn": "Helping at Mrs. Peach's hillside orchard.\nPerfectly wholesome peach picking. ...on the surface."
 }

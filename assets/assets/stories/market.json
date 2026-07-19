@@ -17,21 +17,25 @@
  "endings": {
   "0": {
    "name": "조용한 단골",
+   "nameEn": "The Quiet Regular",
    "en": "You walk home slowly and cook a quiet dinner with the fresh vegetables. The green onions make the kitchen smell like the morning market. Next Saturday, you stand at the same stall again, and the grandmother smiles — she already knows what you like.",
    "ko": "집으로 천천히 걸어가 신선한 채소로 조용히 저녁을 차려요. 부엌 가득 파 향이 퍼지면 꼭 아침 시장에 서 있는 것 같아요. 다음 주 토요일, 같은 좌판 앞에 다시 서면 할머니가 웃어요 — 당신이 뭘 좋아하는지 벌써 알고 계시거든요."
   },
   "1": {
    "name": "따뜻한 이웃",
+   "nameEn": "The Warm Neighbor",
    "en": "That evening, the melon tastes as sweet as the grandmother promised. Every Saturday you ask about her garden, and she tells you the story of another vegetable. A month later, she starts setting aside your vegetables before you even arrive — the market has become a second home.",
    "ko": "그날 저녁, 멜론은 할머니 말씀처럼 달콤해요. 토요일마다 텃밭 이야기를 물어보면 할머니는 채소 하나에 얽힌 이야기를 새로 들려주세요. 한 달쯤 지나면 당신이 오기도 전에 할머니가 당신 몫의 채소를 먼저 골라 두세요 — 어느새 시장이 두 번째 집이 되어 있어요."
   },
   "2": {
    "name": "넉살 좋은 손님",
+   "nameEn": "The Sociable Shopper",
    "en": "That evening, your friends taste the melon and demand to see the stall themselves. Next Saturday, two of them walk to the market with you. The grandmother laughs when she sees three hungry faces. \"You brought me new customers,\" she says, and drops extra green onions into every bag.",
    "ko": "그날 저녁, 멜론을 맛본 친구들이 그 좌판을 직접 봐야겠다고 성화예요. 다음 주 토요일, 친구 둘이 당신과 함께 시장으로 가요. 배고픈 얼굴 셋을 본 할머니가 웃어요. \"새 손님들을 데려왔네,\" 하시며 봉지마다 파 한 줌씩을 덤으로 넣어 주세요."
   },
   "3": {
    "name": "겁 없는 흥정꾼",
+   "nameEn": "The Fearless Bargainer",
    "en": "Next Saturday, you arrive early and greet the grandmother in a loud, happy voice. You joke, you bargain, and you win two dollars off. Then she asks for your name, and from that day she greets you by name — her first true regular customer.",
    "ko": "다음 주 토요일, 일찍 도착해서 크고 명랑한 목소리로 할머니에게 인사해요. 농담도 하고 흥정도 해서 2달러나 깎아 내요. 그러자 할머니가 당신 이름을 물어보시고, 그날부터는 이름을 부르며 맞아 주세요 — 당신은 할머니의 첫 진짜 단골이거든요."
   }
@@ -317,647 +321,808 @@
  "dict": {
   "again": {
    "pos": "부사",
-   "ko": "다시, 또"
+   "ko": "다시, 또",
+   "en": "one more time"
   },
   "air": {
    "pos": "명사",
-   "ko": "공기"
+   "ko": "공기",
+   "en": "the open space you breathe in"
   },
   "already": {
    "pos": "부사",
-   "ko": "이미, 벌써"
+   "ko": "이미, 벌써",
+   "en": "before now; sooner than expected"
   },
   "announces": {
    "pos": "동사",
-   "ko": "당당히 말하다 (announce)"
+   "ko": "당당히 말하다 (announce)",
+   "en": "says in a loud, proud way"
   },
   "answers": {
    "pos": "동사",
-   "ko": "대답하다 (answer)"
+   "ko": "대답하다 (answer)",
+   "en": "says back when someone asks"
   },
   "another": {
    "pos": "형용사",
-   "ko": "또 하나의, 다른"
+   "ko": "또 하나의, 다른",
+   "en": "one more; a different one"
   },
   "any": {
    "pos": "형용사",
-   "ko": "조금이라도, 어떤"
+   "ko": "조금이라도, 어떤",
+   "en": "some, even a little"
   },
   "anytime": {
    "pos": "부사",
-   "ko": "언제든지"
+   "ko": "언제든지",
+   "en": "at any time you like"
   },
   "arranging": {
    "pos": "동사",
-   "ko": "정리하는, 진열하는 (arrange)"
+   "ko": "정리하는, 진열하는 (arrange)",
+   "en": "placing things neatly"
   },
   "arrive": {
    "pos": "동사",
-   "ko": "도착하다"
+   "ko": "도착하다",
+   "en": "to get to a place"
   },
   "aside": {
    "pos": "부사",
-   "ko": "따로, 한쪽에 (set aside: 따로 남겨 두다)"
+   "ko": "따로, 한쪽에 (set aside: 따로 남겨 두다)",
+   "en": "to one side; kept for later"
   },
   "ask": {
    "pos": "동사",
-   "ko": "묻다, 물어보다"
+   "ko": "묻다, 물어보다",
+   "en": "to say a question"
   },
   "asks": {
    "pos": "동사",
-   "ko": "묻다, 청하다 (ask)"
+   "ko": "묻다, 청하다 (ask)",
+   "en": "says a question"
   },
   "bag": {
    "pos": "명사",
-   "ko": "봉지, 가방"
+   "ko": "봉지, 가방",
+   "en": "a soft thing that holds your food"
   },
   "bargain": {
    "pos": "동사",
-   "ko": "흥정하다"
+   "ko": "흥정하다",
+   "en": "to talk to get a lower price"
   },
   "baskets": {
    "pos": "명사",
-   "ko": "바구니 (basket의 복수)"
+   "ko": "바구니 (basket의 복수)",
+   "en": "open containers for carrying things"
   },
   "because": {
    "pos": "접속사",
-   "ko": "~이기 때문에"
+   "ko": "~이기 때문에",
+   "en": "for the reason that"
   },
   "become": {
    "pos": "동사",
-   "ko": "~이 되다 (has become: ~이 되었다)"
+   "ko": "~이 되다 (has become: ~이 되었다)",
+   "en": "to grow into; to turn into"
   },
   "brave": {
    "pos": "형용사",
-   "ko": "용감한, 겁 없는"
+   "ko": "용감한, 겁 없는",
+   "en": "not afraid"
   },
   "bread": {
    "pos": "명사",
-   "ko": "빵"
+   "ko": "빵",
+   "en": "baked food made from flour"
   },
   "breaks": {
    "pos": "동사",
-   "ko": "(미소가) 번지다 (break into a smile)"
+   "ko": "(미소가) 번지다 (break into a smile)",
+   "en": "suddenly shows (a smile breaks out)"
   },
   "bright": {
    "pos": "형용사",
-   "ko": "화창한, 밝은"
+   "ko": "화창한, 밝은",
+   "en": "full of light; sunny"
   },
   "bring": {
    "pos": "동사",
-   "ko": "데려가다, 이끌다"
+   "ko": "데려가다, 이끌다",
+   "en": "to take someone with you"
   },
   "brought": {
    "pos": "동사",
-   "ko": "데려왔다 (bring의 과거)"
+   "ko": "데려왔다 (bring의 과거)",
+   "en": "past of bring; took with you"
   },
   "bundles": {
    "pos": "명사",
-   "ko": "다발, 묶음"
+   "ko": "다발, 묶음",
+   "en": "groups of things tied together"
   },
   "busy": {
    "pos": "형용사",
-   "ko": "붐비는, 분주한"
+   "ko": "붐비는, 분주한",
+   "en": "full of people and action"
   },
   "calling": {
    "pos": "동사",
-   "ko": "외치는 (call out: 소리쳐 알리다)"
+   "ko": "외치는 (call out: 소리쳐 알리다)",
+   "en": "shouting out (calling out prices)"
   },
   "care": {
    "pos": "명사",
-   "ko": "정성 (with care: 정성스럽게)"
+   "ko": "정성 (with care: 정성스럽게)",
+   "en": "attention and love (with care)"
   },
   "carry": {
    "pos": "동사",
-   "ko": "데려가다, 옮기다"
+   "ko": "데려가다, 옮기다",
+   "en": "to hold and take somewhere"
   },
   "chance": {
    "pos": "명사",
-   "ko": "가능성 (any chance of: 혹시 ~ 안 될까요)"
+   "ko": "가능성 (any chance of: 혹시 ~ 안 될까요)",
+   "en": "a possibility (any chance of...?)"
   },
   "cheerful": {
    "pos": "형용사",
-   "ko": "활기찬, 명랑한"
+   "ko": "활기찬, 명랑한",
+   "en": "happy and bright"
   },
   "choose": {
    "pos": "동사",
-   "ko": "고르다"
+   "ko": "고르다",
+   "en": "to pick the one you want"
   },
   "circle": {
    "pos": "동사",
-   "ko": "한 바퀴 돌다"
+   "ko": "한 바퀴 돌다",
+   "en": "to walk all the way around"
   },
   "cook": {
    "pos": "동사",
-   "ko": "요리하다"
+   "ko": "요리하다",
+   "en": "to make food with heat"
   },
   "corner": {
    "pos": "명사",
-   "ko": "구석, 모퉁이"
+   "ko": "구석, 모퉁이",
+   "en": "the place where two sides meet"
   },
   "crowded": {
    "pos": "형용사",
-   "ko": "붐비는"
+   "ko": "붐비는",
+   "en": "full of people"
   },
   "customer": {
    "pos": "명사",
-   "ko": "손님"
+   "ko": "손님",
+   "en": "a person who buys things"
   },
   "customers": {
    "pos": "명사",
-   "ko": "손님 (customer의 복수)"
+   "ko": "손님 (customer의 복수)",
+   "en": "people who buy things"
   },
   "definitely": {
    "pos": "부사",
-   "ko": "꼭, 반드시"
+   "ko": "꼭, 반드시",
+   "en": "for sure, without doubt"
   },
   "demand": {
    "pos": "동사",
-   "ko": "(강하게) 요구하다, 조르다"
+   "ko": "(강하게) 요구하다, 조르다",
+   "en": "to ask very strongly"
   },
   "dinner": {
    "pos": "명사",
-   "ko": "저녁 식사"
+   "ko": "저녁 식사",
+   "en": "the evening meal"
   },
   "direction": {
    "pos": "명사",
-   "ko": "방향"
+   "ko": "방향",
+   "en": "the way something goes or faces"
   },
   "discount": {
    "pos": "명사",
-   "ko": "할인"
+   "ko": "할인",
+   "en": "a lower price"
   },
   "dollar": {
    "pos": "명사",
-   "ko": "달러"
+   "ko": "달러",
+   "en": "a unit of money"
   },
   "dollars": {
    "pos": "명사",
-   "ko": "달러 (dollar의 복수)"
+   "ko": "달러 (dollar의 복수)",
+   "en": "units of money"
   },
   "draws": {
    "pos": "동사",
-   "ko": "끌어당기다 (draw)"
+   "ko": "끌어당기다 (draw)",
+   "en": "pulls you toward something"
   },
   "drifts": {
    "pos": "동사",
-   "ko": "떠돌다, 퍼지다 (drift)"
+   "ko": "떠돌다, 퍼지다 (drift)",
+   "en": "moves slowly through the air"
   },
   "drops": {
    "pos": "동사",
-   "ko": "슬쩍 넣다, 떨어뜨리다 (drop)"
+   "ko": "슬쩍 넣다, 떨어뜨리다 (drop)",
+   "en": "lets something fall gently in"
   },
   "early": {
    "pos": "부사",
-   "ko": "일찍"
+   "ko": "일찍",
+   "en": "before the usual time"
   },
   "end": {
    "pos": "명사",
-   "ko": "끝 (in the end: 결국 / end up: 결국 ~하게 되다)"
+   "ko": "끝 (in the end: 결국 / end up: 결국 ~하게 되다)",
+   "en": "the last part (in the end: finally)"
   },
   "even": {
    "pos": "부사",
-   "ko": "심지어, ~조차"
+   "ko": "심지어, ~조차",
+   "en": "used for surprise; more than expected"
   },
   "evening": {
    "pos": "명사",
-   "ko": "저녁"
+   "ko": "저녁",
+   "en": "the end of the day"
   },
   "everywhere": {
    "pos": "부사",
-   "ko": "어디에나, 사방에"
+   "ko": "어디에나, 사방에",
+   "en": "in all places"
   },
   "extra": {
    "pos": "형용사",
-   "ko": "여분의, 덤으로 주는 (a little extra: 덤)"
+   "ko": "여분의, 덤으로 주는 (a little extra: 덤)",
+   "en": "more than needed; a free bit"
   },
   "face": {
    "pos": "명사",
-   "ko": "얼굴"
+   "ko": "얼굴",
+   "en": "the front of your head"
   },
   "faces": {
    "pos": "명사",
-   "ko": "얼굴 (face의 복수)"
+   "ko": "얼굴 (face의 복수)",
+   "en": "the fronts of people's heads"
   },
   "far": {
    "pos": "부사",
-   "ko": "훨씬"
+   "ko": "훨씬",
+   "en": "much more (far more)"
   },
   "feels": {
    "pos": "동사",
-   "ko": "느껴지다 (feel)"
+   "ko": "느껴지다 (feel)",
+   "en": "seems to your body or senses"
   },
   "feet": {
    "pos": "명사",
-   "ko": "발 (foot의 복수)"
+   "ko": "발 (foot의 복수)",
+   "en": "the body parts you stand on"
   },
   "fifty": {
    "pos": "수사",
-   "ko": "쉰, 50 (four fifty: 4달러 50센트)"
+   "ko": "쉰, 50 (four fifty: 4달러 50센트)",
+   "en": "the number 50"
   },
   "fill": {
    "pos": "동사",
-   "ko": "가득 채우다"
+   "ko": "가득 채우다",
+   "en": "to make something full"
   },
   "find": {
    "pos": "동사",
-   "ko": "찾다, 발견하다"
+   "ko": "찾다, 발견하다",
+   "en": "to see something you look for"
   },
   "fine": {
    "pos": "감탄사",
-   "ko": "좋아요, 알겠어요"
+   "ko": "좋아요, 알겠어요",
+   "en": "okay; I agree"
   },
   "fish": {
    "pos": "명사",
-   "ko": "생선, 물고기"
+   "ko": "생선, 물고기",
+   "en": "an animal that lives in water"
   },
   "five": {
    "pos": "수사",
-   "ko": "다섯, 5"
+   "ko": "다섯, 5",
+   "en": "the number 5"
   },
   "flowers": {
    "pos": "명사",
-   "ko": "꽃 (flower의 복수)"
+   "ko": "꽃 (flower의 복수)",
+   "en": "colorful plants that smell nice"
   },
   "four": {
    "pos": "수사",
-   "ko": "넷, 4"
+   "ko": "넷, 4",
+   "en": "the number 4"
   },
   "fresh": {
    "pos": "형용사",
-   "ko": "신선한"
+   "ko": "신선한",
+   "en": "just picked; not old"
   },
   "freshly": {
    "pos": "부사",
-   "ko": "갓, 방금 (freshly picked: 갓 딴)"
+   "ko": "갓, 방금 (freshly picked: 갓 딴)",
+   "en": "just now (freshly picked)"
   },
   "friends": {
    "pos": "명사",
-   "ko": "친구 (friend의 복수)"
+   "ko": "친구 (friend의 복수)",
+   "en": "people you like and know well"
   },
   "fruit": {
    "pos": "명사",
-   "ko": "과일"
+   "ko": "과일",
+   "en": "sweet food from plants, like melon"
   },
   "grandmother": {
    "pos": "명사",
-   "ko": "할머니"
+   "ko": "할머니",
+   "en": "your parent's mother; an old woman"
   },
   "green": {
    "pos": "형용사",
-   "ko": "초록색의 (green onions: 파)"
+   "ko": "초록색의 (green onions: 파)",
+   "en": "the color of grass"
   },
   "greet": {
    "pos": "동사",
-   "ko": "인사하다"
+   "ko": "인사하다",
+   "en": "to say hello"
   },
   "greets": {
    "pos": "동사",
-   "ko": "인사하다, 맞이하다 (greet)"
+   "ko": "인사하다, 맞이하다 (greet)",
+   "en": "says hello to"
   },
   "half": {
    "pos": "부사",
-   "ko": "반쯤 (half joking: 반 농담으로)"
+   "ko": "반쯤 (half joking: 반 농담으로)",
+   "en": "partly; one of two equal parts"
   },
   "handful": {
    "pos": "명사",
-   "ko": "한 줌"
+   "ko": "한 줌",
+   "en": "as much as one hand holds"
   },
   "happy": {
    "pos": "형용사",
-   "ko": "행복한, 명랑한"
+   "ko": "행복한, 명랑한",
+   "en": "feeling good and glad"
   },
   "hear": {
    "pos": "동사",
-   "ko": "듣다, 들리다"
+   "ko": "듣다, 들리다",
+   "en": "to notice sound with your ears"
   },
   "honest": {
    "pos": "형용사",
-   "ko": "정직한, 진실해 보이는"
+   "ko": "정직한, 진실해 보이는",
+   "en": "telling the truth"
   },
   "joke": {
    "pos": "동사",
-   "ko": "농담하다"
+   "ko": "농담하다",
+   "en": "to say something funny"
   },
   "joking": {
    "pos": "동사",
-   "ko": "농담하는 (joke)"
+   "ko": "농담하는 (joke)",
+   "en": "saying something funny"
   },
   "kind": {
    "pos": "형용사",
-   "ko": "친절한"
+   "ko": "친절한",
+   "en": "nice and caring to others"
   },
   "kitchen": {
    "pos": "명사",
-   "ko": "부엌"
+   "ko": "부엌",
+   "en": "the room where you cook"
   },
   "knows": {
    "pos": "동사",
-   "ko": "알다 (know)"
+   "ko": "알다 (know)",
+   "en": "has learned; is sure of"
   },
   "later": {
    "pos": "부사",
-   "ko": "~ 뒤에, 나중에 (a month later: 한 달 뒤)"
+   "ko": "~ 뒤에, 나중에 (a month later: 한 달 뒤)",
+   "en": "after some time"
   },
   "light": {
    "pos": "형용사",
-   "ko": "가벼운"
+   "ko": "가벼운",
+   "en": "not heavy"
   },
   "loud": {
    "pos": "부사",
-   "ko": "큰 소리로 (out loud: 소리 내어)"
+   "ko": "큰 소리로 (out loud: 소리 내어)",
+   "en": "with a big sound"
   },
   "made": {
    "pos": "동사",
-   "ko": "~하게 만들었다 (make의 과거)"
+   "ko": "~하게 만들었다 (make의 과거)",
+   "en": "past of make"
   },
   "make": {
    "pos": "동사",
-   "ko": "만들다 (make your way: 걸음을 옮기다)"
+   "ko": "만들다 (make your way: 걸음을 옮기다)",
+   "en": "to create (make your way: walk)"
   },
   "many": {
    "pos": "형용사",
-   "ko": "많은"
+   "ko": "많은",
+   "en": "a large number of"
   },
   "market": {
    "pos": "명사",
-   "ko": "시장"
+   "ko": "시장",
+   "en": "an outdoor place to buy food"
   },
   "melon": {
    "pos": "명사",
-   "ko": "멜론"
+   "ko": "멜론",
+   "en": "a big, sweet, round fruit"
   },
   "money": {
    "pos": "명사",
-   "ko": "돈"
+   "ko": "돈",
+   "en": "what you pay with"
   },
   "month": {
    "pos": "명사",
-   "ko": "달, 한 달"
+   "ko": "달, 한 달",
+   "en": "about thirty days"
   },
   "name": {
    "pos": "명사",
-   "ko": "이름"
+   "ko": "이름",
+   "en": "what people call you"
   },
   "new": {
    "pos": "형용사",
-   "ko": "새로운"
+   "ko": "새로운",
+   "en": "not old; just arrived"
   },
   "nine": {
    "pos": "수사",
-   "ko": "아홉, 9"
+   "ko": "아홉, 9",
+   "en": "the number 9"
   },
   "nobody": {
    "pos": "대명사",
-   "ko": "아무도 ~않다"
+   "ko": "아무도 ~않다",
+   "en": "no person"
   },
   "noise": {
    "pos": "명사",
-   "ko": "소리, 왁자지껄함"
+   "ko": "소리, 왁자지껄함",
+   "en": "sound, often loud"
   },
   "notices": {
    "pos": "동사",
-   "ko": "알아차리다 (notice)"
+   "ko": "알아차리다 (notice)",
+   "en": "sees and pays attention to"
   },
   "off": {
    "pos": "부사",
-   "ko": "(값을) 깎아서 (one dollar off: 1달러 할인)"
+   "ko": "(값을) 깎아서 (one dollar off: 1달러 할인)",
+   "en": "taken away from the price"
   },
   "ones": {
    "pos": "대명사",
-   "ko": "것들 (one의 복수)"
+   "ko": "것들 (one의 복수)",
+   "en": "things already talked about"
   },
   "onions": {
    "pos": "명사",
-   "ko": "양파 (green onions: 파)"
+   "ko": "양파 (green onions: 파)",
+   "en": "round vegetables with a strong smell"
   },
   "only": {
    "pos": "부사",
-   "ko": "오직, ~해서일 뿐"
+   "ko": "오직, ~해서일 뿐",
+   "en": "just; no more than"
   },
   "or": {
    "pos": "접속사",
-   "ko": "또는 (rain or shine: 비가 오나 해가 뜨나)"
+   "ko": "또는 (rain or shine: 비가 오나 해가 뜨나)",
+   "en": "gives a choice between two things"
   },
   "out": {
    "pos": "부사",
-   "ko": "밖으로, 소리 내어 (laugh out loud)"
+   "ko": "밖으로, 소리 내어 (laugh out loud)",
+   "en": "outward; aloud (laugh out loud)"
   },
   "own": {
    "pos": "형용사",
-   "ko": "자신의"
+   "ko": "자신의",
+   "en": "belonging to you (my own garden)"
   },
   "past": {
    "pos": "전치사",
-   "ko": "~을 지나서"
+   "ko": "~을 지나서",
+   "en": "moving by; beyond"
   },
   "picked": {
    "pos": "동사",
-   "ko": "땄다, 수확했다 (pick의 과거)"
+   "ko": "땄다, 수확했다 (pick의 과거)",
+   "en": "taken from the plant"
   },
   "place": {
    "pos": "명사",
-   "ko": "곳, 장소"
+   "ko": "곳, 장소",
+   "en": "a spot or location"
   },
   "prices": {
    "pos": "명사",
-   "ko": "가격 (price의 복수)"
+   "ko": "가격 (price의 복수)",
+   "en": "how much things cost"
   },
   "promised": {
    "pos": "동사",
-   "ko": "약속했다 (promise의 과거)"
+   "ko": "약속했다 (promise의 과거)",
+   "en": "said something will surely happen"
   },
   "puts": {
    "pos": "동사",
-   "ko": "넣다, 놓다 (put)"
+   "ko": "넣다, 놓다 (put)",
+   "en": "places something somewhere"
   },
   "quiet": {
    "pos": "형용사",
-   "ko": "조용한"
+   "ko": "조용한",
+   "en": "with little sound"
   },
   "regular": {
    "pos": "형용사",
-   "ko": "단골의 (regular customer: 단골손님)"
+   "ko": "단골의 (regular customer: 단골손님)",
+   "en": "coming often (regular customer)"
   },
   "same": {
    "pos": "형용사",
-   "ko": "같은"
+   "ko": "같은",
+   "en": "not different"
   },
   "saturday": {
    "pos": "명사",
-   "ko": "토요일"
+   "ko": "토요일",
+   "en": "the day after Friday"
   },
   "saw": {
    "pos": "동사",
-   "ko": "보았다 (see의 과거)"
+   "ko": "보았다 (see의 과거)",
+   "en": "past of see"
   },
   "second": {
    "pos": "형용사",
-   "ko": "두 번째의"
+   "ko": "두 번째의",
+   "en": "number two in order"
   },
   "sees": {
    "pos": "동사",
-   "ko": "보다 (see)"
+   "ko": "보다 (see)",
+   "en": "looks at and notices"
   },
   "sellers": {
    "pos": "명사",
-   "ko": "상인, 파는 사람 (seller의 복수)"
+   "ko": "상인, 파는 사람 (seller의 복수)",
+   "en": "people who sell things"
   },
   "sells": {
    "pos": "동사",
-   "ko": "팔다 (sell)"
+   "ko": "팔다 (sell)",
+   "en": "gives things for money"
   },
   "set": {
    "pos": "동사",
-   "ko": "놓다 (set aside: 따로 남겨 두다)"
+   "ko": "놓다 (set aside: 따로 남겨 두다)",
+   "en": "to put (set aside: save)"
   },
   "setting": {
    "pos": "동사",
-   "ko": "따로 두는 (set aside: 따로 남겨 두다)"
+   "ko": "따로 두는 (set aside: 따로 남겨 두다)",
+   "en": "putting (setting aside: saving for later)"
   },
   "shine": {
    "pos": "명사",
-   "ko": "맑은 날씨 (rain or shine: 비가 오나 해가 뜨나)"
+   "ko": "맑은 날씨 (rain or shine: 비가 오나 해가 뜨나)",
+   "en": "sunlight (rain or shine: always)"
   },
   "shiny": {
    "pos": "형용사",
-   "ko": "반들반들한, 윤이 나는"
+   "ko": "반들반들한, 윤이 나는",
+   "en": "bright on the surface"
   },
   "sits": {
    "pos": "동사",
-   "ko": "앉아 있다 (sit)"
+   "ko": "앉아 있다 (sit)",
+   "en": "rests on a chair or seat"
   },
   "slowly": {
    "pos": "부사",
-   "ko": "천천히"
+   "ko": "천천히",
+   "en": "not fast"
   },
   "smell": {
    "pos": "명사",
-   "ko": "냄새, 향"
+   "ko": "냄새, 향",
+   "en": "what your nose notices"
   },
   "smells": {
    "pos": "동사",
-   "ko": "냄새가 나다 (smell)"
+   "ko": "냄새가 나다 (smell)",
+   "en": "gives a smell"
   },
   "something": {
    "pos": "대명사",
-   "ko": "무언가 (a little something: 작은 것 하나)"
+   "ko": "무언가 (a little something: 작은 것 하나)",
+   "en": "a thing you do not name"
   },
   "stall": {
    "pos": "명사",
-   "ko": "좌판, 가판대"
+   "ko": "좌판, 가판대",
+   "en": "a small open shop table"
   },
   "stalls": {
    "pos": "명사",
-   "ko": "좌판들 (stall의 복수)"
+   "ko": "좌판들 (stall의 복수)",
+   "en": "small open shop tables"
   },
   "starts": {
    "pos": "동사",
-   "ko": "시작하다 (start)"
+   "ko": "시작하다 (start)",
+   "en": "begins"
   },
   "story": {
    "pos": "명사",
-   "ko": "이야기"
+   "ko": "이야기",
+   "en": "a tale someone tells"
   },
   "straight": {
    "pos": "부사",
-   "ko": "곧장, 바로"
+   "ko": "곧장, 바로",
+   "en": "directly, with no stops"
   },
   "stretching": {
    "pos": "동사",
-   "ko": "뻗어 있는 (stretch)"
+   "ko": "뻗어 있는 (stretch)",
+   "en": "reaching out far"
   },
   "strikes": {
    "pos": "동사",
-   "ko": "(생각이) 문득 들다 (it strikes you that)"
+   "ko": "(생각이) 문득 들다 (it strikes you that)",
+   "en": "comes suddenly to your mind"
   },
   "sun": {
    "pos": "명사",
-   "ko": "해, 햇살"
+   "ko": "해, 햇살",
+   "en": "the bright light in the sky"
   },
   "sweet": {
    "pos": "형용사",
-   "ko": "달콤한"
+   "ko": "달콤한",
+   "en": "tasting like sugar"
   },
   "table": {
    "pos": "명사",
-   "ko": "좌판, 탁자"
+   "ko": "좌판, 탁자",
+   "en": "a flat top for goods"
   },
   "takes": {
    "pos": "동사",
-   "ko": "받다, 가져가다 (take)"
+   "ko": "받다, 가져가다 (take)",
+   "en": "receives; picks up"
   },
   "taste": {
    "pos": "동사",
-   "ko": "맛보다"
+   "ko": "맛보다",
+   "en": "to try food in your mouth"
   },
   "tastes": {
    "pos": "동사",
-   "ko": "~한 맛이 나다 (taste)"
+   "ko": "~한 맛이 나다 (taste)",
+   "en": "has a flavor"
   },
   "their": {
    "pos": "대명사",
-   "ko": "그들의, 각자의"
+   "ko": "그들의, 각자의",
+   "en": "belonging to them"
   },
   "themselves": {
    "pos": "대명사",
-   "ko": "직접, 그들 스스로"
+   "ko": "직접, 그들 스스로",
+   "en": "with no one else; personally"
   },
   "these": {
    "pos": "대명사",
-   "ko": "이, 이것들"
+   "ko": "이, 이것들",
+   "en": "the ones here"
   },
   "three": {
    "pos": "수사",
-   "ko": "셋, 3"
+   "ko": "셋, 3",
+   "en": "the number 3"
   },
   "throws": {
    "pos": "동사",
-   "ko": "젖히다, 던지다 (throw one's head back: 고개를 젖히다)"
+   "ko": "젖히다, 던지다 (throw one's head back: 고개를 젖히다)",
+   "en": "moves fast (throws her head back)"
   },
   "true": {
    "pos": "형용사",
-   "ko": "진짜의, 진정한"
+   "ko": "진짜의, 진정한",
+   "en": "real, not fake"
   },
   "vegetable": {
    "pos": "명사",
-   "ko": "채소"
+   "ko": "채소",
+   "en": "a plant you eat, like eggplant"
   },
   "voice": {
    "pos": "명사",
-   "ko": "목소리"
+   "ko": "목소리",
+   "en": "the sound you speak with"
   },
   "walking": {
    "pos": "동사",
-   "ko": "걸어 다니는 (walk)"
+   "ko": "걸어 다니는 (walk)",
+   "en": "moving on your feet"
   },
   "wander": {
    "pos": "동사",
-   "ko": "거닐다, 돌아다니다"
+   "ko": "거닐다, 돌아다니다",
+   "en": "to walk with no plan"
   },
   "warmly": {
    "pos": "부사",
-   "ko": "따뜻하게"
+   "ko": "따뜻하게",
+   "en": "in a kind, friendly way"
   },
   "watched": {
    "pos": "동사",
-   "ko": "지켜보았다 (watch의 과거)"
+   "ko": "지켜보았다 (watch의 과거)",
+   "en": "looked at for a while"
   },
   "week": {
    "pos": "명사",
-   "ko": "주, 일주일"
+   "ko": "주, 일주일",
+   "en": "seven days"
   },
   "where": {
    "pos": "부사",
-   "ko": "~하는 곳에 (관계부사)"
+   "ko": "~하는 곳에 (관계부사)",
+   "en": "in which place"
   },
   "which": {
    "pos": "대명사",
-   "ko": "(관계대명사) 그것들 모두"
+   "ko": "(관계대명사) 그것들 모두",
+   "en": "the ones just mentioned"
   },
   "win": {
    "pos": "동사",
-   "ko": "얻어 내다, 이기다"
+   "ko": "얻어 내다, 이기다",
+   "en": "to get by trying (win a discount)"
   }
  },
  "introEn": "Saturday morning at the town market.\nA little extra from grandma warms your heart."
