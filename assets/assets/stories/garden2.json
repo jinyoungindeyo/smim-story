@@ -2,7 +2,7 @@
  "id": "garden2",
  "title": "The Secret Garden of Mrs. Rose",
  "badge": "A2+ · 표현 주의",
- "introKo": "이웃집 Rose 부인의 정원 일을 돕는 아주 건전한 이야기.\n…표면적으로는요. 단어를 탭하면 속뜻이 보여요.",
+ "introKo": "이웃집 Rose 부인의 정원 일을 돕는 아주 건전한 이야기.\n…표면적으로는요.",
  "adult": true,
  "minLevel": 5,
  "quiz": {
@@ -1094,7 +1094,7 @@
    "en": "the way you use your hands"
   }
  },
- "introEn": "Helping Mrs. Rose with her garden. Perfectly wholesome.\n...on the surface. Tap words to see the hidden meaning.",
+ "introEn": "Helping Mrs. Rose with her garden. Perfectly wholesome.\n...on the surface.",
  "endingsMode": "path",
  "picturebook": true,
  "wink": {
