@@ -1,0 +1,1910 @@
+{
+ "id": "tailor2",
+ "title": "The Tailor Shop",
+ "badge": "A2+ · 표현 주의",
+ "introKo": "결혼식 하객 정장을 맞추러 간 양복점, 유난히 꼼꼼한 재단사 Mr. Pin의 이야기.\n…표면적으로는요.",
+ "adult": true,
+ "minLevel": 5,
+ "quiz": {
+  "q": "Mr. Pin이 무릎까지 꿇고 잰 것은요?",
+  "options": [
+   "어깨 너비",
+   "안쪽 다리 길이",
+   "목 둘레"
+  ],
+  "answer": 1
+ },
+ "scripts": {
+  "normal": [
+   {
+    "type": "text",
+    "text": "Your best friend is getting married next month. You need a suit, so you visit a small tailor shop on a quiet street.",
+    "art": "tailor_shop"
+   },
+   {
+    "type": "text",
+    "text": "The tailor, Mr. Pin, welcomes you with a warm smile. People say no one in town measures as carefully as he does.",
+    "art": "tailor2_welcome"
+   },
+   {
+    "type": "text",
+    "text": "\"A wedding suit must fit like a second skin,\" he says. \"Please step up. First, I need to learn your measurements — all of them.\"",
+    "art": "tailor2_platform"
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 답할까요?",
+    "options": [
+     {
+      "en": "Sure. It's my first time getting a suit made.",
+      "ko": "네. 정장 맞추는 건 처음이에요.",
+      "reaction": "\"A first time is special,\" he says. \"Relax and leave everything to me.\"",
+      "tone": "bold"
+     },
+     {
+      "en": "Okay. How long will this take?",
+      "ko": "네. 시간이 얼마나 걸릴까요?",
+      "reaction": "\"Good work takes time,\" he smiles. \"I never rush the important parts.\"",
+      "tone": "calm"
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "He wraps his tape measure around your chest, then your waist. \"Breathe out slowly,\" he says. \"Don't hold anything back.\"",
+    "art": "tailor2_chest"
+   },
+   {
+    "type": "text",
+    "text": "\"Nice and snug,\" he murmurs, pulling the tape a little closer. \"The tape never lies. Your numbers are very good.\"",
+    "art": "tailor2_snug"
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "Is it supposed to be this tight?",
+      "ko": "원래 이렇게 조이는 거예요?",
+      "reaction": "\"Snug is not tight,\" he says. \"A good suit should hold you close all day.\"",
+      "tone": "calm"
+     },
+     {
+      "en": "You are very thorough, Mr. Pin.",
+      "ko": "정말 꼼꼼하시네요.",
+      "reaction": "\"Always,\" he says. \"I take my time with every inch.\"",
+      "tone": "bold"
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "\"Now, the inseam,\" he says, and he kneels in front of you. \"Stand still. This part needs a steady hand.\"",
+    "art": "tailor_measure"
+   },
+   {
+    "type": "text",
+    "text": "He runs the tape up along the inside of your leg. \"Almost done,\" he says. \"Numbers must be honest.\"",
+    "art": "tailor_measure"
+   },
+   {
+    "type": "text",
+    "text": "Then he drapes soft fabric over your shoulders and pins it, piece by piece. \"Hold still,\" he says. \"Feel how it flows over the body.\"",
+    "art": "tailor2_drape"
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "The fabric feels wonderful.",
+      "ko": "원단 감촉이 정말 좋네요.",
+      "reaction": "\"It should. Good fabric touches everything and hides nothing.\"",
+      "tone": "bold"
+     },
+     {
+      "en": "Will it be ready before the wedding?",
+      "ko": "결혼식 전까지 될까요?",
+      "reaction": "\"Of course. But come back for a second fitting. The second time is always better than the first.\"",
+      "tone": "calm"
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "At last, he steps back and looks at you in the mirror. \"You see?\" he says. \"By now, this suit knows your body better than you do.\"",
+    "art": "tailor_mirror"
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "I might have to come back for more fittings.",
+      "ko": "가봉하러 또 와야 할 것 같아요.",
+      "reaction": "\"I was hoping you would say that,\" he says. \"My door is always open for you.\"",
+      "tone": "bold"
+     },
+     {
+      "en": "Thank you. I think it is perfect just as it is.",
+      "ko": "고맙습니다. 이대로도 완벽한 것 같아요.",
+      "reaction": "\"Then my work here is done,\" he says. \"For now.\"",
+      "tone": "calm"
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "On the wedding day, everyone asks where you got your suit. You just smile. Some things stay between you and your tailor.",
+    "art": "tailor2_wedding"
+   }
+  ],
+  "hard": [
+   {
+    "type": "text",
+    "text": "Your best friend is getting married next month, which means you finally need a proper suit. You find a small tailor shop tucked away on a quiet street.",
+    "art": "tailor_shop"
+   },
+   {
+    "type": "text",
+    "text": "The tailor, Mr. Pin, welcomes you with a knowing smile. People around town swear that nobody takes measurements as carefully as he does.",
+    "art": "tailor2_welcome"
+   },
+   {
+    "type": "text",
+    "text": "\"A wedding suit must fit like a second skin,\" he declares. \"Step up onto the platform, please. Before anything else, I must learn your measurements — every last one.\"",
+    "art": "tailor2_platform"
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 답할까요?",
+    "options": [
+     {
+      "en": "Sure. It's my first time having a suit made.",
+      "ko": "네. 정장 맞추는 건 처음이에요.",
+      "reaction": "\"A first time is always special,\" he says softly. \"Relax, and leave everything in my hands.\"",
+      "tone": "bold"
+     },
+     {
+      "en": "Okay. Roughly how long will this take?",
+      "ko": "네. 대략 얼마나 걸릴까요?",
+      "reaction": "\"Good work cannot be rushed,\" he smiles. \"And I never hurry over the important parts.\"",
+      "tone": "calm"
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "He wraps the tape measure around your chest, then lets it slide down to your waist. \"Breathe out slowly,\" he says. \"Don't hold anything back from me.\"",
+    "art": "tailor2_chest"
+   },
+   {
+    "type": "text",
+    "text": "\"Nice and snug,\" he murmurs, drawing the tape a touch closer. \"The tape never lies, and I must say, your numbers are excellent.\"",
+    "art": "tailor2_snug"
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "Is it supposed to feel this tight?",
+      "ko": "원래 이렇게 조이는 느낌이에요?",
+      "reaction": "\"Snug is not the same as tight,\" he explains. \"A proper suit should hold you close from morning until night.\"",
+      "tone": "calm"
+     },
+     {
+      "en": "You are remarkably thorough, Mr. Pin.",
+      "ko": "정말 꼼꼼하시네요.",
+      "reaction": "\"Always,\" he says. \"I always take my time with every single inch.\"",
+      "tone": "bold"
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "\"Now for the inseam,\" he says, kneeling down in front of you. \"Stand perfectly still. This particular measurement calls for a steady hand.\"",
+    "art": "tailor_measure"
+   },
+   {
+    "type": "text",
+    "text": "He runs the tape up along the inside of your leg. \"Almost there,\" he says. \"An honest number is worth a little patience.\"",
+    "art": "tailor_measure"
+   },
+   {
+    "type": "text",
+    "text": "Then he drapes soft fabric across your shoulders, pinning it into place piece by piece. \"Hold still,\" he warns. \"Feel how it flows over the body — that is how you judge good fabric.\"",
+    "art": "tailor2_drape"
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "The fabric feels absolutely wonderful.",
+      "ko": "원단 감촉이 정말 좋네요.",
+      "reaction": "\"It should. Fine fabric touches everything and hides nothing.\"",
+      "tone": "bold"
+     },
+     {
+      "en": "Will it be finished before the wedding?",
+      "ko": "결혼식 전까지 완성될까요?",
+      "reaction": "\"Naturally. But you must return for a second fitting — the second time is always better than the first.\"",
+      "tone": "calm"
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "At last he steps back and looks at you in the mirror. \"You see?\" he says with quiet pride. \"By the end, the suit knows your body better than you know it yourself.\"",
+    "art": "tailor_mirror"
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "I suspect I will need to come back for more fittings.",
+      "ko": "가봉하러 또 와야 할 것 같아요.",
+      "reaction": "\"I was rather hoping you would say that,\" he replies. \"My door will always be open for you.\"",
+      "tone": "bold"
+     },
+     {
+      "en": "Thank you. Honestly, I think it is perfect just as it is.",
+      "ko": "고맙습니다. 솔직히 이대로도 완벽한 것 같아요.",
+      "reaction": "\"Then my work here is finished,\" he says. \"For now, at least.\"",
+      "tone": "calm"
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "text": "On the wedding day, everyone wants to know where you found such a suit. You simply smile. Some things stay between you and your tailor.",
+    "art": "tailor2_wedding"
+   }
+  ]
+ },
+ "endings": {
+  "0000": {
+   "name": "줄자만 스친 손님",
+   "nameEn": "A Brief Word with the Tape",
+   "en": "How long, is it too tight, will it be ready — those were your only questions, and once the suit fit, you called it perfect and left. Mr. Pin folds his tape with a quiet nod. Some visitors come only for a suit, and he sends them off with a polite bow.",
+   "ko": "얼마나 걸리는지, 너무 조이는 건 아닌지, 제때 되는지 — 당신의 질문은 그게 전부였고, 옷이 맞자 완벽하다며 떠났어요. Mr. Pin은 줄자를 조용히 접으며 고개를 끄덕여요. 어떤 손님은 정장 하나만 얻으러 오고, 그는 정중한 인사로 보내 주죠."
+  },
+  "0001": {
+   "name": "뒤늦게 문을 돌아본 손님",
+   "nameEn": "A Second Glance at the Door",
+   "en": "You were all business at first — how long, is it too tight, will it be ready — yet at the very end you hinted you might come back. Mr. Pin lifted an eyebrow, pleased. The careful ones, he decides, always return when they least expect to.",
+   "ko": "처음엔 온통 실무적이었죠. 얼마나 걸리는지, 너무 조이는 건 아닌지, 제때 되는지. 그런데 마지막에 또 오겠다는 말을 흘렸어요. Mr. Pin은 흐뭇하게 눈썹을 올려요. 신중한 분들이 꼭, 스스로도 예상 못 한 순간에 다시 온다고, 그는 생각해요."
+  },
+  "0010": {
+   "name": "원단에 마음 뺏긴 손님",
+   "nameEn": "The One the Fabric Charmed",
+   "en": "You watched the clock and worried about the fit, but when the fabric touched your shoulders, you forgot yourself and said how wonderful it felt. Then you took your suit and went. Mr. Pin smiles at the empty platform. The cloth, he murmurs, always speaks louder than he does.",
+   "ko": "시계를 보고 핏을 걱정하던 당신이었지만, 원단이 어깨에 닿자 그만 넋을 놓고 감촉이 참 좋다고 했어요. 그러고는 정장을 챙겨 떠났죠. Mr. Pin은 빈 단을 보며 미소 지어요. 천이란 게 늘 자기보다 말을 잘한다고, 그가 나직이 중얼거려요."
+  },
+  "0011": {
+   "name": "감촉을 잊지 못한 단골",
+   "nameEn": "Hooked on the Feel",
+   "en": "You started with practical questions, but the fabric won you over, and by the end you were already planning your next visit. Mr. Pin knew the look. Once someone feels good cloth, he says, a single suit is never enough.",
+   "ko": "실무적인 질문으로 시작했지만 원단에 마음을 뺏겼고, 끝날 무렵엔 벌써 다음 방문을 계획하고 있었죠. Mr. Pin은 그 표정을 알아봐요. 좋은 천을 한번 느끼고 나면 정장 한 벌로는 절대 성에 안 찬다고, 그가 말해요."
+  },
+  "0100": {
+   "name": "꼼꼼함을 알아본 손님",
+   "nameEn": "The One Who Noticed",
+   "en": "You kept things practical, but you did tell him how wonderfully thorough he was — and he took that to heart. The suit was ready on time, and you wore it once, beautifully. A compliment like that, Mr. Pin says, keeps a tailor warm all winter.",
+   "ko": "당신은 대체로 실무적이었지만, 참 꼼꼼하시다는 말만은 건넸고, 그는 그 말을 마음에 담았어요. 정장은 제때 완성됐고, 당신은 그 옷을 딱 한 번, 아주 멋지게 입었죠. 그런 칭찬 한마디면 재단사는 겨우내 따뜻하다고, Mr. Pin이 말해요."
+  },
+  "0101": {
+   "name": "다시 찾을 줄 알았던 손님",
+   "nameEn": "The Expected Return",
+   "en": "You admired how careful he was and, sure enough, you asked to come back before you even left. Mr. Pin was not surprised in the slightest. People who notice the details, he says, are the ones who keep coming for more of them.",
+   "ko": "당신은 그의 세심함에 감탄했고, 아니나 다를까 나가기도 전에 또 오겠다고 했어요. Mr. Pin은 조금도 놀라지 않았죠. 디테일을 알아보는 분들이 그 디테일을 더 누리러 자꾸 찾아온다고, 그가 말해요."
+  },
+  "0110": {
+   "name": "칭찬만 남기고 간 손님",
+   "nameEn": "Kind Words, Then Gone",
+   "en": "You praised his careful hands and the wonderful fabric both, and Mr. Pin glowed at every word — then you thanked him and walked out for good. He stands a while by the mirror. So generous with his compliments, he sighs, and so quick with his goodbye.",
+   "ko": "당신은 그의 세심한 손길도, 근사한 원단도 아낌없이 칭찬했고, Mr. Pin은 한마디 한마디에 환해졌어요. 그러고는 고맙다는 인사와 함께 영영 떠났죠. 그는 한참 거울 곁에 서 있어요. 칭찬엔 그렇게 후하시더니 작별은 어찌 그리 빠르신지, 하고 한숨지어요."
+  },
+  "0111": {
+   "name": "말끝마다 다음을 남긴 손님",
+   "nameEn": "Every Word a Promise",
+   "en": "Once you warmed up, you could not stop: how thorough he was, how the fabric felt, and how you simply had to come back. Mr. Pin marked your measurements in his best notebook. Some customers, he says, you write down in ink.",
+   "ko": "한번 마음이 풀리자 당신은 멈추질 못했어요. 얼마나 꼼꼼하신지, 원단 감촉이 어떤지, 그리고 꼭 다시 와야겠다는 말까지. Mr. Pin은 아끼는 수첩에 당신의 치수를 적어 뒀어요. 어떤 손님은 지워지지 않게 펜으로 적어 둔다고, 그가 말해요."
+  },
+  "1000": {
+   "name": "첫걸음만 대담했던 손님",
+   "nameEn": "Bold at the Threshold",
+   "en": "You strode in and told him to lead the way — then went quiet, wondered if it was too tight, and only asked that it be ready in time. Mr. Pin found it charming. The bold ones, he says, often turn shy the moment the tape comes out.",
+   "ko": "당신은 성큼 들어와 다 맡기겠다고 했죠. 그러더니 조용해져서 너무 조이는 건 아닌지 묻고, 제때만 되면 된다고 했어요. Mr. Pin은 그게 귀여웠어요. 대담하게 들어온 분들이 줄자만 나오면 수줍어진다고, 그가 말해요."
+  },
+  "1001": {
+   "name": "조용히 단골이 된 손님",
+   "nameEn": "The Quiet Regular",
+   "en": "You breezed in trusting him with everything, stayed shy through the fitting, and slipped in a quiet request to return. Mr. Pin liked that best of all. The loud ones tell everyone, he says. The quiet ones simply come back.",
+   "ko": "당신은 다 맡기겠다며 가볍게 들어와, 가봉 내내 수줍게 있다가, 또 오겠다는 말을 슬쩍 흘렸어요. Mr. Pin은 그게 제일 좋았대요. 요란한 분들은 온 동네에 떠들지만 조용한 분들은 그냥 다시 온다고, 그가 말해요."
+  },
+  "1010": {
+   "name": "원단 앞에서 무너진 손님",
+   "nameEn": "Undone by the Cloth",
+   "en": "You came in cool and confident, and though the tape made you a little shy, the fabric undid you completely — you told him it felt wonderful before catching yourself. Then you left without a word about returning. The cloth, Mr. Pin muses, gets a confession out of everyone.",
+   "ko": "당신은 여유롭고 자신 있게 들어왔고, 줄자 앞에선 조금 수줍었지만, 원단 앞에선 완전히 무너졌어요. 정신 차리기도 전에 감촉이 참 좋다고 해 버렸죠. 그러고는 다시 오겠다는 말 없이 떠났어요. 천이란 게 누구한테서든 고백 하나쯤은 받아 낸다고, Mr. Pin이 혼잣말해요."
+  },
+  "1011": {
+   "name": "감촉에 사로잡힌 단골",
+   "nameEn": "Held by a Feeling",
+   "en": "You trusted him from the first hello, melted at the touch of the fabric, and left already asking when you could return. Only the tape measure kept you modest. Confident at the door, soft at the cloth, Mr. Pin says — his favorite kind of visitor.",
+   "ko": "당신은 첫인사부터 그를 믿었고, 원단의 감촉에 녹아내렸으며, 언제 다시 와도 되냐고 물으며 떠났어요. 오직 줄자 앞에서만 얌전해졌죠. 문 앞에선 자신만만, 천 앞에선 사르르 — 제가 제일 좋아하는 손님이라고, Mr. Pin이 말해요."
+  },
+  "1100": {
+   "name": "손발이 잘 맞은 손님",
+   "nameEn": "A Good Match at Work",
+   "en": "You told him to take the lead and then praised how thorough he was — the two of you worked like old partners. Still, you only needed the one suit, ready in time. A pity, Mr. Pin says. We measured so well together.",
+   "ko": "당신은 다 맡기겠다더니 얼마나 꼼꼼하시냐며 칭찬까지 했고, 두 사람은 오랜 파트너처럼 척척 맞았어요. 그래도 당신에겐 제때 완성된 정장 한 벌이면 충분했죠. 아쉽네요, 하고 Mr. Pin이 말해요. 치수 하나는 참 잘 맞았는데 말이죠."
+  },
+  "1101": {
+   "name": "손발 맞는 단골이 된 손님",
+   "nameEn": "Partners for the Season",
+   "en": "You let him lead, cheered on his careful hands, and booked your next visit before the suit was even pressed. Mr. Pin already had your winter coat in mind. When two people measure this well, he says, one suit is only the beginning.",
+   "ko": "당신은 그에게 다 맡기고, 세심한 손길을 응원했으며, 정장을 다리기도 전에 다음 방문을 예약했어요. Mr. Pin은 벌써 당신의 겨울 코트를 떠올리고 있었죠. 두 사람 치수가 이렇게 잘 맞으면 정장 한 벌은 그저 시작일 뿐이라고, 그가 말해요."
+  },
+  "1110": {
+   "name": "완벽했지만 떠난 손님",
+   "nameEn": "Perfect, and Gone",
+   "en": "You were bold from hello, generous with your praise, and lost in the feel of the fabric — the whole fitting went like a dream. Then you called it perfect and never came again. Mr. Pin keeps your measurements anyway, just in case the dream walks back in.",
+   "ko": "당신은 첫인사부터 대담했고, 칭찬에 후했으며, 원단의 감촉에 흠뻑 빠졌어요. 가봉 내내 꿈처럼 흘러갔죠. 그러고는 완벽하다는 말과 함께 다시는 오지 않았어요. 그래도 Mr. Pin은 당신의 치수를 남겨 둬요. 혹시 그 꿈이 다시 걸어 들어올까 봐서요."
+  },
+  "1111": {
+   "name": "소문난 양복점의 단골",
+   "nameEn": "The Talk of the Tailor Shop",
+   "en": "By autumn the whole town knows Mr. Pin has a favorite. You trusted him completely, praised his every touch, adored the fabric, and now you return so often the platform seems to wait for you. Some suits fit the body, he tells his friends. This one fit the man. And his door, the neighbors notice, is never quite closed to you.",
+   "ko": "가을 무렵엔 온 동네가 Mr. Pin에게 각별한 단골이 생겼다는 걸 알아요. 당신은 그를 완전히 믿었고, 손길마다 칭찬했으며, 원단을 사랑했고, 이제는 너무 자주 찾아와 그 단이 당신을 기다리는 것만 같아요. 어떤 정장은 몸에 맞지요, 하고 그가 친구들에게 말해요. 이 정장은 사람에게 맞았답니다. 그리고 이웃들은 눈치채요. 그의 가게 문이 당신에게만은 늘 살짝 열려 있다는 걸요."
+  }
+ },
+ "dict": {
+  "friend": {
+   "pos": "명사",
+   "ko": "친구",
+   "en": "a person you like and trust"
+  },
+  "getting": {
+   "pos": "동사",
+   "ko": "~하게 되다 (get의 -ing형)",
+   "en": "-ing form of get; becoming"
+  },
+  "married": {
+   "pos": "형용사",
+   "ko": "결혼한 (get married: 결혼하다)",
+   "en": "having a husband or wife"
+  },
+  "month": {
+   "pos": "명사",
+   "ko": "달, 월",
+   "en": "a period of about thirty days"
+  },
+  "suit": {
+   "pos": "명사",
+   "ko": "정장, 양복",
+   "en": "a matching jacket and trousers"
+  },
+  "visit": {
+   "pos": "동사",
+   "ko": "방문하다, 찾아가다",
+   "en": "to go and see a place"
+  },
+  "tailor": {
+   "pos": "명사",
+   "ko": "재단사, 양복장이",
+   "en": "a person who makes clothes fit"
+  },
+  "shop": {
+   "pos": "명사",
+   "ko": "가게",
+   "en": "a small store"
+  },
+  "quiet": {
+   "pos": "형용사",
+   "ko": "조용한",
+   "en": "with little or no noise"
+  },
+  "street": {
+   "pos": "명사",
+   "ko": "거리, 길",
+   "en": "a road in a town"
+  },
+  "mr": {
+   "pos": "명사",
+   "ko": "~씨, ~ 선생 (남성 경칭)",
+   "en": "a polite title for a man"
+  },
+  "pin": {
+   "pos": "명사",
+   "ko": "핀, 시침핀; 핀으로 고정하다 (여기서는 재단사 이름)",
+   "en": "a thin fastener; also the tailor's name"
+  },
+  "measures": {
+   "pos": "동사",
+   "ko": "치수를 재다 (3인칭)",
+   "en": "finds the size of something"
+  },
+  "does": {
+   "pos": "동사",
+   "ko": "하다 (3인칭)",
+   "en": "third-person form of do"
+  },
+  "wedding": {
+   "pos": "명사",
+   "ko": "결혼식",
+   "en": "a marriage ceremony"
+  },
+  "must": {
+   "pos": "조동사",
+   "ko": "~해야 하다, 분명 ~하다",
+   "en": "have to; surely"
+  },
+  "fit": {
+   "pos": "동사",
+   "ko": "(몸에 꼭) 맞다; 맞음새, 핏",
+   "en": "to be the right size"
+  },
+  "second": {
+   "pos": "형용사",
+   "ko": "두 번째의",
+   "en": "number two in order"
+  },
+  "skin": {
+   "pos": "명사",
+   "ko": "피부, 살갗",
+   "en": "the outside of your body"
+  },
+  "get": {
+   "pos": "동사",
+   "ko": "얻다, ~하게 되다",
+   "en": "to receive or become"
+  },
+  "know": {
+   "pos": "동사",
+   "ko": "알다",
+   "en": "to have information in your head"
+  },
+  "made": {
+   "pos": "동사",
+   "ko": "만들었다 (make의 과거분사)",
+   "en": "past form of make"
+  },
+  "special": {
+   "pos": "형용사",
+   "ko": "특별한",
+   "en": "not ordinary; important"
+  },
+  "relax": {
+   "pos": "동사",
+   "ko": "긴장을 풀다, 편하게 있다",
+   "en": "to become calm and loose"
+  },
+  "leave": {
+   "pos": "동사",
+   "ko": "맡기다, 남겨 두다",
+   "en": "to put something in someone's care"
+  },
+  "work": {
+   "pos": "명사",
+   "ko": "일, 작업",
+   "en": "a job or task"
+  },
+  "takes": {
+   "pos": "동사",
+   "ko": "(시간이) 걸리다; 가져가다 (3인칭)",
+   "en": "needs; third-person form of take"
+  },
+  "rush": {
+   "pos": "동사",
+   "ko": "서두르다, 재촉하다",
+   "en": "to do something too fast"
+  },
+  "important": {
+   "pos": "형용사",
+   "ko": "중요한",
+   "en": "mattering very much"
+  },
+  "parts": {
+   "pos": "명사",
+   "ko": "부분들",
+   "en": "pieces of a whole"
+  },
+  "wraps": {
+   "pos": "동사",
+   "ko": "감다, 두르다 (3인칭)",
+   "en": "puts something around another thing"
+  },
+  "tape": {
+   "pos": "명사",
+   "ko": "줄자 (tape measure), 테이프",
+   "en": "a long strip used for measuring"
+  },
+  "measure": {
+   "pos": "명사",
+   "ko": "재는 도구, 자; 재다",
+   "en": "to find out a size"
+  },
+  "chest": {
+   "pos": "명사",
+   "ko": "가슴, 흉부",
+   "en": "the upper front of your body"
+  },
+  "waist": {
+   "pos": "명사",
+   "ko": "허리",
+   "en": "the middle of your body"
+  },
+  "breathe": {
+   "pos": "동사",
+   "ko": "숨 쉬다",
+   "en": "to take air in and out"
+  },
+  "out": {
+   "pos": "부사",
+   "ko": "밖으로; (breathe out) 내쉬다",
+   "en": "away from the inside"
+  },
+  "slowly": {
+   "pos": "부사",
+   "ko": "천천히",
+   "en": "not fast"
+  },
+  "anything": {
+   "pos": "대명사",
+   "ko": "아무것도, 무엇이든",
+   "en": "any thing at all"
+  },
+  "nice": {
+   "pos": "형용사",
+   "ko": "좋은, 괜찮은",
+   "en": "good; pleasant"
+  },
+  "snug": {
+   "pos": "형용사",
+   "ko": "몸에 딱 붙는, 아늑한",
+   "en": "fitting close to the body"
+  },
+  "pulling": {
+   "pos": "동사",
+   "ko": "당기다 (-ing형)",
+   "en": "drawing something closer"
+  },
+  "lies": {
+   "pos": "동사",
+   "ko": "거짓말하다 (3인칭)",
+   "en": "says things that are not true"
+  },
+  "numbers": {
+   "pos": "명사",
+   "ko": "숫자들, 치수",
+   "en": "figures; here, body sizes"
+  },
+  "number": {
+   "pos": "명사",
+   "ko": "숫자, 치수",
+   "en": "a figure such as one or two"
+  },
+  "supposed": {
+   "pos": "형용사",
+   "ko": "(be supposed to) 원래 ~하기로 되어 있는",
+   "en": "expected or meant to be"
+  },
+  "tight": {
+   "pos": "형용사",
+   "ko": "꽉 조이는, 빡빡한",
+   "en": "pressing hard; not loose"
+  },
+  "thorough": {
+   "pos": "형용사",
+   "ko": "꼼꼼한, 철저한",
+   "en": "careful about every small detail"
+  },
+  "difference": {
+   "pos": "명사",
+   "ko": "차이",
+   "en": "the way two things are unlike"
+  },
+  "between": {
+   "pos": "전치사",
+   "ko": "~ 사이에",
+   "en": "in the space separating two things"
+  },
+  "details": {
+   "pos": "명사",
+   "ko": "세부 사항, 디테일",
+   "en": "small parts of something"
+  },
+  "inseam": {
+   "pos": "명사",
+   "ko": "안쪽 다리 길이, 바지 안솔기",
+   "en": "the inside leg length of trousers"
+  },
+  "kneels": {
+   "pos": "동사",
+   "ko": "무릎을 꿇다 (3인칭)",
+   "en": "goes down on the knees"
+  },
+  "front": {
+   "pos": "명사",
+   "ko": "앞 (in front of: ~ 앞에)",
+   "en": "the forward side"
+  },
+  "part": {
+   "pos": "명사",
+   "ko": "부분",
+   "en": "one piece of something"
+  },
+  "steady": {
+   "pos": "형용사",
+   "ko": "흔들림 없는, 안정된",
+   "en": "firm; not shaking"
+  },
+  "runs": {
+   "pos": "동사",
+   "ko": "(손이나 도구를) 따라 움직이다; 달리다 (3인칭)",
+   "en": "moves something along a surface"
+  },
+  "along": {
+   "pos": "전치사",
+   "ko": "~을 따라",
+   "en": "following the line of something"
+  },
+  "inside": {
+   "pos": "명사",
+   "ko": "안쪽",
+   "en": "the inner part"
+  },
+  "leg": {
+   "pos": "명사",
+   "ko": "다리",
+   "en": "the body part you walk with"
+  },
+  "higher": {
+   "pos": "형용사",
+   "ko": "더 높은 (high의 비교급)",
+   "en": "farther up; more high"
+  },
+  "expected": {
+   "pos": "동사",
+   "ko": "예상했다 (expect의 과거형)",
+   "en": "thought something would happen"
+  },
+  "asks": {
+   "pos": "동사",
+   "ko": "묻다 (3인칭)",
+   "en": "says a question"
+  },
+  "honest": {
+   "pos": "형용사",
+   "ko": "정직한, 솔직한",
+   "en": "truthful; not lying"
+  },
+  "drapes": {
+   "pos": "동사",
+   "ko": "(천을) 드리우다, 걸치다 (3인칭)",
+   "en": "lays cloth loosely over something"
+  },
+  "soft": {
+   "pos": "형용사",
+   "ko": "부드러운",
+   "en": "gentle to touch; not hard"
+  },
+  "fabric": {
+   "pos": "명사",
+   "ko": "원단, 천",
+   "en": "cloth for making clothes"
+  },
+  "shoulders": {
+   "pos": "명사",
+   "ko": "어깨",
+   "en": "the body parts beside your neck"
+  },
+  "pins": {
+   "pos": "동사",
+   "ko": "핀으로 고정하다 (3인칭)",
+   "en": "fastens cloth with small pins"
+  },
+  "piece": {
+   "pos": "명사",
+   "ko": "조각 (piece by piece: 한 조각씩)",
+   "en": "one part of something"
+  },
+  "feel": {
+   "pos": "동사",
+   "ko": "느끼다; ~한 느낌이 들다",
+   "en": "to notice by touch"
+  },
+  "flows": {
+   "pos": "동사",
+   "ko": "흐르다 (3인칭)",
+   "en": "moves smoothly, like water"
+  },
+  "feels": {
+   "pos": "동사",
+   "ko": "~한 느낌이 나다 (3인칭)",
+   "en": "gives a certain feeling"
+  },
+  "touches": {
+   "pos": "동사",
+   "ko": "닿다, 만지다 (3인칭)",
+   "en": "puts a hand on; reaches"
+  },
+  "hides": {
+   "pos": "동사",
+   "ko": "숨기다 (3인칭)",
+   "en": "keeps something out of sight"
+  },
+  "ready": {
+   "pos": "형용사",
+   "ko": "준비된, 다 된",
+   "en": "finished and prepared"
+  },
+  "fitting": {
+   "pos": "명사",
+   "ko": "가봉, 피팅 (옷을 맞춰 보는 일)",
+   "en": "a try-on to check the fit"
+  },
+  "last": {
+   "pos": "명사",
+   "ko": "마지막 (at last: 마침내)",
+   "en": "final; at last means finally"
+  },
+  "steps": {
+   "pos": "동사",
+   "ko": "걸음을 옮기다 (3인칭)",
+   "en": "moves the feet; walks"
+  },
+  "mirror": {
+   "pos": "명사",
+   "ko": "거울",
+   "en": "glass that shows your reflection"
+  },
+  "knows": {
+   "pos": "동사",
+   "ko": "알다 (3인칭)",
+   "en": "third-person form of know"
+  },
+  "do": {
+   "pos": "동사",
+   "ko": "하다",
+   "en": "to perform an action"
+  },
+  "where": {
+   "pos": "부사",
+   "ko": "어디서, 어디에",
+   "en": "in or to what place"
+  },
+  "got": {
+   "pos": "동사",
+   "ko": "얻었다, 샀다 (get의 과거형)",
+   "en": "past form of get"
+  },
+  "some": {
+   "pos": "형용사",
+   "ko": "몇몇의, 어떤",
+   "en": "a few; certain"
+  },
+  "things": {
+   "pos": "명사",
+   "ko": "것들, 일들",
+   "en": "objects or matters"
+  },
+  "stay": {
+   "pos": "동사",
+   "ko": "머무르다, (비밀로) 남다",
+   "en": "to remain; not to leave"
+  },
+  "which": {
+   "pos": "대명사",
+   "ko": "(관계대명사) 그리고 그것은",
+   "en": "a word adding extra information"
+  },
+  "means": {
+   "pos": "동사",
+   "ko": "의미하다 (3인칭)",
+   "en": "has the meaning of"
+  },
+  "proper": {
+   "pos": "형용사",
+   "ko": "제대로 된",
+   "en": "correct and real"
+  },
+  "find": {
+   "pos": "동사",
+   "ko": "찾다, 발견하다",
+   "en": "to discover or locate"
+  },
+  "tucked": {
+   "pos": "동사",
+   "ko": "(tucked away) 안쪽에 자리 잡은, 숨어 있는",
+   "en": "hidden away in a quiet spot"
+  },
+  "knowing": {
+   "pos": "형용사",
+   "ko": "다 안다는 듯한; 알게 되는 (know의 -ing형)",
+   "en": "showing you understand a secret"
+  },
+  "nobody": {
+   "pos": "대명사",
+   "ko": "아무도 ~않다",
+   "en": "no person"
+  },
+  "measurements": {
+   "pos": "명사",
+   "ko": "치수, 측정값",
+   "en": "the sizes of body parts"
+  },
+  "declares": {
+   "pos": "동사",
+   "ko": "선언하듯 말하다 (3인칭)",
+   "en": "says firmly and clearly"
+  },
+  "onto": {
+   "pos": "전치사",
+   "ko": "~ 위로",
+   "en": "moving to the top of"
+  },
+  "platform": {
+   "pos": "명사",
+   "ko": "단, 받침대",
+   "en": "a raised place to stand on"
+  },
+  "else": {
+   "pos": "부사",
+   "ko": "그 밖에, 다른",
+   "en": "other; different"
+  },
+  "having": {
+   "pos": "동사",
+   "ko": "(have의 -ing형) ~하게 하다",
+   "en": "-ing form of have"
+  },
+  "roughly": {
+   "pos": "부사",
+   "ko": "대략",
+   "en": "about; more or less"
+  },
+  "cannot": {
+   "pos": "조동사",
+   "ko": "~할 수 없다",
+   "en": "is not able to"
+  },
+  "rushed": {
+   "pos": "동사",
+   "ko": "재촉된, 급히 이뤄진 (rush의 과거분사; cannot be rushed: 서두른다고 되는 게 아니다)",
+   "en": "done too quickly"
+  },
+  "lets": {
+   "pos": "동사",
+   "ko": "~하게 두다 (3인칭)",
+   "en": "allows something to happen"
+  },
+  "drawing": {
+   "pos": "동사",
+   "ko": "끌어당기다 (-ing형)",
+   "en": "pulling something closer"
+  },
+  "touch": {
+   "pos": "명사",
+   "ko": "(a touch) 약간, 조금; 손길",
+   "en": "a touch means a little bit"
+  },
+  "excellent": {
+   "pos": "형용사",
+   "ko": "훌륭한, 아주 좋은",
+   "en": "very, very good"
+  },
+  "same": {
+   "pos": "형용사",
+   "ko": "같은",
+   "en": "not different"
+  },
+  "explains": {
+   "pos": "동사",
+   "ko": "설명하다 (3인칭)",
+   "en": "makes something clear"
+  },
+  "until": {
+   "pos": "전치사",
+   "ko": "~까지",
+   "en": "up to a certain time"
+  },
+  "lives": {
+   "pos": "동사",
+   "ko": "(~ 안에) 있다, 깃들다 (3인칭)",
+   "en": "stays or exists inside something"
+  },
+  "kneeling": {
+   "pos": "동사",
+   "ko": "무릎을 꿇다 (-ing형)",
+   "en": "going down on the knees"
+  },
+  "perfectly": {
+   "pos": "부사",
+   "ko": "완벽하게, 꼼짝 않고",
+   "en": "completely; without any mistake"
+  },
+  "particular": {
+   "pos": "형용사",
+   "ko": "특정한, 바로 이",
+   "en": "this special one"
+  },
+  "measurement": {
+   "pos": "명사",
+   "ko": "치수, 측정",
+   "en": "a size you measure"
+  },
+  "taking": {
+   "pos": "동사",
+   "ko": "(take one's time) 천천히 하다 (-ing형)",
+   "en": "taking your time means going slowly"
+  },
+  "worth": {
+   "pos": "형용사",
+   "ko": "~할 가치가 있는",
+   "en": "deserving; good enough for"
+  },
+  "patience": {
+   "pos": "명사",
+   "ko": "인내심, 참을성",
+   "en": "the ability to wait calmly"
+  },
+  "across": {
+   "pos": "전치사",
+   "ko": "~을 가로질러, ~ 위로",
+   "en": "from one side to the other"
+  },
+  "pinning": {
+   "pos": "동사",
+   "ko": "핀으로 고정하다 (-ing형)",
+   "en": "fastening with pins"
+  },
+  "place": {
+   "pos": "명사",
+   "ko": "자리, 제자리",
+   "en": "a spot or position"
+  },
+  "judge": {
+   "pos": "동사",
+   "ko": "판단하다, 가늠하다",
+   "en": "to decide how good something is"
+  },
+  "absolutely": {
+   "pos": "부사",
+   "ko": "정말로, 완전히",
+   "en": "completely; totally"
+  },
+  "fine": {
+   "pos": "형용사",
+   "ko": "질 좋은, 고급의",
+   "en": "of very good quality"
+  },
+  "finished": {
+   "pos": "동사",
+   "ko": "완성되다 (finish의 과거분사)",
+   "en": "completed; done"
+  },
+  "naturally": {
+   "pos": "부사",
+   "ko": "당연히, 물론",
+   "en": "of course"
+  },
+  "return": {
+   "pos": "동사",
+   "ko": "돌아오다",
+   "en": "to come back"
+  },
+  "ends": {
+   "pos": "동사",
+   "ko": "끝나다; (end up) 결국 ~하게 되다 (3인칭)",
+   "en": "stops or finishes"
+  },
+  "wants": {
+   "pos": "동사",
+   "ko": "원하다 (3인칭)",
+   "en": "wishes to have or know"
+  },
+  "found": {
+   "pos": "동사",
+   "ko": "찾았다, 발견했다 (find의 과거형)",
+   "en": "past form of find"
+  },
+  "simply": {
+   "pos": "부사",
+   "ko": "그저, 그냥",
+   "en": "just; only"
+  },
+  "inch": {
+   "pos": "명사",
+   "ko": "인치 (길이 단위, 약 2.5cm)",
+   "en": "a small unit of length"
+  },
+  "almost": {
+   "pos": "부사",
+   "ko": "거의",
+   "en": "nearly; not quite"
+  },
+  "end": {
+   "pos": "명사",
+   "ko": "끝 (by the end: 끝날 때쯤에는)",
+   "en": "the final part"
+  },
+  "single": {
+   "pos": "형용사",
+   "ko": "단 하나의 (every single: 하나도 빠짐없이)",
+   "en": "only one"
+  },
+  "after": {
+   "pos": "전치사",
+   "ko": "~ 후에, ~이 끝난 뒤",
+   "en": "later than; following"
+  },
+  "hang": {
+   "pos": "동사",
+   "ko": "걸다, 걸어 두다",
+   "en": "to put up on a hook"
+  },
+  "closet": {
+   "pos": "명사",
+   "ko": "옷장",
+   "en": "a small room for clothes"
+  },
+  "write": {
+   "pos": "동사",
+   "ko": "쓰다, 적다",
+   "en": "to make words on paper"
+  },
+  "short": {
+   "pos": "형용사",
+   "ko": "짧은",
+   "en": "not long"
+  },
+  "polite": {
+   "pos": "형용사",
+   "ko": "정중한, 예의 바른",
+   "en": "showing good manners"
+  },
+  "card": {
+   "pos": "명사",
+   "ko": "카드, 엽서",
+   "en": "stiff paper with a message"
+  },
+  "tell": {
+   "pos": "동사",
+   "ko": "말하다 (tell yourself: 스스로에게 말하다)",
+   "en": "to say something to someone"
+  },
+  "taken": {
+   "pos": "동사",
+   "ko": "재어진, 행해진 (take의 과거분사)",
+   "en": "past form of take"
+  },
+  "only": {
+   "pos": "부사",
+   "ko": "오직, ~만",
+   "en": "no more than; just"
+  },
+  "weeks": {
+   "pos": "명사",
+   "ko": "몇 주 (week의 복수형)",
+   "en": "periods of seven days"
+  },
+  "later": {
+   "pos": "부사",
+   "ko": "나중에, ~ 뒤에",
+   "en": "after some time"
+  },
+  "walking": {
+   "pos": "동사",
+   "ko": "걷다 (-ing형)",
+   "en": "moving on foot"
+  },
+  "again": {
+   "pos": "부사",
+   "ko": "다시, 또",
+   "en": "one more time"
+  },
+  "window": {
+   "pos": "명사",
+   "ko": "창문, 진열창",
+   "en": "the glass front of a shop"
+  },
+  "sees": {
+   "pos": "동사",
+   "ko": "보다, 알아보다 (3인칭)",
+   "en": "notices with the eyes"
+  },
+  "slower": {
+   "pos": "부사",
+   "ko": "더 느리게 (slow의 비교급)",
+   "en": "less fast"
+  },
+  "usual": {
+   "pos": "형용사",
+   "ko": "평소의 (than usual: 평소보다)",
+   "en": "normal; happening most of the time"
+  },
+  "even": {
+   "pos": "부사",
+   "ko": "~조차, 심지어 (even though: ~인데도)",
+   "en": "used for something surprising"
+  },
+  "fits": {
+   "pos": "동사",
+   "ko": "(몸에 꼭) 맞다 (3인칭)",
+   "en": "is the right size"
+  },
+  "checking": {
+   "pos": "동사",
+   "ko": "확인하다 (-ing형)",
+   "en": "looking to make sure"
+  },
+  "missed": {
+   "pos": "동사",
+   "ko": "그리워했다, 보고 싶어 했다 (miss의 과거형)",
+   "en": "felt sad because someone was away"
+  },
+  "become": {
+   "pos": "동사",
+   "ko": "~이 되다",
+   "en": "to grow to be"
+  },
+  "most": {
+   "pos": "부사",
+   "ko": "가장 (최상급을 만드는 말)",
+   "en": "more than all others"
+  },
+  "regular": {
+   "pos": "형용사",
+   "ko": "단골의, 정기적인 (regular customer: 단골손님)",
+   "en": "coming again and again"
+  },
+  "customer": {
+   "pos": "명사",
+   "ko": "손님, 고객",
+   "en": "a person who buys things"
+  },
+  "winter": {
+   "pos": "명사",
+   "ko": "겨울",
+   "en": "the cold season"
+  },
+  "jacket": {
+   "pos": "명사",
+   "ko": "재킷, 상의",
+   "en": "a short coat"
+  },
+  "summer": {
+   "pos": "명사",
+   "ko": "여름",
+   "en": "the hot season"
+  },
+  "trousers": {
+   "pos": "명사",
+   "ko": "바지",
+   "en": "clothes that cover your legs"
+  },
+  "something": {
+   "pos": "대명사",
+   "ko": "무언가, 어떤 것",
+   "en": "a thing not named"
+  },
+  "new": {
+   "pos": "형용사",
+   "ko": "새로운",
+   "en": "not old; fresh"
+  },
+  "week": {
+   "pos": "명사",
+   "ko": "주, 일주일",
+   "en": "seven days"
+  },
+  "admired": {
+   "pos": "동사",
+   "ko": "감탄했다, 우러러봤다 (admire의 과거)",
+   "en": "past form of admire; looked at with pleasure"
+  },
+  "adored": {
+   "pos": "동사",
+   "ko": "아주 좋아했다 (adore의 과거)",
+   "en": "past form of adore; loved very much"
+  },
+  "already": {
+   "pos": "부사",
+   "ko": "이미, 벌써",
+   "en": "before now; by this time"
+  },
+  "anyway": {
+   "pos": "부사",
+   "ko": "어쨌든, 그래도",
+   "en": "no matter what"
+  },
+  "asked": {
+   "pos": "동사",
+   "ko": "물었다, 부탁했다 (ask의 과거)",
+   "en": "past form of ask"
+  },
+  "asking": {
+   "pos": "동사",
+   "ko": "묻기, 부탁하기 (ask의 -ing형)",
+   "en": "-ing form of ask"
+  },
+  "autumn": {
+   "pos": "명사",
+   "ko": "가을",
+   "en": "the season after summer"
+  },
+  "beautifully": {
+   "pos": "부사",
+   "ko": "아름답게, 멋지게",
+   "en": "in a beautiful way"
+  },
+  "beginning": {
+   "pos": "명사",
+   "ko": "시작",
+   "en": "the first part of something"
+  },
+  "bold": {
+   "pos": "형용사",
+   "ko": "대담한, 과감한",
+   "en": "brave and confident"
+  },
+  "booked": {
+   "pos": "동사",
+   "ko": "예약했다 (book의 과거)",
+   "en": "past form of book; saved a time"
+  },
+  "both": {
+   "pos": "대명사",
+   "ko": "둘 다",
+   "en": "the two together"
+  },
+  "bow": {
+   "pos": "명사",
+   "ko": "(인사로) 고개 숙임",
+   "en": "a polite bend of the head"
+  },
+  "breezed": {
+   "pos": "동사",
+   "ko": "가볍게 성큼 들어왔다 (breeze in)",
+   "en": "walked in easily and lightly"
+  },
+  "business": {
+   "pos": "명사",
+   "ko": "일, 용무 (all business: 사무적인)",
+   "en": "work; all business means very serious"
+  },
+  "called": {
+   "pos": "동사",
+   "ko": "~라고 불렀다 (call의 과거)",
+   "en": "past form of call; named"
+  },
+  "came": {
+   "pos": "동사",
+   "ko": "왔다 (come의 과거)",
+   "en": "past form of come"
+  },
+  "case": {
+   "pos": "명사",
+   "ko": "경우 (just in case: 혹시 몰라서)",
+   "en": "a situation; just in case means to be safe"
+  },
+  "catching": {
+   "pos": "동사",
+   "ko": "붙잡다 (catch yourself: 정신 차리다)",
+   "en": "-ing form of catch; catching yourself means stopping yourself"
+  },
+  "charming": {
+   "pos": "형용사",
+   "ko": "매력 있는, 귀여운",
+   "en": "nice and pleasing"
+  },
+  "cheered": {
+   "pos": "동사",
+   "ko": "응원했다 (cheer의 과거)",
+   "en": "past form of cheer; gave support"
+  },
+  "clock": {
+   "pos": "명사",
+   "ko": "시계 (watch the clock: 시간을 신경 쓰다)",
+   "en": "a thing that shows the time"
+  },
+  "closed": {
+   "pos": "형용사",
+   "ko": "닫힌",
+   "en": "not open"
+  },
+  "cloth": {
+   "pos": "명사",
+   "ko": "천, 원단",
+   "en": "material for making clothes"
+  },
+  "coming": {
+   "pos": "동사",
+   "ko": "오다 (come의 -ing형)",
+   "en": "-ing form of come"
+  },
+  "completely": {
+   "pos": "부사",
+   "ko": "완전히",
+   "en": "fully; totally"
+  },
+  "compliment": {
+   "pos": "명사",
+   "ko": "칭찬",
+   "en": "a kind word about someone"
+  },
+  "compliments": {
+   "pos": "명사",
+   "ko": "칭찬들 (compliment의 복수)",
+   "en": "kind words of praise"
+  },
+  "confession": {
+   "pos": "명사",
+   "ko": "고백",
+   "en": "telling a secret truth"
+  },
+  "confident": {
+   "pos": "형용사",
+   "ko": "자신 있는",
+   "en": "sure of yourself"
+  },
+  "cool": {
+   "pos": "형용사",
+   "ko": "태연한, 여유로운",
+   "en": "calm and relaxed"
+  },
+  "customers": {
+   "pos": "명사",
+   "ko": "손님들 (customer의 복수)",
+   "en": "people who buy things"
+  },
+  "decides": {
+   "pos": "동사",
+   "ko": "결정하다, ~라고 여기다 (decide의 3인칭)",
+   "en": "third-person form of decide"
+  },
+  "did": {
+   "pos": "동사",
+   "ko": "했다 (do의 과거)",
+   "en": "past form of do"
+  },
+  "dream": {
+   "pos": "명사",
+   "ko": "꿈",
+   "en": "what you see in your mind while asleep"
+  },
+  "empty": {
+   "pos": "형용사",
+   "ko": "빈, 텅 빈",
+   "en": "with nothing on or in it"
+  },
+  "expect": {
+   "pos": "동사",
+   "ko": "예상하다 (least expect: 가장 예상 못 하다)",
+   "en": "to think something will happen"
+  },
+  "eyebrow": {
+   "pos": "명사",
+   "ko": "눈썹 (lift an eyebrow: 눈썹을 치키다)",
+   "en": "the line of hair above the eye"
+  },
+  "favorite": {
+   "pos": "명사",
+   "ko": "가장 좋아하는 것/사람",
+   "en": "the one you like best"
+  },
+  "felt": {
+   "pos": "동사",
+   "ko": "느꼈다 (feel의 과거)",
+   "en": "past form of feel"
+  },
+  "fittings": {
+   "pos": "명사",
+   "ko": "가봉들 (fitting의 복수)",
+   "en": "try-ons to check the fit"
+  },
+  "folds": {
+   "pos": "동사",
+   "ko": "접다 (fold의 3인칭)",
+   "en": "third-person form of fold; bends over"
+  },
+  "forgot": {
+   "pos": "동사",
+   "ko": "잊었다 (forget의 과거; forgot yourself: 넋을 놓다)",
+   "en": "past form of forget"
+  },
+  "friends": {
+   "pos": "명사",
+   "ko": "친구들 (friend의 복수)",
+   "en": "people you like and trust"
+  },
+  "generous": {
+   "pos": "형용사",
+   "ko": "후한, 아낌없는",
+   "en": "giving a lot"
+  },
+  "gets": {
+   "pos": "동사",
+   "ko": "얻다, 이끌어 내다 (get의 3인칭)",
+   "en": "third-person form of get"
+  },
+  "glowed": {
+   "pos": "동사",
+   "ko": "환해졌다 (glow의 과거)",
+   "en": "past form of glow; shone with warmth"
+  },
+  "goodbye": {
+   "pos": "명사",
+   "ko": "작별 인사",
+   "en": "what you say when you leave"
+  },
+  "had": {
+   "pos": "동사",
+   "ko": "가졌다, ~했다 (have의 과거)",
+   "en": "past form of have"
+  },
+  "hello": {
+   "pos": "명사",
+   "ko": "인사, 안녕",
+   "en": "what you say when you meet someone"
+  },
+  "him": {
+   "pos": "대명사",
+   "ko": "그를, 그에게",
+   "en": "the man just spoken of"
+  },
+  "hinted": {
+   "pos": "동사",
+   "ko": "넌지시 말했다 (hint의 과거)",
+   "en": "past form of hint; said in an indirect way"
+  },
+  "honestly": {
+   "pos": "부사",
+   "ko": "솔직히",
+   "en": "in a true, open way"
+  },
+  "hoping": {
+   "pos": "동사",
+   "ko": "바라다 (hope의 -ing형)",
+   "en": "-ing form of hope; wishing for"
+  },
+  "ink": {
+   "pos": "명사",
+   "ko": "잉크 (in ink: 지워지지 않게)",
+   "en": "colored liquid for writing"
+  },
+  "kept": {
+   "pos": "동사",
+   "ko": "유지했다, ~한 상태로 두었다 (keep의 과거)",
+   "en": "past form of keep"
+  },
+  "kind": {
+   "pos": "명사",
+   "ko": "종류",
+   "en": "a type of something"
+  },
+  "lead": {
+   "pos": "동사",
+   "ko": "앞장서다, 이끌다",
+   "en": "to go first and guide"
+  },
+  "least": {
+   "pos": "부사",
+   "ko": "가장 덜 (least expect: 가장 예상 못 한)",
+   "en": "the smallest amount"
+  },
+  "left": {
+   "pos": "동사",
+   "ko": "떠났다 (leave의 과거)",
+   "en": "past form of leave; went away"
+  },
+  "let": {
+   "pos": "동사",
+   "ko": "~하게 두다, 허락하다",
+   "en": "to allow"
+  },
+  "lifted": {
+   "pos": "동사",
+   "ko": "들어 올렸다, 치켰다 (lift의 과거)",
+   "en": "past form of lift; raised"
+  },
+  "liked": {
+   "pos": "동사",
+   "ko": "좋아했다 (like의 과거)",
+   "en": "past form of like"
+  },
+  "lost": {
+   "pos": "형용사",
+   "ko": "(lost in: ~에 빠진) 정신을 빼앗긴",
+   "en": "lost in something means fully absorbed in it"
+  },
+  "loud": {
+   "pos": "형용사",
+   "ko": "요란한, 시끄러운",
+   "en": "making a lot of noise"
+  },
+  "louder": {
+   "pos": "형용사",
+   "ko": "더 크게 (loud의 비교급)",
+   "en": "more loud"
+  },
+  "marked": {
+   "pos": "동사",
+   "ko": "적어 두었다, 표시했다 (mark의 과거)",
+   "en": "past form of mark; wrote down"
+  },
+  "measured": {
+   "pos": "동사",
+   "ko": "치수를 쟀다 (measure의 과거)",
+   "en": "past form of measure"
+  },
+  "melted": {
+   "pos": "동사",
+   "ko": "녹아내렸다 (melt의 과거)",
+   "en": "past form of melt; softened"
+  },
+  "might": {
+   "pos": "조동사",
+   "ko": "~할지도 모른다",
+   "en": "may; is possible"
+  },
+  "mind": {
+   "pos": "명사",
+   "ko": "마음, 생각 (in mind: 염두에 둔)",
+   "en": "your thoughts; in mind means being thought of"
+  },
+  "modest": {
+   "pos": "형용사",
+   "ko": "얌전한, 겸손한",
+   "en": "quiet and humble"
+  },
+  "moment": {
+   "pos": "명사",
+   "ko": "순간",
+   "en": "a very short time"
+  },
+  "muses": {
+   "pos": "동사",
+   "ko": "곰곰이 생각하며 말하다 (muse의 3인칭)",
+   "en": "third-person form of muse; says thoughtfully"
+  },
+  "needed": {
+   "pos": "동사",
+   "ko": "필요했다 (need의 과거)",
+   "en": "past form of need"
+  },
+  "neighbors": {
+   "pos": "명사",
+   "ko": "이웃들 (neighbor의 복수)",
+   "en": "people who live near you"
+  },
+  "nod": {
+   "pos": "명사",
+   "ko": "고갯짓, 끄덕임",
+   "en": "a small down movement of the head"
+  },
+  "notebook": {
+   "pos": "명사",
+   "ko": "수첩, 공책",
+   "en": "a small book to write in"
+  },
+  "notice": {
+   "pos": "동사",
+   "ko": "알아차리다, 눈치채다",
+   "en": "to see and become aware of"
+  },
+  "off": {
+   "pos": "부사",
+   "ko": "(send off: 배웅하다) 떠나 보내는",
+   "en": "away; send off means to see someone leave"
+  },
+  "ones": {
+   "pos": "대명사",
+   "ko": "사람들, 것들 (one의 복수)",
+   "en": "people or things of a kind"
+  },
+  "open": {
+   "pos": "형용사",
+   "ko": "열린",
+   "en": "not closed"
+  },
+  "partners": {
+   "pos": "명사",
+   "ko": "짝, 동반자들 (partner의 복수)",
+   "en": "people who work together"
+  },
+  "pity": {
+   "pos": "명사",
+   "ko": "아쉬운 일 (a pity: 안타까운 일)",
+   "en": "a sad or unlucky thing"
+  },
+  "planning": {
+   "pos": "동사",
+   "ko": "계획하다 (plan의 -ing형)",
+   "en": "-ing form of plan"
+  },
+  "pleased": {
+   "pos": "형용사",
+   "ko": "흐뭇한, 기쁜",
+   "en": "happy and satisfied"
+  },
+  "practical": {
+   "pos": "형용사",
+   "ko": "실무적인, 현실적인",
+   "en": "about real, useful matters"
+  },
+  "praise": {
+   "pos": "명사",
+   "ko": "칭찬",
+   "en": "words that say something is good"
+  },
+  "praised": {
+   "pos": "동사",
+   "ko": "칭찬했다 (praise의 과거)",
+   "en": "past form of praise"
+  },
+  "pressed": {
+   "pos": "동사",
+   "ko": "다림질했다 (press의 과거)",
+   "en": "past form of press; ironed flat"
+  },
+  "questions": {
+   "pos": "명사",
+   "ko": "질문들 (question의 복수)",
+   "en": "things you ask"
+  },
+  "quick": {
+   "pos": "형용사",
+   "ko": "빠른",
+   "en": "fast; taking little time"
+  },
+  "quite": {
+   "pos": "부사",
+   "ko": "꽤, 아주 (not quite: 완전히 ~은 아닌)",
+   "en": "fully; not quite means almost but not"
+  },
+  "rather": {
+   "pos": "부사",
+   "ko": "오히려, 은근히 (rather hoping: 은근히 바라던)",
+   "en": "somewhat; fairly"
+  },
+  "replies": {
+   "pos": "동사",
+   "ko": "대답하다 (reply의 3인칭)",
+   "en": "third-person form of reply; answers"
+  },
+  "request": {
+   "pos": "명사",
+   "ko": "부탁, 요청",
+   "en": "a polite ask for something"
+  },
+  "returning": {
+   "pos": "동사",
+   "ko": "돌아오기 (return의 -ing형)",
+   "en": "-ing form of return; coming back"
+  },
+  "said": {
+   "pos": "동사",
+   "ko": "말했다 (say의 과거)",
+   "en": "past form of say"
+  },
+  "seems": {
+   "pos": "동사",
+   "ko": "~인 것 같다 (seem의 3인칭)",
+   "en": "third-person form of seem; appears"
+  },
+  "sends": {
+   "pos": "동사",
+   "ko": "보내다 (send의 3인칭; send off: 배웅하다)",
+   "en": "third-person form of send"
+  },
+  "slightest": {
+   "pos": "형용사",
+   "ko": "아주 조금의 (not in the slightest: 조금도 ~않다)",
+   "en": "the very smallest"
+  },
+  "slipped": {
+   "pos": "동사",
+   "ko": "슬쩍 끼워 넣었다 (slip의 과거)",
+   "en": "past form of slip; put in quietly"
+  },
+  "speaks": {
+   "pos": "동사",
+   "ko": "말하다 (speak의 3인칭)",
+   "en": "third-person form of speak"
+  },
+  "started": {
+   "pos": "동사",
+   "ko": "시작했다 (start의 과거)",
+   "en": "past form of start"
+  },
+  "stayed": {
+   "pos": "동사",
+   "ko": "머물렀다, ~한 상태였다 (stay의 과거)",
+   "en": "past form of stay; remained"
+  },
+  "strode": {
+   "pos": "동사",
+   "ko": "성큼성큼 걸었다 (stride의 과거)",
+   "en": "past form of stride; walked with long steps"
+  },
+  "suits": {
+   "pos": "명사",
+   "ko": "정장들 (suit의 복수)",
+   "en": "matching jackets and trousers"
+  },
+  "surprised": {
+   "pos": "형용사",
+   "ko": "놀란",
+   "en": "feeling something you did not expect"
+  },
+  "suspect": {
+   "pos": "동사",
+   "ko": "~인 것 같다, 짐작하다",
+   "en": "to think something is likely true"
+  },
+  "thanked": {
+   "pos": "동사",
+   "ko": "감사했다 (thank의 과거)",
+   "en": "past form of thank"
+  },
+  "those": {
+   "pos": "대명사",
+   "ko": "그것들, 그 ~들",
+   "en": "the things over there"
+  },
+  "told": {
+   "pos": "동사",
+   "ko": "말했다 (tell의 과거)",
+   "en": "past form of tell"
+  },
+  "took": {
+   "pos": "동사",
+   "ko": "가져갔다 (take의 과거)",
+   "en": "past form of take"
+  },
+  "touched": {
+   "pos": "동사",
+   "ko": "닿았다, 만졌다 (touch의 과거)",
+   "en": "past form of touch"
+  },
+  "trusted": {
+   "pos": "동사",
+   "ko": "믿었다 (trust의 과거)",
+   "en": "past form of trust"
+  },
+  "trusting": {
+   "pos": "동사",
+   "ko": "믿으며 (trust의 -ing형)",
+   "en": "-ing form of trust"
+  },
+  "turn": {
+   "pos": "동사",
+   "ko": "(turn shy: 수줍어지다) 변하다",
+   "en": "to become; to change into"
+  },
+  "undid": {
+   "pos": "동사",
+   "ko": "무너뜨렸다, 풀어놨다 (undo의 과거)",
+   "en": "past form of undo; took apart"
+  },
+  "visitor": {
+   "pos": "명사",
+   "ko": "방문객, 손님",
+   "en": "a person who comes to visit"
+  },
+  "visitors": {
+   "pos": "명사",
+   "ko": "방문객들 (visitor의 복수)",
+   "en": "people who come to visit"
+  },
+  "walked": {
+   "pos": "동사",
+   "ko": "걸었다 (walk의 과거)",
+   "en": "past form of walk"
+  },
+  "warmed": {
+   "pos": "동사",
+   "ko": "(warm up) 마음이 풀렸다 (warm의 과거)",
+   "en": "past form of warm; warmed up means became relaxed"
+  },
+  "was": {
+   "pos": "동사",
+   "ko": "~였다 (is의 과거)",
+   "en": "past form of is"
+  },
+  "watched": {
+   "pos": "동사",
+   "ko": "지켜봤다 (watch의 과거)",
+   "en": "past form of watch"
+  },
+  "we": {
+   "pos": "대명사",
+   "ko": "우리",
+   "en": "you and I together"
+  },
+  "went": {
+   "pos": "동사",
+   "ko": "갔다 (go의 과거)",
+   "en": "past form of go"
+  },
+  "were": {
+   "pos": "동사",
+   "ko": "~였다 (are의 과거)",
+   "en": "past form of are"
+  },
+  "while": {
+   "pos": "명사",
+   "ko": "잠시 (a while: 한참)",
+   "en": "a period of time"
+  },
+  "who": {
+   "pos": "대명사",
+   "ko": "~하는 (관계대명사); 누구",
+   "en": "the person that"
+  },
+  "won": {
+   "pos": "동사",
+   "ko": "(win over) 마음을 사로잡았다 (win의 과거)",
+   "en": "past form of win; won over means charmed"
+  },
+  "wondered": {
+   "pos": "동사",
+   "ko": "궁금해했다 (wonder의 과거)",
+   "en": "past form of wonder"
+  },
+  "wore": {
+   "pos": "동사",
+   "ko": "입었다 (wear의 과거)",
+   "en": "past form of wear"
+  },
+  "worked": {
+   "pos": "동사",
+   "ko": "(손발이) 맞았다, 일했다 (work의 과거)",
+   "en": "past form of work"
+  },
+  "worried": {
+   "pos": "동사",
+   "ko": "걱정했다 (worry의 과거)",
+   "en": "past form of worry"
+  },
+  "yet": {
+   "pos": "부사",
+   "ko": "그런데도, 아직",
+   "en": "still; even so"
+  }
+ },
+ "wink": {
+  "inseam": "안쪽 다리 길이. 재단사가 재는 부위 중 가장 민망한 곳이라, 어른들 농담에 단골로 등장해요.",
+  "snug": "몸에 딱 맞아 아늑한. 옷 얘기지만, 두 사람의 거리가 지나치게 가까울 때도 이렇게 말해요.",
+  "fit": "몸에 꼭 맞다. 옷이 아니라 두 사람이 잘 맞는다는 뜻으로 들릴 수도 있어요.",
+  "pin": "핀으로 고정하다. 상대를 움직이지 못하게 붙잡아 둔다는 뜻도 있어서, 재단사 이름치고는 꽤 의미심장해요.",
+  "measure": "치수를 재다. 온몸 구석구석 손이 가는 일이라, 이 가게에서는 줄자가 재는 게 치수만이 아닌 것처럼 들려요.",
+  "kneels": "무릎을 꿇다. 치수 잴 때 재단사의 정석 자세지만, 다른 이야기에서는 청혼처럼 아주 간절한 순간에 나오는 자세이기도 해요.",
+  "kneeling": "무릎을 꿇다. 치수 잴 때 재단사의 정석 자세지만, 다른 이야기에서는 청혼처럼 아주 간절한 순간에 나오는 자세이기도 해요.",
+  "tape": "줄자. 몸을 감고 살짝 조이는 물건이라, 행간에서는 손길처럼 읽히기도 해요.",
+  "flows": "흐르다. 원단이 몸을 따라 흐른다는 표현은, 무언가가 피부 위를 스쳐 가는 장면을 떠올리게 해요.",
+  "second": "두 번째. 두 번째 가봉이 처음보다 낫다는 말이지만, 원어민 귀에는 다른 종류의 '두 번째'부터 떠올라요."
+ },
+ "winkEn": {
+  "inseam": "The one measurement that goes all the way up the leg. Tailors are professional about it; comedians never are.",
+  "snug": "Tailor-speak for a close fit. Also how you might describe two people standing closer than strictly necessary.",
+  "fit": "Clothes can fit like a second skin. So can two people, if you let the phrase wander.",
+  "pin": "To pin someone is to hold them in place so they cannot move. Quite a name for a man this hands-on.",
+  "measure": "Taking your measurements is his job. The way he says it, the tape seems curious about more than numbers.",
+  "kneels": "Perfectly normal tailoring posture. Still, kneeling in front of someone usually signals a very different kind of question.",
+  "kneeling": "Standard for tailors at work. Outside the shop, going down on one knee tends to mean a proposal, or pure devotion.",
+  "tape": "It wraps around you and pulls you a little closer. Between the lines, it reads less like a tool and more like a touch.",
+  "flows": "How fine fabric moves over a body. The picture it paints is of something gliding along bare skin.",
+  "second": "'The second time is always better than the first.' He means fittings. The sentence has other well-known applications."
+ },
+ "introEn": "A suit fitting with Mr. Pin, a remarkably thorough tailor.\n...on the surface.",
+ "cover": "tailor_shop",
+ "endingsMode": "path",
+ "picturebook": true
+}

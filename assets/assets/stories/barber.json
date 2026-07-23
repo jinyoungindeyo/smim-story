@@ -1,0 +1,1729 @@
+{
+ "id": "barber",
+ "title": "The Barbershop Shave",
+ "badge": "A2+ · 표현 주의",
+ "introKo": "오래된 바버샵에서 받는 뜨거운 수건 면도, 이발사의 손길이 유난히 섬세한 이야기.\n…표면적으로는요.",
+ "introEn": "A hot-towel shave at the oldest barbershop in town. Mr. Vince has remarkably delicate hands.\n...strictly a shave, of course.",
+ "adult": true,
+ "minLevel": 5,
+ "picturebook": true,
+ "endingsMode": "path",
+ "cover": "barber_cover",
+ "quiz": {
+  "q": "이발사 Mr. Vince가 면도 전에 얼굴에 제일 먼저 올려 준 것은?",
+  "options": [
+   "뜨거운 수건",
+   "차가운 물",
+   "면도날"
+  ],
+  "answer": 0
+ },
+ "endings": {
+  "0000": {
+   "name": "조심스러운 첫 손님",
+   "nameEn": "The Careful First-Timer",
+   "en": "You asked for gentle and got exactly that. You thank Mr. Vince, pay, and step out with a clean jaw and no plans to return. Some men, he thinks, only need one perfect shave to remember for a lifetime.",
+   "ko": "부드럽게 해 달라 했고, 딱 그만큼 받았어요. 당신은 Mr. Vince에게 인사하고 값을 치른 뒤, 말끔한 턱으로 다시 올 계획 없이 나가요. 어떤 남자는 평생 기억할 완벽한 면도 한 번이면 충분하다고, 그는 생각해요."
+  },
+  "0001": {
+   "name": "돌아오는 발걸음",
+   "nameEn": "The One Who Comes Back",
+   "en": "You were quiet and careful the whole time, right up until you asked about next week. Now you come every Tuesday, same chair, same hands. \"Slow to warm up,\" Mr. Vince tells the other barbers, \"but he always comes back.\"",
+   "ko": "내내 조용하고 조심스러웠죠. 다음 주 얘기를 꺼내기 전까지는요. 이제 당신은 화요일마다 같은 의자, 같은 손을 찾아와요. \"데워지는 덴 느려도, 꼭 다시 온다니까.\" Mr. Vince가 다른 이발사들에게 말해요."
+  },
+  "0010": {
+   "name": "말없이 바짝",
+   "nameEn": "Still, and Very Close",
+   "en": "You barely spoke all afternoon, but when it came to the blade you asked for it as close as it goes. Mr. Vince still tells that story. \"The quiet ones,\" he says, \"always want it the closest.\"",
+   "ko": "오후 내내 말수가 거의 없었지만, 면도날 앞에서는 갈 수 있는 만큼 바짝 해 달라 했죠. Mr. Vince는 아직도 그 얘길 해요. \"조용한 사람일수록,\" 그가 말해요, \"제일 바짝을 원한다니까.\""
+  },
+  "0011": {
+   "name": "늦게 뜨거워지는 손님",
+   "nameEn": "The Late Warmer",
+   "en": "You began shy but ended up asking for the closest shave and a standing appointment. Mr. Vince loves that kind of turn. \"Cool at the door, warm in the chair,\" he says. \"My favorite kind of customer.\"",
+   "ko": "수줍게 시작했지만, 끝엔 제일 바짝 해 달라 하고 고정 예약까지 잡았어요. Mr. Vince는 그런 반전을 사랑해요. \"문 앞에선 차갑다가 의자에선 뜨거워지는 것,\" 그가 말해요. \"제가 제일 좋아하는 손님이죠.\""
+  },
+  "0100": {
+   "name": "느긋한 오후",
+   "nameEn": "In No Hurry at All",
+   "en": "You told him to take his time, and he did — every unhurried second of it. Then you thanked him and left, in no rush to book another. \"He let me work slow,\" Mr. Vince says, \"and never asked for more. A rare kind of patience.\"",
+   "ko": "천천히 하라 했고, 그는 정말 그랬어요. 서두르지 않는 매 순간까지 전부요. 그러고는 인사만 남기고, 또 예약할 마음 없이 떠났죠. \"천천히 하게 두더니, 더는 바라지 않더군요. 보기 드문 여유예요.\" Mr. Vince가 말해요."
+  },
+  "0101": {
+   "name": "느긋한 단골",
+   "nameEn": "The Unhurried Regular",
+   "en": "You never once hurried him, and by the end you had booked next Tuesday too. Now you are the man who lets him take his time, week after week. \"The patient ones,\" he says, \"get the best of me every single time.\"",
+   "ko": "그를 한 번도 재촉하지 않았고, 끝엔 다음 화요일까지 예약했어요. 이제 당신은 주마다 그가 느긋하게 일하도록 두는 사람이에요. \"여유 있는 사람이,\" 그가 말해요, \"매번 제 최고를 받아 가죠.\""
+  },
+  "0110": {
+   "name": "조용한 완벽주의자",
+   "nameEn": "The Quiet Perfectionist",
+   "en": "You let him take his time and asked for it as close as a blade can go — then walked out without a word about coming back. Mr. Vince still wonders about you. \"That one wanted everything,\" he says, \"and asked for nothing after.\"",
+   "ko": "그가 천천히 하게 두고, 면도날이 갈 수 있는 만큼 바짝 해 달라 했죠. 그러고는 다시 오겠단 말 한마디 없이 나갔어요. Mr. Vince는 아직도 당신이 궁금해요. \"그 손님은 다 원하면서,\" 그가 말해요, \"끝나고는 아무것도 청하지 않더군요.\""
+  },
+  "0111": {
+   "name": "느리게 타오르는 단골",
+   "nameEn": "Slow to Kindle, Sure to Stay",
+   "en": "Careful at first, you soon let him take his time, asked for the closest shave, and claimed next week as yours. \"Started like a beginner, finished like a regular,\" Mr. Vince says. \"The best ones always do.\"",
+   "ko": "처음엔 조심스럽더니, 곧 그를 느긋하게 두고, 제일 바짝 해 달라 하고, 다음 주까지 당신 것으로 찜했죠. \"초보처럼 시작해서 단골처럼 끝났어요,\" Mr. Vince가 말해요. \"최고의 손님들은 늘 그렇죠.\""
+  },
+  "1000": {
+   "name": "말만 앞선 첫 손님",
+   "nameEn": "Big Talk, Careful Rest",
+   "en": "\"Do your worst,\" you said at the door — then went quiet and careful for the rest of it, and left with a simple thank you. Mr. Vince found it charming. \"Big words up front,\" he says, \"and a gentleman in the chair.\"",
+   "ko": "\"마음껏 하세요\"라고 문 앞에서 큰소리를 쳤죠. 그러고는 남은 시간 내내 조용하고 조심스러웠고, 짧은 인사만 남기고 갔어요. Mr. Vince는 그게 귀여웠대요. \"입구에선 큰소리, 의자에선 신사,\" 그가 말해요."
+  },
+  "1001": {
+   "name": "약속을 지키는 턱",
+   "nameEn": "A Man Who Keeps His Word",
+   "en": "You talked big, sat still and careful, and kept the one promise that mattered — you came back. Now every Tuesday belongs to Mr. Vince and his blade. \"Plenty of men talk,\" he says. \"Mine shows up.\"",
+   "ko": "큰소리를 쳤고, 얌전히 조심스럽게 앉아 있었고, 중요한 약속 하나는 지켰어요 — 다시 왔죠. 이제 화요일은 전부 Mr. Vince와 그의 면도날 것이에요. \"말만 하는 남자는 많죠,\" 그가 말해요. \"제 손님은 진짜로 와요.\""
+  },
+  "1010": {
+   "name": "단골 없는 실력자",
+   "nameEn": "All That Nerve, Gone by Dark",
+   "en": "You dared him at the door and asked for it as close as steel goes — then left without a word about next time. Mr. Vince shakes his head at the empty chair. \"All that nerve,\" he says, \"and I only got him once.\"",
+   "ko": "문 앞에서 그에게 도발하듯 큰소리를 쳤고, 강철이 갈 수 있는 만큼 바짝 해 달라 했죠. 그러고는 다음 얘기 없이 떠났어요. Mr. Vince는 빈 의자를 보며 고개를 저어요. \"그 배짱을 가지고,\" 그가 말해요, \"딱 한 번뿐이라니.\""
+  },
+  "1011": {
+   "name": "떠오르는 단골",
+   "nameEn": "The Rising Regular",
+   "en": "Bold from the first word, you asked for the closest shave and booked next week before he could even offer. The other barbers keep asking who you are. Mr. Vince just smiles and keeps your chair warm.",
+   "ko": "첫마디부터 대담했던 당신은 제일 바짝 해 달라 했고, 그가 권하기도 전에 다음 주를 예약했어요. 다른 이발사들은 당신이 누구냐고 자꾸 물어요. Mr. Vince는 그저 웃으며 당신 의자를 데워 둬요."
+  },
+  "1100": {
+   "name": "큰소리치고 일찍 간 손님",
+   "nameEn": "Loud at the Door, Gone by Two",
+   "en": "You dared him at the door and told him to take all the time he wanted — then thanked him and left early, one shave and done. \"He talked like a regular,\" Mr. Vince laughs, \"and vanished like a tourist.\"",
+   "ko": "문 앞에서 도발하듯 큰소리를 치고, 원하는 만큼 천천히 하라 했죠. 그러고는 인사만 남기고 일찍 갔어요. 면도 한 번으로 끝이었죠. \"단골처럼 말하더니,\" Mr. Vince가 웃어요, \"관광객처럼 사라졌어요.\""
+  },
+  "1101": {
+   "name": "대담한 단골",
+   "nameEn": "Bold, Unhurried, and Loyal",
+   "en": "Bold at the door, in no hurry in the chair, and booked solid for every Tuesday after. The only thing you never did was rush him — and that, he says, is exactly why he saves his sharpest blade for you.",
+   "ko": "문 앞에선 대담하게, 의자에선 느긋하게, 그리고 이후 화요일은 전부 예약했어요. 당신이 끝내 하지 않은 단 하나는 그를 재촉하는 것이었죠. 바로 그래서 그가 제일 잘 드는 면도날을 당신을 위해 아껴 둔다고, 그가 말해요."
+  },
+  "1110": {
+   "name": "완벽했던 하루의 손님",
+   "nameEn": "Everything, and Then Goodbye",
+   "en": "Bold, unhurried, and asking for the closest shave of your life — you took all he had to give and then walked out for good. Mr. Vince stood a long time by the warm chair. \"Some men,\" he says, \"are a perfect afternoon that never comes twice.\"",
+   "ko": "대담하게, 느긋하게, 인생에서 제일 바짝인 면도를 청하며 — 당신은 그가 줄 수 있는 모든 걸 받고는 영영 떠났어요. Mr. Vince는 데워진 의자 곁에 한참 서 있었어요. \"어떤 남자는,\" 그가 말해요, \"두 번은 오지 않는 완벽한 오후예요.\""
+  },
+  "1111": {
+   "name": "소문난 단골",
+   "nameEn": "The Legend of the Chair",
+   "en": "By spring, the whole town whispers about Mr. Vince's Tuesday customer — the boldest chair he has ever filled. He tells the other barbers you get the closest shave in the county. And they all notice one thing: your chair is never given to anyone else.",
+   "ko": "봄이 되자 온 동네가 Mr. Vince의 화요일 손님 얘기를 수군거려요. 그가 채운 의자 중 가장 대담한 손님이라고요. 그는 다른 이발사들에게 당신이 이 고을에서 제일 바짝인 면도를 받는다고 말해요. 그리고 모두가 한 가지를 눈치채요. 당신 의자는 절대 다른 누구에게도 주어지지 않는다는 걸요."
+  }
+ },
+ "scripts": {
+  "normal": [
+   {
+    "type": "text",
+    "art": "barber_arrival",
+    "text": "A quiet afternoon. You step into the oldest barbershop in town. The bell rings, and Mr. Vince looks up with a slow, knowing smile."
+   },
+   {
+    "type": "text",
+    "art": "barber_chair",
+    "text": "\"A shave, sir?\" he asks, brushing off the old leather chair. \"Sit. Lean back. From here on, you are in good hands.\""
+   },
+   {
+    "type": "text",
+    "art": "barber_recline",
+    "text": "He lowers the chair until you are lying almost flat. \"First time under a real razor?\" he asks. \"Don't worry. I am very gentle with beginners.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 답할까요?",
+    "options": [
+     {
+      "en": "Yes, first time. Please be careful.",
+      "ko": "네, 처음이에요. 살살 해 주세요.",
+      "reaction": "\"Careful is my whole job,\" he says softly. \"Just breathe and let me do the rest.\"",
+      "tone": "calm"
+     },
+     {
+      "en": "Do your worst. I can take it.",
+      "ko": "마음껏 하세요. 저 잘 참아요.",
+      "reaction": "\"Oh, I never do my worst,\" he grins. \"I do my best. Slowly.\"",
+      "tone": "bold"
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "art": "barber_towel",
+    "text": "He wraps a hot towel around your face, snug and steaming. \"Let it soften you up first,\" he murmurs. \"A stiff face fights the blade.\""
+   },
+   {
+    "type": "text",
+    "art": "barber_lather",
+    "text": "He works up a warm lather and spreads it slow, in small circles. \"I never rush a face,\" he says. \"The best part is making you wait for it.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "It feels warmer than I expected.",
+      "ko": "생각보다 따뜻하네요.",
+      "reaction": "\"Warm opens everything up,\" he says. \"Cold makes a man tense. We don't want that.\"",
+      "tone": "calm"
+     },
+     {
+      "en": "Take all the time you want. I'm not going anywhere.",
+      "ko": "천천히 하세요. 저 어디 안 가요.",
+      "reaction": "\"Good,\" he says. \"The ones who rush always miss the best part.\"",
+      "tone": "bold"
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "art": "barber_blade",
+    "text": "He opens the razor with a soft click. \"Now, tilt your head back for me,\" he says. \"Chin up. Bare the throat. That's it.\""
+   },
+   {
+    "type": "text",
+    "art": "barber_stroke",
+    "text": "The first stroke glides down, slow and sure. \"Don't move,\" he whispers. \"One slip, and we both remember it. Trust the hands.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 물어볼까요?",
+    "options": [
+     {
+      "en": "Is it supposed to be this close?",
+      "ko": "원래 이렇게 바짝 하는 거예요?",
+      "reaction": "\"Close is the whole point,\" he says. \"Anything less, and you would feel cheated.\"",
+      "tone": "calm"
+     },
+     {
+      "en": "Closer. I like it properly clean.",
+      "ko": "더 바짝요. 저 깔끔한 거 좋아해요.",
+      "reaction": "\"A man who knows what he wants,\" he says. \"Hold still. I'll give you the closest of your life.\"",
+      "tone": "bold"
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "art": "barber_grain",
+    "text": "He turns your jaw with two fingers and shaves against the grain. \"This is where most men flinch,\" he says. \"You didn't. I'm impressed.\""
+   },
+   {
+    "type": "text",
+    "art": "barber_aftershave",
+    "text": "He wipes you clean and pats on the aftershave. It stings, then glows. \"Smooth as glass,\" he says. \"Feel that. Not a single hair left.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "That was better than I imagined. Thank you.",
+      "ko": "상상했던 것보다 훨씬 좋았어요. 감사해요.",
+      "reaction": "\"Beginners always say that,\" he smiles. \"Wait until the second time.\"",
+      "tone": "calm"
+     },
+     {
+      "en": "Same chair, same hands — next week?",
+      "ko": "같은 의자, 같은 손 — 다음 주에 또요?",
+      "reaction": "\"My regulars never sit anywhere else,\" he says. \"I'll keep this chair warm for you.\"",
+      "tone": "bold"
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "art": "barber_leave",
+    "text": "You step back into the street, jaw smooth, face glowing. Some habits, you decide, are worth keeping for life."
+   }
+  ],
+  "hard": [
+   {
+    "type": "text",
+    "art": "barber_arrival",
+    "text": "A quiet, rainy afternoon draws you into the oldest barbershop in town, where Mr. Vince glances up from his chair with a slow, knowing smile."
+   },
+   {
+    "type": "text",
+    "art": "barber_chair",
+    "text": "\"A shave, sir?\" he asks, dusting off the worn leather chair. \"Sit down and lean back. From this moment on, you are entirely in my hands.\""
+   },
+   {
+    "type": "text",
+    "art": "barber_recline",
+    "text": "He tips the chair back until you are lying almost flat, studying your face. \"Your first time under a real razor?\" he asks. \"Don't fret. I am always exceptionally gentle with beginners.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 답할까요?",
+    "options": [
+     {
+      "en": "Yes, my first time. Please be gentle.",
+      "ko": "네, 처음이에요. 부드럽게 해 주세요.",
+      "reaction": "\"Being gentle is my entire craft,\" he says softly. \"Just breathe, and leave the rest to me.\"",
+      "tone": "calm"
+     },
+     {
+      "en": "Do your worst. I can take whatever you give.",
+      "ko": "마음껏 하세요. 뭐든 다 받아 줄게요.",
+      "reaction": "\"Oh, I never do my worst,\" he grins. \"I do my finest work — and I take my time doing it.\"",
+      "tone": "bold"
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "art": "barber_towel",
+    "text": "He winds a steaming towel around your face, snug and fragrant. \"Let it soften you up first,\" he murmurs. \"A stiff face only fights the blade, and I dislike a fight.\""
+   },
+   {
+    "type": "text",
+    "art": "barber_lather",
+    "text": "He whips up a warm lather and spreads it in slow little circles, taking his time. \"I never rush a face like yours,\" he says. \"Half the pleasure is making a man wait for it.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "It feels far warmer than I expected.",
+      "ko": "생각보다 훨씬 따뜻하네요.",
+      "reaction": "\"Warmth opens everything up,\" he explains. \"Cold makes a man tense, and tension is the enemy here.\"",
+      "tone": "calm"
+     },
+     {
+      "en": "Take all the time you like. I'm in no hurry at all.",
+      "ko": "천천히 하세요. 저 하나도 안 급해요.",
+      "reaction": "\"Good,\" he says. \"The men who rush are the ones who always miss the best part.\"",
+      "tone": "bold"
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "art": "barber_blade",
+    "text": "He unfolds the razor with a soft, deliberate click. \"Now tilt your head back for me,\" he says. \"Chin up, throat bared. Yes — exactly like that.\""
+   },
+   {
+    "type": "text",
+    "art": "barber_stroke",
+    "text": "The first stroke glides down your neck, slow and certain. \"Don't move a muscle,\" he whispers. \"One slip is something we would both remember. Trust the hands.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 물어볼까요?",
+    "options": [
+     {
+      "en": "Is it meant to be quite this close?",
+      "ko": "원래 이렇게까지 바짝 하는 거예요?",
+      "reaction": "\"Close is the entire point,\" he says. \"Anything less, and you would leave feeling cheated.\"",
+      "tone": "calm"
+     },
+     {
+      "en": "Closer, please. I like it properly clean.",
+      "ko": "더 바짝요. 저 깔끔한 거 좋아하거든요.",
+      "reaction": "\"A man who knows exactly what he wants,\" he murmurs. \"Hold perfectly still — I'll give you the closest shave of your life.\"",
+      "tone": "bold"
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "art": "barber_grain",
+    "text": "He tilts your jaw with two fingers and draws the blade against the grain. \"This is the moment most men flinch,\" he observes. \"You didn't so much as blink. I'm impressed.\""
+   },
+   {
+    "type": "text",
+    "art": "barber_aftershave",
+    "text": "He wipes you clean and presses on the aftershave, which stings sharply before it glows. \"Smooth as glass,\" he says. \"Run your hand along it. Not a single hair left behind.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "That was far better than I imagined. Thank you.",
+      "ko": "상상했던 것보다 훨씬 좋았어요. 감사해요.",
+      "reaction": "\"The beginners always say exactly that,\" he smiles. \"Just wait until the second time.\"",
+      "tone": "calm"
+     },
+     {
+      "en": "Same chair, same hands — shall I come back next week?",
+      "ko": "같은 의자, 같은 손 — 다음 주에 또 올까요?",
+      "reaction": "\"My regulars never sit in anyone else's chair,\" he says. \"I'll keep this one warm for you.\"",
+      "tone": "bold"
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "art": "barber_leave",
+    "text": "You step out into the street with your jaw smooth and your face quietly glowing, deciding that some habits are well worth keeping for the rest of your life."
+   }
+  ]
+ },
+ "wink": {
+  "stiff": "\"뻣뻣하면 면도날과 싸운다\"는 말은 면도의 상식이에요. 그런데 왜 이렇게 다르게 들릴까요.",
+  "soften": "\"먼저 좀 풀어 드릴게요\"는 뜨거운 수건이 하는 일이에요. 그 말을 굳이 고른 건 이발사고요.",
+  "close": "\"바짝\"은 이발소 안에서는 최고의 자랑이에요. 이발소 밖에서는 대개 다른 거리를 뜻하죠.",
+  "throat": "면도하려면 목을 드러내야 하는 건 사실이에요. \"목을 내어 주세요\"라는 말이 유난히 다정하게 들리는 것도 사실이고요.",
+  "grain": "\"결을 거슬러\" 미는 건 제일 바짝 미는 방법이에요. 남자들이 움찔하는 지점이라는 말도, 순수하게 면도 얘기예요. 아마도요.",
+  "smooth": "\"유리처럼 매끈하다\"는 잘된 면도의 최고 칭찬이에요. 손을 대 보라는 권유까지가 한 세트죠.",
+  "slip": "\"한 번 미끄러지면 둘 다 기억할 거예요\"는 면도날 조심하라는 경고예요. 경고인데 왜 약속처럼 들릴까요."
+ },
+ "winkEn": {
+  "stiff": "\"A stiff face fights the blade\" is ordinary barbering wisdom. So why does it land so differently here?",
+  "soften": "\"Let it soften you up first\" is simply what a hot towel does. Choosing those exact words, however, was entirely his idea.",
+  "close": "\"Close\" is a barber's proudest word — inside the shop. Out on the street it tends to mean a rather different kind of distance.",
+  "throat": "To shave a man you truly must bare his throat. It is also true that \"bare the throat\" has rarely sounded quite so tender.",
+  "grain": "Going \"against the grain\" is how you get the closest possible shave. The line about where men flinch is, of course, purely about shaving. Probably.",
+  "smooth": "\"Smooth as glass\" is the highest praise a shave can earn — and the invitation to run your hand along it comes bundled right in.",
+  "slip": "\"One slip, and we both remember it\" is a warning to hold still near a blade. A warning that somehow arrives sounding like a promise."
+ },
+ "dict": {
+  "after": {
+   "pos": "전치사",
+   "ko": "~후에, 끝난 뒤에",
+   "en": "later than; when something is finished"
+  },
+  "afternoon": {
+   "pos": "명사",
+   "ko": "오후",
+   "en": "the time between noon and evening"
+  },
+  "aftershave": {
+   "pos": "명사",
+   "ko": "애프터셰이브, 면도 후 바르는 로션",
+   "en": "lotion a man puts on after a shave"
+  },
+  "against": {
+   "pos": "전치사",
+   "ko": "~을 거슬러, ~에 맞서 (against the grain: 결을 거슬러)",
+   "en": "in the opposite direction to"
+  },
+  "almost": {
+   "pos": "부사",
+   "ko": "거의",
+   "en": "nearly; not quite"
+  },
+  "along": {
+   "pos": "전치사",
+   "ko": "~을 따라 (run your hand along: 손으로 쓸어 보다)",
+   "en": "following the length of something"
+  },
+  "another": {
+   "pos": "형용사",
+   "ko": "또 하나의",
+   "en": "one more"
+  },
+  "anyone": {
+   "pos": "대명사",
+   "ko": "누구든, 아무나",
+   "en": "any person"
+  },
+  "anything": {
+   "pos": "대명사",
+   "ko": "무엇이든",
+   "en": "any thing at all"
+  },
+  "anywhere": {
+   "pos": "부사",
+   "ko": "어디든, 아무 데도",
+   "en": "in or to any place"
+  },
+  "appointment": {
+   "pos": "명사",
+   "ko": "예약, 약속 (standing appointment: 고정 예약)",
+   "en": "a set time to meet or be served"
+  },
+  "asked": {
+   "pos": "동사",
+   "ko": "물었다, 부탁했다 (ask의 과거형)",
+   "en": "said a question (past of ask)"
+  },
+  "asking": {
+   "pos": "동사",
+   "ko": "묻다, 청하다 (ask의 진행형)",
+   "en": "saying a question or request"
+  },
+  "asks": {
+   "pos": "동사",
+   "ko": "묻다 (ask의 3인칭)",
+   "en": "says a question"
+  },
+  "barbers": {
+   "pos": "명사",
+   "ko": "이발사들 (barber의 복수)",
+   "en": "people who cut hair and give shaves"
+  },
+  "barbershop": {
+   "pos": "명사",
+   "ko": "이발소, 바버샵",
+   "en": "a shop where men get haircuts and shaves"
+  },
+  "bare": {
+   "pos": "동사",
+   "ko": "드러내다 (bare the throat: 목을 드러내다)",
+   "en": "to make something uncovered"
+  },
+  "bared": {
+   "pos": "동사",
+   "ko": "드러낸 (bare의 과거분사)",
+   "en": "made uncovered (past of bare)"
+  },
+  "barely": {
+   "pos": "부사",
+   "ko": "거의 ~않다",
+   "en": "only just; almost not"
+  },
+  "began": {
+   "pos": "동사",
+   "ko": "시작했다 (begin의 과거형)",
+   "en": "started (past of begin)"
+  },
+  "beginner": {
+   "pos": "명사",
+   "ko": "초보자",
+   "en": "a person just starting to learn"
+  },
+  "beginners": {
+   "pos": "명사",
+   "ko": "초보자들 (beginner의 복수)",
+   "en": "people just starting to learn"
+  },
+  "being": {
+   "pos": "동사",
+   "ko": "~인 것 (be의 -ing)",
+   "en": "the state of being something"
+  },
+  "bell": {
+   "pos": "명사",
+   "ko": "종, 벨",
+   "en": "a small object that rings"
+  },
+  "belongs": {
+   "pos": "동사",
+   "ko": "~의 것이다 (belong의 3인칭)",
+   "en": "is owned by; is part of"
+  },
+  "blade": {
+   "pos": "명사",
+   "ko": "칼날, 면도날",
+   "en": "the sharp edge of a razor or knife"
+  },
+  "blink": {
+   "pos": "동사",
+   "ko": "눈을 깜빡이다",
+   "en": "to shut and open your eyes fast"
+  },
+  "bold": {
+   "pos": "형용사",
+   "ko": "대담한, 과감한",
+   "en": "brave and not afraid"
+  },
+  "boldest": {
+   "pos": "형용사",
+   "ko": "가장 대담한 (bold의 최상급)",
+   "en": "the most bold"
+  },
+  "book": {
+   "pos": "동사",
+   "ko": "예약하다",
+   "en": "to reserve a time or place"
+  },
+  "booked": {
+   "pos": "동사",
+   "ko": "예약했다 (book의 과거형)",
+   "en": "reserved a time (past of book)"
+  },
+  "both": {
+   "pos": "형용사",
+   "ko": "둘 다",
+   "en": "the two together"
+  },
+  "breathe": {
+   "pos": "동사",
+   "ko": "숨을 쉬다",
+   "en": "to take air in and out"
+  },
+  "brushing": {
+   "pos": "동사",
+   "ko": "털어 내다 (brush off: 쓸어 내다)",
+   "en": "sweeping something off with light strokes"
+  },
+  "came": {
+   "pos": "동사",
+   "ko": "왔다 (come의 과거형)",
+   "en": "arrived (past of come)"
+  },
+  "certain": {
+   "pos": "형용사",
+   "ko": "확실한",
+   "en": "sure; without doubt"
+  },
+  "chair": {
+   "pos": "명사",
+   "ko": "의자",
+   "en": "a seat for one person"
+  },
+  "charming": {
+   "pos": "형용사",
+   "ko": "매력 있는, 귀여운",
+   "en": "pleasing and likable"
+  },
+  "cheated": {
+   "pos": "동사",
+   "ko": "속은 (feel cheated: 손해 본 기분이 들다)",
+   "en": "tricked; treated unfairly"
+  },
+  "chin": {
+   "pos": "명사",
+   "ko": "턱",
+   "en": "the part of the face below the mouth"
+  },
+  "circles": {
+   "pos": "명사",
+   "ko": "원, 동그라미 (circle의 복수)",
+   "en": "round shapes"
+  },
+  "claimed": {
+   "pos": "동사",
+   "ko": "차지했다 (claim의 과거형)",
+   "en": "took as your own (past of claim)"
+  },
+  "clean": {
+   "pos": "형용사",
+   "ko": "깨끗한, 말끔한",
+   "en": "with nothing dirty or extra left"
+  },
+  "click": {
+   "pos": "명사",
+   "ko": "찰칵 (하는 소리)",
+   "en": "a short, sharp sound"
+  },
+  "closest": {
+   "pos": "형용사",
+   "ko": "가장 바짝인, 가장 가까운 (close의 최상급)",
+   "en": "the most close"
+  },
+  "coming": {
+   "pos": "동사",
+   "ko": "오는 것 (come의 -ing)",
+   "en": "arriving; from come"
+  },
+  "cool": {
+   "pos": "형용사",
+   "ko": "차가운, 쌀쌀한",
+   "en": "a little cold; not warm"
+  },
+  "county": {
+   "pos": "명사",
+   "ko": "군, 고을 (지역 단위)",
+   "en": "an area of land, like a district"
+  },
+  "craft": {
+   "pos": "명사",
+   "ko": "기술, 솜씨",
+   "en": "a skill you do well with your hands"
+  },
+  "customer": {
+   "pos": "명사",
+   "ko": "손님, 고객",
+   "en": "a person who buys or is served"
+  },
+  "dared": {
+   "pos": "동사",
+   "ko": "도발했다, 대담하게 굴었다 (dare의 과거형)",
+   "en": "challenged; was bold (past of dare)"
+  },
+  "deciding": {
+   "pos": "동사",
+   "ko": "결정하다 (decide의 -ing)",
+   "en": "making up your mind"
+  },
+  "deliberate": {
+   "pos": "형용사",
+   "ko": "신중한, 일부러 하는",
+   "en": "slow and done on purpose"
+  },
+  "did": {
+   "pos": "동사",
+   "ko": "했다 (do의 과거형)",
+   "en": "past form of do"
+  },
+  "didnt": {
+   "pos": "축약",
+   "ko": "did not (~하지 않았다)",
+   "en": "short for did not"
+  },
+  "dislike": {
+   "pos": "동사",
+   "ko": "싫어하다",
+   "en": "to not like"
+  },
+  "do": {
+   "pos": "동사",
+   "ko": "하다",
+   "en": "to make or perform an action"
+  },
+  "draws": {
+   "pos": "동사",
+   "ko": "긋다, 끌어당기다 (draw의 3인칭)",
+   "en": "pulls; moves the blade along"
+  },
+  "dusting": {
+   "pos": "동사",
+   "ko": "털어 내다 (dust off: 먼지를 털다)",
+   "en": "brushing dust off"
+  },
+  "early": {
+   "pos": "부사",
+   "ko": "일찍",
+   "en": "before the usual time"
+  },
+  "else": {
+   "pos": "부사",
+   "ko": "다른, 그 밖에",
+   "en": "other; different"
+  },
+  "elses": {
+   "pos": "축약",
+   "ko": "else's = 다른 사람의 것",
+   "en": "belonging to someone else"
+  },
+  "empty": {
+   "pos": "형용사",
+   "ko": "빈, 텅 빈",
+   "en": "with nothing in it"
+  },
+  "end": {
+   "pos": "명사",
+   "ko": "끝",
+   "en": "the last part"
+  },
+  "ended": {
+   "pos": "동사",
+   "ko": "끝났다 (end의 과거형)",
+   "en": "finished (past of end)"
+  },
+  "enemy": {
+   "pos": "명사",
+   "ko": "적",
+   "en": "someone or something against you"
+  },
+  "entire": {
+   "pos": "형용사",
+   "ko": "전체의, 온전한",
+   "en": "whole; complete"
+  },
+  "entirely": {
+   "pos": "부사",
+   "ko": "전적으로, 완전히",
+   "en": "completely"
+  },
+  "even": {
+   "pos": "부사",
+   "ko": "심지어 ~조차",
+   "en": "used to show something surprising"
+  },
+  "exactly": {
+   "pos": "부사",
+   "ko": "정확히, 바로",
+   "en": "in a precise way"
+  },
+  "exceptionally": {
+   "pos": "부사",
+   "ko": "유난히, 대단히",
+   "en": "unusually; very much"
+  },
+  "expected": {
+   "pos": "동사",
+   "ko": "예상했다 (expect의 과거형)",
+   "en": "thought it would happen (past of expect)"
+  },
+  "explains": {
+   "pos": "동사",
+   "ko": "설명하다 (explain의 3인칭)",
+   "en": "makes something clear with words"
+  },
+  "face": {
+   "pos": "명사",
+   "ko": "얼굴",
+   "en": "the front of your head"
+  },
+  "far": {
+   "pos": "부사",
+   "ko": "훨씬, 멀리",
+   "en": "by a great amount; a long way"
+  },
+  "favorite": {
+   "pos": "형용사",
+   "ko": "가장 좋아하는",
+   "en": "liked the most"
+  },
+  "feel": {
+   "pos": "동사",
+   "ko": "느끼다, 만져 보다",
+   "en": "to sense by touch"
+  },
+  "feeling": {
+   "pos": "동사",
+   "ko": "느끼다 (feel의 -ing)",
+   "en": "sensing something"
+  },
+  "feels": {
+   "pos": "동사",
+   "ko": "~한 느낌이 나다 (feel의 3인칭)",
+   "en": "gives a certain feeling to the touch"
+  },
+  "fight": {
+   "pos": "명사",
+   "ko": "싸움",
+   "en": "a struggle against something"
+  },
+  "fights": {
+   "pos": "동사",
+   "ko": "맞서 싸우다 (fight의 3인칭)",
+   "en": "struggles against"
+  },
+  "filled": {
+   "pos": "동사",
+   "ko": "채웠다 (fill의 과거형)",
+   "en": "made full (past of fill)"
+  },
+  "fingers": {
+   "pos": "명사",
+   "ko": "손가락들 (finger의 복수)",
+   "en": "the parts at the end of your hand"
+  },
+  "finished": {
+   "pos": "동사",
+   "ko": "끝냈다 (finish의 과거형)",
+   "en": "completed (past of finish)"
+  },
+  "flat": {
+   "pos": "형용사",
+   "ko": "평평한, 반듯한",
+   "en": "level and even"
+  },
+  "flinch": {
+   "pos": "동사",
+   "ko": "움찔하다",
+   "en": "to pull back quickly from fear or pain"
+  },
+  "found": {
+   "pos": "동사",
+   "ko": "~라고 여겼다, 찾았다 (find의 과거형)",
+   "en": "thought it was; discovered (past of find)"
+  },
+  "fragrant": {
+   "pos": "형용사",
+   "ko": "향긋한",
+   "en": "having a nice smell"
+  },
+  "fret": {
+   "pos": "동사",
+   "ko": "안달하다, 걱정하다",
+   "en": "to worry"
+  },
+  "front": {
+   "pos": "명사",
+   "ko": "앞 (up front: 처음에, 대놓고)",
+   "en": "the forward part; the beginning"
+  },
+  "gentleman": {
+   "pos": "명사",
+   "ko": "신사",
+   "en": "a polite, well-mannered man"
+  },
+  "get": {
+   "pos": "동사",
+   "ko": "받다, 얻다",
+   "en": "to receive or obtain"
+  },
+  "given": {
+   "pos": "동사",
+   "ko": "주어진 (give의 과거분사)",
+   "en": "handed over (past of give)"
+  },
+  "glass": {
+   "pos": "명사",
+   "ko": "유리 (smooth as glass: 유리처럼 매끈한)",
+   "en": "a hard, smooth clear material"
+  },
+  "glides": {
+   "pos": "동사",
+   "ko": "미끄러지듯 나아가다 (glide의 3인칭)",
+   "en": "moves smoothly and easily"
+  },
+  "glowing": {
+   "pos": "동사",
+   "ko": "은은하게 빛나다 (glow의 -ing)",
+   "en": "shining with a soft, warm light"
+  },
+  "glows": {
+   "pos": "동사",
+   "ko": "은은하게 빛나다 (glow의 3인칭)",
+   "en": "shines with a soft, warm light"
+  },
+  "going": {
+   "pos": "동사",
+   "ko": "가다 (go의 -ing)",
+   "en": "moving toward a place"
+  },
+  "got": {
+   "pos": "동사",
+   "ko": "받았다, 얻었다 (get의 과거형)",
+   "en": "received (past of get)"
+  },
+  "grain": {
+   "pos": "명사",
+   "ko": "결 (against the grain: 털이 난 결을 거슬러)",
+   "en": "the natural direction the hair lies"
+  },
+  "grins": {
+   "pos": "동사",
+   "ko": "씩 웃다 (grin의 3인칭)",
+   "en": "smiles in a big, playful way"
+  },
+  "habits": {
+   "pos": "명사",
+   "ko": "습관 (habit의 복수)",
+   "en": "things you do often without thinking"
+  },
+  "had": {
+   "pos": "동사",
+   "ko": "가지고 있었다 (have의 과거형)",
+   "en": "past form of have"
+  },
+  "hair": {
+   "pos": "명사",
+   "ko": "털, 머리카락",
+   "en": "the fine threads that grow on skin"
+  },
+  "half": {
+   "pos": "명사",
+   "ko": "절반",
+   "en": "one of two equal parts"
+  },
+  "him": {
+   "pos": "대명사",
+   "ko": "그를",
+   "en": "that man (object form of he)"
+  },
+  "hot": {
+   "pos": "형용사",
+   "ko": "뜨거운",
+   "en": "very warm"
+  },
+  "hurried": {
+   "pos": "동사",
+   "ko": "서둘렀다 (hurry의 과거형)",
+   "en": "went too fast; rushed (past of hurry)"
+  },
+  "ill": {
+   "pos": "축약",
+   "ko": "I'll = I will (~할게요)",
+   "en": "short for I will"
+  },
+  "imagined": {
+   "pos": "동사",
+   "ko": "상상했다 (imagine의 과거형)",
+   "en": "pictured in your mind (past of imagine)"
+  },
+  "impressed": {
+   "pos": "형용사",
+   "ko": "감탄한, 인상 깊은",
+   "en": "feeling admiration for something"
+  },
+  "jaw": {
+   "pos": "명사",
+   "ko": "턱, 턱선",
+   "en": "the lower part of the face"
+  },
+  "job": {
+   "pos": "명사",
+   "ko": "일, 할 일",
+   "en": "work; a task to do"
+  },
+  "keeping": {
+   "pos": "동사",
+   "ko": "유지하다 (keep의 -ing)",
+   "en": "holding on to something"
+  },
+  "kept": {
+   "pos": "동사",
+   "ko": "지켰다, 계속 ~했다 (keep의 과거형)",
+   "en": "held or continued (past of keep)"
+  },
+  "kind": {
+   "pos": "명사",
+   "ko": "종류 (that kind of: 그런 종류의)",
+   "en": "a type or sort"
+  },
+  "knowing": {
+   "pos": "형용사",
+   "ko": "다 안다는 듯한",
+   "en": "showing you understand a secret"
+  },
+  "knows": {
+   "pos": "동사",
+   "ko": "알다 (know의 3인칭)",
+   "en": "has information in mind"
+  },
+  "lather": {
+   "pos": "명사",
+   "ko": "(비누·면도) 거품",
+   "en": "soft white foam from soap"
+  },
+  "lean": {
+   "pos": "동사",
+   "ko": "기대다, 몸을 젖히다",
+   "en": "to rest your body against or back"
+  },
+  "leather": {
+   "pos": "명사",
+   "ko": "가죽",
+   "en": "material made from animal skin"
+  },
+  "leave": {
+   "pos": "동사",
+   "ko": "떠나다, 남겨 두다 (leave the rest: 나머지를 맡기다)",
+   "en": "to go away; to let stay"
+  },
+  "left": {
+   "pos": "형용사·동사",
+   "ko": "남은; 남겼다 (leave의 과거분사)",
+   "en": "still there; remaining (past of leave)"
+  },
+  "less": {
+   "pos": "부사",
+   "ko": "덜, 더 적게",
+   "en": "not as much"
+  },
+  "let": {
+   "pos": "동사",
+   "ko": "~하게 두다",
+   "en": "to allow"
+  },
+  "lets": {
+   "pos": "축약",
+   "ko": "let's = let us (~하자)",
+   "en": "short for let us"
+  },
+  "life": {
+   "pos": "명사",
+   "ko": "인생, 삶 (for life: 평생)",
+   "en": "the time you are alive"
+  },
+  "lifetime": {
+   "pos": "명사",
+   "ko": "평생",
+   "en": "the whole length of a life"
+  },
+  "lowers": {
+   "pos": "동사",
+   "ko": "낮추다, 눕히다 (lower의 3인칭)",
+   "en": "moves something down"
+  },
+  "lying": {
+   "pos": "동사",
+   "ko": "누워 있다 (lie의 -ing)",
+   "en": "resting flat, as on a bed"
+  },
+  "makes": {
+   "pos": "동사",
+   "ko": "만들다, ~하게 하다 (make의 3인칭)",
+   "en": "causes; creates"
+  },
+  "making": {
+   "pos": "동사",
+   "ko": "만들다, ~하게 하다 (make의 -ing)",
+   "en": "causing; creating"
+  },
+  "mattered": {
+   "pos": "동사",
+   "ko": "중요했다 (matter의 과거형)",
+   "en": "was important (past of matter)"
+  },
+  "meant": {
+   "pos": "동사",
+   "ko": "의도된, 의미했다 (mean의 과거분사)",
+   "en": "supposed to be; intended (past of mean)"
+  },
+  "men": {
+   "pos": "명사",
+   "ko": "남자들 (man의 복수)",
+   "en": "more than one man"
+  },
+  "mine": {
+   "pos": "대명사",
+   "ko": "내 것",
+   "en": "belonging to me"
+  },
+  "miss": {
+   "pos": "동사",
+   "ko": "놓치다",
+   "en": "to fail to get or reach"
+  },
+  "moment": {
+   "pos": "명사",
+   "ko": "순간",
+   "en": "a very short time"
+  },
+  "most": {
+   "pos": "형용사·부사",
+   "ko": "대부분의; 가장",
+   "en": "the greatest number; more than all"
+  },
+  "move": {
+   "pos": "동사",
+   "ko": "움직이다",
+   "en": "to change position"
+  },
+  "mr": {
+   "pos": "명사",
+   "ko": "~씨, ~님 (남자 존칭)",
+   "en": "a title before a man's name"
+  },
+  "muscle": {
+   "pos": "명사",
+   "ko": "근육 (not move a muscle: 꼼짝도 않다)",
+   "en": "the body part that makes you move"
+  },
+  "neck": {
+   "pos": "명사",
+   "ko": "목",
+   "en": "the part joining head and body"
+  },
+  "nerve": {
+   "pos": "명사",
+   "ko": "배짱, 대담함",
+   "en": "the courage to do something bold"
+  },
+  "notice": {
+   "pos": "동사",
+   "ko": "알아채다",
+   "en": "to see and become aware of"
+  },
+  "observes": {
+   "pos": "동사",
+   "ko": "(보고) 말하다 (observe의 3인칭)",
+   "en": "notices and remarks"
+  },
+  "off": {
+   "pos": "부사",
+   "ko": "떨어져, 없애어 (brush off: 털어 내다)",
+   "en": "away; removed"
+  },
+  "offer": {
+   "pos": "동사",
+   "ko": "권하다, 제안하다",
+   "en": "to ask if someone wants something"
+  },
+  "oldest": {
+   "pos": "형용사",
+   "ko": "가장 오래된 (old의 최상급)",
+   "en": "the most old"
+  },
+  "ones": {
+   "pos": "대명사",
+   "ko": "~한 사람들, 것들 (the quiet ones: 조용한 사람들)",
+   "en": "certain people or things"
+  },
+  "only": {
+   "pos": "부사",
+   "ko": "오직, ~만",
+   "en": "just; nothing more than"
+  },
+  "opens": {
+   "pos": "동사",
+   "ko": "열다, 펴다 (open의 3인칭)",
+   "en": "makes something open"
+  },
+  "other": {
+   "pos": "형용사",
+   "ko": "다른",
+   "en": "not this one; different"
+  },
+  "out": {
+   "pos": "부사",
+   "ko": "밖으로",
+   "en": "away from inside"
+  },
+  "part": {
+   "pos": "명사",
+   "ko": "부분 (best part: 제일 좋은 순간)",
+   "en": "one piece of something"
+  },
+  "patience": {
+   "pos": "명사",
+   "ko": "인내심, 여유",
+   "en": "the calm to wait without rushing"
+  },
+  "patient": {
+   "pos": "형용사",
+   "ko": "참을성 있는, 서두르지 않는",
+   "en": "calm and not rushing"
+  },
+  "pats": {
+   "pos": "동사",
+   "ko": "톡톡 두드리다 (pat의 3인칭)",
+   "en": "touches gently again and again"
+  },
+  "pay": {
+   "pos": "동사",
+   "ko": "값을 치르다",
+   "en": "to give money for something"
+  },
+  "perfectly": {
+   "pos": "부사",
+   "ko": "완벽하게, 지극히",
+   "en": "completely; in a perfect way"
+  },
+  "plans": {
+   "pos": "명사",
+   "ko": "계획 (plan의 복수)",
+   "en": "ideas about what to do"
+  },
+  "pleasure": {
+   "pos": "명사",
+   "ko": "즐거움",
+   "en": "a feeling of enjoyment"
+  },
+  "point": {
+   "pos": "명사",
+   "ko": "핵심, 요점 (the whole point: 바로 그게 핵심)",
+   "en": "the main reason or idea"
+  },
+  "promise": {
+   "pos": "명사",
+   "ko": "약속",
+   "en": "words you say you will keep"
+  },
+  "quiet": {
+   "pos": "형용사",
+   "ko": "조용한",
+   "en": "making little or no sound"
+  },
+  "quietly": {
+   "pos": "부사",
+   "ko": "조용히, 은은하게",
+   "en": "in a quiet way"
+  },
+  "quite": {
+   "pos": "부사",
+   "ko": "꽤, 상당히",
+   "en": "to a fair degree; rather"
+  },
+  "rare": {
+   "pos": "형용사",
+   "ko": "드문, 귀한",
+   "en": "not often seen"
+  },
+  "razor": {
+   "pos": "명사",
+   "ko": "면도칼",
+   "en": "a sharp tool for shaving"
+  },
+  "real": {
+   "pos": "형용사",
+   "ko": "진짜의",
+   "en": "true; not fake"
+  },
+  "regular": {
+   "pos": "명사",
+   "ko": "단골",
+   "en": "a customer who comes back often"
+  },
+  "regulars": {
+   "pos": "명사",
+   "ko": "단골들 (regular의 복수)",
+   "en": "customers who come back often"
+  },
+  "rest": {
+   "pos": "명사",
+   "ko": "나머지 (the rest: 나머지)",
+   "en": "the part that is left"
+  },
+  "return": {
+   "pos": "동사",
+   "ko": "돌아오다",
+   "en": "to come back"
+  },
+  "rings": {
+   "pos": "동사",
+   "ko": "울리다 (ring의 3인칭)",
+   "en": "makes a bell sound"
+  },
+  "rush": {
+   "pos": "동사",
+   "ko": "서두르다",
+   "en": "to do something too fast"
+  },
+  "said": {
+   "pos": "동사",
+   "ko": "말했다 (say의 과거형)",
+   "en": "spoke words (past of say)"
+  },
+  "same": {
+   "pos": "형용사",
+   "ko": "같은",
+   "en": "not different"
+  },
+  "sat": {
+   "pos": "동사",
+   "ko": "앉아 있었다 (sit의 과거형)",
+   "en": "was seated (past of sit)"
+  },
+  "saves": {
+   "pos": "동사",
+   "ko": "아껴 두다 (save의 3인칭)",
+   "en": "keeps something for later"
+  },
+  "second": {
+   "pos": "형용사·명사",
+   "ko": "두 번째의; 잠깐 (a second: 잠깐)",
+   "en": "coming after the first; a short moment"
+  },
+  "shakes": {
+   "pos": "동사",
+   "ko": "흔들다 (shake의 3인칭; shake one's head: 고개를 젓다)",
+   "en": "moves from side to side"
+  },
+  "shall": {
+   "pos": "조동사",
+   "ko": "~할까요 (제안·의향)",
+   "en": "used to offer or ask about doing"
+  },
+  "sharpest": {
+   "pos": "형용사",
+   "ko": "제일 잘 드는 (sharp의 최상급)",
+   "en": "the most sharp"
+  },
+  "sharply": {
+   "pos": "부사",
+   "ko": "따끔하게, 날카롭게",
+   "en": "in a sharp, sudden way"
+  },
+  "shave": {
+   "pos": "명사·동사",
+   "ko": "면도; 면도하다",
+   "en": "cutting hair off the face with a blade"
+  },
+  "shaves": {
+   "pos": "동사",
+   "ko": "면도하다 (shave의 3인칭)",
+   "en": "cuts hair off with a blade"
+  },
+  "shows": {
+   "pos": "동사",
+   "ko": "나타나다 (show up: 모습을 보이다)",
+   "en": "comes and is there"
+  },
+  "simple": {
+   "pos": "형용사",
+   "ko": "단순한, 간단한",
+   "en": "not hard; plain"
+  },
+  "single": {
+   "pos": "형용사",
+   "ko": "단 하나의 (not a single: 단 하나도 없이)",
+   "en": "just one; not any at all"
+  },
+  "sir": {
+   "pos": "명사",
+   "ko": "선생님, ~님 (남자 손님 존칭)",
+   "en": "a polite word for a man"
+  },
+  "sit": {
+   "pos": "동사",
+   "ko": "앉다",
+   "en": "to rest on a seat"
+  },
+  "slowly": {
+   "pos": "부사",
+   "ko": "천천히",
+   "en": "not fast"
+  },
+  "smooth": {
+   "pos": "형용사",
+   "ko": "매끈한, 부드러운",
+   "en": "even, with no rough spots"
+  },
+  "snug": {
+   "pos": "형용사",
+   "ko": "꼭 맞는, 아늑한",
+   "en": "close and warm around you"
+  },
+  "soft": {
+   "pos": "형용사",
+   "ko": "부드러운, 나직한",
+   "en": "gentle; not hard or loud"
+  },
+  "soften": {
+   "pos": "동사",
+   "ko": "부드럽게 하다, 풀어 주다 (soften up: 긴장을 풀어 주다)",
+   "en": "to make soft or relaxed"
+  },
+  "solid": {
+   "pos": "형용사",
+   "ko": "빈틈없는 (booked solid: 예약이 꽉 찬)",
+   "en": "completely full; firm"
+  },
+  "some": {
+   "pos": "형용사",
+   "ko": "어떤, 몇몇의",
+   "en": "a few; not all"
+  },
+  "something": {
+   "pos": "대명사",
+   "ko": "무언가",
+   "en": "a thing not named"
+  },
+  "soon": {
+   "pos": "부사",
+   "ko": "곧, 이내",
+   "en": "in a short time"
+  },
+  "spoke": {
+   "pos": "동사",
+   "ko": "말했다 (speak의 과거형)",
+   "en": "said words (past of speak)"
+  },
+  "spreads": {
+   "pos": "동사",
+   "ko": "펴 바르다 (spread의 3인칭)",
+   "en": "puts a thin layer over something"
+  },
+  "standing": {
+   "pos": "형용사",
+   "ko": "정해진, 고정된 (standing appointment: 고정 예약)",
+   "en": "fixed and repeating"
+  },
+  "started": {
+   "pos": "동사",
+   "ko": "시작했다 (start의 과거형)",
+   "en": "began (past of start)"
+  },
+  "steaming": {
+   "pos": "형용사",
+   "ko": "김이 나는, 뜨거운",
+   "en": "so hot that steam rises"
+  },
+  "steel": {
+   "pos": "명사",
+   "ko": "강철 (면도날)",
+   "en": "a hard, strong metal"
+  },
+  "stiff": {
+   "pos": "형용사",
+   "ko": "뻣뻣한, 긴장된",
+   "en": "hard to bend; not relaxed"
+  },
+  "stings": {
+   "pos": "동사",
+   "ko": "따끔거리다 (sting의 3인칭)",
+   "en": "gives a sharp, quick pain"
+  },
+  "stood": {
+   "pos": "동사",
+   "ko": "서 있었다 (stand의 과거형)",
+   "en": "was on his feet (past of stand)"
+  },
+  "story": {
+   "pos": "명사",
+   "ko": "이야기",
+   "en": "a telling of what happened"
+  },
+  "street": {
+   "pos": "명사",
+   "ko": "거리, 길",
+   "en": "a road in a town"
+  },
+  "stroke": {
+   "pos": "명사",
+   "ko": "(면도날의) 한 번 긋기",
+   "en": "one smooth movement of the blade"
+  },
+  "studying": {
+   "pos": "동사",
+   "ko": "찬찬히 살피다 (study의 -ing)",
+   "en": "looking at closely"
+  },
+  "supposed": {
+   "pos": "동사",
+   "ko": "~하기로 되어 있다 (be supposed to: 원래 그래야 하다)",
+   "en": "meant to be a certain way"
+  },
+  "taking": {
+   "pos": "동사",
+   "ko": "쓰다, 들이다 (take one's time: 여유를 갖다)",
+   "en": "using; from take"
+  },
+  "talked": {
+   "pos": "동사",
+   "ko": "말했다 (talk의 과거형)",
+   "en": "spoke (past of talk)"
+  },
+  "tense": {
+   "pos": "형용사",
+   "ko": "긴장한",
+   "en": "tight and not relaxed"
+  },
+  "tension": {
+   "pos": "명사",
+   "ko": "긴장",
+   "en": "a tight, uneasy feeling"
+  },
+  "thanked": {
+   "pos": "동사",
+   "ko": "고마워했다 (thank의 과거형)",
+   "en": "said thank you (past of thank)"
+  },
+  "thinks": {
+   "pos": "동사",
+   "ko": "생각하다 (think의 3인칭)",
+   "en": "believes; has in mind"
+  },
+  "throat": {
+   "pos": "명사",
+   "ko": "목, 목구멍",
+   "en": "the front of the neck"
+  },
+  "tilt": {
+   "pos": "동사",
+   "ko": "기울이다, 젖히다",
+   "en": "to lean something to one side or back"
+  },
+  "tips": {
+   "pos": "동사",
+   "ko": "젖히다, 기울이다 (tip의 3인칭)",
+   "en": "leans something back or over"
+  },
+  "told": {
+   "pos": "동사",
+   "ko": "말했다 (tell의 과거형)",
+   "en": "said to someone (past of tell)"
+  },
+  "took": {
+   "pos": "동사",
+   "ko": "받았다, 들였다 (take의 과거형)",
+   "en": "received; used (past of take)"
+  },
+  "tourist": {
+   "pos": "명사",
+   "ko": "관광객 (한 번 오고 마는 사람 비유)",
+   "en": "a visitor who comes only once"
+  },
+  "towel": {
+   "pos": "명사",
+   "ko": "수건",
+   "en": "cloth for drying or wrapping"
+  },
+  "trust": {
+   "pos": "동사",
+   "ko": "믿다",
+   "en": "to feel sure of someone"
+  },
+  "tuesday": {
+   "pos": "명사",
+   "ko": "화요일",
+   "en": "the day after Monday"
+  },
+  "turn": {
+   "pos": "명사",
+   "ko": "반전, 전환",
+   "en": "a change to something different"
+  },
+  "turns": {
+   "pos": "동사",
+   "ko": "돌리다, 젖히다 (turn의 3인칭)",
+   "en": "moves something to a new position"
+  },
+  "twice": {
+   "pos": "부사",
+   "ko": "두 번",
+   "en": "two times"
+  },
+  "unfolds": {
+   "pos": "동사",
+   "ko": "펼치다 (unfold의 3인칭)",
+   "en": "opens something that was folded"
+  },
+  "unhurried": {
+   "pos": "형용사",
+   "ko": "서두르지 않는, 느긋한",
+   "en": "calm and not rushed"
+  },
+  "until": {
+   "pos": "전치사·접속사",
+   "ko": "~까지, ~하기 전까지",
+   "en": "up to the time when"
+  },
+  "vanished": {
+   "pos": "동사",
+   "ko": "사라졌다 (vanish의 과거형)",
+   "en": "went away suddenly (past of vanish)"
+  },
+  "vince": {
+   "pos": "고유명사",
+   "ko": "빈스 (이발사 이름)",
+   "en": "the barber's name"
+  },
+  "vinces": {
+   "pos": "고유명사",
+   "ko": "빈스의 (Vince's)",
+   "en": "belonging to Vince"
+  },
+  "walked": {
+   "pos": "동사",
+   "ko": "걸었다 (walk의 과거형)",
+   "en": "went on foot (past of walk)"
+  },
+  "want": {
+   "pos": "동사",
+   "ko": "원하다, ~하고 싶다",
+   "en": "to wish for something"
+  },
+  "wanted": {
+   "pos": "동사",
+   "ko": "원했다 (want의 과거형)",
+   "en": "wished for (past of want)"
+  },
+  "wants": {
+   "pos": "동사",
+   "ko": "원하다 (want의 3인칭)",
+   "en": "wishes for something"
+  },
+  "warmer": {
+   "pos": "형용사",
+   "ko": "더 따뜻한 (warm의 비교급)",
+   "en": "more warm"
+  },
+  "warmth": {
+   "pos": "명사",
+   "ko": "따뜻함, 온기",
+   "en": "a warm feeling or heat"
+  },
+  "was": {
+   "pos": "동사",
+   "ko": "~였다 (is의 과거형)",
+   "en": "past form of is"
+  },
+  "we": {
+   "pos": "대명사",
+   "ko": "우리",
+   "en": "you and I"
+  },
+  "week": {
+   "pos": "명사",
+   "ko": "주, 일주일",
+   "en": "seven days"
+  },
+  "went": {
+   "pos": "동사",
+   "ko": "갔다 (go의 과거형)",
+   "en": "past form of go"
+  },
+  "were": {
+   "pos": "동사",
+   "ko": "~였다 (are의 과거형)",
+   "en": "past form of are"
+  },
+  "whatever": {
+   "pos": "대명사",
+   "ko": "무엇이든",
+   "en": "anything at all"
+  },
+  "where": {
+   "pos": "부사",
+   "ko": "어디, ~한 곳",
+   "en": "in or at what place"
+  },
+  "which": {
+   "pos": "대명사",
+   "ko": "~인데 그것은 (관계사)",
+   "en": "a word that links to a thing"
+  },
+  "whips": {
+   "pos": "동사",
+   "ko": "휘저어 거품을 내다 (whip up: 거품을 내다)",
+   "en": "beats fast to make foam"
+  },
+  "whispers": {
+   "pos": "동사",
+   "ko": "속삭이다 (whisper의 3인칭)",
+   "en": "speaks very softly"
+  },
+  "who": {
+   "pos": "대명사",
+   "ko": "누구, ~한 사람",
+   "en": "what person"
+  },
+  "why": {
+   "pos": "부사",
+   "ko": "왜",
+   "en": "for what reason"
+  },
+  "winds": {
+   "pos": "동사",
+   "ko": "감다, 두르다 (wind의 3인칭)",
+   "en": "wraps something around"
+  },
+  "wipes": {
+   "pos": "동사",
+   "ko": "닦다 (wipe의 3인칭)",
+   "en": "cleans by rubbing lightly"
+  },
+  "wonders": {
+   "pos": "동사",
+   "ko": "궁금해하다 (wonder의 3인칭)",
+   "en": "wants to know; thinks about"
+  },
+  "words": {
+   "pos": "명사",
+   "ko": "말, 단어들 (word의 복수)",
+   "en": "more than one word"
+  },
+  "work": {
+   "pos": "명사·동사",
+   "ko": "일; 일하다 (finest work: 최고의 솜씨)",
+   "en": "a task; to do a task"
+  },
+  "worn": {
+   "pos": "형용사",
+   "ko": "낡은, 오래 써서 헤진",
+   "en": "old and used"
+  },
+  "worst": {
+   "pos": "명사",
+   "ko": "최악 (do your worst: 마음껏 해 봐라)",
+   "en": "the most extreme thing you can do"
+  },
+  "worth": {
+   "pos": "형용사",
+   "ko": "~할 가치가 있는",
+   "en": "good enough to deserve it"
+  },
+  "wraps": {
+   "pos": "동사",
+   "ko": "감싸다 (wrap의 3인칭)",
+   "en": "folds cloth around something"
+  },
+  "yes": {
+   "pos": "감탄사",
+   "ko": "네, 그래요",
+   "en": "a word to agree or say so"
+  },
+  "yours": {
+   "pos": "대명사",
+   "ko": "너의 것, 당신 것",
+   "en": "belonging to you"
+  }
+ }
+}

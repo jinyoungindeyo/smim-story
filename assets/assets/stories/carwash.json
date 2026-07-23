@@ -1,0 +1,1871 @@
+{
+ "id": "carwash",
+ "title": "The Detailing of Mr. Steele",
+ "badge": "A2+ · 표현 주의",
+ "introKo": "동네 디테일링 샵. 정비사 Steele 씨가 보닛 안과 광택을 유난히 꼼꼼하게 봐주는 아주 건전한 이야기.\n…표면적으로는요.",
+ "introEn": "A very thorough car detailing with Mr. Steele. Strictly about the car.\n...on the surface.",
+ "adult": true,
+ "minLevel": 5,
+ "picturebook": true,
+ "endingsMode": "path",
+ "quiz": {
+  "q": "Steele 씨가 손세차에서 가장 중요하다고 한 곳은?",
+  "options": [
+   "보닛 위",
+   "구석(코너)",
+   "바퀴"
+  ],
+  "answer": 1
+ },
+ "cover": "carwash_allmine",
+ "scripts": {
+  "normal": [
+   {
+    "type": "text",
+    "art": "carwash_arrive",
+    "text": "Saturday morning. You pull into Steele's Auto Detailing for the first time. Mr. Steele wipes his hands on a rag and looks your car over slowly."
+   },
+   {
+    "type": "text",
+    "art": "carwash_allmine",
+    "text": "\"Nice ride,\" he says, walking a slow circle around it. \"For the next hour, she is all mine. Let's make her shine.\""
+   },
+   {
+    "type": "text",
+    "art": "carwash_hood",
+    "text": "\"First, let's pop the hood,\" he says. \"I like to see what I am working with underneath. Don't be shy — open her up.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 답할까요?",
+    "options": [
+     {
+      "en": "I've been waiting all week for this. Open it up.",
+      "ko": "이 순간을 일주일 내내 기다렸어요. 열어 주세요.",
+      "reaction": "\"That is what I like to hear,\" he grins. \"Eager. This will be fun.\"",
+      "tone": "bold"
+     },
+     {
+      "en": "Go easy on her — it's my first time getting detailed.",
+      "ko": "살살 해 주세요. 디테일링은 처음이라서요.",
+      "reaction": "\"First time?\" He smiles. \"Don't worry. I will walk you through every step.\"",
+      "tone": "calm"
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "art": "carwash_oil",
+    "text": "Under the hood, he checks the oil with careful fingers. \"A little low,\" he murmurs. \"Let me take good care of that for you.\""
+   },
+   {
+    "type": "text",
+    "art": "carwash_wax",
+    "text": "\"Now for the wax,\" he says, holding up a tin. \"A good coat, rubbed in deep, and she will shine for weeks. The more I give her, the better she looks.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "Just a light coat is fine, thank you.",
+      "ko": "가볍게 한 겹만 발라 주세요.",
+      "reaction": "\"Light and gentle,\" he nods. \"Some people like it slow. I can do slow.\"",
+      "tone": "calm"
+     },
+     {
+      "en": "Don't hold back. Give her everything you have.",
+      "ko": "아끼지 말고 가진 거 다 쏟아부어 주세요.",
+      "reaction": "\"Everything?\" He laughs. \"Now that is my kind of customer.\"",
+      "tone": "bold"
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "art": "carwash_handwash",
+    "text": "Next comes the hand wash. He works the sponge into every curve and every narrow gap. \"The corners matter most,\" he says. \"That is where the real dirt hides.\""
+   },
+   {
+    "type": "text",
+    "art": "carwash_heat",
+    "text": "\"I have to reach these tight spots before the water dries,\" he says, leaning close. \"Everything goes better while she is still warm.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "Don't stop until every spot is done.",
+      "ko": "구석구석 다 끝날 때까지 멈추지 마세요.",
+      "reaction": "\"I never leave a spot untouched,\" he says. \"That is a promise.\"",
+      "tone": "bold"
+     },
+     {
+      "en": "Take your time. There is no rush at all.",
+      "ko": "천천히 하세요. 하나도 안 급해요.",
+      "reaction": "\"Slow and thorough,\" he says. \"That is the only way I know.\"",
+      "tone": "calm"
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "art": "carwash_polish",
+    "text": "Finally, the polish. He buffs the hood in slow circles until it glows. \"Almost there,\" he breathes. \"The best shine always comes at the very end.\""
+   },
+   {
+    "type": "text",
+    "art": "carwash_shine",
+    "text": "He steps back. The car gleams like new, catching every ray of light. \"Now that,\" he says softly, \"is a job done right.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 답할까요?",
+    "options": [
+     {
+      "en": "She has never looked better. Thank you, Mr. Steele.",
+      "ko": "이렇게 반짝인 적이 없어요. 고마워요, Steele 씨.",
+      "reaction": "\"My pleasure,\" he says. \"A good shine is its own reward.\"",
+      "tone": "calm"
+     },
+     {
+      "en": "I want this every week. Can I book you for good?",
+      "ko": "매주 이거 받고 싶어요. 단골로 예약해도 돼요?",
+      "reaction": "\"For you?\" He pockets your key with a wink. \"My door is always open.\"",
+      "tone": "bold"
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "art": "carwash_drive",
+    "text": "You drive home in a car that purrs and gleams. That night you sleep easy, already counting the days until next Saturday."
+   }
+  ],
+  "hard": [
+   {
+    "type": "text",
+    "art": "carwash_arrive",
+    "text": "Saturday morning finds you pulling into Steele's Auto Detailing for the very first time. Mr. Steele wipes his hands on a rag and studies your car the way an artist studies a blank canvas."
+   },
+   {
+    "type": "text",
+    "art": "carwash_allmine",
+    "text": "\"Now that is a fine machine,\" he says, circling it slowly. \"For the next hour, she belongs entirely to me. Let's bring out a shine you have never seen before.\""
+   },
+   {
+    "type": "text",
+    "art": "carwash_hood",
+    "text": "\"We begin by popping the hood,\" he says. \"I always like to see exactly what I am working with underneath. Don't be shy now — open her right up.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 답할까요?",
+    "options": [
+     {
+      "en": "I've been waiting all week for this. Open it up.",
+      "ko": "이 순간을 일주일 내내 기다렸어요. 열어 주세요.",
+      "reaction": "\"That is exactly what I like to hear,\" he grins. \"Eager customers are always the most fun.\"",
+      "tone": "bold"
+     },
+     {
+      "en": "Go easy on her — it's my first time getting detailed.",
+      "ko": "살살 해 주세요. 디테일링은 처음이라서요.",
+      "reaction": "\"Your first time?\" He smiles warmly. \"Then relax. I will walk you through every single step.\"",
+      "tone": "calm"
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "art": "carwash_oil",
+    "text": "Under the hood, he checks the oil with slow, careful fingers. \"Running a touch low,\" he murmurs. \"Let me take very good care of that for you.\""
+   },
+   {
+    "type": "text",
+    "art": "carwash_wax",
+    "text": "\"Now for the wax,\" he says, lifting a tin. \"A generous coat, rubbed in nice and deep, and she will shine for weeks. The more I give her, the better she behaves.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "Just a light coat will be fine, thank you.",
+      "ko": "가볍게 한 겹만 발라 주세요.",
+      "reaction": "\"Light and slow,\" he nods. \"Some people prefer to take their time. I have no problem with slow.\"",
+      "tone": "calm"
+     },
+     {
+      "en": "Don't hold back. Give her absolutely everything.",
+      "ko": "아끼지 말고 가진 거 다 쏟아부어 주세요.",
+      "reaction": "\"Everything?\" He laughs under his breath. \"Now you are speaking my language.\"",
+      "tone": "bold"
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "art": "carwash_handwash",
+    "text": "Next comes the hand wash. He works the sponge into every curve and every narrow gap without missing a thing. \"The corners always matter most,\" he says. \"That is where the real dirt likes to hide.\""
+   },
+   {
+    "type": "text",
+    "art": "carwash_heat",
+    "text": "\"I need to reach these tight little spots before the water dries,\" he says, leaning in close. \"Trust me — everything goes far better while she is still warm.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 할까요?",
+    "options": [
+     {
+      "en": "Don't stop until every last spot is done.",
+      "ko": "구석구석 하나도 빠짐없이 끝날 때까지 멈추지 마세요.",
+      "reaction": "\"I have never once left a spot untouched,\" he says. \"You have my word on that.\"",
+      "tone": "bold"
+     },
+     {
+      "en": "Take all the time you need. There is no rush at all.",
+      "ko": "필요한 만큼 천천히 하세요. 하나도 안 급해요.",
+      "reaction": "\"Slow and thorough,\" he says. \"Honestly, it is the only way I know how to work.\"",
+      "tone": "calm"
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "art": "carwash_polish",
+    "text": "At last, the polish. He buffs the hood in slow, patient circles until the metal begins to glow. \"Almost there,\" he breathes. \"The very best shine always saves itself for the end.\""
+   },
+   {
+    "type": "text",
+    "art": "carwash_shine",
+    "text": "He steps back to admire his work. The car gleams like something brand new, catching every ray of the morning light. \"Now that,\" he says softly, \"is what I call a job done properly.\""
+   },
+   {
+    "type": "choice",
+    "prompt": "뭐라고 답할까요?",
+    "options": [
+     {
+      "en": "She has never looked better. Thank you, Mr. Steele.",
+      "ko": "이렇게 반짝인 적이 없어요. 고마워요, Steele 씨.",
+      "reaction": "\"The pleasure is all mine,\" he says. \"A shine like this is its own reward.\"",
+      "tone": "calm"
+     },
+     {
+      "en": "I want this every single week. Can I book you for good?",
+      "ko": "매주 이거 받고 싶어요. 단골로 예약해도 돼요?",
+      "reaction": "\"For a customer like you?\" He pockets your key with a wink. \"My door is always open.\"",
+      "tone": "bold"
+     }
+    ]
+   },
+   {
+    "type": "text",
+    "art": "carwash_drive",
+    "text": "You drive home in a car that purrs beneath you and gleams in every mirror. That night you sleep easily, already counting the days until next Saturday comes around."
+   }
+  ]
+ },
+ "endings": {
+  "0000": {
+   "name": "조심스러운 첫 손님",
+   "nameEn": "The Careful First-Timer",
+   "en": "You kept it gentle from start to finish and drove off with a polite thank-you. Every few months your car quietly reappears at Steele's, always for the light package. Some shines, you have decided, are best enjoyed slowly and rarely.",
+   "ko": "처음부터 끝까지 조심스럽게 받고, 정중한 인사만 남기고 떠났어요. 몇 달에 한 번씩 당신 차가 조용히 Steele's 앞에 다시 나타나요. 늘 가벼운 코스로요. 어떤 광택은 천천히, 가끔 즐기는 게 제일이라고 당신은 정했죠."
+  },
+  "0001": {
+   "name": "다시 오는 조용한 단골",
+   "nameEn": "The Quiet Regular",
+   "en": "You were shy with the hood, light on the wax, and easy on the corners — yet you still booked next Saturday before you left. \"Careful hands,\" Mr. Steele tells the other detailers, \"but he always comes back.\"",
+   "ko": "보닛 앞에선 수줍고, 왁스는 가볍게, 구석은 살살. 그래도 떠나기 전에 다음 토요일을 예약했죠. \"손은 조심스러워도 꼭 다시 온다니까.\" Steele 씨가 다른 정비사들에게 말해요."
+  },
+  "0010": {
+   "name": "말없이 꼼꼼한 사람",
+   "nameEn": "Quiet but Thorough",
+   "en": "You said little all morning, but you told him one thing clearly: do not stop until every spot is done. Mr. Steele remembers that. The hardest, dirtiest corners now wait especially for you.",
+   "ko": "아침 내내 말수는 적었지만, 딱 하나는 분명히 말했죠. 구석구석 다 끝날 때까지 멈추지 말라고요. Steele 씨는 그걸 기억해요. 이제 제일 지저분하고 까다로운 구석은 늘 당신을 기다려요."
+  },
+  "0011": {
+   "name": "은근한 완벽주의자",
+   "nameEn": "The Subtle Perfectionist",
+   "en": "You began shy and modest, but by the end you wanted every corner perfect and booked to do it all again. Mr. Steele loves that kind of customer. \"Quiet at the gate, particular by the polish,\" he says. \"My favorite type.\"",
+   "ko": "수줍고 소박하게 시작했지만, 끝엔 구석 하나까지 완벽하길 바랐고 다시 오겠다고 예약까지 했죠. Steele 씨는 그런 손님을 좋아해요. \"들어올 땐 조용하다가 광낼 땐 까다로운 것 — 제일 좋아하는 유형이에요.\" 그가 말해요."
+  },
+  "0100": {
+   "name": "왁스 인심 좋은 손님",
+   "nameEn": "The Generous Coat",
+   "en": "You were careful with everything except the wax — \"give her everything,\" you said, and he did. Mr. Steele still laughs about it. His shelf has never run so low on wax, and your car has never gleamed so bright.",
+   "ko": "다른 건 다 조심스러웠는데 왁스만은 아니었어요. \"가진 거 다 부어 주세요\"라던 그 한마디에 그는 정말 그렇게 했죠. Steele 씨는 아직도 그 얘길 하며 웃어요. 왁스 선반이 이렇게 바닥난 적이 없고, 당신 차가 이렇게 눈부신 적도 없었대요."
+  },
+  "0101": {
+   "name": "광을 사랑하는 단골",
+   "nameEn": "The Regular Who Loves a Shine",
+   "en": "Every Saturday your car returns, and every Saturday you ask for the deepest coat he has. Gentle in every other way, but never with the wax — never. \"When he visits,\" Mr. Steele says, \"my whole shop smells of wax for a week.\"",
+   "ko": "토요일마다 당신 차가 돌아오고, 토요일마다 당신은 그가 가진 제일 깊은 코스를 부탁해요. 다른 건 다 부드럽게, 왁스만은 절대 아니죠. \"저 손님이 오는 날엔 가게 전체가 일주일 내내 왁스 냄새예요.\" Steele 씨가 말해요."
+  },
+  "0110": {
+   "name": "숨은 실력자",
+   "nameEn": "The Hidden Talent",
+   "en": "You arrived shy, but the work drew it out of you: a full coat, every corner spotless, all in one quiet morning. Then you left without booking again, and that is the part Mr. Steele cannot understand. \"All that shine,\" he sighs at the door, \"and he only came once.\"",
+   "ko": "수줍게 왔지만, 일이 당신 안의 무언가를 끌어냈죠. 왁스 풀코스에, 구석 하나 없이 완벽하게, 그 조용한 아침 하나에요. 그러고는 다시 예약도 없이 떠났고, Steele 씨는 그게 이해가 안 돼요. \"그렇게 광을 내 놓고 딱 한 번 오다니.\" 그가 문가에서 한숨을 쉬어요."
+  },
+  "0111": {
+   "name": "늦게 불붙는 사람",
+   "nameEn": "The Slow Starter Who Caught Fire",
+   "en": "You called it your first time, and maybe it was. But by noon you wanted the full coat, every corner done right, and next Saturday already booked. \"Customers like you,\" Mr. Steele says, \"are the reason I still love this work.\"",
+   "ko": "처음이라고 했죠. 정말 그랬을지도 몰라요. 그런데 정오쯤엔 풀코스 왁스에, 구석까지 완벽하게, 다음 토요일까지 이미 예약했어요. \"당신 같은 손님 때문에 아직도 이 일이 좋다니까요.\" Steele 씨가 말해요."
+  },
+  "1000": {
+   "name": "말 앞선 새 손님",
+   "nameEn": "The Big Talker",
+   "en": "\"I've waited all week for this,\" you announced — then asked him to go easy, keep it light, and waved a polite goodbye. Mr. Steele found it charming. \"Big entrance, gentle heart,\" he says. \"Honestly, my easiest customers talk the loudest.\"",
+   "ko": "\"이 순간을 일주일 내내 기다렸어요\"라더니, 그 뒤로는 살살, 가볍게, 그리고 정중한 작별 인사였죠. Steele 씨는 그게 오히려 귀엽대요. \"등장은 요란한데 마음은 순한 것 — 사실 제일 편한 손님이 제일 말이 많아요.\" 그가 말해요."
+  },
+  "1001": {
+   "name": "약속을 지키는 손님",
+   "nameEn": "The Man of His Word",
+   "en": "You came in bold, kept things gentle, and did the one thing that counts: you came back. Now every Saturday runs the same — your key, his hands, one perfect shine. \"Some men just talk,\" Mr. Steele tells the shop. \"This one shows up.\"",
+   "ko": "당당하게 들어와서, 일은 부드럽게, 그리고 제일 중요한 걸 했죠. 다시 온 거예요. 이제 토요일마다 똑같아요. 당신의 열쇠, 그의 손, 완벽한 광 하나. \"말만 하는 남자도 많은데, 이 사람은 진짜로 와요.\" Steele 씨가 가게에 말해요."
+  },
+  "1010": {
+   "name": "손 빠른 해결사",
+   "nameEn": "The Quick Fixer",
+   "en": "Confident from hello and set on getting every corner done — that is how Mr. Steele describes you now. You never booked again, yet somehow the trickiest jobs always seem to land on the day you happen to drive past. Funny how that works.",
+   "ko": "첫인사부터 자신만만, 게다가 구석 하나까지 다 끝내려는 사람. 요즘 Steele 씨가 당신을 그렇게 소개해요. 다시 예약은 안 했는데, 이상하게 제일 까다로운 작업들은 꼭 당신이 지나가는 날에 생겨요. 참 신기한 일이죠."
+  },
+  "1011": {
+   "name": "떠오르는 단골 에이스",
+   "nameEn": "The Rising Regular",
+   "en": "Bold at the door, thorough to the last corner, and booked for next week before he could offer — the other customers keep asking who gets the special treatment. Mr. Steele just smiles and says nothing at all.",
+   "ko": "문 앞에서부터 당당하게, 마지막 구석까지 꼼꼼하게, 그리고 그가 권하기도 전에 다음 주를 예약했죠. 다른 손님들은 누가 그런 특별 대접을 받느냐고 자꾸 물어요. Steele 씨는 그저 웃으며 아무 말도 안 해요."
+  },
+  "1100": {
+   "name": "넘치도록 부어 준 손님",
+   "nameEn": "The Overflowing Coat",
+   "en": "You strode in bold and asked for everything he had, and he poured it on like a summer storm — yet you took it easy on the corners and left early with a wave. Mr. Steele still tells the story: \"He came, he shined, he drove off glowing.\" Then he looks at the empty wax tin and grins.",
+   "ko": "당당하게 들어와서 가진 걸 다 달라고 했고, 그는 여름 소나기처럼 쏟아부었죠. 그래도 구석은 살살, 손만 흔들고 일찍 떠났어요. Steele 씨는 아직도 그 얘길 해요. \"왔고, 광을 냈고, 반짝이며 떠났죠.\" 그러고는 텅 빈 왁스 통을 보며 씩 웃어요."
+  },
+  "1101": {
+   "name": "광에 진심인 단골",
+   "nameEn": "The Devoted Shine-Seeker",
+   "en": "Bold from the first hello, generous with every coat, and back every Saturday without fail. The only thing you ever went easy on was the corners — you let him handle those his own slow way, and that is the part he likes best. \"The finest shine,\" he says, \"is never rushed.\"",
+   "ko": "첫인사부터 당당하게, 코스마다 아낌없이, 그리고 토요일마다 어김없이 돌아와요. 유일하게 살살 넘어간 건 구석뿐이었죠. 그건 그가 자기만의 느린 방식으로 하게 뒀고, 그가 제일 좋아하는 부분이 바로 그거예요. \"제일 좋은 광은 절대 서두르지 않는 법이죠.\" 그가 말해요."
+  },
+  "1110": {
+   "name": "좋은 꿈 같은 손님",
+   "nameEn": "Like a Good Dream",
+   "en": "Bold, generous, and thorough to the last corner — you did it all, called it the finest shine you had ever seen, and drove away. Mr. Steele stood in the doorway a long while. Some customers, he thinks, are like a good dream: wonderful, and gone far too soon.",
+   "ko": "당당하게, 아낌없이, 마지막 구석까지 꼼꼼하게. 전부 해내고는 이렇게 좋은 광은 처음이라며 떠났죠. Steele 씨는 한참 문가에 서 있었어요. 어떤 손님은 좋은 꿈 같아요. 근사한데, 너무 빨리 사라지죠."
+  },
+  "1111": {
+   "name": "샵의 전설이 된 손님",
+   "nameEn": "The Legend of the Shop",
+   "en": "By summer the whole street knows your car — no machine has ever left Steele's gleaming quite like it. He tells every customer you get the finest shine in town. And the others notice one small thing: your key now hangs on its own hook behind his counter, and the shop stays open a little later whenever you drive by.",
+   "ko": "여름이 되자 온 거리가 당신 차를 알아봐요. Steele's에서 그렇게 눈부시게 나간 차는 없었거든요. 그는 손님마다 당신이 이 동네에서 제일 좋은 광을 받는다고 말해요. 그리고 다른 사람들은 작은 변화 하나를 눈치채요. 이제 당신 열쇠만 카운터 뒤 전용 고리에 걸려 있고, 당신이 지나가는 날이면 가게가 늘 조금 더 늦게까지 열려 있다는 걸요."
+  }
+ },
+ "wink": {
+  "hood": "\"보닛 열어 봐요, 밑에 뭐가 있나 봐야죠\" — 정비의 첫 단계이자, 행간에서는 첫 단추예요. 어느 쪽이든 열긴 열어야 하죠.",
+  "underneath": "밑을 봐야 안다는 말은 정비의 기본이에요. 그런데 하필 \"수줍어 말고 열어\"라는 말과 붙어 나오면, 순수하게만 들리진 않죠.",
+  "wax": "왁스는 많이 먹일수록 광이 오래간다는 게 정설이에요. \"많이 줄수록 좋아진다\"는 말도 — 왁스 얘기라고 Steele 씨는 분명히 말할 거예요.",
+  "deep": "\"깊이 문질러 발라야 오래 간다\" — 광택의 정석이에요. 단어를 '깊이'로 고른 것도 사실이고요.",
+  "corners": "\"구석이 제일 중요해요, 진짜 때가 거기 숨어 있거든요.\" 세차의 진리예요. 하필 구석이라는 게 좀 그렇지만요.",
+  "warm": "\"따뜻할 때 해야 잘 먹어요\"는 왁스와 광택엔 실제로 맞는 말이에요. 다만 그 말을 귓가에서 하니 문제죠.",
+  "tight": "\"좁은 곳까지 손이 닿아야 한다\"는 디테일링의 자부심이에요. 좁은 곳이라는 표현만 빼면요.",
+  "shine": "\"반짝이게 만들어 드릴게요\"는 이 가게의 약속이에요. 무엇을 반짝이게 하는지는 행간에 있죠."
+ },
+ "winkEn": {
+  "hood": "\"Let's pop the hood and see what's underneath\" is step one of any detailing — and, between the lines, step one of a great many other things too. Either way, it has to be opened.",
+  "underneath": "You cannot judge an engine without looking underneath. True enough. It just lands differently right after \"don't be shy — open her up.\"",
+  "wax": "The more wax you work in, the longer the shine lasts — that is genuine car lore. \"The more I give her, the better she looks\" is also, he will insist, purely about the paint.",
+  "deep": "\"Rubbed in deep so it lasts\" is textbook polishing advice. It is also true that he chose the word deep.",
+  "corners": "\"The corners matter most — that's where the real dirt hides.\" A sacred truth of car washing. The word corners is doing a little extra work here.",
+  "warm": "\"It takes better while she's still warm\" is honestly correct for wax and polish. The trouble is only that he says it beside your ear.",
+  "tight": "Reaching the tight little spots is the pride of a good detailer. It would sound perfectly innocent if not for the words tight little spots.",
+  "shine": "\"I'll make her shine\" is this shop's promise. Exactly what gets left shining is a detail that lives between the lines."
+ },
+ "dict": {
+  "detailing": {
+   "pos": "명사",
+   "ko": "디테일링, 정밀 세차·광택",
+   "en": "a very careful, complete cleaning of a car"
+  },
+  "detailed": {
+   "pos": "동사",
+   "ko": "디테일링을 받다 (detail의 과거분사)",
+   "en": "cleaned and polished a car with great care"
+  },
+  "detailers": {
+   "pos": "명사",
+   "ko": "디테일러들, 세차 전문가들 (detailer의 복수)",
+   "en": "people whose job is careful car cleaning"
+  },
+  "ride": {
+   "pos": "명사",
+   "ko": "차, 탈것 (구어)",
+   "en": "a car, in a casual way"
+  },
+  "auto": {
+   "pos": "명사",
+   "ko": "자동차 (automobile)",
+   "en": "a car"
+  },
+  "pull": {
+   "pos": "동사",
+   "ko": "차를 대다, 몰고 들어가다 (pull into)",
+   "en": "to drive into a place and stop"
+  },
+  "pulling": {
+   "pos": "동사",
+   "ko": "차를 대다 (pull의 진행형)",
+   "en": "driving into a place, from pull"
+  },
+  "rag": {
+   "pos": "명사",
+   "ko": "걸레, 헝겊",
+   "en": "a small cloth for wiping or cleaning"
+  },
+  "wipes": {
+   "pos": "동사",
+   "ko": "닦다 (wipe의 3인칭)",
+   "en": "cleans by rubbing with a cloth"
+  },
+  "machine": {
+   "pos": "명사",
+   "ko": "기계, (여기선) 자동차",
+   "en": "a made thing with parts that work; here, a car"
+  },
+  "circle": {
+   "pos": "명사",
+   "ko": "원, 한 바퀴",
+   "en": "a round shape; a walk all the way around"
+  },
+  "circles": {
+   "pos": "명사",
+   "ko": "원을 그리는 움직임 (circle의 복수)",
+   "en": "round movements"
+  },
+  "circling": {
+   "pos": "동사",
+   "ko": "빙 돌다 (circle의 진행형)",
+   "en": "walking around something in a ring"
+  },
+  "shine": {
+   "pos": "동사·명사",
+   "ko": "빛나다; 광, 광택",
+   "en": "to give off bright light; a bright, polished look"
+  },
+  "shines": {
+   "pos": "명사",
+   "ko": "광택들, 빛남 (shine의 복수)",
+   "en": "bright, polished looks"
+  },
+  "shined": {
+   "pos": "동사",
+   "ko": "광을 냈다 (shine의 과거형)",
+   "en": "made bright and glossy, past of shine"
+  },
+  "gleams": {
+   "pos": "동사",
+   "ko": "반짝이다 (gleam의 3인칭)",
+   "en": "shines in a clean, bright way"
+  },
+  "gleamed": {
+   "pos": "동사",
+   "ko": "반짝였다 (gleam의 과거형)",
+   "en": "shone brightly, past of gleam"
+  },
+  "glows": {
+   "pos": "동사",
+   "ko": "은은히 빛나다 (glow의 3인칭)",
+   "en": "gives off a soft, steady light"
+  },
+  "glow": {
+   "pos": "동사",
+   "ko": "은은히 빛나다",
+   "en": "to give off a soft, steady light"
+  },
+  "glowing": {
+   "pos": "형용사",
+   "ko": "반짝반짝 빛나는",
+   "en": "shining softly and steadily"
+  },
+  "pop": {
+   "pos": "동사",
+   "ko": "탁 열다 (pop the hood: 보닛을 열다)",
+   "en": "to open something quickly, like a car hood"
+  },
+  "popping": {
+   "pos": "동사",
+   "ko": "탁 여는 (pop의 진행형)",
+   "en": "opening quickly, from pop"
+  },
+  "hood": {
+   "pos": "명사",
+   "ko": "(자동차) 보닛, 엔진 덮개",
+   "en": "the metal cover over a car engine"
+  },
+  "underneath": {
+   "pos": "부사",
+   "ko": "밑에, 아래에",
+   "en": "under something; below"
+  },
+  "oil": {
+   "pos": "명사",
+   "ko": "(엔진) 오일",
+   "en": "a slippery liquid that keeps an engine running"
+  },
+  "fingers": {
+   "pos": "명사",
+   "ko": "손가락들 (finger의 복수)",
+   "en": "the long parts at the end of your hand"
+  },
+  "low": {
+   "pos": "형용사",
+   "ko": "부족한, 낮은",
+   "en": "not much left; near the bottom"
+  },
+  "wax": {
+   "pos": "명사",
+   "ko": "왁스 (광택제)",
+   "en": "a soft shiny coating that protects and polishes"
+  },
+  "tin": {
+   "pos": "명사",
+   "ko": "(왁스가 든) 깡통, 통",
+   "en": "a small round metal container"
+  },
+  "coat": {
+   "pos": "명사",
+   "ko": "(칠·왁스의) 한 겹",
+   "en": "a thin layer of something spread on a surface"
+  },
+  "rubbed": {
+   "pos": "동사",
+   "ko": "문질러 발랐다 (rub의 과거분사)",
+   "en": "pressed and moved on a surface, past of rub"
+  },
+  "hold": {
+   "pos": "동사",
+   "ko": "아끼다, 참다 (hold back: 아끼다)",
+   "en": "hold back means to keep something in, not give fully"
+  },
+  "customer": {
+   "pos": "명사",
+   "ko": "손님, 고객",
+   "en": "a person who buys a service"
+  },
+  "customers": {
+   "pos": "명사",
+   "ko": "손님들 (customer의 복수)",
+   "en": "people who buy a service"
+  },
+  "sponge": {
+   "pos": "명사",
+   "ko": "스펀지",
+   "en": "a soft object that soaks up water for washing"
+  },
+  "curve": {
+   "pos": "명사",
+   "ko": "곡선, 굴곡진 면",
+   "en": "a smoothly bending line or surface"
+  },
+  "gap": {
+   "pos": "명사",
+   "ko": "틈, 사이",
+   "en": "a narrow open space between two things"
+  },
+  "corners": {
+   "pos": "명사",
+   "ko": "구석, 모서리 (corner의 복수)",
+   "en": "the places where edges meet"
+  },
+  "dirt": {
+   "pos": "명사",
+   "ko": "때, 먼지",
+   "en": "unclean stuff like dust and mud"
+  },
+  "dirtiest": {
+   "pos": "형용사",
+   "ko": "가장 지저분한 (dirty의 최상급)",
+   "en": "most dirty"
+  },
+  "hides": {
+   "pos": "동사",
+   "ko": "숨다, 숨어 있다 (hide의 3인칭)",
+   "en": "stays out of sight"
+  },
+  "hide": {
+   "pos": "동사",
+   "ko": "숨다",
+   "en": "to stay out of sight"
+  },
+  "reach": {
+   "pos": "동사",
+   "ko": "닿다, 손이 가다",
+   "en": "to get to and touch something"
+  },
+  "tight": {
+   "pos": "형용사",
+   "ko": "좁은, 꽉 낀",
+   "en": "narrow; with little space"
+  },
+  "spot": {
+   "pos": "명사",
+   "ko": "부분, 자리, 얼룩",
+   "en": "a small area or place"
+  },
+  "spots": {
+   "pos": "명사",
+   "ko": "부분들, 자리들 (spot의 복수)",
+   "en": "small areas or places"
+  },
+  "dries": {
+   "pos": "동사",
+   "ko": "마르다 (dry의 3인칭)",
+   "en": "becomes dry"
+  },
+  "leaning": {
+   "pos": "동사",
+   "ko": "몸을 기울이다 (lean의 진행형)",
+   "en": "moving the body toward something"
+  },
+  "untouched": {
+   "pos": "형용사",
+   "ko": "손대지 않은",
+   "en": "not touched; left alone"
+  },
+  "thorough": {
+   "pos": "형용사",
+   "ko": "꼼꼼한, 빈틈없는",
+   "en": "careful and complete, leaving nothing out"
+  },
+  "polish": {
+   "pos": "명사",
+   "ko": "광택 작업, 광택제",
+   "en": "the work of making a surface shiny; the stuff used"
+  },
+  "buffs": {
+   "pos": "동사",
+   "ko": "광을 내다, 문질러 닦다 (buff의 3인칭)",
+   "en": "rubs a surface to make it shine"
+  },
+  "metal": {
+   "pos": "명사",
+   "ko": "금속",
+   "en": "a hard shiny material like steel or iron"
+  },
+  "brand": {
+   "pos": "부사",
+   "ko": "완전히 (brand new: 아주 새것 같은)",
+   "en": "brand new means completely new"
+  },
+  "ray": {
+   "pos": "명사",
+   "ko": "빛줄기, 광선",
+   "en": "a thin line of light"
+  },
+  "admire": {
+   "pos": "동사",
+   "ko": "감탄하며 바라보다",
+   "en": "to look at with pleasure and respect"
+  },
+  "pleasure": {
+   "pos": "명사",
+   "ko": "기쁨 (My pleasure: 천만에요)",
+   "en": "a happy feeling; My pleasure means you're welcome"
+  },
+  "reward": {
+   "pos": "명사",
+   "ko": "보상, 그 자체로 값진 것",
+   "en": "a good thing you get for doing something well"
+  },
+  "pockets": {
+   "pos": "동사",
+   "ko": "주머니에 넣다 (pocket의 3인칭)",
+   "en": "puts something into a pocket"
+  },
+  "key": {
+   "pos": "명사",
+   "ko": "열쇠",
+   "en": "a small metal tool that opens locks or starts a car"
+  },
+  "wink": {
+   "pos": "명사",
+   "ko": "윙크, 눈짓",
+   "en": "closing one eye for a quick moment as a friendly sign"
+  },
+  "drive": {
+   "pos": "동사",
+   "ko": "운전하다, 차를 몰다",
+   "en": "to make a car go"
+  },
+  "purrs": {
+   "pos": "동사",
+   "ko": "(엔진이) 부드럽게 돌아가다 (purr의 3인칭)",
+   "en": "runs with a soft, smooth sound"
+  },
+  "beneath": {
+   "pos": "전치사",
+   "ko": "~ 아래에서",
+   "en": "under; below"
+  },
+  "easy": {
+   "pos": "부사",
+   "ko": "편안히 (sleep easy: 마음 편히 자다)",
+   "en": "in a calm way; sleep easy means rest without worry"
+  },
+  "counting": {
+   "pos": "동사",
+   "ko": "세다 (count의 진행형)",
+   "en": "saying numbers one by one"
+  },
+  "saturday": {
+   "pos": "명사",
+   "ko": "토요일",
+   "en": "the day between Friday and Sunday"
+  },
+  "eager": {
+   "pos": "형용사",
+   "ko": "몹시 하고 싶어 하는, 들뜬",
+   "en": "very keen and excited to do something"
+  },
+  "grins": {
+   "pos": "동사",
+   "ko": "씩 웃다 (grin의 3인칭)",
+   "en": "smiles in a big, playful way"
+  },
+  "relax": {
+   "pos": "동사",
+   "ko": "긴장을 풀다",
+   "en": "to rest and let your body go loose"
+  },
+  "warmly": {
+   "pos": "부사",
+   "ko": "따뜻하게, 다정하게",
+   "en": "in a kind, friendly way"
+  },
+  "nods": {
+   "pos": "동사",
+   "ko": "고개를 끄덕이다 (nod의 3인칭)",
+   "en": "moves the head up and down to agree"
+  },
+  "prefer": {
+   "pos": "동사",
+   "ko": "더 좋아하다",
+   "en": "to like one thing more than another"
+  },
+  "problem": {
+   "pos": "명사",
+   "ko": "문제 (no problem: 문제없어요)",
+   "en": "a difficulty; no problem means it is fine"
+  },
+  "breath": {
+   "pos": "명사",
+   "ko": "숨 (under his breath: 낮은 목소리로)",
+   "en": "the air you breathe; under one's breath means quietly"
+  },
+  "language": {
+   "pos": "명사",
+   "ko": "말, 언어 (speaking my language: 말이 통하다)",
+   "en": "words people use; speaking my language means we agree"
+  },
+  "missing": {
+   "pos": "동사",
+   "ko": "빠뜨리다 (miss의 진행형)",
+   "en": "leaving something out, from miss"
+  },
+  "likes": {
+   "pos": "동사",
+   "ko": "~하곤 하다, 좋아하다 (like의 3인칭)",
+   "en": "tends to; enjoys"
+  },
+  "patient": {
+   "pos": "형용사",
+   "ko": "느긋한, 참을성 있는",
+   "en": "calm and not rushing"
+  },
+  "saves": {
+   "pos": "동사",
+   "ko": "아껴 두다 (save의 3인칭)",
+   "en": "keeps something for later"
+  },
+  "itself": {
+   "pos": "대명사",
+   "ko": "그 자신을, 저절로",
+   "en": "the thing's own self"
+  },
+  "steps": {
+   "pos": "동사",
+   "ko": "발을 내딛다 (step의 3인칭)",
+   "en": "moves on the feet"
+  },
+  "canvas": {
+   "pos": "명사",
+   "ko": "캔버스, 화폭",
+   "en": "cloth an artist paints on"
+  },
+  "artist": {
+   "pos": "명사",
+   "ko": "예술가, 화가",
+   "en": "a person who makes art"
+  },
+  "studies": {
+   "pos": "동사",
+   "ko": "찬찬히 살피다 (study의 3인칭)",
+   "en": "looks at closely and carefully"
+  },
+  "fine": {
+   "pos": "형용사",
+   "ko": "멋진, 훌륭한",
+   "en": "very good; of high quality"
+  },
+  "belongs": {
+   "pos": "동사",
+   "ko": "~의 것이다 (belong의 3인칭)",
+   "en": "is owned by someone"
+  },
+  "entirely": {
+   "pos": "부사",
+   "ko": "완전히, 전적으로",
+   "en": "completely; fully"
+  },
+  "bring": {
+   "pos": "동사",
+   "ko": "끌어내다, 가져오다 (bring out: 드러내다)",
+   "en": "to make something appear; bring out means reveal"
+  },
+  "seen": {
+   "pos": "동사",
+   "ko": "본 (see의 과거분사)",
+   "en": "past form of see"
+  },
+  "touch": {
+   "pos": "명사",
+   "ko": "조금, 약간 (a touch: 살짝)",
+   "en": "a very small amount"
+  },
+  "generous": {
+   "pos": "형용사",
+   "ko": "아낌없는, 넉넉한",
+   "en": "giving more than needed"
+  },
+  "nice": {
+   "pos": "부사",
+   "ko": "아주, 좋게 (nice and deep: 아주 깊이)",
+   "en": "nice and deep means pleasantly deep"
+  },
+  "behaves": {
+   "pos": "동사",
+   "ko": "(잘) 굴다, 말을 듣다 (behave의 3인칭)",
+   "en": "acts well; does what it should"
+  },
+  "absolutely": {
+   "pos": "부사",
+   "ko": "완전히, 전부",
+   "en": "completely; fully"
+  },
+  "speaking": {
+   "pos": "동사",
+   "ko": "말하다 (speak의 진행형)",
+   "en": "saying words, from speak"
+  },
+  "last": {
+   "pos": "형용사·부사",
+   "ko": "마지막의 (at last: 마침내)",
+   "en": "final; at last means finally"
+  },
+  "admires": {
+   "pos": "동사",
+   "ko": "감탄하며 보다 (admire의 3인칭)",
+   "en": "looks at with pleasure and respect"
+  },
+  "modest": {
+   "pos": "형용사",
+   "ko": "겸손한, 소박한",
+   "en": "not showy; humble"
+  },
+  "particular": {
+   "pos": "형용사",
+   "ko": "까다로운, 꼼꼼히 따지는",
+   "en": "careful about small details; hard to please"
+  },
+  "favorite": {
+   "pos": "형용사",
+   "ko": "가장 좋아하는",
+   "en": "liked the most"
+  },
+  "type": {
+   "pos": "명사",
+   "ko": "유형, 종류",
+   "en": "a kind or sort"
+  },
+  "shelf": {
+   "pos": "명사",
+   "ko": "선반",
+   "en": "a flat board on a wall for holding things"
+  },
+  "run": {
+   "pos": "동사",
+   "ko": "떨어지다 (run low: 바닥나다)",
+   "en": "run low means to have little left"
+  },
+  "bright": {
+   "pos": "형용사·부사",
+   "ko": "밝은, 눈부신",
+   "en": "giving much light; shining strongly"
+  },
+  "deepest": {
+   "pos": "형용사",
+   "ko": "가장 깊은 (deep의 최상급)",
+   "en": "most deep"
+  },
+  "shop": {
+   "pos": "명사",
+   "ko": "가게, 작업장",
+   "en": "a place where work or selling is done"
+  },
+  "smells": {
+   "pos": "동사",
+   "ko": "냄새가 나다 (smell의 3인칭)",
+   "en": "gives off a smell"
+  },
+  "drew": {
+   "pos": "동사",
+   "ko": "끌어냈다 (draw의 과거형; draw out)",
+   "en": "pulled out, past of draw"
+  },
+  "spotless": {
+   "pos": "형용사",
+   "ko": "티 없이 깨끗한",
+   "en": "perfectly clean, with no marks"
+  },
+  "reappears": {
+   "pos": "동사",
+   "ko": "다시 나타나다 (reappear의 3인칭)",
+   "en": "shows up again"
+  },
+  "package": {
+   "pos": "명사",
+   "ko": "코스, 패키지",
+   "en": "a set of services sold together"
+  },
+  "rarely": {
+   "pos": "부사",
+   "ko": "드물게, 좀처럼",
+   "en": "not often"
+  },
+  "decided": {
+   "pos": "동사",
+   "ko": "정했다 (decide의 과거형)",
+   "en": "made up your mind, past of decide"
+  },
+  "announced": {
+   "pos": "동사",
+   "ko": "선언하듯 말했다 (announce의 과거형)",
+   "en": "said in a strong, clear way, past of announce"
+  },
+  "entrance": {
+   "pos": "명사",
+   "ko": "등장, 들어옴",
+   "en": "the act of coming in"
+  },
+  "loudest": {
+   "pos": "형용사",
+   "ko": "가장 시끄러운·요란한 (loud의 최상급)",
+   "en": "most loud"
+  },
+  "easiest": {
+   "pos": "형용사",
+   "ko": "가장 편한·쉬운 (easy의 최상급)",
+   "en": "most easy"
+  },
+  "counts": {
+   "pos": "동사",
+   "ko": "중요하다 (count의 3인칭; the one that counts)",
+   "en": "matters; is important"
+  },
+  "runs": {
+   "pos": "동사",
+   "ko": "돌아가다, 흐르다 (run의 3인칭)",
+   "en": "goes; happens the same way"
+  },
+  "trickiest": {
+   "pos": "형용사",
+   "ko": "가장 까다로운 (tricky의 최상급)",
+   "en": "most difficult to do"
+  },
+  "jobs": {
+   "pos": "명사",
+   "ko": "일들, 작업들 (job의 복수)",
+   "en": "pieces of work"
+  },
+  "land": {
+   "pos": "동사",
+   "ko": "생기다, 떨어지다 (land on: ~에 걸리다)",
+   "en": "to come to a place or day"
+  },
+  "happen": {
+   "pos": "동사",
+   "ko": "우연히 ~하다 (happen to: 마침 ~하다)",
+   "en": "happen to means to do by chance"
+  },
+  "offer": {
+   "pos": "동사",
+   "ko": "권하다, 제안하다",
+   "en": "to say you will give or do something"
+  },
+  "special": {
+   "pos": "형용사",
+   "ko": "특별한",
+   "en": "not ordinary; extra good"
+  },
+  "treatment": {
+   "pos": "명사",
+   "ko": "대접, 관리",
+   "en": "the way someone is looked after"
+  },
+  "strode": {
+   "pos": "동사",
+   "ko": "성큼성큼 걸어 들어갔다 (stride의 과거형)",
+   "en": "walked in with big steps, past of stride"
+  },
+  "poured": {
+   "pos": "동사",
+   "ko": "쏟아부었다 (pour의 과거형)",
+   "en": "let flow freely, past of pour"
+  },
+  "fail": {
+   "pos": "명사",
+   "ko": "실패 (without fail: 어김없이)",
+   "en": "without fail means every time, for sure"
+  },
+  "handle": {
+   "pos": "동사",
+   "ko": "다루다, 알아서 하다",
+   "en": "to deal with something"
+  },
+  "rushed": {
+   "pos": "동사",
+   "ko": "서둘렀다 (rush의 과거분사)",
+   "en": "done too fast, past of rush"
+  },
+  "doorway": {
+   "pos": "명사",
+   "ko": "문간, 출입구",
+   "en": "the open space of a door"
+  },
+  "while": {
+   "pos": "명사",
+   "ko": "잠깐, 한동안 (a long while: 한참)",
+   "en": "a period of time"
+  },
+  "street": {
+   "pos": "명사",
+   "ko": "거리, 길",
+   "en": "a road in a town with buildings"
+  },
+  "quite": {
+   "pos": "부사",
+   "ko": "그렇게, 아주 (quite like it: 그만큼)",
+   "en": "to a degree; quite like means as much as"
+  },
+  "hangs": {
+   "pos": "동사",
+   "ko": "걸려 있다 (hang의 3인칭)",
+   "en": "is held from above"
+  },
+  "hook": {
+   "pos": "명사",
+   "ko": "고리, 걸이",
+   "en": "a bent piece for hanging things"
+  },
+  "counter": {
+   "pos": "명사",
+   "ko": "계산대, 카운터",
+   "en": "a flat table where a shop serves people"
+  },
+  "stays": {
+   "pos": "동사",
+   "ko": "(계속) ~인 채로 있다 (stay의 3인칭)",
+   "en": "keeps being; remains"
+  },
+  "later": {
+   "pos": "부사",
+   "ko": "더 늦게, 나중에",
+   "en": "at a time after the usual"
+  },
+  "whenever": {
+   "pos": "접속사",
+   "ko": "~할 때마다",
+   "en": "every time that"
+  },
+  "getting": {
+   "pos": "동사",
+   "ko": "~되다, 받다 (get의 진행형)",
+   "en": "coming to be; receiving, from get"
+  },
+  "gets": {
+   "pos": "동사",
+   "ko": "받다, ~하게 되다 (get의 3인칭)",
+   "en": "receives; comes to be"
+  },
+  "matter": {
+   "pos": "동사",
+   "ko": "중요하다",
+   "en": "to be important"
+  },
+  "few": {
+   "pos": "형용사",
+   "ko": "몇 안 되는 (a few: 몇몇)",
+   "en": "a small number of"
+  },
+  "months": {
+   "pos": "명사",
+   "ko": "달, 개월 (month의 복수)",
+   "en": "periods of about thirty days"
+  },
+  "again": {
+   "pos": "부사",
+   "ko": "다시, 또",
+   "en": "one more time"
+  },
+  "almost": {
+   "pos": "부사",
+   "ko": "거의",
+   "en": "nearly; not quite"
+  },
+  "already": {
+   "pos": "부사",
+   "ko": "이미, 벌써",
+   "en": "before now; sooner than expected"
+  },
+  "arrived": {
+   "pos": "동사",
+   "ko": "도착했다 (arrive의 과거형)",
+   "en": "past of arrive"
+  },
+  "ask": {
+   "pos": "동사",
+   "ko": "묻다, 부탁하다",
+   "en": "to say a question"
+  },
+  "asked": {
+   "pos": "동사",
+   "ko": "물었다, 부탁했다 (ask의 과거형)",
+   "en": "past of ask"
+  },
+  "asking": {
+   "pos": "동사",
+   "ko": "묻다 (ask의 진행형)",
+   "en": "saying a question"
+  },
+  "began": {
+   "pos": "동사",
+   "ko": "시작했다 (begin의 과거형)",
+   "en": "past of begin"
+  },
+  "begin": {
+   "pos": "동사",
+   "ko": "시작하다",
+   "en": "to start"
+  },
+  "begins": {
+   "pos": "동사",
+   "ko": "시작하다 (begin의 3인칭)",
+   "en": "starts"
+  },
+  "blank": {
+   "pos": "형용사",
+   "ko": "텅 빈, 아무것도 없는",
+   "en": "with nothing on it"
+  },
+  "bold": {
+   "pos": "형용사",
+   "ko": "대담한, 당당한",
+   "en": "brave and confident"
+  },
+  "book": {
+   "pos": "동사",
+   "ko": "예약하다",
+   "en": "to reserve a time"
+  },
+  "booked": {
+   "pos": "동사",
+   "ko": "예약했다 (book의 과거형)",
+   "en": "reserved a time (past of book)"
+  },
+  "booking": {
+   "pos": "동사",
+   "ko": "예약하기 (book의 진행형)",
+   "en": "reserving a time"
+  },
+  "breathes": {
+   "pos": "동사",
+   "ko": "숨결처럼 나직이 말하다 (breathe의 3인칭)",
+   "en": "says softly, as if breathing out"
+  },
+  "call": {
+   "pos": "동사",
+   "ko": "~라고 부르다",
+   "en": "to name something"
+  },
+  "called": {
+   "pos": "동사",
+   "ko": "~라고 했다 (call의 과거형)",
+   "en": "said it was (past of call)"
+  },
+  "came": {
+   "pos": "동사",
+   "ko": "왔다 (come의 과거형)",
+   "en": "past of come"
+  },
+  "cannot": {
+   "pos": "조동사",
+   "ko": "~할 수 없다",
+   "en": "can not"
+  },
+  "car": {
+   "pos": "명사",
+   "ko": "자동차, 차",
+   "en": "a machine you drive on roads"
+  },
+  "care": {
+   "pos": "명사",
+   "ko": "돌봄, 정성 (take care of: 잘 봐 주다)",
+   "en": "careful attention; looking after"
+  },
+  "catching": {
+   "pos": "동사",
+   "ko": "(빛을) 받아 반짝이다 (catch의 진행형)",
+   "en": "taking in, as light does"
+  },
+  "checks": {
+   "pos": "동사",
+   "ko": "확인하다, 점검하다 (check의 3인칭)",
+   "en": "looks at to be sure"
+  },
+  "charming": {
+   "pos": "형용사",
+   "ko": "매력 있는, 귀여운",
+   "en": "nice and pleasing"
+  },
+  "clearly": {
+   "pos": "부사",
+   "ko": "분명히",
+   "en": "in a clear, plain way"
+  },
+  "confident": {
+   "pos": "형용사",
+   "ko": "자신 있는",
+   "en": "feeling sure of yourself"
+  },
+  "corner": {
+   "pos": "명사",
+   "ko": "구석, 모서리",
+   "en": "a place where two edges meet"
+  },
+  "describes": {
+   "pos": "동사",
+   "ko": "묘사하다, 소개하다 (describe의 3인칭)",
+   "en": "tells about; introduces"
+  },
+  "did": {
+   "pos": "동사",
+   "ko": "했다 (do의 과거형)",
+   "en": "past of do"
+  },
+  "do": {
+   "pos": "동사",
+   "ko": "하다",
+   "en": "to perform an action"
+  },
+  "dream": {
+   "pos": "명사",
+   "ko": "꿈",
+   "en": "what you see in your mind while sleeping"
+  },
+  "drove": {
+   "pos": "동사",
+   "ko": "차를 몰았다 (drive의 과거형)",
+   "en": "past of drive"
+  },
+  "early": {
+   "pos": "부사",
+   "ko": "일찍",
+   "en": "before the usual time"
+  },
+  "easily": {
+   "pos": "부사",
+   "ko": "쉽게, 편안히",
+   "en": "without trouble"
+  },
+  "empty": {
+   "pos": "형용사",
+   "ko": "텅 빈",
+   "en": "with nothing inside"
+  },
+  "end": {
+   "pos": "명사",
+   "ko": "끝, 마지막",
+   "en": "the last part"
+  },
+  "enjoyed": {
+   "pos": "동사",
+   "ko": "즐겼다 (enjoy의 과거분사)",
+   "en": "liked; got pleasure from"
+  },
+  "especially": {
+   "pos": "부사",
+   "ko": "특히, 유독",
+   "en": "more than the others"
+  },
+  "exactly": {
+   "pos": "부사",
+   "ko": "바로, 정확히",
+   "en": "just so; precisely"
+  },
+  "except": {
+   "pos": "전치사",
+   "ko": "~만 빼고",
+   "en": "not including"
+  },
+  "far": {
+   "pos": "부사",
+   "ko": "훨씬 (far better: 훨씬 더 좋은)",
+   "en": "by a lot; much"
+  },
+  "finds": {
+   "pos": "동사",
+   "ko": "(어느새) 데려다 놓다, 찾다 (find의 3인칭)",
+   "en": "brings you to a place; discovers"
+  },
+  "finish": {
+   "pos": "동사",
+   "ko": "끝내다, 마무리하다",
+   "en": "to bring to an end"
+  },
+  "found": {
+   "pos": "동사",
+   "ko": "~라고 여겼다 (find의 과거형)",
+   "en": "thought it was (past of find)"
+  },
+  "fun": {
+   "pos": "명사",
+   "ko": "재미, 즐거움",
+   "en": "enjoyment; a good time"
+  },
+  "funny": {
+   "pos": "형용사",
+   "ko": "묘한, 재미있는",
+   "en": "strange in an interesting way"
+  },
+  "gate": {
+   "pos": "명사",
+   "ko": "문, 입구 (at the gate)",
+   "en": "a way in; the entrance"
+  },
+  "get": {
+   "pos": "동사",
+   "ko": "받다, ~하게 되다",
+   "en": "to receive; to become"
+  },
+  "gleaming": {
+   "pos": "형용사",
+   "ko": "반짝이는",
+   "en": "shining brightly and cleanly"
+  },
+  "gone": {
+   "pos": "형용사",
+   "ko": "가 버린, 사라진",
+   "en": "not here anymore"
+  },
+  "goodbye": {
+   "pos": "명사",
+   "ko": "작별 인사",
+   "en": "a word you say when leaving"
+  },
+  "had": {
+   "pos": "동사",
+   "ko": "가졌다 (have의 과거형)",
+   "en": "past of have"
+  },
+  "hardest": {
+   "pos": "형용사",
+   "ko": "가장 힘든·까다로운 (hard의 최상급)",
+   "en": "most difficult"
+  },
+  "hear": {
+   "pos": "동사",
+   "ko": "듣다 (what I like to hear)",
+   "en": "to take in sound; to be told"
+  },
+  "hello": {
+   "pos": "명사",
+   "ko": "인사, 안녕",
+   "en": "a word you say when you meet someone"
+  },
+  "him": {
+   "pos": "대명사",
+   "ko": "그를",
+   "en": "that man (object form of he)"
+  },
+  "holding": {
+   "pos": "동사",
+   "ko": "들고 있다 (hold의 진행형)",
+   "en": "keeping in the hands"
+  },
+  "honestly": {
+   "pos": "부사",
+   "ko": "솔직히",
+   "en": "in a true, honest way"
+  },
+  "hour": {
+   "pos": "명사",
+   "ko": "시간 (60분)",
+   "en": "sixty minutes"
+  },
+  "job": {
+   "pos": "명사",
+   "ko": "일, 작업",
+   "en": "a piece of work"
+  },
+  "kept": {
+   "pos": "동사",
+   "ko": "유지했다, 계속 ~했다 (keep의 과거형)",
+   "en": "past of keep"
+  },
+  "kind": {
+   "pos": "명사",
+   "ko": "종류 (that kind of: 그런 부류의)",
+   "en": "a type or sort"
+  },
+  "know": {
+   "pos": "동사",
+   "ko": "알다",
+   "en": "to have in mind"
+  },
+  "knows": {
+   "pos": "동사",
+   "ko": "알다 (know의 3인칭)",
+   "en": "has in mind"
+  },
+  "leave": {
+   "pos": "동사",
+   "ko": "남겨 두다, 떠나다",
+   "en": "to let stay; to go away"
+  },
+  "left": {
+   "pos": "동사",
+   "ko": "떠났다, 남겼다 (leave의 과거형)",
+   "en": "past of leave"
+  },
+  "let": {
+   "pos": "동사",
+   "ko": "~하게 두다",
+   "en": "to allow"
+  },
+  "lets": {
+   "pos": "축약",
+   "ko": "let's = let us (~하자)",
+   "en": "short for let us"
+  },
+  "lifting": {
+   "pos": "동사",
+   "ko": "들어 올리다 (lift의 진행형)",
+   "en": "raising something up"
+  },
+  "light": {
+   "pos": "형용사·명사",
+   "ko": "가벼운; 빛",
+   "en": "not heavy; brightness"
+  },
+  "looked": {
+   "pos": "동사",
+   "ko": "~해 보였다 (look의 과거형)",
+   "en": "seemed (past of look)"
+  },
+  "love": {
+   "pos": "동사",
+   "ko": "아주 좋아하다",
+   "en": "to like very much"
+  },
+  "make": {
+   "pos": "동사",
+   "ko": "만들다, ~하게 하다",
+   "en": "to create; to cause"
+  },
+  "maybe": {
+   "pos": "부사",
+   "ko": "어쩌면, 아마",
+   "en": "possibly; perhaps"
+  },
+  "men": {
+   "pos": "명사",
+   "ko": "남자들 (man의 복수)",
+   "en": "more than one man"
+  },
+  "mine": {
+   "pos": "대명사",
+   "ko": "내 것",
+   "en": "belonging to me"
+  },
+  "mirror": {
+   "pos": "명사",
+   "ko": "거울, (차의) 미러",
+   "en": "glass that shows what is before it"
+  },
+  "most": {
+   "pos": "부사",
+   "ko": "가장, 제일",
+   "en": "more than all others"
+  },
+  "mr": {
+   "pos": "명사",
+   "ko": "~씨 (남자 호칭 Mr.)",
+   "en": "a title used before a man's name"
+  },
+  "new": {
+   "pos": "형용사",
+   "ko": "새로운",
+   "en": "not old"
+  },
+  "noon": {
+   "pos": "명사",
+   "ko": "정오, 낮 12시",
+   "en": "twelve in the middle of the day"
+  },
+  "notice": {
+   "pos": "동사",
+   "ko": "알아차리다, 눈치채다",
+   "en": "to see and become aware of"
+  },
+  "off": {
+   "pos": "부사",
+   "ko": "떠나가는 (drove off: 몰고 가 버리다)",
+   "en": "away; drove off means drove away"
+  },
+  "only": {
+   "pos": "부사",
+   "ko": "그저, ~만",
+   "en": "just; nothing more"
+  },
+  "open": {
+   "pos": "동사",
+   "ko": "열다, 열리다",
+   "en": "to make no longer shut"
+  },
+  "other": {
+   "pos": "형용사",
+   "ko": "다른",
+   "en": "not this one; different"
+  },
+  "others": {
+   "pos": "대명사",
+   "ko": "다른 사람들",
+   "en": "other people"
+  },
+  "out": {
+   "pos": "부사",
+   "ko": "밖으로, 드러나게 (bring out: 끌어내다)",
+   "en": "outward; bring out means reveal"
+  },
+  "own": {
+   "pos": "형용사",
+   "ko": "자기만의, 고유의",
+   "en": "belonging to oneself"
+  },
+  "part": {
+   "pos": "명사",
+   "ko": "부분 (best part: 제일 좋은 순간)",
+   "en": "one piece of something"
+  },
+  "past": {
+   "pos": "전치사",
+   "ko": "~을 지나서",
+   "en": "by the side of and beyond"
+  },
+  "polite": {
+   "pos": "형용사",
+   "ko": "예의 바른, 정중한",
+   "en": "kind and well-mannered"
+  },
+  "promise": {
+   "pos": "명사·동사",
+   "ko": "약속(하다)",
+   "en": "words you will keep; to give your word"
+  },
+  "quiet": {
+   "pos": "형용사",
+   "ko": "조용한",
+   "en": "making little sound"
+  },
+  "quietly": {
+   "pos": "부사",
+   "ko": "조용히",
+   "en": "in a quiet way"
+  },
+  "real": {
+   "pos": "형용사",
+   "ko": "진짜의, 실제의",
+   "en": "true; not fake"
+  },
+  "reason": {
+   "pos": "명사",
+   "ko": "이유",
+   "en": "why something happens"
+  },
+  "remembers": {
+   "pos": "동사",
+   "ko": "기억하다 (remember의 3인칭)",
+   "en": "keeps in mind"
+  },
+  "returns": {
+   "pos": "동사",
+   "ko": "돌아오다 (return의 3인칭)",
+   "en": "comes back"
+  },
+  "running": {
+   "pos": "동사",
+   "ko": "(기름이) ~한 상태이다, 흐르다 (run의 진행형)",
+   "en": "being at a level; flowing"
+  },
+  "rush": {
+   "pos": "명사",
+   "ko": "서두름 (no rush: 안 급해요)",
+   "en": "a hurry; no rush means take your time"
+  },
+  "said": {
+   "pos": "동사",
+   "ko": "말했다 (say의 과거형)",
+   "en": "past of say"
+  },
+  "same": {
+   "pos": "형용사",
+   "ko": "같은",
+   "en": "not different"
+  },
+  "set": {
+   "pos": "동사",
+   "ko": "마음먹은 (set on: ~에 작정한)",
+   "en": "set on means firmly decided to"
+  },
+  "shows": {
+   "pos": "동사",
+   "ko": "나타나다, 보이다 (show의 3인칭)",
+   "en": "appears; lets be seen"
+  },
+  "single": {
+   "pos": "형용사",
+   "ko": "하나하나의 (every single: 단 하나도 빠짐없이)",
+   "en": "every single means each one"
+  },
+  "slowly": {
+   "pos": "부사",
+   "ko": "천천히",
+   "en": "not fast"
+  },
+  "some": {
+   "pos": "형용사",
+   "ko": "어떤, 몇몇의",
+   "en": "a few; certain ones"
+  },
+  "something": {
+   "pos": "대명사",
+   "ko": "무언가",
+   "en": "a thing you do not name"
+  },
+  "soon": {
+   "pos": "부사",
+   "ko": "곧, 빨리 (too soon: 너무 빨리)",
+   "en": "in a short time"
+  },
+  "start": {
+   "pos": "명사",
+   "ko": "시작 (from start to finish)",
+   "en": "the beginning"
+  },
+  "steele": {
+   "pos": "고유명사",
+   "ko": "스틸 (정비사 이름)",
+   "en": "the detailer's name"
+  },
+  "steeles": {
+   "pos": "고유명사",
+   "ko": "Steele's (스틸의 가게)",
+   "en": "Steele's shop"
+  },
+  "stood": {
+   "pos": "동사",
+   "ko": "서 있었다 (stand의 과거형)",
+   "en": "past of stand"
+  },
+  "storm": {
+   "pos": "명사",
+   "ko": "폭풍, 소나기",
+   "en": "strong rain and wind"
+  },
+  "story": {
+   "pos": "명사",
+   "ko": "이야기 (tell the story: 그 얘기를 하다)",
+   "en": "a telling of what happened"
+  },
+  "summer": {
+   "pos": "명사",
+   "ko": "여름",
+   "en": "the hot season of the year"
+  },
+  "thankyou": {
+   "pos": "명사",
+   "ko": "감사 인사 (thank-you)",
+   "en": "words that say thanks"
+  },
+  "their": {
+   "pos": "대명사",
+   "ko": "그들의",
+   "en": "belonging to them"
+  },
+  "these": {
+   "pos": "대명사",
+   "ko": "이(것)들",
+   "en": "the ones here"
+  },
+  "things": {
+   "pos": "명사",
+   "ko": "것들 (thing의 복수)",
+   "en": "more than one thing"
+  },
+  "thinks": {
+   "pos": "동사",
+   "ko": "생각하다 (think의 3인칭)",
+   "en": "believes"
+  },
+  "those": {
+   "pos": "대명사",
+   "ko": "저(것)들",
+   "en": "the ones there"
+  },
+  "told": {
+   "pos": "동사",
+   "ko": "말했다 (tell의 과거형)",
+   "en": "past of tell"
+  },
+  "took": {
+   "pos": "동사",
+   "ko": "(시간을) 들였다, 가져갔다 (take의 과거형)",
+   "en": "past of take"
+  },
+  "trust": {
+   "pos": "동사",
+   "ko": "믿다 (trust me: 믿어 봐요)",
+   "en": "to feel sure of someone"
+  },
+  "understand": {
+   "pos": "동사",
+   "ko": "이해하다",
+   "en": "to know what something means"
+  },
+  "until": {
+   "pos": "전치사·접속사",
+   "ko": "~까지",
+   "en": "up to the time when"
+  },
+  "visits": {
+   "pos": "동사",
+   "ko": "방문하다 (visit의 3인칭)",
+   "en": "comes to see"
+  },
+  "waited": {
+   "pos": "동사",
+   "ko": "기다렸다 (wait의 과거형)",
+   "en": "past of wait"
+  },
+  "walking": {
+   "pos": "동사",
+   "ko": "걷다 (walk의 진행형)",
+   "en": "going on foot"
+  },
+  "want": {
+   "pos": "동사",
+   "ko": "원하다, ~하고 싶다",
+   "en": "to wish for something"
+  },
+  "wanted": {
+   "pos": "동사",
+   "ko": "원했다 (want의 과거형)",
+   "en": "past of want"
+  },
+  "was": {
+   "pos": "동사",
+   "ko": "~였다 (is의 과거형)",
+   "en": "past of is"
+  },
+  "wash": {
+   "pos": "명사·동사",
+   "ko": "세차; 씻다 (hand wash: 손세차)",
+   "en": "a cleaning with water; to clean"
+  },
+  "wave": {
+   "pos": "명사·동사",
+   "ko": "손 흔들기; 손을 흔들다",
+   "en": "moving a hand to greet or say bye"
+  },
+  "waved": {
+   "pos": "동사",
+   "ko": "손을 흔들었다 (wave의 과거형)",
+   "en": "past of wave"
+  },
+  "we": {
+   "pos": "대명사",
+   "ko": "우리",
+   "en": "you and I"
+  },
+  "week": {
+   "pos": "명사",
+   "ko": "주, 일주일",
+   "en": "seven days"
+  },
+  "weeks": {
+   "pos": "명사",
+   "ko": "주 (week의 복수)",
+   "en": "more than one week"
+  },
+  "went": {
+   "pos": "동사",
+   "ko": "갔다 (go의 과거형)",
+   "en": "past of go"
+  },
+  "were": {
+   "pos": "동사",
+   "ko": "~였다 (are의 과거형)",
+   "en": "past of are"
+  },
+  "where": {
+   "pos": "부사",
+   "ko": "~하는 곳",
+   "en": "at or in the place that"
+  },
+  "who": {
+   "pos": "대명사",
+   "ko": "누구",
+   "en": "what person"
+  },
+  "work": {
+   "pos": "명사·동사",
+   "ko": "일(하다)",
+   "en": "a job; to do a job"
+  },
+  "working": {
+   "pos": "동사",
+   "ko": "일하다, 다루다 (work의 진행형)",
+   "en": "doing work; handling"
+  },
+  "yet": {
+   "pos": "부사",
+   "ko": "그런데도, 아직",
+   "en": "still; even so"
+  }
+ }
+}
